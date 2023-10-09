@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prim's Algorithm.md",
+                "file": "Isaac Homework/Midterm 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prim's Algorithm.md",
+                "file": "Isaac Homework/Midterm 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prim's Algorithm.md"
+                "file": "Isaac Homework/Midterm 1.md"
               }
             }
           }
@@ -212,10 +212,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2b5ab763458dac1",
+  "active": "b631fee2a27c3eca",
   "lastOpenFiles": [
-    "Flexible Scheduling Problem.md",
     "Prim's Algorithm.md",
+    "Flexible Scheduling Problem.md",
     "Computer.md",
     "Cut.md",
     "Isaac Homework/Midterm 1.md",
