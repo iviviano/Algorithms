@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "9c2b7dd57e2b054f",
+    "type": "split",
+    "children": [
+      {
+        "id": "983c5508a2143576",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54cfa3af905b86a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flexible Scheduling Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44283e09a8bbc1e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Isaac Homework/Homework 4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b679d1529d7170c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Minimum Spanning Tree.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b631fee2a27c3eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Isaac Homework/Midterm 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb844e1a14a1cd80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spanning Tree.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2b5ab763458dac1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prim's Algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1a96debf31d5d31",
+    "type": "split",
+    "children": [
+      {
+        "id": "100c2c12c5551fde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "369e3d3423d2c99a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8bfabfbeca948fca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "uniform",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "d37ab56bc954890f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d7889007005445fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ce0f79035f5edb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac96ac11cb46fb58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Prim's Algorithm.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c66261be0f174315",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Prim's Algorithm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8b25cc8a1c5f4981",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13d4fec16627fbac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Prim's Algorithm.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a2b5ab763458dac1",
+  "lastOpenFiles": [
+    "Flexible Scheduling Problem.md",
+    "Prim's Algorithm.md",
+    "Computer.md",
+    "Cut.md",
+    "Isaac Homework/Midterm 1.md",
+    "Kruskal's Algorithm.md",
+    "Minimum Spanning Tree Algorithm.md",
+    "Sort.md",
+    "Cycle.md",
+    "Acyclic.md",
+    "Spanning Tree.md",
+    "Isaac Homework/Homework 4.md",
+    "Minimum Spanning Tree.md",
+    "Tree.md",
+    "Inversion.md",
+    "Exchange Argument.md",
+    "IMG-1266.jpg",
+    "IMG-1265.jpg",
+    "IMG-1264.jpg",
+    "IMG-1263.jpg",
+    "Isaac Homework/Homework 3.md",
+    "Isaac Homework/Homework 2.md",
+    "Interval Scheduling Problem.md",
+    "Greedy Paradigm.md",
+    "Pictures/IMG-1260.jpg",
+    "Bitwise Multiplication.md",
+    "Isaac Homework/HW 2.md",
+    "Closest Pairs Algorithm.md",
+    "Screenshot 2023-09-18 at 10.40.06 AM.png",
+    "Asymptotic Bounds of Sums of Functions.md",
+    "Asymptotic Lower Bound.md",
+    "Merge-Sort.md",
+    "Pictures/81C7E693-4E99-41EA-8D75-472288FDC15E_1_105_c.jpeg",
+    "Pictures/FCC0C5D0-8366-4762-9622-2E0CBA2F2312_1_105_c.jpeg",
+    "Linked List 2",
+    "Linked List",
+    "Isaac Homework/Algorithms_viviano_Homework_0 9.pdf",
+    "Isaac Homework/Algorithms_viviano_Homework_0 12.pdf",
+    "Isaac Homework/Algorithms_viviano_Homework_0 11.pdf",
+    "Elinor Homework/EFrost_CS280_HW0 9.pdf",
+    "Elinor Homework/EFrost_CS280_HW0 12.pdf",
+    "Elinor Homework/EFrost_CS280_HW0 11.pdf",
+    "Elinor Homework/EFrost_CS280_HW0 10.pdf",
+    "Set-Theory/Preimage.md.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak 3.bak",
+    "Pictures/IMG_2504 3.jpg",
+    "Pictures/IMG_2504 4.jpg",
+    "Untitled.canvas"
+  ]
+}
