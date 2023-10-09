@@ -79,7 +79,7 @@ $\lfloor \frac{l}{2}\rfloor=\lfloor \frac{1}{2}\rfloor=0$, so $middle$ is assign
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
 Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the next if statement.
 
-Claim: If $A[middle]≥end-l$, then, there cannot be an element in $A$ with index $i<middle$ and $A[i]=i$. Suppose not: $A[middle]≥end-l$ and 
+Claim: If $A[middle]≥end-l$, then, there cannot be an element in $A$ with index $i<middle$ and $A[i]=i$. Suppose not: $A[middle]≥end-l$ and for some $i<middle:A[i]=i$. As the elements of $A$ are unique integers, $A[middle]≥A[i]+middle-i$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then, $$A[middle]≥A[i]+middle-i=i+middle-i=middle$$
 
 Otherwise $l$ is odd.
 
