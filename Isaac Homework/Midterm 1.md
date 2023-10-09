@@ -77,7 +77,7 @@ Base Case: $l=1$
 $\lfloor \frac{l}{2}\rfloor=\lfloor \frac{1}{2}\rfloor=0$, so $middle$ is assigned to $start$. Since $n\%2=1\%2=1$, $found$ is assigned to whether $A[start]=start$. Since $l==1$, $found$ is returned. As $start$ is the only integer at least as big as $start$ and less than $end$ in this case $found$ is $\text{true}\iff\exists i:start≤i<end$. $\therefore P(1)$ holds.
 
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
-Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $$
+Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the 
 
 Otherwise $l$ is odd.
 
