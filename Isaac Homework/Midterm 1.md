@@ -53,7 +53,7 @@ If $T$ had a [[Cycle]], then some edge could be removed without disconnecting $(
 >[!alg]
 
 $$\begin{align*}
-&\textbf{Algorithm } \text{Index Element?}\\
+&\textbf{Algorithm } \text{Index Equaling Element?}\\
 &\textbf{Input: } \text{Sorted Array } A \text{ of length }n \text{ with no duplicate elements}\\
 &\textbf{Output: } \text{Boolean indicating whether }A[i]=i \text{ for some }i\in[n]\\
 &\textbf{return } fun(0,n)\\\\
@@ -65,7 +65,7 @@ $$\begin{align*}
 &\quad \quad found=A[middle]==middle\\
 &\quad \textbf{If } found\lor l==1 \textbf{ then:}\\
 &\quad \quad \textbf{return } found\\
-&\quad \textbf{If } A[middle]\ge end-l \textbf{ then:}\\
+&\quad \textbf{If } A[middle]\ge middle \textbf{ then:}\\
 &\quad \quad \textbf{return } fun(start,middle)\\
 &\quad \textbf{Else:}\\
 &\quad \quad \textbf{return } fun\left(\left\lceil \frac{l}{2}\right\rceil+start,end\right)
@@ -77,12 +77,14 @@ Base Case: $l=1$
 $\lfloor \frac{l}{2}\rfloor=\lfloor \frac{1}{2}\rfloor=0$, so $middle$ is assigned to $start$. Since $n\%2=1\%2=1$, $found$ is assigned to whether $A[start]=start$. Since $l==1$, $found$ is returned. As $start$ is the only integer at least as big as $start$ and less than $end$ in this case $found$ is $\text{true}\iff\exists i:start≤i<end$. $\therefore P(1)$ holds.
 
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
-Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the 
+Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the next if statement.
+
+Claim: If $A[middle]≥end-l$, then, there cannot be an element in $A$ with index $i<middle$ and $A[i]=i$. Suppose not: $A[middle]≥end-l$ and 
 
 Otherwise $l$ is odd.
 
 Runtime Analysis:
-The [[Worst Case Run Time]] for this [[Algorithm]] occurs whenever it returns false. Let $T(n)$ 
+I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, the [[Worst Case Run Time]] occurs when $n=2^{k}-1$ for some $k$, and the [[Algorithm]] returns false.
 
 
 (b) 
