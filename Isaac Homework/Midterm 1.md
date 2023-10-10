@@ -85,7 +85,7 @@ If $A[middle]<middle$, then there cannot be an element in $A$ with index $i<midd
 >If $A[middle]>middle$, then if $A[i]=i,i<middle$. 
 >>[!proof]
 
-Assume $A[middle]≥middle$ and $A[i]=i$. Suppose that $i≥middle$. As the elements of $A$ are unique integers, $A[i]≥A[middle]+i-middle$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then $$i=A[i]≥A[middle]+i-middle$$
+Assume $A[middle]>middle$ and $A[i]=i$. Suppose that $i≥middle$. As the elements of $A$ are unique integers, $A[i]≥A[middle]+i-middle$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then $$i=A[i]≥A[middle]+i-middle$$
 
 
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
