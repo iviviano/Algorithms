@@ -87,7 +87,7 @@ Conversely, if $A[middle]≥middle$, then if $A[i]=i$, $i<middle$ (might need to
 >If $A[middle]≥middle$, then if $A[i]=i,i<middle$. 
 >>[!proof]
 
-Suppose $A[middle]≥middle$ and $A[i]=i$. 
+Assume $A[middle]≥middle$ and $A[i]=i$. Suppose that $i≥middle$. 
 
 
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
