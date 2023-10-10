@@ -142,6 +142,7 @@ The last possible combination: $p_{i}>w_{f(i+1)},p_{i+1}\le w_{f(i)}$ is not act
 
 So, for all possible values of $p_{i},p_{i+1},w_{f(i)},w_{f(i+1)}$ with the stipulation $w_{f(i)}\ge w_{f(i+1)}$, $$\frac{1}{n}\sum_{j=1}^{n}|p_{j}-w_{g(j)}|\le \frac{1}{n}\sum_{j=1}^{n}|p_{j}-w_{f(j)}|$$This proves that the swap of any two "adjacent" watermelons $w_{f(i)},w_{f(i+1)}$ doesn't worsen the solution. 
 
-Let $f$ be any matching of pumpkins to watermelons with the watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering in non-decreasing order with bubble sort. (CLARIFY). 
+Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering in non-decreasing order with bubble sort. (CLARIFY). 
 
 
+Let $f$ be any matching of pumpkins to watermelons. 
