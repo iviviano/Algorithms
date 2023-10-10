@@ -76,19 +76,24 @@ Let $P(l)$ be that if $end-start=l$ $fun(start,end)$ returns $\text{true}$ if $\
 Base Case: $l=1$
 $\lfloor \frac{l}{2}\rfloor=\lfloor \frac{1}{2}\rfloor=0$, so $middle$ is assigned to $start$. Since $n\%2=1\%2=1$, $found$ is assigned to whether $A[start]=start$. Since $l==1$, $found$ is returned. As $start$ is the only integer at least as big as $start$ and less than $end$ in this case $found$ is $\text{true}\iff\exists i:start≤i<end$. $\therefore P(1)$ holds.
 
->[!prop] Claim 1:
+>[!prop] Claim:
 If $A[middle]<middle$, then there cannot be an element in $A$ with index $i<middle$ and $A[i]=i$. 
 >>[!proof]
 >Suppose not: $A[middle]≥middle$ and for some $i<middle:A[i]=i$. As the elements of $A$ are unique integers, $A[middle]≥A[i]+middle-i$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then, $$A[middle]≥A[i]+middle-i=i+middle-i=middle$$So, $A<middle$ is false. By contradiction, the claim is true.
+>
+Conversely, if $A[middle]≥middle$, then if $A[i]=i$, $i<middle$ (might need to prove this actually)
 
 >[!prop] Claim 2:
 >If $A[middle]≥middle$, then 
 
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
-Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the next if statement. If $A[middle]<middle$, then the claim implies that the 
+Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the next if statement. If $A[middle]≤middle$, then Claim 2 implies that if $A[i]=i$, $i<middle$. So, we need only check if there is some index $i:start≤i<middle$ such that $A[i]=i$. Since $middle-start=\frac{l}{2}<l$, this is exactly what $fun(start,middle)$ does by the inductive hypothesis. If $A[middle]<middle$, then Claim 1 implies that we only need to check indices $i:middle≤i<end$ for $A[i]=i$. As $\lfloor \frac{l}{2}\rfloor +start= \frac{l}{2}+start=middle$, the inductive hypothesis guarantees that this is exactly what $fun(\lfloor \frac{l}{2}\rfloor+start,end)$ does since $end-middle= \frac{l}{2}<l$. So, $P(l)$ holds for even $l$.
 
+Suppose $l$ is odd. Then, $\lfloor \frac{l}{2}\rfloor= \frac{l-1}{2},\lceil \frac{l}{2}\rceil= \frac{l+1}{2}$. Since $l\%2=1$, the first conditional executes. $found$ is assigned to true $\iff$ $A[middle]=middle$. Clearly, if $found$ is true, then we may return true. This is what happens since $found\lor l==1$ will be true. If $found$ is false, $found\lor l==1$ is false since $l>1$. So, the [[Algorithm]] proceeds to the next conditional. 
 
-Otherwise $l$ is odd.
+As $P(l)$ is true for even and odd $l$, $P(l)$ holds generally.
+
+Therefore, by [[Principle of Mathematical Induction]], $P(l)$ for all $l\in \mathbb{N}$. As the algorithm returns $fun(0,n)$ and $n-0=n\in \mathbb{N}$, the [[Algorithm]] works for any input size $n≥1$.
 
 Runtime Analysis:
 I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, the [[Worst Case Run Time]] occurs when $n=2^{k}-1$ for some $k$, and the [[Algorithm]] returns false.
