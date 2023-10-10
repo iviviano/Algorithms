@@ -145,4 +145,4 @@ So, for all possible values of $p_{i},p_{i+1},w_{f(i)},w_{f(i+1)}$ with the stip
 Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering in non-decreasing order with bubble sort. (CLARIFY). 
 
 
-Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering into non-decreasing order with bubble sort. This will only re
+Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering into non-decreasing order with bubble sort. The new correspondence is the given algorithm of assigning  At each step, this will only require swapping the output values of $i,i+1$
