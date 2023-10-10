@@ -140,9 +140,7 @@ Now, $$\begin{align*}
 \end{align*}$$
 The last possible combination: $p_{i}>w_{f(i+1)},p_{i+1}\le w_{f(i)}$ is not actually possible: $$w_{f(i+1)}<p_{i}≤p_{i+1}$$as $p$ is non-increasing. So, this condition implies that $w_{f(i+1)}<w_{f(i)}$, contradiction my assumption otherwise.
 
-So, for all possible values of $p_{i},p_{i+1},w_{f(i)},w_{f(i+1)}$ with the stipulation $w_{f(i)}\ge w_{f(i+1)}$, $$\frac{1}{n}\sum_{j=1}^{n}|p_{j}-w_{g(j)}|\le \frac{1}{n}\sum_{j=1}^{n}|p_{j}-w_{f(j)}|$$This proves that the swap of any two "adjacent" watermelons $w_{f(i)},w_{f(i+1)}$ doesn't worsen the solution. 
+So, for all possible values of $p_{i},p_{i+1},w_{f(i)},w_{f(i+1)}$ with the stipulation $w_{f(i)}\ge w_{f(i+1)}$, $$\frac{1}{n}\sum_{j=1}^{n}|p_{j}-w_{g(j)}|\le \frac{1}{n}\sum_{j=1}^{n}|p_{j}-w_{f(j)}|$$
 
-Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering in non-decreasing order with bubble sort. (CLARIFY). 
+Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering into non-decreasing order with bubble sort. The new correspondence is the given algorithm of matching the lightest pumpkin to the lightest watermelon. At each step, this will only require swapping the output values of $i,i+1$. 
 
-
-Let $f$ be any matching of pumpkins to watermelons. Sort the watermelons in non-decreasing order. Then, $f$ induces an ordering of the pumpkins. Sort this ordering into non-decreasing order with bubble sort. The new correspondence is the given algorithm of assigning  At each step, this will only require swapping the output values of $i,i+1$
