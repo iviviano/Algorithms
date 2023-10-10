@@ -65,7 +65,7 @@ $$\begin{align*}
 &\quad \quad found=A[middle]==middle\\
 &\quad \textbf{If } found\lor l==1 \textbf{ then:}\\
 &\quad \quad \textbf{return } found\\
-&\quad \textbf{If } A[middle]\ge middle \textbf{ then:}\\
+&\quad \textbf{If } A[middle]\gt middle \textbf{ then:}\\
 &\quad \quad \textbf{return } fun(start,middle)\\
 &\quad \textbf{Else:}\\
 &\quad \quad \textbf{return } fun\left(\left\lceil \frac{l}{2}\right\rceil+start,end\right)
@@ -82,7 +82,7 @@ If $A[middle]<middle$, then there cannot be an element in $A$ with index $i<midd
 >Suppose not: $A[middle]≥middle$ and for some $i<middle:A[i]=i$. As the elements of $A$ are unique integers, $A[middle]≥A[i]+middle-i$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then, $$A[middle]≥A[i]+middle-i=i+middle-i=middle$$So, $A<middle$ is false. By contradiction, the claim is true.
 
 >[!prop] Claim 2:
->If $A[middle]≥middle$, then if $A[i]=i,i<middle$. 
+>If $A[middle]>middle$, then if $A[i]=i,i<middle$. 
 >>[!proof]
 
 Assume $A[middle]≥middle$ and $A[i]=i$. Suppose that $i≥middle$. As the elements of $A$ are unique integers, $A[i]≥A[middle]+i-middle$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then $$i=A[i]≥A[middle]+i-middle$$
