@@ -84,7 +84,11 @@ If $A[middle]<middle$, then there cannot be an element in $A$ with index $i<midd
 Conversely, if $A[middle]≥middle$, then if $A[i]=i$, $i<middle$ (might need to prove this actually)
 
 >[!prop] Claim 2:
->If $A[middle]≥middle$, then 
+>If $A[middle]≥middle$, then if $A[i]=i,i<middle$. 
+>>[!proof]
+
+Suppose $A[middle]≥middle$ and $A[i]=i$. 
+
 
 Inductive Step: let $l$ be given with $1<l≤n$ and assume that for all $k\in[k-1],P(k)$.
 Suppose that $l$ is even. Then, $\lfloor \frac{l}{2}\rfloor=\lceil \frac{l}{2}\rceil= \frac{l}{2}$. $found$ is $\text{false}$, as $l$ is even. As $l≠1$, the [[Algorithm]] proceeds to the next if statement. If $A[middle]≤middle$, then Claim 2 implies that if $A[i]=i$, $i<middle$. So, we need only check if there is some index $i:start≤i<middle$ such that $A[i]=i$. Since $middle-start=\frac{l}{2}<l$, this is exactly what $fun(start,middle)$ does by the inductive hypothesis. If $A[middle]<middle$, then Claim 1 implies that we only need to check indices $i:middle≤i<end$ for $A[i]=i$. As $\lfloor \frac{l}{2}\rfloor +start= \frac{l}{2}+start=middle$, the inductive hypothesis guarantees that this is exactly what $fun(\lfloor \frac{l}{2}\rfloor+start,end)$ does since $end-middle= \frac{l}{2}<l$. So, $P(l)$ holds for even $l$.
