@@ -51,8 +51,7 @@ If $T$ had a [[Cycle]], then some edge could be removed without disconnecting $(
 
 (a)
 >[!alg]
-
-$$\begin{align*}
+>$$\begin{align*}
 &\textbf{Algorithm } \text{Index Equaling Element?}\\
 &\textbf{Input: } \text{Sorted Array } A \text{ of length }n \text{ with no duplicate elements}\\
 &\textbf{Output: } \text{Boolean indicating whether }A[i]=i \text{ for some }i\in[n]\\
@@ -97,10 +96,10 @@ As $P(l)$ is true for even and odd $l$, $P(l)$ holds generally.
 Therefore, by [[Principle of Mathematical Induction]], $P(l)$ for all $l\in \mathbb{N}$. As the algorithm returns $fun(0,n)$ and $n-0=n\in \mathbb{N}$, the [[Algorithm]] works for any input size $n≥1$.
 
 Runtime Analysis:
-I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, the [[Worst Case Run Time]] occurs when $n=2^{k}-1$ for some $k$, and the [[Algorithm]] returns false.
+I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, the [[Worst Case Run Time]] occurs when $n=2^{k}-1$ for some $k$, and the [[Algorithm]] returns false. In this case, $T(n)$ satisfies the following recurrence: $$T(n)=T\left(\left\lfloor \frac{n}{2}\right\rfloor\right)+2$$for $n>1$ as there is one subproblem of size $\lfloor \frac{n}{2}\rfloor$ and 
 
 
-(b) 
+(b) Consider the following array $A=[0,0]$. My algorithm now fails. $middle$ will be $1$, and $A[1]=0<1$, so the subproblem will be the second half of the list, which it will return false on. Clearly, this instance should return true, since $A[0]=0$. The problematic lines in the proof are in each of the claims, where I use the assumption that the elements of $A$ are unique to draw a relationship between $A[i],A[middle],i,$ and $middle$.
 
 
 >[!note] 3
