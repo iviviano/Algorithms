@@ -80,8 +80,6 @@ $\lfloor \frac{l}{2}\rfloor=\lfloor \frac{1}{2}\rfloor=0$, so $middle$ is assign
 If $A[middle]<middle$, then there cannot be an element in $A$ with index $i<middle$ and $A[i]=i$. 
 >>[!proof]
 >Suppose not: $A[middle]≥middle$ and for some $i<middle:A[i]=i$. As the elements of $A$ are unique integers, $A[middle]≥A[i]+middle-i$, since each consecutive pair of values must differ by at least one, and $A$ is sorted. Then, $$A[middle]≥A[i]+middle-i=i+middle-i=middle$$So, $A<middle$ is false. By contradiction, the claim is true.
->
-Conversely, if $A[middle]≥middle$, then if $A[i]=i$, $i<middle$ (might need to prove this actually)
 
 >[!prop] Claim 2:
 >If $A[middle]≥middle$, then if $A[i]=i,i<middle$. 
