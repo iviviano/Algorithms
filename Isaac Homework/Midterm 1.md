@@ -96,8 +96,7 @@ As $P(l)$ is true for even and odd $l$, $P(l)$ holds generally.
 Therefore, by [[Principle of Mathematical Induction]], $P(l)$ for all $l\in \mathbb{N}$. As the algorithm returns $fun(0,n)$ and $n-0=n\in \mathbb{N}$, the [[Algorithm]] works for any input size $n≥1$.
 
 Runtime Analysis:
-I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, the [[Worst Case Run Time]] occurs when $n=2^{k}-1$ for some $k$, and the [[Algorithm]] returns false. In this case, $T(n)$ satisfies the following recurrence: $$T(n)=T\left(\left\lfloor \frac{n}{2}\right\rfloor\right)+2$$for $n>1$ as there is one subproblem of size $\lfloor \frac{n}{2}\rfloor$ and 
-
+I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, the [[Worst Case Run Time]] occurs when $n=2^{k}-1$ for some $k$, and the [[Algorithm]] returns false. In this case, $T(n)$ satisfies the following recurrence: $$T(n)=T\left(\left\lfloor \frac{n}{2}\right\rfloor\right)+2≤T\left(\frac{n}{2}\right)+O(1)$$for $n>1$ as there is one subproblem of size $\lfloor \frac{n}{2}\rfloor$ and I index into $A$ twice (once in the body of the first conditional and once in the condition of the third). From Homework 2, this recurrence implies that $T(n)=O(\log n)$ ($d=0,b=2,a=1$, so $a=b^{d}$ and $n^d=1$).
 
 (b) Consider the following array $A=[0,0]$. My algorithm now fails. $middle$ will be $1$, and $A[1]=0<1$, so the subproblem will be the second half of the list, which it will return false on. Clearly, this instance should return true, since $A[0]=0$. The problematic lines in the proof are in each of the claims, where I use the assumption that the elements of $A$ are unique to draw a relationship between $A[i],A[middle],i,$ and $middle$.
 

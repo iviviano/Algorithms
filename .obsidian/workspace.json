@@ -4,89 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "983c5508a2143576",
+        "id": "7305db3120ddc421",
         "type": "tabs",
         "children": [
           {
-            "id": "54cfa3af905b86a9",
+            "id": "a1ec78d41de18795",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flexible Scheduling Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44283e09a8bbc1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Isaac Homework/Homework 4.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b679d1529d7170c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Minimum Spanning Tree.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b631fee2a27c3eca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Isaac Homework/Midterm 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb844e1a14a1cd80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spanning Tree.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2b5ab763458dac1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prim's Algorithm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Midterm 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Midterm 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Isaac Homework/Midterm 1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -212,19 +137,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b631fee2a27c3eca",
+  "active": "a1ec78d41de18795",
   "lastOpenFiles": [
     "Prim's Algorithm.md",
+    "Spanning Tree.md",
+    "Isaac Homework/Midterm 1.md",
     "Flexible Scheduling Problem.md",
     "Computer.md",
     "Cut.md",
-    "Isaac Homework/Midterm 1.md",
     "Kruskal's Algorithm.md",
     "Minimum Spanning Tree Algorithm.md",
     "Sort.md",
     "Cycle.md",
     "Acyclic.md",
-    "Spanning Tree.md",
     "Isaac Homework/Homework 4.md",
     "Minimum Spanning Tree.md",
     "Tree.md",
