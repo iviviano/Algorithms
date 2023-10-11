@@ -40,7 +40,7 @@ By (PMI), $P(n)$ for all even $n≥0$.
 
 So, $T(n)=O(n)$ by the [[Asymptotic Tight Bound for Polynomials Proposition]].
 
-(d) True. Clearly, this does not increase the cost of $T$. As there were already no other [[Spanning Tree]]s with lower cost than $T$, $T$ is still a [[Minimum Spanning Tree]].
+(d) True. Clearly, this does not change the fact that $T$ is a tree, nor does the cost of $T$ increase. As there were already no other [[Spanning Tree]]s with lower cost than $T$, $T$ is still a [[Minimum Spanning Tree]].
 
 (e) To prove that this is feasible, we must show that its output is a [[Spanning Tree]]. A [[Spanning Tree]] $T$ is a [[Subset]] of $E$ such that $(V,T)$ is [[Connected]] and [[Acyclic]]. Clearly, $T$ is a [[Subset]] of $E$, as it starts as all of $E$ and elements are removed from there. It is also obvious that $E$ is connected, since we assume that $G$ is connected, and no edges are removed from $T$ that disconnect it.
 

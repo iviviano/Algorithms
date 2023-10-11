@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clustering From MST Theorem.md",
+                "file": "Isaac Homework/Midterm 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clustering From MST Theorem.md",
+                "file": "Isaac Homework/Midterm 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clustering From MST Theorem.md"
+                "file": "Isaac Homework/Midterm 1.md"
               }
             }
           }
@@ -199,11 +198,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07c82af8fcc810ca",
+  "active": "a1ec78d41de18795",
   "lastOpenFiles": [
+    "Clustering From MST Theorem.md",
     "Clustering.md",
     "Spacing.md",
-    "Clustering From MST Theorem.md",
     "Prim's Algorithm.md",
     "Isaac Homework/Midterm 1.md",
     "Spanning Tree.md",
