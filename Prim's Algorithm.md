@@ -18,7 +18,6 @@ An [[edge]] *crosses* a [[Cut]] $(S,V-S)$ if one endpoint is in $S$ and the othe
 &\textbf{return } T\\
 \end{align}$$
 
-
 >[!prop] Fact
 >A [[Graph]] is [[Connected]] [[iff]] it has an [[edge]] crossing every possible [[Cut]]
 
@@ -28,9 +27,8 @@ Let $(S,V-S)$ be a [[Cut]], and let $e$ be the unique cheapest [[edge]] crossing
 By the fact, any [[Spanning Tree]] has some [[edge]] crossing the cut. As $e$ is the unique cheapest edge crossing the cut, if a [[Spanning Tree]] had some other [[edge]] crossing this cut, we could replace that [[edge]] with $e$ without disconnecting the [[Graph]] or adding a [[Cycle]]. As $e$ is unique, this decreases the cost of the [[Spanning Tree]]. As the cost of a [[Minimum Spanning Tree]] cannot be decreased, any [[Minimum Spanning Tree]] must contain $e$.
 
 >[!proof] Feasibility
-
 We must show that $T$ is [[Connected]] and [[Acyclic]]. 
 
 >[!proof] Optimality
+Assume all [[edge]] weights are distinct. At each step, we added an edge that is in every [[Minimum Spanning Tree]] by the lemma. So, every added edge was correct. At the end, we got a [[Spanning Tree]], so the result has to be the [[Minimum Spanning Tree]].
 
-Assume all [[edge]] weights are distinct. 
