@@ -106,7 +106,7 @@ I will analyze the runtime by counting array-indexing operations: $T(n)$. Then, 
 
 (b) 
 For this proof, I will use the [[Triangle Inequality]]: $$\begin{equation}
-|A-B|≤|A|+|B|
+|A+B|≤|A|+|B|
 \end{equation}$$
 
 >[!proof] [[Exchange Argument]]:
