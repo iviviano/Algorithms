@@ -13,3 +13,4 @@ Output:
 Optimality:
 - Maximize $\sum_{i\in S} v_{i}$ of solution
 
+solution space is set of all selections of jobs that don't overlap
