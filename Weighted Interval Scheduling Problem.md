@@ -14,15 +14,16 @@ Optimality:
 - Maximize $\sum_{i\in S} v_{i}$ of solution
 
 >[!alg]
-
-$$\begin{align}
+>$$\begin{align}
 &\textbf{Algorithm } \text{Brute Force Solution}\\
 &\textbf{Input: } \text{Set }J \text{ of jobs}\\
-&\textbf{Output: } \text{}\\
-&\textbf{For } j\in J \textbf{ do:}\\
-&\quad \textbf{If } j\in\text{OPT}(J) \textbf{ then:}\\
-&\quad \quad \text{Let }J'\text{ be the subset of }J \text{ compatible with }j\\
-&\quad \quad \textbf{return } \{j\}\cup\text{OPT}(J')\\
-&\quad \textbf{Else:}\\
-&\quad \quad \textbf{return } \text{OPT}(J-\{j\})
+&\textbf{Output: } \text{Subset of }J\\
+&\textbf{If } J==\emptyset \textbf{ then:}\\
+&\quad \textbf{return } \emptyset\\
+&\text{Let } j\in J\\
+&\text{Let }J'\text{ be the subset of }J \text{ compatible with }j\\
+& \text{Let } J_{1}=\{j\}\cup\text{OPT}(J')\\
+&\text{Let } J_{2}=\text{OPT}(J-\{j\})\\
+&\text{Let OPT}(J)=\max\{J_{1},J_{2}\}
 \end{align}$$
+
