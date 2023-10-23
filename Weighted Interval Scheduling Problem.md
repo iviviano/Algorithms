@@ -8,6 +8,8 @@ Input:
 	- value $v_{i}$
 
 Output:
-- ordering of jobs that don't overlap
+- selection, $S$, of jobs that don't overlap
 
 Optimality:
+- Maximize $\sum_{i\in S} v_{i}$ of solution
+
