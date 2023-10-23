@@ -1,0 +1,5 @@
+---
+mathLink: dynamic programming
+---
+>[!def]
+>
