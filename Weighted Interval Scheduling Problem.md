@@ -27,3 +27,5 @@ Optimality:
 &\text{Let OPT}(J)=\max\{J_{1},J_{2}\}
 \end{align}$$
 
+Worst case for brute force algorithm occurs when all jobs are compatible. In this case, there are about $2^{n}$ calls to the $\text{OPT}$.
+
