@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md"
+                "file": "Isaac Homework/Abstractions Exam 1.md"
               }
             }
           },
@@ -237,8 +237,9 @@
   },
   "active": "6e81214461d98677",
   "lastOpenFiles": [
-    "Dynamic Programming Paradigm.md",
     "Weighted Interval Scheduling Problem.md",
+    "Isaac Homework/Abstractions Exam 1.md",
+    "Dynamic Programming Paradigm.md",
     "Isaac Homework/Midterm 1.md",
     "Clustering From MST Theorem.md",
     "Clustering.md",
@@ -267,7 +268,6 @@
     "Interval Scheduling Problem.md",
     "Greedy Paradigm.md",
     "Pictures/IMG-1260.jpg",
-    "Bitwise Multiplication.md",
     "Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/81C7E693-4E99-41EA-8D75-472288FDC15E_1_105_c.jpeg",
     "Pictures/FCC0C5D0-8366-4762-9622-2E0CBA2F2312_1_105_c.jpeg",
