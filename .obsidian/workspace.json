@@ -47,6 +47,16 @@
             }
           },
           {
+            "id": "27c71d840b85e72f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "18fde42004607786",
             "type": "leaf",
             "state": {
@@ -99,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -208,6 +218,16 @@
                 "file": "Weighted Interval Scheduling Problem.md"
               }
             }
+          },
+          {
+            "id": "90b65925f880cead",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -225,7 +245,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e81214461d98677",
+  "active": "27c71d840b85e72f",
   "lastOpenFiles": [
     "Dynamic Programming Paradigm.md",
     "Weighted Interval Scheduling Problem.md",
