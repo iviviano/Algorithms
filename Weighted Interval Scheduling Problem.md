@@ -31,9 +31,15 @@ Worst case for brute force algorithm occurs when all jobs are compatible. In thi
 
 $$\begin{align}
 &\textbf{Algorithm } \text{Dynamic Programming Solution}\\
-&\textbf{Input: } \text{Set } J \text{ of jobs}\\
+&\textbf{Input: } \text{Sorted set } J \text{ of } n \text{ jobs by endtime}\\
 &\textbf{Output: } \text{Subset of }J\\
 &\textbf{If } J==\emptyset \textbf{ then:}\\
 &\quad \textbf{return } \emptyset\\
-
+&\text{Let }J' \text{ be the subset of }J \text{ compatible with }j_{n}\\
+&\text{Let }J_{1}=\{j_{n}\}\cup \text{OPT}(J')\\
+&\text{Let }J_{2}=\text{OPT}(J-\{j_{n}\})\\
+&\textbf{If } \sum_{j\in J_{1}}v_{j}\gt\sum_{j\in J_{2}}v_{j} \textbf{ then:}\\
+&\quad \textbf{return } J_{1}\\
+&\textbf{Else:}\\
+&\quad \textbf{return } J_{2}\\
 \end{align}$$
