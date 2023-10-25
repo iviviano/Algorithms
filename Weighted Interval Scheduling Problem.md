@@ -50,4 +50,4 @@ Worst case for brute force algorithm occurs when all jobs are compatible. In thi
 
 [[therefore]] $\text{OPT}$ is called at most $n$ times.
 
-This algorithm is $O(n^{2})$. Sorting $J$ is $O(\log n)$. The recursive part is $O(n)$. Computing $\text{prev}$ takes $O(n^{2})$. 
+This algorithm is $O(n\log n)$. Sorting $J$ is $O(\log n)$. The recursive part is $O(n)$. Computing $\text{prev}$ takes $O(n\log n)$. Use binary search on finish time with start time of each job.
