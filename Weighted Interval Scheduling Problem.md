@@ -28,8 +28,7 @@ Optimality:
 Worst case for brute force algorithm occurs when all jobs are compatible. In this case, there are about $2^{n}$ calls to $\text{OPT}$.
 
 >[!alg]
-
-$$\begin{align}
+>$$\begin{align}
 &\textbf{Algorithm } \text{Dynamic Programming Solution}\\
 &\textbf{Input: } \text{Sorted set } J \text{ of } n \text{ jobs by endtime}\\
 &\textbf{Output: } \text{Subset of }J\\
@@ -43,3 +42,4 @@ $$\begin{align}
 &\textbf{Else:}\\
 &\quad \textbf{return } J_{2}\\
 \end{align}$$
+
