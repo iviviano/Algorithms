@@ -45,3 +45,7 @@ Worst case for brute force algorithm occurs when all jobs are compatible. In thi
 &\quad \textbf{return } J_{2}\\
 \end{align}$$
 
+>[!note]
+>In this implementation, $\text{OPT}$ checks if a value has been defined. If not, it calls the function on it.
+
+[[therefore]] 
