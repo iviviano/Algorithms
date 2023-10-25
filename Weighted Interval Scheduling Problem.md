@@ -1,5 +1,3 @@
-
-
 Input: 
 - $n$ jobs
 - job $i$ has 
