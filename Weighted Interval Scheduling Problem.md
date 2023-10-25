@@ -25,5 +25,15 @@ Optimality:
 &\text{Let OPT}(J)=\max\{J_{1},J_{2}\}
 \end{align}$$
 
-Worst case for brute force algorithm occurs when all jobs are compatible. In this case, there are about $2^{n}$ calls to the $\text{OPT}$.
+Worst case for brute force algorithm occurs when all jobs are compatible. In this case, there are about $2^{n}$ calls to $\text{OPT}$.
 
+>[!alg]
+
+$$\begin{align}
+&\textbf{Algorithm } \text{Dynamic Programming Solution}\\
+&\textbf{Input: } \text{Set } J \text{ of jobs}\\
+&\textbf{Output: } \text{Subset of }J\\
+&\textbf{If } J==\emptyset \textbf{ then:}\\
+&\quad \textbf{return } \emptyset\\
+
+\end{align}$$
