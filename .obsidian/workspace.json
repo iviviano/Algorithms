@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weighted Interval Scheduling Problem.md"
+                "file": "Isaac Homework/Abstractions Exam 1.md"
               }
             }
           },
@@ -184,14 +184,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cda3cec1f678db6",
+  "active": "6e81214461d98677",
   "lastOpenFiles": [
+    "Weighted Interval Scheduling Problem.md",
     "Isaac Homework/Abstractions Exam 1.md",
     "Prim's Algorithm.md",
     "Clustering From MST Theorem.md",
     "Dynamic Programming Paradigm.md",
     "Isaac Homework/Midterm 1.md",
-    "Weighted Interval Scheduling Problem.md",
     "Clustering.md",
     "Spacing.md",
     "Spanning Tree.md",
