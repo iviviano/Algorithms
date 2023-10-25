@@ -48,4 +48,5 @@ Worst case for brute force algorithm occurs when all jobs are compatible. In thi
 >[!note]
 >In this implementation, $\text{OPT}$ checks if a value has been defined. If not, it calls the function on it.
 
-[[therefore]] 
+[[therefore]] $\text{OPT}$ is called at most $n$ times.
+
