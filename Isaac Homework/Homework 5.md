@@ -128,5 +128,37 @@ $$\begin{align*}
 &\textbf{Algorithm } \text{Caloric Surplus of Optimal Route}\\
 &\textbf{Input: } \text{Shrimp amounts }s_{1},\ldots,s_{n} \text{ and parameter }m\\
 &\textbf{Output: } \text{OPT }(n)\\
-&
+&\text{Let }A \text{ be an array of length }n+1\\
+&A[0]=0;A[1]=s_{1}-C\\
+&\textbf{For } 1<i\le n \textbf{ do:}\\
+&\quad A[i]=s_{i}-C+\max\{A[i-j]:1\le j\le m\land i-j\ge0\}\\
+&\textbf{end for}\\
+&\textbf{return } A[n]\\
+\end{align*}$$
+
+Step 7: 
+
+Clearly, everything outside of the loop has constant runtime. There are at most $m$ elements of the set that is passed to $\max$. So, the body of the loop has runtime $O(m)$. As the loop runs $n$ times, the algorithm has runtime $O(mn)$.
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Optimal Route North}\\
+&\textbf{Input: } \text{Shrimp amounts }s_{1},\ldots,s_{n}\text{ and parameter }m\\
+&\textbf{Output: } \text{}\\
+&\text{Let }ponds \text{ be an array of length }n+1\\
+&\text{Let }values \text{ be an array of length }n+1\\
+&ponds[0]=\emptyset;ponds[1]=\{1\}\\
+&values[0]=0;values[1]=s_{1}-C\\
+&\textbf{For } 1<i\le n \textbf{ do:}\\
+&\quad \text{Let }best\_pond=i-1\\
+&\quad \textbf{For } 1\le j\le m \textbf{ do:}\\
+&\quad \quad \textbf{If } i-j<0 \textbf{ then:}\\
+&\quad \quad \quad \textbf{continue}\\
+&\quad \quad \textbf{If } values[i-j]>values[best\_pond] \textbf{ then:}\\
+&\quad \quad \quad best\_pond=[i-j]\\
+&\quad \quad \textbf{end if}\\
+&\quad \textbf{end for}\\
+&\quad ponds[i]=ponds[best\_value]\cup\{i\}\\
+&\quad values[i]=values[best\_value]+s_{i}-C\\
+&\textbf{end for}\\
+&\textbf{return } ponds[n]
 \end{align*}$$
