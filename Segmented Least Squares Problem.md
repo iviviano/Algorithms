@@ -15,4 +15,8 @@ Question: is point $j$ in the same part as $j-1$.
 Step 1: $\text{OPT }(j)=$ minimum cost on first $j$ points. 
 
 Step 2: Let $e_{ij}$ be the least square error from $i$ to $j$. Then, $$\text{OPT }(j)=\min\{\text{OPT }(i-1)+e_{ij}+C:i≤j\}$$
-Step 3: 
+Step 3: Proof of step 2
+
+Step 3: Base case: $j=1$
+
+Step 4: 
