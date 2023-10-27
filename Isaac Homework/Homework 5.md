@@ -1,5 +1,6 @@
 >[!note] 1
 
+(a)
 Step 1: Let $\text{OPT }(i)$ be the maximum value of $$\sum_{j\in J}q_{j}$$ such that $J\subseteq[i]$ has no overcrowding.
 
 Step 2: Recurrence relation:$$\text{OPT }(i)=\max\{q_{i}+\text{OPT }(i-3),\text{OPT }(i-1)\}$$
@@ -17,7 +18,42 @@ Step 6:
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Turnip the Heat}\\
-&\textbf{Input: } \text{}
+&\textbf{Input: } \text{Qualities }q_{1},\ldots,q_{n}\\
+&\textbf{Output: } \text{OPT }(n)\\
+&\text{Let }A \text{ be an array of length }n+1\\
+&A[0]=0;A[1]=q_{1};A[2]=\max\{q_{1},q_{2}\}\\
+&\textbf{For } 2<i\le n\textbf{ do:}\\
+&\quad A[i]=\max\{A[i-3]+q_{i},A[i-1]\}\\
+&\textbf{end for}\\
+&\textbf{return } A[n]\\
+\end{align*}$$
+Step 7: 
+
+Everything outside the loop clearly has constant runtime. Each iteration of the loop also has constant runtime. As there are $n-2$ iterations of the loop, this algorithm is $O(n)$.
+
+(b)
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Turnip the Heat}\\
+&\textbf{Input: } \text{Qualities }q_{1},\ldots,q_{n}\\
+&\textbf{Output: } \text{OPT }(n)\\
+&\text{Let }sets \text{ be an array of length }n+1\\
+&\text{Let }values \text{ be an array of length }n+1\\
+&sets[0]=\emptyset; sets[1]=\{1\}\\
+&\textbf{If } q_{1}>q_{2} \textbf{ then:}\\
+&\quad sets[2]=\{1\}\\
+&\textbf{Else}\\
+&\quad sets[2]=\{2\}\\
+&values[0]=0;values[1]=q_{1};values[2]=\max\{q_{1},q_{2}\}\\
+&\textbf{For } 2<i\le n\textbf{ do:}\\
+&\quad \textbf{If } values[i-3]+q_{i}>values[i-1] \textbf{ then:}\\
+&\quad \quad sets[i]=sets[i-3]\cup\{i\}\\
+&\quad \quad values[i]=values[i-3]+q_{i}\\
+&\quad \textbf{Else:}\\
+&\quad \quad sets[i]=sets[i-1]\\
+&\quad \quad values[i]=values[i-1]\\
+&\textbf{end for}\\
+&\textbf{return } sets[n]\\
 \end{align*}$$
 
  >[!note] 2 
