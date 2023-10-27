@@ -1,5 +1,10 @@
 >[!note] 1
 
+
+
+
+
+
  >[!note] 2 
 
 (a) Let $V=\{a,b,c\},E=\{\{a,b\},\{b,c\}\}$. Give weights $a=2,b=3,c=2$. The greedy algorithm will choose the solution set $\{b\}$ with value $3$. However, the best solution is $\{a,c\}$ with solution $4$. 
@@ -16,8 +21,7 @@ Step 2: Recurrence relation $$\text{OPT }(i)=\begin{cases}\text{OPT }(i-2)\cup\{
 Step 3: 
 
 >[!proof]
-
-Assume $i>1$. If $i≤1$, it is handled by the base cases. Vertex $i$ is either in the optimal independent set or not. If $i\in \text{OPT }(i)$, then $i-1\notin \text{OPT }(i)$, since $i$ and $i-1$ are adjacent. Therefore, $\text{OPT }(i)=\text{OPT }(i-2)\cup\{i\}$. If $i\notin \text{OPT }(i)$, then $\text{OPT }(i)=\text{OPT }(i-1)$. Since $\text{OPT }(i)$ is the heaviest subset of $[i]$ that contains 
+Assume $i>1$. If $i≤1$, it is handled by the base cases. Vertex $i$ is either in the optimal independent set or not. If $i\in \text{OPT }(i)$, then $i-1\notin \text{OPT }(i)$, since $i$ and $i-1$ are adjacent. Therefore, $\text{OPT }(i)=\text{OPT }(i-2)\cup\{i\}$. If $i\notin \text{OPT }(i)$, then $\text{OPT }(i)=\text{OPT }(i-1)$. Now, $$\text{val}(\text{OPT }(i-2)\cup\{i\})=\text{val}(\text{OPT }(i-2))+w_{i}$$so, the recurrence relation assigns $\text{OPT }(i)$ to the highest value independent set.
 
 
 Step 4: Base Cases: There are two base cases. The first is an empty vertex set. Obviously, $\text{OPT }(\emptyset)=\emptyset$ and $\text{val}(\emptyset)=0$. The second is a singleton vertex set. Obviously, $\text{OPT }(\{v_{1}\})=\{v_{1}\}$ and $\text{val}(v_{1})=w_{1}$
