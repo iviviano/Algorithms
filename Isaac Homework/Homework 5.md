@@ -8,7 +8,7 @@ Step 3:
 
 >[!proof]
 
-
+If $i$ is in the optimal solution, then $i-1,i-2$ are not in the optimal solution. 
 
 
 
