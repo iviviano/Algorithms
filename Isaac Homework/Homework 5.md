@@ -7,10 +7,9 @@ Step 2: Recurrence relation:$$\text{OPT }(i)=\max\{q_{i}+\text{OPT }(i-3),\text{
 Step 3: 
 
 >[!proof]
+If $i$ is in the optimal solution, then $i-1,i-2$ are not in the optimal solution. If $i$ is not in the optimal solution then any $[i-1]$ may be in the optimal solution. As the recurrence relation picks the case with the larger total quality, it is true for $i>2$. $i\le2$ are handled by the base cases.
 
-If $i$ is in the optimal solution, then $i-1,i-2$ are not in the optimal solution. 
-
-
+Step 4: Base cases: 
 
  >[!note] 2 
 
