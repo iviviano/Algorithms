@@ -10,3 +10,9 @@ Best fit errors: $$\sum_{i\in P_{k}}(y_{i}-(a_{k}x_{i}+b_{k}))^{2}$$So, the goal
 
 Question: is point $j$ in the same part as $j-1$. 
 
+>[!alg] 
+
+Step 1: $\text{OPT }(j)=$ minimum cost on first $j$ points. 
+
+Step 2: Let $e_{ij}$ be the least square error from $i$ to $j$. Then, $$\text{OPT }(j)=\min\{\text{OPT }(i-1)+e_{ij}+C:i≤j\}$$
+Step 3: 
