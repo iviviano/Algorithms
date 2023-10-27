@@ -8,3 +8,5 @@ Given points $$P=\{(x_{1},y_{1}),\ldots,(x_{n},y_{n})\}$$least squares finds "li
 
 Best fit errors: $$\sum_{i\in P_{k}}(y_{i}-(a_{k}x_{i}+b_{k}))^{2}$$So, the goal is to minimize $$E=\sum E_{j}=\sum_{j=1}^{k}\sum_{i\in P_{j}}(y_{i}-(a_{j}x_{i}+b_{j}))^2$$but this allows overfitting, we could just have $n$ lines. We must add a penalty term $kC$. 
 
+Question: is point $j$ in the same part as $j-1$. 
+
