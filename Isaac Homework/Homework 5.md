@@ -9,7 +9,16 @@ Step 3:
 >[!proof]
 If $i$ is in the optimal solution, then $i-1,i-2$ are not in the optimal solution. If $i$ is not in the optimal solution then any $[i-1]$ may be in the optimal solution. As the recurrence relation picks the case with the larger total quality, it is true for $i>2$. $i\le2$ are handled by the base cases.
 
-Step 4: Base cases: 
+Step 4: Base cases: There are three base cases. The first is $i=0$. Then, $\text{OPT }(i)=0$. If $i=1$, the sum of quality is obviously maximized by including turnip 1. This doesn't result in overcrowding, so $\text{OPT }(1)=q_{1}$. If $i=2$, we can only fit one turnip without overcrowding. So, $\text{OPT }(2)=\max\{q_{1},q_{2}\}$.
+
+Step 5: The goal is to find $\text{OPT }(n)$.
+
+Step 6: 
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Turnip the Heat}\\
+&\textbf{Input: } \text{}
+\end{align*}$$
 
  >[!note] 2 
 
