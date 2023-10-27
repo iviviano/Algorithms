@@ -107,4 +107,14 @@ Clearly, everything outside the loop is constant. The input is already sorted wi
 
 >[!note] 3
 
+Step 1: Let $\text{OPT }(i)$ be the maximum value of  $$\sum_{j\in S}s_{j}-C|S|$$for $S\subseteq[i]$ and $i\in S$.
 
+Step 2: Recurrence relation:
+
+$$\text{OPT }(i)=s_{i}-C+\max\{\text{OPT }(i-j):1\le j\le m\}$$
+
+Step 3: 
+
+>[!proof]
+
+Let $S$ 
