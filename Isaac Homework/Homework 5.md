@@ -4,6 +4,11 @@ Step 1: Let $\text{OPT }(i)$ be the maximum value of $$\sum_{j\in J}q_{j}$$ such
 
 Step 2: Recurrence relation:$$\text{OPT }(i)=\max\{q_{i}+\text{OPT }(i-3),\text{OPT }(i-1)\}$$
 
+Step 3: 
+
+>[!proof]
+
+
 
 
 
