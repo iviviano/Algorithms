@@ -45,8 +45,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d47ef385af2ca1f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Isaac Homework/Homework 5.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "350090cb97809c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Segmented Least Squares Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -112,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic Programming Paradigm.md",
+                "file": "Segmented Least Squares Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamic Programming Paradigm.md",
+                "file": "Segmented Least Squares Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynamic Programming Paradigm.md"
+                "file": "Segmented Least Squares Problem.md"
               }
             }
           },
@@ -183,13 +210,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "864438601a626d77",
+  "active": "350090cb97809c7d",
   "lastOpenFiles": [
+    "Isaac Homework/Homework 5.md",
+    "Segmented Least Squares Problem.md",
+    "Dynamic Programming Paradigm.md",
     "Weighted Interval Scheduling Problem.md",
     "Isaac Homework/Abstractions Exam 1.md",
     "Prim's Algorithm.md",
     "Clustering From MST Theorem.md",
-    "Dynamic Programming Paradigm.md",
     "Isaac Homework/Midterm 1.md",
     "Clustering.md",
     "Spacing.md",
@@ -213,8 +242,6 @@
     "IMG-1263.jpg",
     "Isaac Homework/Homework 3.md",
     "Isaac Homework/Homework 2.md",
-    "Interval Scheduling Problem.md",
-    "Greedy Paradigm.md",
     "Pictures/IMG-1260.jpg",
     "Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/81C7E693-4E99-41EA-8D75-472288FDC15E_1_105_c.jpeg",
