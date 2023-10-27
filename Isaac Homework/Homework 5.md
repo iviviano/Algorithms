@@ -116,5 +116,17 @@ $$\text{OPT }(i)=s_{i}-C+\max\{\text{OPT }(i-j):1\le j\le m\}$$
 Step 3: 
 
 >[!proof]
+Assume $i>1$. Let $S$ be an optimal subset of the $i$ ponds. $S$ must include $i$ and $S$ must include $i-j$ for some $1\le j\le m$. I could have come to pond $i$ from any pond $i-j$ for $1\le j\le m$. The caloric surplus of my migration at any one of these ponds is given by $\text{OPT}(i-j)$. So, to find the maximum caloric surplus after gorging at pond $i$, add the shrimp at pond $i$ to the maximum of the caloric surpluses of any possible prior pond and subtract the caloric cost of traveling to pond $i$. Clearly, this is exactly what the recurrence relation gives.
 
-Let $S$ 
+Step 4: Base Case: There are two base cases. If $i=0$, then, I am at pond $0$ with no shrimp and nowhere to go. So, $\text{OPT }(i)=0$. If there is one pond, I must end at that pond. So the only possible solution has value $s_{1}-C$. 
+
+Step 5: The goal is to find $\text{OPT }(n)$. 
+
+Step 6: 
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Caloric Surplus of Optimal Route}\\
+&\textbf{Input: } \text{Shrimp amounts }s_{1},\ldots,s_{n} \text{ and parameter }m\\
+&\textbf{Output: } \text{OPT }(n)\\
+&
+\end{align*}$$
