@@ -66,6 +66,19 @@
               "type": "markdown",
               "state": {
                 "file": "Segmented Least Squares Problem.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb7ae1b1a82b7c9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knapsack Problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segmented Least Squares Problem.md",
+                "file": "Knapsack Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segmented Least Squares Problem.md",
+                "file": "Knapsack Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segmented Least Squares Problem.md"
+                "file": "Knapsack Problem.md"
               }
             }
           },
@@ -210,11 +223,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "350090cb97809c7d",
+  "active": "bb7ae1b1a82b7c9f",
   "lastOpenFiles": [
+    "Knapsack Problem.md",
+    "Segmented Least Squares Problem.md",
     "Isaac Homework/Homework 5.md",
     "Weighted Interval Scheduling Problem.md",
-    "Segmented Least Squares Problem.md",
     "Dynamic Programming Paradigm.md",
     "Isaac Homework/Abstractions Exam 1.md",
     "Prim's Algorithm.md",
@@ -241,7 +255,6 @@
     "IMG-1264.jpg",
     "IMG-1263.jpg",
     "Isaac Homework/Homework 3.md",
-    "Isaac Homework/Homework 2.md",
     "Pictures/IMG-1260.jpg",
     "Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/81C7E693-4E99-41EA-8D75-472288FDC15E_1_105_c.jpeg",

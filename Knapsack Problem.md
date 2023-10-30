@@ -1,0 +1,5 @@
+---
+mathLink: knapsack problem
+---
+>[!def]
+
