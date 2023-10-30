@@ -40,3 +40,5 @@ $(1)$ sorting is $O(n\log n)$.
 $(2)$ this is $O(n^{2}f(n))$ as there are $\frac{n(n+1)}{2}$ $e_{ij}$ where $f(n)$ is the cost of computing the least square problem $e_{ij}$. So, this step is $O(n^{3})$.
 
 $(3)$ This is $O(n^{2})$ for the same reason.
+
+[[therefore]] the algorithm is $O(n^{3})$. 
