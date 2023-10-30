@@ -24,13 +24,19 @@ Step 5: Goal is to compute $\text{OPT }n$
 Step 6: $$\begin{align}
 &\textbf{Algorithm } \text{Segmented Least Squares}\\
 &\textbf{Input: } \text{Set of }n \text{ point}\\
-&\text{Sort points by }x-\text{cord}\\
-&\text{Compute }e_{ij} \text{ for all }i\le j\le n\\
+&\text{Sort points by }x-\text{cord}\quad(1)\\
+&\text{Compute }e_{ij} \text{ for all }i\le j\le n\quad(2)\\
 &\text{Let }memo \text{ be an array of length }n+1\\
 &memo[0]=0\\
-&\textbf{For } j\le n \textbf{ do:}\\
+&\textbf{For } j\le n \textbf{ do:}\quad(3)\\
 &\quad memo[j]=\min\{memo[i-1]+e_{ij}+C:i\le j\}\\
 &\textbf{end for}\\
 &\textbf{return } memo[n]\\
 \end{align}$$
+Step 7: Runtime Analysis
 
+$(1)$ sorting is $O(n\log n)$.
+
+$(2)$ this is $O(n^{2}f(n))$ as there are $\frac{n(n+1)}{2}$ $e_{ij}$ where $f(n)$ is the cost of computing the least square problem $e_{ij}$. So, this step is $O(n^{3})$.
+
+$(3)$ This is $O(n^{2})$ for the same reason.
