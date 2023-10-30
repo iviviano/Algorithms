@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 5.md",
+                "file": "Segmented Least Squares Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 5.md",
+                "file": "Segmented Least Squares Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 5.md"
+                "file": "Segmented Least Squares Problem.md"
               }
             }
           },
@@ -210,10 +210,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d47ef385af2ca1f9",
+  "active": "350090cb97809c7d",
   "lastOpenFiles": [
-    "Weighted Interval Scheduling Problem.md",
     "Isaac Homework/Homework 5.md",
+    "Weighted Interval Scheduling Problem.md",
     "Segmented Least Squares Problem.md",
     "Dynamic Programming Paradigm.md",
     "Isaac Homework/Abstractions Exam 1.md",

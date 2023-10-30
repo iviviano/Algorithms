@@ -21,5 +21,16 @@ Step 4: Base case: $j=1$
 
 Step 5: Goal is to compute $\text{OPT }n$
 
-Step 6: Write algorithm
+Step 6: $$\begin{align}
+&\textbf{Algorithm } \text{Segmented Least Squares}\\
+&\textbf{Input: } \text{Set of }n \text{ point}\\
+&\text{Sort points by }x-\text{cord}\\
+&\text{Compute }e_{ij} \text{ for all }i\le j\le n\\
+&\text{Let }memo \text{ be an array of length }n+1\\
+&memo[0]=0\\
+&\textbf{For } j\le n \textbf{ do:}\\
+&\quad memo[j]=\min\{memo[i-1]+e_{ij}+C:i\le j\}\\
+&\textbf{end for}\\
+&\textbf{return } memo[n]\\
+\end{align}$$
 
