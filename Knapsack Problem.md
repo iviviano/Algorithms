@@ -13,3 +13,4 @@ Goal: pick subset $S$ of $[n]$ such that $$\sum_{i\in S}w_{i}\le C$$and $$\sum_{
 
 Step 1: Let $\text{OPT }(i,D)$ be the maximum value of a subset of $[i]$ weighing less than $D$
 
+Step 2: $$\texttt{OPT}(i,D)=\max\{\texttt{OPT}(i-1,D-w_{i})+v_{i},\texttt{OPT}(i-1,D)\}$$
