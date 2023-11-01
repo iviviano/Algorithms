@@ -19,4 +19,4 @@ Step 2: $$\texttt{OPT}(i,D)=\begin{cases}
 Step 3: Proof of 2
 
 Step 4: Base Cases:
-$\texttt{OPT}(0,D)=0$ for all $D\le C$.
+$$\texttt{OPT}(0,D)=0$ for all $D\le C$$$$\texttt{OPT}$$
