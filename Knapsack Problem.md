@@ -35,4 +35,4 @@ Step 6: $$\begin{align}
 &\textbf{return } memo[C][n]\\
 \end{align}$$
 Step 7:
-This has runtime $O(n^{2})$
+This has runtime $O(nC)$
