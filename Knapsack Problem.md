@@ -18,5 +18,5 @@ Step 2: $$\texttt{OPT}(i,D)=\begin{cases}
 &\max\{\texttt{OPT}(i-1,D-w_{i})+v_{i},\texttt{OPT}(i-1,D)\}\text{ otherwise}\end{cases}$$
 Step 3: Proof of 2
 
-Step 4:
-
+Step 4: Base Cases:
+$\texttt{OPT}(0,D)=0$ for all $D\le C$.
