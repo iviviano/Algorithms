@@ -71,15 +71,19 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!note] 3
 
->[!prop] Lemma
+Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n$. 
 
-If $m$ copies are put in a subset of the $n$ offices, then the total access cost is independent of which offices are chosen. Furthermore, the total access cost is given by ... 
+Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+some,\texttt{OPT}(i+1,j)+1\}$$
 
->[!proof]
+Step 3:
+Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. 
 
-Exchange Argument: let $S, T$ be two subsets of $[n]$ with $m$ elements. 
+If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum ...
 
-We may find the total cost using the case where copies are put in the offices $[m]$. Then, each of the first $m$ offices have no access cost. For any office $i>m$, the access cost is given by $n-i$. So, the total access cost is $$\sum_{i=m+1}^{n}n-i=\sum$$
-$$$$
+Step 4:
 
-Step 1: Let $\texttt{OPT}(i)$
+Step 5: The goal is to find $$\min\{\texttt{OPT}(n,j):1\le j\le n\}$$
+
+Step 6:
+
+Step 7:
