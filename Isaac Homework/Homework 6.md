@@ -29,7 +29,7 @@ Step 6: $$\begin{align*}
 &\textbf{return } A[n][m]\\
 \end{align*}$$
 Step 7: 
-Creating the array is $O(1)$. The first for loop is $O(m)$. The second for loop is $O(n)$. The nested for loops run a total of $mn$ times. The body of the nested loops is $O(m)$. 
+Creating the array is $O(1)$. The first for loop is $O(m)$. The second for loop is $O(n)$. The nested for loops run a total of $mn$ times. The body of the nested loops is $O(m)$. Therefore, the algorithm is $O(m^{2}n)$.
 
 
 >[!note] 2
