@@ -35,3 +35,5 @@ Step 6: $$\begin{align}
 &\quad \quad \textbf{For } 1\le i\le n-t \textbf{ do:}\\
 &\quad \quad \quad \text{fill in }memo[i][i+t] \text{ according to recurrence}\\
 \end{align}$$
+Step 7: 
+Runtime is $O(n^{3})$.
