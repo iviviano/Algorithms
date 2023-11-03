@@ -42,6 +42,12 @@ $$\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i+1,j)+p(s_{i}),\texttt{OPT}(i,j-1)+p(s_{
 Step 3: We can always remove the first letter or last letter of $s$. Removing the letter gives $p(s_{i})$ points. The rest of the string is then given by $s_{i+1},\ldots,s_{j}$. So, the best game that results from removing $s_{i}$ is given by $p(s_{i})+\texttt{OPT}(i+1,j)$. Similarly, the best game that results from removing $s_{j}$ is given by $p(s_{j})+\texttt{OPT}(i,j-1)$. If the first and last letters of the string match, we have the additional option of removing them both. This gives $d(s_{i})=d(s_{j})$ points, and leaves the string $s_{i+1},\ldots,s_{j-1}$. Therefore, the best game that results from removing both letters is $d(s_{i})+\texttt{OPT}(i+1,j-1)$. 
 
 Step 4: 
-Base cases: 
+Base cases: If $i=j$, then the string is a single character, so $$\texttt{OPT}(i,i)=p(s_{i})$$for all $i$. If $i>j$, then the string is empty, so $$\texttt{OPT}(i,j)=0$$
+Step 5:
+The goal is to find $\texttt{OPT}(1,n)$
+
+Step 6: $$\begin{align*}
+&\textbf{Algorithm } \text{}
+\end{align*}$$
 
 >[!note] 3
