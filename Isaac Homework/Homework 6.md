@@ -37,5 +37,8 @@ Creating the array is $O(1)$. The first for loop is $O(m)$. The second for loop 
 Step 1:
 Let $\texttt{OPT}(i,j)$ be the maximum value of a matchems game using the substring $s_{i},\ldots,s_{j}$. 
 
+Step 2: 
+
+
 
 >[!note] 3
