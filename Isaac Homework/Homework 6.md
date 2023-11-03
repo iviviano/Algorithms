@@ -39,6 +39,6 @@ Let $\texttt{OPT}(i,j)$ be the maximum value of a matchems game using the substr
 
 Step 2: 
 $$\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i+1,j)+p(s_{i}),\texttt{OPT}(i,j-1)+p(s_{j}),\texttt{OPT}(i+1,j-1)+d(s_{i})\}$$
-
+Step 3: We can always remove the first letter or last letter of $s$. Removing the letter gives $p(s_{i})$ points. The rest of the string is then given by $s_{i+1},\ldots,s_{j}$. 
 
 >[!note] 3
