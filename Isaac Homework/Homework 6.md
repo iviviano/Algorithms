@@ -54,7 +54,7 @@ Step 6: $$\begin{align*}
 &BASE CASES\\
 &\textbf{For } 1\le j\le n \textbf{ do:}\\
 &\quad \textbf{For } j\ge i\ge 0 \textbf{ do:}\\
-&\quad \quad one=\max\{\}
+&\quad \quad one=\max\{memo[i+1][j]+p(i)\}
 
 \end{align*}$$
 
