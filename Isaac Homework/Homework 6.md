@@ -49,7 +49,13 @@ The goal is to find $\texttt{OPT}(1,n)$
 Step 6: $$\begin{align*}
 &\textbf{Algorithm } \text{Matchems}\\
 &\textbf{Input: } \text{String }s_{1}\ldots,s_{n}\text{, functions }p \text{ and }d\\
-&\textbf{Output: } \text{}
+&\textbf{Output: } \texttt{OPT}(1,n)\\
+&\text{Let }memo[n+1][n+1]\text{ be an array of integers}\\
+&BASE CASES\\
+&\textbf{For } 1\le i\le n \textbf{ do:}\\
+&\quad \textbf{For } 1\le j\le n \textbf{ do:}\\
+&\quad \quad one=\max\{\}
+
 \end{align*}$$
 
 >[!note] 3
