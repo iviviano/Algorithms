@@ -71,7 +71,9 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!note] 3
 
-let $o_{i}=1$ if there is a copy in office $i$ and $0$ otherwise. The goal is to mi 
+>[!prop] Lemma
+
+If $m$ copies are put in a subset of the $n$ offices, then the total access cost is independent of which offices are chosen. 
 
 
 Step 1: Let $\texttt{OPT}(i)$
