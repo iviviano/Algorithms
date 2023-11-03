@@ -38,7 +38,7 @@ Step 1:
 Let $\texttt{OPT}(i,j)$ be the maximum value of a matchems game using the substring $s_{i},\ldots,s_{j}$. 
 
 Step 2: 
-$$\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i+1,j)+\}$$
+$$\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i+1,j)+p(s_{i}),\texttt{OPT}(i,j-1)+p(s_{j}),\texttt{OPT}(i+1,j-1)+d(s_{i})\}$$
 
 
 >[!note] 3
