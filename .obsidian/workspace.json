@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segmented Least Squares Problem.md",
+                "file": "Knapsack Problem.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -226,8 +226,8 @@
   "active": "bb7ae1b1a82b7c9f",
   "lastOpenFiles": [
     "Knapsack Problem.md",
-    "Isaac Homework/Homework 6.md",
     "Segmented Least Squares Problem.md",
+    "Isaac Homework/Homework 6.md",
     "Isaac Homework/Homework 5.md",
     "Weighted Interval Scheduling Problem.md",
     "Dynamic Programming Paradigm.md",
