@@ -52,8 +52,8 @@ Step 6: $$\begin{align*}
 &\textbf{Output: } \texttt{OPT}(1,n)\\
 &\text{Let }memo[n+1][n+1]\text{ be an array of integers}\\
 &BASE CASES\\
-&\textbf{For } 1\le i\le n \textbf{ do:}\\
-&\quad \textbf{For } 1\le j\le n \textbf{ do:}\\
+&\textbf{For } 1\le j\le n \textbf{ do:}\\
+&\quad \textbf{For } j\ge i\ge 0 \textbf{ do:}\\
 &\quad \quad one=\max\{\}
 
 \end{align*}$$
