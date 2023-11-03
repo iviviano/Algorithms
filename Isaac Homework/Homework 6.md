@@ -37,12 +37,13 @@ Creating the array is $O(1)$. The first for loop is $O(m)$. The second for loop 
 Step 1:
 Let $\texttt{OPT}(i,j)$ be the maximum value of a matchems game using the substring $s_{i},\ldots,s_{j}$. 
 
-Step 2: 
-$$\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i+1,j)+p(s_{i}),\texttt{OPT}(i,j-1)+p(s_{j}),\texttt{OPT}(i+1,j-1)+d(s_{i})\}$$
+Step 2: Recurrence relations:
+Let $$\texttt{OPT'}(i,j)=\max\{\texttt{OPT}(i+1,j)+p(s_{i}),\texttt{OPT}(i,j-1)+p(s_{j})\}$$Then, $$\texttt{OPT}(i,j)=\begin{cases}\texttt{OPT'}(i,j)\text{ if }s_{i}\ne s_{j} \\
+\max\{\texttt{OPT'}(i,j),d(s_{i})+\texttt{OPT}(i+1,j+1\text{ if }s_{i}=s_{j}\end{cases}$$
 Step 3: We can always remove the first letter or last letter of $s$. Removing the letter gives $p(s_{i})$ points. The rest of the string is then given by $s_{i+1},\ldots,s_{j}$. So, the best game that results from removing $s_{i}$ is given by $p(s_{i})+\texttt{OPT}(i+1,j)$. Similarly, the best game that results from removing $s_{j}$ is given by $p(s_{j})+\texttt{OPT}(i,j-1)$. If the first and last letters of the string match, we have the additional option of removing them both. This gives $d(s_{i})=d(s_{j})$ points, and leaves the string $s_{i+1},\ldots,s_{j-1}$. Therefore, the best game that results from removing both letters is $d(s_{i})+\texttt{OPT}(i+1,j-1)$. 
 
 Step 4: 
-Base cases: If $i=j$, then the string is a single character, so $$\texttt{OPT}(i,i)=p(s_{i})$$for all $i$. The string is also a single character if $i=n$ or $j=n$, so $$\texttt{OPT}(i,n)=p(s_{i})$$If $i>j$, then the string is empty, so $$\texttt{OPT}(i,j)=0$$
+Base cases: If $i=j$, then the string is a single character, so $$\texttt{OPT}(i,i)=p(s_{i})$$for all $i$. If $i>j$, then the string is empty, so $$\texttt{OPT}(i,j)=0$$
 Step 5:
 The goal is to find $\texttt{OPT}(1,n)$
 
@@ -51,12 +52,22 @@ Step 6: $$\begin{align*}
 &\textbf{Input: } \text{String }s_{1}\ldots,s_{n}\text{, functions }p \text{ and }d\\
 &\textbf{Output: } \texttt{OPT}(1,n)\\
 &\text{Let }memo[n+1][n+1]\text{ be an array of integers}\\
-&BASE CASES\\
+&\textbf{For } 0\le i\le n \textbf{ do:}\\
+&\quad memo[i][i]=p(s_{i})\\
 &\textbf{For } 1\le j\le n \textbf{ do:}\\
-&\quad \textbf{For } j\ge i\ge 0 \textbf{ do:}\\
+&\quad \textbf{For } j> i\ge 0 \textbf{ do:}\\
 &\quad \quad one=\max\{memo[i+1][j]+p(s_i),memo[i][j-1]+p(s_j)\}\\
 &\quad \quad \textbf{If } s_i=s_j \textbf{ then:}\\
-&\quad \quad \quad memo[i][j]=\max\{memo[i-1][j-1]\}
+&\quad \quad \quad memo[i][j]=\max\{memo[i-1][j-1]+d(s_{i}),one\}\\
+&\quad \quad \textbf{Else:}\\
+&\quad \quad \quad memo[i][j]=one\\
+&\quad \quad \textbf{end if}\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\textbf{return } memo[0][n] 
 \end{align*}$$
+Step 7:
+Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for loop iterates $n+1$ times and each step is constant. The nested for loops run $O(n^{2})$ times. At most 3 indexing operations occur for each iteration, so the nested loops are $O(n^{2})$. Therefore, this algorithm is $O(n^{2})$.
 
 >[!note] 3
+
