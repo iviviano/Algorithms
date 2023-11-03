@@ -71,4 +71,7 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!note] 3
 
+let $o_{i}=1$ if there is a copy in office $i$ and $0$ otherwise. The goal is to mi 
+
+
 Step 1: Let $\texttt{OPT}(i)$
