@@ -73,7 +73,13 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!prop] Lemma
 
-If $m$ copies are put in a subset of the $n$ offices, then the total access cost is independent of which offices are chosen. 
+If $m$ copies are put in a subset of the $n$ offices, then the total access cost is independent of which offices are chosen. Furthermore, the total access cost is given by ... 
 
+>[!proof]
+
+Exchange Argument: let $S, T$ be two subsets of $[n]$ with $m$ elements. 
+
+We may find the total cost using the case where copies are put in the offices $[m]$. Then, each of the first $m$ offices have no access cost. For any office $i>m$, the access cost is given by $n-i$. So, the total access cost is $$\sum_{i=m+1}^{n}n-i=\sum$$
+$$$$
 
 Step 1: Let $\texttt{OPT}(i)$
