@@ -47,7 +47,9 @@ Step 5:
 The goal is to find $\texttt{OPT}(1,n)$
 
 Step 6: $$\begin{align*}
-&\textbf{Algorithm } \text{}
+&\textbf{Algorithm } \text{Matchems}\\
+&\textbf{Input: } \text{String }s_{1}\ldots,s_{n}\text{, functions }p \text{ and }d\\
+&\textbf{Output: } \text{}
 \end{align*}$$
 
 >[!note] 3
