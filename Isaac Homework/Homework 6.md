@@ -34,6 +34,8 @@ Creating the array is $O(1)$. The first for loop is $O(m)$. The second for loop 
 
 >[!note] 2
 
+Step 1:
+Let $\texttt{OPT}(i,j)$ be the 
 
 
 >[!note] 3
