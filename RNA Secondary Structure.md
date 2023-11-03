@@ -17,4 +17,7 @@ Rules:
 Input: Sequence of $n$ bases
 Output: Maximum number of pairs satisfying rules 1-4
 
-Step 1: Let $\texttt{OPT}(i)$ be the max number of base pairs on $[i]$.
+Step 1: Let $\texttt{OPT}(i,j)$ be the max number of base pairs on $\{i,i+1,\ldots,j\}$.
+
+Recurrence: $$\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i,j-1),\}$$
+$\texttt{OPT}(i,j-1)$ happens when we pair $j$. 
