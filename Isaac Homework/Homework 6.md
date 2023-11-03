@@ -71,3 +71,4 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!note] 3
 
+Step 1: Let $\texttt{OPT}(i)$
