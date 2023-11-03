@@ -10,4 +10,6 @@ Notation:
 
 Rules:
 - each base can only be matched once
-- 
+- correct pairings of bases
+- no sharp turns: $(i,j)$ is a valid pair only if $j>i+4$
+
