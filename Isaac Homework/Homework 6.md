@@ -71,19 +71,21 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!note] 3
 
-Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n$. 
+Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n$. Let $o_{i}$ be the smallest index $o_{ij}\ge i$ such that a copy is put in $i$ for the solution that gives $\texttt{OPT}(i,j)$.
 
-Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+some\}$$
+Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+o_{i+1,j}-i\}$$
 
 Step 3:
 Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total access cost is not changed by this, the minimum total cost is given by $\texttt{OPT}(i+1,j-1)+O_{i}$ in this case.
 
-If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. 
+If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. Since office $i$ does not have a copy, it has an access penalty. The access penalty is the smallest indexed office that contains a copy minus $i$. The optimal solution in this case has cost $\texttt{OPT}(i+1,j)$, so this smallest indexed office is $o_{i+1,j}$. So, the minimum total cost in this case is given by $\texttt{OPT}(i+1,j)+o_{i+1,j}-i$.
 
 Step 4:
 
 Step 5: The goal is to find $$\min\{\texttt{OPT}(n,j):1\le j\le n\}$$
 
 Step 6:
+$$\begin{align*}
+\end{align*}$$
 
 Step 7:
