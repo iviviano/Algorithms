@@ -73,10 +73,10 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n$. 
 
-Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+some,\texttt{OPT}(i+1,j)+1\}$$
+Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+some\}$$
 
 Step 3:
-Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. 
+Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total 
 
 If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. 
 
