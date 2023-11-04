@@ -78,7 +78,7 @@ Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+some,\texttt{OPT}(i+1,j)
 Step 3:
 Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. 
 
-If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum ...
+If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. 
 
 Step 4:
 
