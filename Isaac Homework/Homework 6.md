@@ -81,11 +81,19 @@ Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ 
 If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. Since office $i$ does not have a copy, it has an access penalty. The access penalty is the smallest indexed office that contains a copy minus $i$. The optimal solution in this case has cost $\texttt{OPT}(i+1,j)$, so this smallest indexed office is $o_{i+1,j}$. So, the minimum total cost in this case is given by $\texttt{OPT}(i+1,j)+o_{i+1,j}-i$.
 
 Step 4:
+Base Cases: If $j=1$, $o_{ij}=n$ for all $i$. 
+If $j=i$, $o_{ii}=i$ and $\texttt{OPT}(i,i)\sum_{k=i}^{n}O_{k}$ for all $i$. 
 
 Step 5: The goal is to find $$\min\{\texttt{OPT}(n,j):1\le j\le n\}$$
 
 Step 6:
 $$\begin{align*}
+&\textbf{Algorithm } \text{The Office Dilemma}\\
+&\textbf{Input: } \text{Office weights }O_{i}\\
+&\textbf{Output: } \text{}\\
+&\text{Let }memo[n+1][n+1]\text{ be an array of integers}\\
+&\text{Let }o[n+1][n+1] \text{ be an array of integers}\\
+
 \end{align*}$$
 
 Step 7:
