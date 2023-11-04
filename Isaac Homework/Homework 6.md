@@ -93,6 +93,9 @@ $$\begin{align*}
 &\textbf{Output: } \text{}\\
 &\text{Let }memo[n+1][n+1]\text{ be an array of integers}\\
 &\text{Let }o[n+1][n+1] \text{ be an array of integers}\\
+&\textbf{For } 0\le i\le n\textbf{ do:}\\
+&\quad o[i][1]=n\\
+&memo[0][1]=0\\
 
 \end{align*}$$
 
