@@ -76,7 +76,7 @@ Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs
 Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+some\}$$
 
 Step 3:
-Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total access cost is not changed by this, 
+Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total access cost is not changed by this, the minimum total cost is given by $\texttt{OPT}(i+1,j-1)+O_{i}$ in this case.
 
 If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. 
 
