@@ -71,18 +71,18 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 >[!note] 3
 
-Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n$. Let $o_{i}$ be the smallest index $o_{ij}\ge i$ such that a copy is put in $i$ for the solution that gives $\texttt{OPT}(i,j)$.
+Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n-1$. Let $o_{i}$ be the smallest index $o_{ij}\ge i$ such that a copy is put in $i$ for the solution that gives $\texttt{OPT}(i,j)$.
 
 Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+o_{i+1,j}-i\}$$
 
 Step 3:
-Suppose we distribute $j>1$ copies. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total access cost is not changed by this, the minimum total cost is given by $\texttt{OPT}(i+1,j-1)+O_{i}$ in this case.
+Suppose $j>0$, so there is a copy in office $n$ and additional copies to distribute to the rest of the offices. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n-1$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total access cost is not changed by this, the minimum total cost is given by $\texttt{OPT}(i+1,j-1)+O_{i}$ in this case.
 
-If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. Since office $i$ does not have a copy, it has an access penalty. The access penalty is the smallest indexed office that contains a copy minus $i$. The optimal solution in this case has cost $\texttt{OPT}(i+1,j)$, so this smallest indexed office is $o_{i+1,j}$. So, the minimum total cost in this case is given by $\texttt{OPT}(i+1,j)+o_{i+1,j}-i$.
+If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n-1$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. Since office $i$ does not have a copy, it has an access penalty. The access penalty is the smallest indexed office that contains a copy minus $i$. The optimal solution in this case has cost $\texttt{OPT}(i+1,j)$, so this smallest indexed office is $o_{i+1,j}$. So, the minimum total cost in this case is given by $\texttt{OPT}(i+1,j)+o_{i+1,j}-i$.
 
-Step 4:
-Base Cases: If $j=1$, $o_{ij}=n$ for all $i$. 
-If $j=i$, $o_{ii}=i$ and $\texttt{OPT}(i,i)\sum_{k=i}^{n}O_{k}$ for all $i$. 
+Step 4: Base Cases: 
+If $j=0$, $o_{ij}=n$ for all $i$, since no copies are placed in any of the offices $i$ through $n-1$. $\texttt{OPT}(i,0)=O_{n}+\sum_{i=1}^{n-1}n-i$. The only office cost comes from office $n$. The total accessing penalty is $\sum_{i=1}^{n-1}n-i$.
+If $j=n-i$, $o_{i,n-i}=i$, since there are enough copies to put one in every office from $i$ to $n-1$, and office $n$ always has a copy. In this case, there are no access costs, so $\texttt{OPT}(i,n-i)=\sum_{k=i}^{n}O_{k}$.
 
 Step 5: The goal is to find $$\min\{\texttt{OPT}(n,j):1\le j\le n\}$$
 
@@ -90,13 +90,31 @@ Step 6:
 $$\begin{align*}
 &\textbf{Algorithm } \text{The Office Dilemma}\\
 &\textbf{Input: } \text{Office weights }O_{i}\\
-&\textbf{Output: } \text{}\\
+&\textbf{Output: } \text{The miminum total cost}\\
 &\text{Let }memo[n+1][n+1]\text{ be an array of integers}\\
 &\text{Let }o[n+1][n+1] \text{ be an array of integers}\\
-&\textbf{For } 0\le i\le n\textbf{ do:}\\
-&\quad o[i][1]=n\\
-&memo[0][1]=0\\
-
+&memo[n][0]=O_{i}\\
+&\textbf{For } n> i\ge 1\textbf{ do:}\\
+&\quad o[i][0]=n\\
+&\quad memo[i][0]=memo[i+1][0]+n-i\\
+&\textbf{For } 1\le i\le n \textbf{ do:}\\
+&\quad o[i][n-i]=i\\
+&\quad memo[i][n-i]=memo[i-1][n-(i-1)]+O_{i}\\
+&\textbf{For } 0\le j\le n-1 \textbf{ do:}\\
+&\quad \textbf{For } n-j>i\ge 1 \textbf{ do:}\\
+&\quad \quad add=memo[i+1][j-1]+O_{i}\\
+&\quad \quad not=memo[i+1][j]+o[i+1][j]-i\\
+&\quad \quad \textbf{If } add>not \textbf{ then:}\\
+&\quad \quad \quad o[i][j]=i\\
+&\quad \quad \quad memo[i][j]=add\\
+&\quad \quad \textbf{Else:}\\
+&\quad \quad \quad o[i][j]=o[i+1][j]\\
+&\quad \quad \quad memo[i][j]=not\\
+&\quad \quad \textbf{end if}\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\textbf{return } \min\{memo[n][j]:0\le j\le n-1\}
 \end{align*}$$
 
 Step 7:
+The first and second for loops have runtime $O(n)$, since they iterate about $n$ times and have constant runtime bodies. The nested loops run about $n^{2}$ times. The body of the nested loops requires two indexing operations, so it is constant. So, the nested loops are $O(n^{2})$. The return statement is $O(n)$. Therefore, the algorithm is $O(n^{2})$.
