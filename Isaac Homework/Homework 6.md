@@ -73,12 +73,18 @@ Creating the array is $O(1)$. Handling the base cases is $O(n)$, since this for 
 
 Step 1: Let $\texttt{OPT}(i,j)$ be the minimum sum of placement and access costs for putting $j$ papers in offices $i$ through $n-1$. Let $o_{i}$ be the smallest index $o_{ij}\ge i$ such that a copy is put in $i$ for the solution that gives $\texttt{OPT}(i,j)$.
 
-Step 2: $$\texttt{OPT}(i,j)=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+o_{i+1,j}-i\}$$
+Step 2: $$\begin{align*}
+\texttt{OPT}(i,j)&=\min\{\texttt{OPT}(i+1,j-1)+O_{i},\texttt{OPT}(i+1,j)+o_{i+1,j}-i\}\\
+o_{ij}&=\begin{cases}i \text{ if copy in office }i\\
+o_{i+1,j}\text{ if no copy in office }i\end{cases}
+\end{align*}$$
 
 Step 3:
 Suppose $j>0$, so there is a copy in office $n$ and additional copies to distribute to the rest of the offices. If we put a paper in office $i$, then $j-1$ papers are available for offices $i+1$ to $n-1$. The minimum cost of putting $j-1$ copies in these offices is $\texttt{OPT}(i+1,j-1)$. The cost of putting a copy in office $i$ is $O_{i}$. As the total access cost is not changed by this, the minimum total cost is given by $\texttt{OPT}(i+1,j-1)+O_{i}$ in this case.
 
 If we don't put a copy in office $i$, there are $j$ copies available for offices $i+1$ through $n-1$. The minimum cost of putting $j$ copies in these offices is $\texttt{OPT}(i+1,j)$. Since office $i$ does not have a copy, it has an access penalty. The access penalty is the smallest indexed office that contains a copy minus $i$. The optimal solution in this case has cost $\texttt{OPT}(i+1,j)$, so this smallest indexed office is $o_{i+1,j}$. So, the minimum total cost in this case is given by $\texttt{OPT}(i+1,j)+o_{i+1,j}-i$.
+
+The recurrence for $o$ is simple. If a copy is put in office $i$ for the optimal solution, then the smallest index $o_{ij}\ge i$ such that there is a paper in office $i$ is $i$. Otherwise, this is given by the smallest indexed office $i+1$ through $n$ with a copy in it in the optimal solution. This is exactly $o_{i+1,j}$. 
 
 Step 4: Base Cases: 
 If $j=0$, $o_{ij}=n$ for all $i$, since no copies are placed in any of the offices $i$ through $n-1$. $\texttt{OPT}(i,0)=O_{n}+\sum_{i=1}^{n-1}n-i$. The only office cost comes from office $n$. The total accessing penalty is $\sum_{i=1}^{n-1}n-i$.
