@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shortest Paths Problem.md",
+                "file": "Bellman-Ford Algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shortest Paths Problem.md",
+                "file": "Isaac Homework/Homework 6.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shortest Paths Problem.md",
+                "file": "Isaac Homework/Homework 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shortest Paths Problem.md"
+                "file": "Isaac Homework/Homework 6.md"
               }
             }
           },
@@ -236,10 +236,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51283809e59be095",
+  "active": "bb7ae1b1a82b7c9f",
   "lastOpenFiles": [
-    "RNA Secondary Structure.md",
+    "Bellman-Ford Algorithm.md",
     "Shortest Paths Problem.md",
+    "RNA Secondary Structure.md",
     "Isaac Homework/Homework 6.md",
     "Isaac Homework/Homework 5.md",
     "Sum Primes.md",
@@ -263,7 +264,6 @@
     "Cycle.md",
     "Acyclic.md",
     "Isaac Homework/Homework 4.md",
-    "Minimum Spanning Tree.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",

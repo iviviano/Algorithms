@@ -18,3 +18,4 @@ Step 2: $$\texttt{OPT}(v)=\min\{\texttt{OPT}(u)+w(u,v):u \text{ is a neighbor of
 Step 4: $\texttt{OPT}(s)=0$ would make this work for positive edge weights.
 
 Attempt $2$:
+[[Bellman-Ford Algorithm]]
