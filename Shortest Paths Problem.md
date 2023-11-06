@@ -9,3 +9,10 @@ Output
 >[!note]
 >If the edge weights are all positive, there is a [[Greedy Paradigm]] [[Algorithm]] to solve this problem.
 
+Dynamic Programming:
+Attempt $1$:
+Step 1: Let $\texttt{OPT}(v)$ be the length of the shortest [[Path]] from $s$ to $v$.
+
+Step 2: $$\texttt{OPT}(v)=\min\{\texttt{OPT}(u)+w(u,v):u \text{ is a neighbor of }v\}$$where a neighbor is a vertex with an edge to $v$
+
+Step 3: 
