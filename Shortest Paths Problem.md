@@ -15,4 +15,6 @@ Step 1: Let $\texttt{OPT}(v)$ be the length of the shortest [[Path]] from $s$ to
 
 Step 2: $$\texttt{OPT}(v)=\min\{\texttt{OPT}(u)+w(u,v):u \text{ is a neighbor of }v\}$$where a neighbor is a vertex with an edge to $v$
 
-Step 3: 
+Step 4: $\texttt{OPT}(s)=0$ would make this work for positive edge weights.
+
+Attempt $2$:
