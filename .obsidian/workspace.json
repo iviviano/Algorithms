@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 6.md",
+                "file": "Bellman-Ford Algorithm.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 6.md",
+                "file": "Bellman-Ford Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 6.md"
+                "file": "Bellman-Ford Algorithm.md"
               }
             }
           },
@@ -236,15 +236,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb7ae1b1a82b7c9f",
+  "active": "51283809e59be095",
   "lastOpenFiles": [
+    "Isaac Homework/Homework 6.md",
+    "Knapsack Problem.md",
     "Bellman-Ford Algorithm.md",
     "Shortest Paths Problem.md",
     "RNA Secondary Structure.md",
-    "Isaac Homework/Homework 6.md",
     "Isaac Homework/Homework 5.md",
     "Sum Primes.md",
-    "Knapsack Problem.md",
     "Segmented Least Squares Problem.md",
     "Weighted Interval Scheduling Problem.md",
     "Dynamic Programming Paradigm.md",
