@@ -22,7 +22,7 @@ Step 1: Let $\texttt{OPT}(i,j)$ be the max number of base pairs on $\{i,i+1,\ldo
 Recurrence: $$\begin{split}\texttt{OPT}(i,j)=\max\{\texttt{OPT}(i,j-1)&,1+\texttt{OPT}(i,t-1)\\&+(\texttt{OPT}(t+1,j-1):t \text{ satisfies rules}\}\end{split}$$
 $\texttt{OPT}(i,j-1)$ happens when we pair $j$. 
 
-Step 4: Base cases: if $i+4\ge j$, $\texttt{OPT}(i,j)=0$ (satsify no sharp coners rule)
+Step 4: Base cases: if $i+4\ge j$, $\texttt{OPT}(i,j)=0$ (satisfy no sharp corners rule)
 
 Step 5: Goal is to find $\texttt{OPT}(1,n)$
 

@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RNA Secondary Structure.md",
+                "file": "Shortest Paths Problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 6.md",
+                "file": "Shortest Paths Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 6.md",
+                "file": "Shortest Paths Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 6.md"
+                "file": "Shortest Paths Problem.md"
               }
             }
           },
@@ -236,12 +236,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb7ae1b1a82b7c9f",
+  "active": "51283809e59be095",
   "lastOpenFiles": [
-    "Isaac Homework/Homework 5.md",
     "RNA Secondary Structure.md",
-    "Sum Primes.md",
+    "Shortest Paths Problem.md",
     "Isaac Homework/Homework 6.md",
+    "Isaac Homework/Homework 5.md",
+    "Sum Primes.md",
     "Knapsack Problem.md",
     "Segmented Least Squares Problem.md",
     "Weighted Interval Scheduling Problem.md",
@@ -263,7 +264,6 @@
     "Acyclic.md",
     "Isaac Homework/Homework 4.md",
     "Minimum Spanning Tree.md",
-    "Tree.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
