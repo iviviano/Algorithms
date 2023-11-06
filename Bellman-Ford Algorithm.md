@@ -7,3 +7,5 @@ We will measure progress by the number of edges in the path.
 2. Do the same with $≤2$ edges
 3. ...
 4. If no negative [[Cycle]], can stop after computing all shortest paths with $≤n-1$ edges
+
+Step 1: $\texttt{OPT}(v,i)$ is the length of the shortest path from $s$ to $v$ with at most $i$ edges.
