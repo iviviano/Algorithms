@@ -11,3 +11,7 @@ We will measure progress by the number of edges in the path.
 Step 1: $\texttt{OPT}(v,i)$ is the length of the shortest path from $s$ to $v$ with at most $i$ edges.
 
 Step 2: $$\texttt{OPT}(v,i)=\min\{\texttt{OPT}(v,i-1),\texttt{OPT}(u,i-1)+w(u,v):u \text{ is a neighbor of }v\}$$
+Step 3: 
+
+Step 4:
+Base cases: 
