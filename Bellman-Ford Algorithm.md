@@ -27,3 +27,4 @@ Step 6: $$\begin{align*}
 &\quad \quad memo[i][v]=recurrence\\
 &\textbf{return } memo[1:n-1][n-1]
 \end{align*}$$
+This is $O(n^{3})$.
