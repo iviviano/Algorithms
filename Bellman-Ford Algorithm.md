@@ -14,4 +14,4 @@ Step 2: $$\texttt{OPT}(v,i)=\min\{\texttt{OPT}(v,i-1),\texttt{OPT}(u,i-1)+w(u,v)
 Step 3: 
 
 Step 4:
-Base cases: 
+Base cases: $\texttt{OPT}(v,0)=\infty$ for all $v≠s$. 
