@@ -27,4 +27,4 @@ Step 6: $$\begin{align*}
 &\quad \quad memo[i][v]=recurrence\\
 &\textbf{return } memo[1:n-1][n-1]
 \end{align*}$$
-This is $O(n^{3})$.
+This is $O(n^{3})$. If there are $m$ [[edge]]s and $m<<n^{2}$, then the runtime is $O(mn)$. 
