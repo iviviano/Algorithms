@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bellman-Ford Algorithm.md",
+                "file": "Isaac Homework/Homework 7.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bellman-Ford Algorithm.md",
+                "file": "Isaac Homework/Homework 7.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bellman-Ford Algorithm.md",
+                "file": "Isaac Homework/Homework 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bellman-Ford Algorithm.md"
+                "file": "Isaac Homework/Homework 7.md"
               }
             }
           },
@@ -238,8 +238,9 @@
   },
   "active": "51283809e59be095",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "Bellman-Ford Algorithm.md",
+    "Isaac Homework/Homework 7.md",
+    "Untitled 1.md",
     "Isaac Homework/Homework 6.md",
     "Knapsack Problem.md",
     "Shortest Paths Problem.md",
@@ -263,7 +264,6 @@
     "Minimum Spanning Tree Algorithm.md",
     "Sort.md",
     "Cycle.md",
-    "Acyclic.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
