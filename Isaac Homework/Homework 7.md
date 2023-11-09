@@ -17,7 +17,7 @@ Step 4:
 Base cases: $\texttt{OPT}(1,0)=1$. For all $i\ne 1$, $\texttt{OPT}(i,0)=0$. 
 
 
-Step 5:
+Step 5: The goal is to find $$\sum_{i\in S}p(i)=\sum_{i\in S}\texttt{OPT}(i,\min\{j:\texttt{OPT}(i,j)>0\})$$
 
 
 Step 6:
