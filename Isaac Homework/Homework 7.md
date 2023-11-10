@@ -58,6 +58,21 @@ So, the algorithm is $O(n^{3})$.
 
 (a)
 
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\hline
+Iteration: & A & B        & C        & D        & E        & F        & G        & H        \\ \hline
+0          & 0 & $\infty$ & $\infty$ & $\infty$ & $\infty$ & $\infty$ & $\infty$ & $\infty$ \\ \hline
+1          & 0 & 1        & $\infty$ & $\infty$ & $\infty$ & $\infty$ & $\infty$ & $\infty$ \\ \hline
+2          & 0 & 1        & 3        & $\infty$ & $\infty$ & $\infty$ & $\infty$ & $\infty$ \\ \hline
+3          & 0 & 1        & 3        & 4        & $\infty$ & $\infty$ & $\infty$ & $\infty$ \\ \hline
+4          & 0 & 1        & 3        & 4        & 4        & $\infty$ & $\infty$ & $\infty$ \\ \hline
+5          & 0 & 1        & 3        & 4        & 4        & $\infty$ & 5        & $\infty$ \\ \hline
+6          & 0 & 1        & 3        & 4        & 4        & 6        & 5        & $\infty$ \\ \hline
+7          & 0 & 1        & 3        & 4        & 4        & 6        & 5        & 6        \\ \hline
+\end{tabular}
+\end{table}
+
 (b)
 Note: for any graph with a negative cycle, there will be a minimum path with length $-\infty$. Here is an example of a graph with a negative cycle for which [[Dijstra's Algorithm]] fails to return $-\infty$ for a path: 
 
@@ -65,5 +80,16 @@ Note: for any graph with a negative cycle, there will be a minimum path with len
 
 Here is the table for the algorithm starting at $A$:
 
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|}
+\hline
+Iteration: & A & B        & C        \\ \hline
+0          & 0 & $\infty$ & $\infty$ \\ \hline
+1          & 0 & -3       & $\infty$ \\ \hline
+2          & 0 & -3       & -2       \\ \hline
+\end{tabular}
+\end{table}
+
 But, both minimum paths from $A$ to $B$ and $A$ to $C$ have value $-\infty$. So, [[Dijstra's Algorithm]] fails.
+
 
