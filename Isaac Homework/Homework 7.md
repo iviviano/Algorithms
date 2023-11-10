@@ -19,19 +19,15 @@ Step 5: The goal is to find $$\sum_{i\in S}p(i)=\sum_{i\in S}\texttt{OPT}(i,\min
 
 
 Step 6:
+
 $$\begin{align*}
 &\textbf{Algorithm } \text{Large Jest}\\
 &\textbf{Input: } \text{Directed Graph }G=(V,E)\\
 &\textbf{Output: } \sum_{i\in S}p(i)\\
-&\text{Let }N \text{ be an array of sets of ints}\\
-&\textbf{For } 1\le i\le n\textbf{ do:}\\
-&\quad \text{Let }cur \text{ be a set of integers}\\
-&\quad \textbf{For } e\in E \textbf{ do:}\\
-&\quad \quad \textbf{If } e \text{ ends at }i \textbf{ then:}\\
-&\quad \quad \quad \text{add }e \text{ to }cur\\
-&\quad \quad \textbf{end if}\\
-&\quad \textbf{end for}\\
-&\quad N[i]=cur\\
+&\text{Let }N[n+1] \text{ be an array of sets of ints}\\
+&N[1:n]=\emptyset\\
+&\textbf{For } (v_{1},v_{2})\in E \textbf{ do:}\\
+&\quad \text{add }v_{1} \text{ to }N[v_{2}]\\
 &\textbf{end for}\\
 &\text{Let }memo[n+1][n+1] \text{ be an array of ints}\\
 &memo[1][0]=1\\
@@ -50,7 +46,7 @@ $$\begin{align*}
 
 Step 7: 
 
-Initializing $N$ is constant. The first for loop runs $n$ times. Its interior loop runs at most $O(n^{2})$ times, since graphs have $O(n^{2})$ edges. The body of these nested for loops is constant, since set addition is constant. Therefore, Computing $N$ is $O(n^{3})$.
+Initializing $N$ is constant. Assigning the empty set to each index of $N$ is $O(n)$. The first for loop runs $|E|$ times. The body of this loop is $O(1)$, since set addition is constant. Since graphs have $O(n^{2})$ edges, computing $N$ is $O(n^{2})$.
 
 Initializing $memo$ is constant. The base cases are $O(n)$, since the for loop runs about $n$ times. The second nested for loops run about $n^{2}$ times. The sum is $O(n)$, since each vertex has at most $n$ neighbors, so there are at most $n$ arguments to the sum. Therefore, computing $memo$ is $O(n^{3})$
 
