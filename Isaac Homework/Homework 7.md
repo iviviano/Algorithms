@@ -60,7 +60,12 @@ So, the algorithm is $O(n^{3})$.
 
 >[!note] 2
 
+(a)
 
+(b)
 Note: for any graph with a negative cycle, there will be a minimum path with length $-\infty$. Here is an example of a graph with a negative cycle for which [[Dijstra's Algorithm]] fails to return $-\infty$ for a path: 
 
-Here is the table for the algorithm starting at $A$. 
+Here is the table for the algorithm starting at $A$:
+
+But, both minimum paths from $A$ to $B$ and $A$ to $C$ have value $-\infty$. So, [[Dijstra's Algorithm]] fails.
+
