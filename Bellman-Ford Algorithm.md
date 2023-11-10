@@ -36,14 +36,16 @@ Finding negative cycles:
 
 Adapted algorithm: $$\begin{align*}
 &\text{Let }memo[n][n] \text{ be an array of integers}\\
-&memo[0][0]=0\\
-&memo[1:n-1][0]=\infty\\
+&memo[0][1]=0\\
+&memo[0][2:n]=\infty\\
 &\textbf{For } 1\le i\le n-1 \textbf{ do:}\\
 &\quad \textbf{For } 1\le v\le n \textbf{ do:}\\
-&\quad \quad memo[i][v]=recurrence\\
+&\quad \quad memo[i][v]=\min\{memo[i-1][v],memo[i-1][k]:(k,v)\in E\}\\
 &\textbf{For } 1\le v\le n \textbf{ do:} \\
-&\quad \text{Let }d \text{ be the recurrence value for }i,n\\
-&\quad \textbf{If } d≠memo[i][n-1] \textbf{ then:}\\
-&\quad \quad memo[i][n]=\infty\\
-&\textbf{return } memo[1:n-1][n-1]
+&\quad \text{Let }d =\min\{memo[n-1][k]:(k,u)\in E\}\\
+&\quad \textbf{If } d≠memo[n-1][v] \textbf{ then:}\\
+&\quad \quad memo[n][v]=-\infty\\
+&\quad \textbf{Else:}\\
+&\quad \quad memo[n][v]=memo[n-1][v]\\
+&\textbf{return } memo[n][1:n]\\
 \end{align*}$$
