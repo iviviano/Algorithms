@@ -5,4 +5,7 @@ Input: A flow network
 - Source $s$, with only outgoing edges
 - Sink $t$, with only incoming edges
 - Capacities $c(e)≥0$ for each edge $e\in E$
+	- largest possible flow through $e$
+
+Output:
 
