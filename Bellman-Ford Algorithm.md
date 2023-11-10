@@ -28,3 +28,22 @@ Step 6: $$\begin{align*}
 &\textbf{return } memo[1:n-1][n-1]
 \end{align*}$$
 This is $O(n^{3})$. If there are $m$ [[edge]]s and $m<<n^{2}$, then the runtime is $O(mn)$. 
+
+Finding negative cycles: 
+- Run again: row $n$ of the memo table contains shortest path length using $≤i$ edges
+- If no negative cycles, row $n$ is identical to $n-1$
+- The paths with negative cycles are given by the columns for which row $n$ differs from $n-1$.
+
+Adapted algorithm: $$\begin{align*}
+&\text{Let }memo[n][n] \text{ be an array of integers}\\
+&memo[0][0]=0\\
+&memo[1:n-1][0]=\infty\\
+&\textbf{For } 1\le i\le n-1 \textbf{ do:}\\
+&\quad \textbf{For } 1\le v\le n \textbf{ do:}\\
+&\quad \quad memo[i][v]=recurrence\\
+&\textbf{For } 1\le v\le n \textbf{ do:} \\
+&\quad \text{Let }d \text{ be the recurrence value for }i,n\\
+&\quad \textbf{If } d≠memo[i][n-1] \textbf{ then:}\\
+&\quad \quad memo[i][n]=\infty\\
+&\textbf{return } memo[1:n-1][n-1]
+\end{align*}$$
