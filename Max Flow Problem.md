@@ -24,3 +24,7 @@ Given flow $f$, and residual graph $G_{f}$, can augment $f$ by
 3. Push $b$ additional flow along forward edges of $P$
 4. Undo $b$ flow on back edges of $P$
 
+>[!note]
+>1. Augmentation maintains feasibility
+>2. Flow does not decrease with augmentation
+
