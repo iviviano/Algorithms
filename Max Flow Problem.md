@@ -15,4 +15,5 @@ Output: a flow that maximizes $$\sum_{e \text{ out of }s}f(e)$$
 >[!def]
 >Given a flow $f$, we can construct the *residual graph* $G_{f}=(V,E_{f})$ with capacities $c_{f}$ in the following way. For each edge $e=(u,v)\in E$:
 >1. If $f(e)<c(e)$, add $e$ to $E_{f}$ with $c_{f}(e)=c(e)-f(e)$. Then, $e$ will be called a *forward edge*
->2. 
+>2. If $f(u,v)>0$, where $e=(u,v)$, let $e'=(v,u)$. Add $e'$ to $E_f$. If $e'\notin E$, $c_{f}(e')=f(e)$. Otherwise, $c_{f}(e')=c(e')+f(e)$. Then, $e'$ will be called a *backwards edge*
+
