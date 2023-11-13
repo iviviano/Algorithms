@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 7.md",
+                "file": "Max Flow Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 7.md",
+                "file": "Max Flow Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 7.md"
+                "file": "Max Flow Problem.md"
               }
             }
           },
@@ -249,11 +249,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51283809e59be095",
+  "active": "74aab18414c9707a",
   "lastOpenFiles": [
+    "Isaac Homework/Homework 7.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
     "Max Flow Problem.md",
-    "Isaac Homework/Homework 7.md",
     "Bellman-Ford Algorithm.md",
     "Isaac Homework/Homework 5.md",
     "Knapsack Problem.md",
@@ -296,7 +296,6 @@
     "Elinor Homework/EFrost_CS280_HW0 10.pdf",
     "Set-Theory/Preimage.md.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak 3.bak",
     "Pictures/IMG_2504 3.jpg",
-    "Pictures/IMG_2504 4.jpg",
     "Untitled.canvas"
   ]
 }
