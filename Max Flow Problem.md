@@ -17,3 +17,10 @@ Output: a flow that maximizes $$\sum_{e \text{ out of }s}f(e)$$
 >1. If $f(e)<c(e)$, add $e$ to $E_{f}$ with $c_{f}(e)=c(e)-f(e)$. Then, $e$ will be called a *forward edge*
 >2. If $f(u,v)>0$, where $e=(u,v)$, let $e'=(v,u)$. Add $e'$ to $E_f$. If $e'\notin E$, $c_{f}(e')=f(e)$. Otherwise, $c_{f}(e')=c(e')+f(e)$. Then, $e'$ will be called a *backwards edge*
 
+Flow Augmentation:
+Given flow $f$, and residual graph $G_{f}$, can augment $f$ by 
+1. find [[Path]] $s \rightarrow t$ in $G_{f}$ by [[Breadth-First Search]]
+2. let $b$ be a bottleneck capacity of $P$ (smallest capacity in $G_{f}$)
+3. Push $b$ additional flow along forward edges of $P$
+4. Undo $b$ flow on back edges of $P$
+
