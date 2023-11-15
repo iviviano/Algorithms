@@ -58,3 +58,6 @@ Therefore, the total runtime is $O(mC)$.
 
 >[!proof] Proof of Optimality
 
+Idea: 
+1. Identify upper bound on max flow
+2. Show FF constructs flow that meets this upper bound
