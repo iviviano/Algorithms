@@ -61,3 +61,8 @@ Therefore, the total runtime is $O(mC)$.
 Idea: 
 1. Identify upper bound on max flow
 2. Show FF constructs flow that meets this upper bound
+
+>[!def]
+>For a [[Cut]] $(A,B)$ of $G$, define the *capacity* of $(A,B)$ to be $$\sum_{(a,b)\in E:a\in A,b\in B}c(e)$$
+
+Our upper bound will be $$\min\{C((A,B)):(A,B)\text{ is a cut of }G\}$$Obviously, this is the maximum flow we can get out of $G$.
