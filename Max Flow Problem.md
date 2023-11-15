@@ -53,3 +53,8 @@ Finding the bottleneck in the path is $O(n)$, since a path is at most $n-1$ edge
 Augmenting the path is $O(n)$ for the same reason.
 
 Updating the residual graph is $O(m)$, since there are at most $m$ edges that need to be updated. 
+
+Therefore, the total runtime is $O(mC)$.
+
+>[!proof] Proof of Optimality
+
