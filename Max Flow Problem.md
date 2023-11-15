@@ -44,4 +44,7 @@ Assume capacities are integers.
 
 There are at most $C=\sum c(e)$ iterations. 
 
-Each iteration, must find bottleneck capacity, choose a path, and augment the flow. 
+Each iteration, must find bottleneck capacity, choose a path, augment the flow, and update the residual graph.
+
+Finding an $s \rightarrow t$ path is $O(m)$ through a [[Breadth-First Search]] on a [[Connected]] [[Graph]]. 
+
