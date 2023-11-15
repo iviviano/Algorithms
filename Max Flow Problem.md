@@ -26,15 +26,17 @@ Given flow $f$, and residual graph $G_{f}$, can augment $f$ by
 
 >[!note]
 >1. Augmentation maintains feasibility
->2. Flow does not decrease with augmentation
+>2. Flow must increase with augmentation
 
 >[!alg] Ford-Fulkerson Algorithm
-
-$$\begin{align}
+>$$\begin{align}
 &f=\text{null flow}\\
 &G_{f}=G,c(e)\\
 &\textbf{While } \text{There exists an } s \rightarrow t \text{ path }P \text{ in }G_{f}\textbf{ do:}\\
 &\quad \text{Augment }f \text{ along }P\\
 &\quad \text{update }G_{f}\text{ using new flow}\\
 &\textbf{end while}\\
+&\textbf{return } f\\
 \end{align}$$
+
+Runtime:
