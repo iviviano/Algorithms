@@ -41,3 +41,7 @@ Given flow $f$, and residual graph $G_{f}$, can augment $f$ by
 
 Runtime:
 Assume capacities are integers. 
+
+There are at most $C=\sum c(e)$ iterations. 
+
+Each iteration, must find bottleneck capacity, and augment the flow. 
