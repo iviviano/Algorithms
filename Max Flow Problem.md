@@ -65,4 +65,11 @@ Idea:
 >[!def]
 >For a [[Cut]] $(A,B)$ of $G$, define the *capacity* of $(A,B)$ to be $$\sum_{(a,b)\in E:a\in A,b\in B}c(e)$$
 
-Our upper bound will be $$\min\{C((A,B)):(A,B)\text{ is a cut of }G\}$$Obviously, this is the maximum flow we can get out of $G$.
+Our upper bound will be $$B=\min\{C((A,B)):(A,B)\text{ is a cut of }G\}$$
+
+>[!prop] Lemma
+For all $s-t$ cuts $(A,B)$ and flow $f$,$$|f|=\sum_{e \text{ into }b}c(e)-\sum_{e \text{ out of }b}c(e)$$
+
+$$|f|=\sum_{e \text{ into }B}f(e)-\sum_{e \text{ out of }B}f(e)≤\sum_{e\text{ into }B}f(e)≤\sum_{e \text{ into }B}c(e)=C((A,B))$$
+so, $B$ is an upper bound for $|f|$.
+
