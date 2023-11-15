@@ -40,3 +40,4 @@ Given flow $f$, and residual graph $G_{f}$, can augment $f$ by
 \end{align}$$
 
 Runtime:
+Assume capacities are integers. 
