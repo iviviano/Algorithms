@@ -48,3 +48,8 @@ Each iteration, must find bottleneck capacity, choose a path, augment the flow, 
 
 Finding an $s \rightarrow t$ path is $O(m)$ through a [[Breadth-First Search]] on a [[Connected]] [[Graph]]. 
 
+Finding the bottleneck in the path is $O(n)$, since a path is at most $n-1$ edges.
+
+Augmenting the path is $O(n)$ for the same reason.
+
+Updating the residual graph is $O(m)$, since there are at most $m$ edges that need to be updated. 
