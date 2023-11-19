@@ -3,7 +3,9 @@
 
 >[!note] 2
 
-(a) False 
+(a) False. Consider the following simple flow network:
+
+
 
 (b) False. Obviously this is not always a valid flow. Consider the graph: $V=\{1,2,3\},E=\{(1,2),(1,3)\}$ with capacities $c((1,2))=c((1,3))=1$ and $s=1,t=2$. 
 
