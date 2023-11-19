@@ -39,5 +39,5 @@ $$\begin{align*}
 
 By definition, if there are no edges over capacity, then $f$ is still a valid flow. If there is an edge over capacity, we can pick a path $P$ from $s$ to $t$ with the flow on some edge in $P$ exceeding capacity. 
 
-Claim: the flow $f'$ is a flow. We must show that $f'$ satisfies the capacity constraint and the conservation constraint. Let $e\in E$. Then, $f(e)≤c(e)+1$, since $f$ was a flow before the squirrels came. If $f(e)>c(e)$, then $e\in P$, since there is a unique edge such that this is true, and $P$ contains that edge. 
+Claim: the flow $f'$ is a flow. We must show that $f'$ satisfies the capacity constraint and the conservation constraint. Let $e\in E$. Then, $f(e)≤c(e)+1$, since $f$ was a flow before the squirrels came. If $f(e)>c(e)$, then $e\in P$, since there is a unique edge such that this is true, and $P$ contains that edge. Since $f'(e)=f(e)-1≤c(e)+1-1=c(e)$, $f'(e)\le c(e)$. Of course, if $f(e)\le c(e)$, then $f'(e)\le f(e)\le c(e)$. Therefore, $f'$ satisfies the capacity constraint. Let $v\in E-\{s,t\}$ be given. Suppose no edge to $v$ is in $P$. In this case, no Then, the conservation constraint holds for $v$, since $f$ is a flow. Otherwise, there is an edge to $v$ in $P$. 
 
