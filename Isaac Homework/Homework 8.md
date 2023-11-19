@@ -3,15 +3,15 @@
 
 >[!note] 2
 
-(a) False. Consider the following simple flow network:
+(a) False. Consider the following simple flow network where the sum violates the capacity condition: 
 
 
+(b) False. The following simple example violates the conservation condition:
 
-(b) False. Obviously this is not always a valid flow. Consider the graph: $V=\{1,2,3\},E=\{(1,2),(1,3)\}$ with capacities $c((1,2))=c((1,3))=1$ and $s=1,t=2$. 
 
-(c) False. 
+(c) False. Consider the following graph with capacities shown in blue. The minimum cut has value 6. However, after adding 1 to all capacities, a different minimum cut has value 8.
 
-changes from more edges across cut to less with higher weights
+
 
 >[!note] 3
 
