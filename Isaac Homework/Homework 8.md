@@ -37,5 +37,5 @@ $$\begin{align*}
 \end{align*}$$
 >[!proof]
 
-By definition, if there are no edges over capacity, then $f$ is still a valid flow. 
+By definition, if there are no edges over capacity, then $f$ is still a valid flow. If there is an edge over capacity, we can pick a path $P$ from $s$ to $t$ with the flow on some edge in $P$ exceeding capacity. 
 
