@@ -15,18 +15,27 @@ changes from more edges across cut to less with higher weights
 
 
 $$\begin{align*}
-\\
+&\textbf{Algorithm } \text{Nuts About Flow}\\
+&\textbf{Input: } \text{Graph }G=(V,E)\text{, capacities }c,\text{ flow }f\\
+&\textbf{Output: } \text{Adjusted flow on }G \text{ to meet capacity}\\
+&\text{Perform a breadth-first search}\\
+&\textbf{If } \text{there are no edges over capacity} \textbf{ then:}\\
+&\quad \textbf{return } f\\
+&\text{Let }P \text{ be a path from }s \rightarrow t \text{ with some edge }e\in P:c(e)<f(e)\\
+&\text{Form a new flow }f'\\
+&\textbf{For } e\in E \textbf{ do:}\\
+&\quad \textbf{If } e\in P \textbf{ then:}\\
+&\quad \quad f'(e)=f(e)-1\\
+&\quad \textbf{Else:}\\
+&\quad \quad f'(e)=f(e)\\
+&\quad \textbf{end if}\\
+&\textbf{end for}\\
+&\text{Let }G_{f} \text{ be the residual graph for the flow}f'\\
+&\textbf{If } \text{there is a path }P \text{ from} s \rightarrow t \text{ in }G_{f}\textbf{ then:}\\
+&\quad \text{Augment }f' \text{along }P\\
+&\textbf{return } f'
 \end{align*}$$
+>[!proof]
 
+By definition, if there are no edges over capacity, then $f$ is still a valid flow. 
 
-1. Adjust graph to follow new constraints
-	1. locate edge where change occurred 
-	2. find path to this edge
-	3. reduce all edge weights by 1 along this path 
-2. Perform 1 iteration of the FF algorithm
-
-Proof idea:
-
-- this change either reduces the max flow in the graph by one or does not change it
-
-this might not work if there is a "completely different" flow that is also a max flow for the graph
