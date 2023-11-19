@@ -14,6 +14,11 @@ changes from more edges across cut to less with higher weights
 >[!note] 3
 
 
+$$\begin{align*}
+\\
+\end{align*}$$
+
+
 1. Adjust graph to follow new constraints
 	1. locate edge where change occurred 
 	2. find path to this edge
