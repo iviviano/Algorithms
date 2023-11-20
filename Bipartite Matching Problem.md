@@ -10,3 +10,4 @@ Input:
 Output:
 - Matching that includes a maximal amount of matching
 
+Step 1: Convert matching to a flow network
