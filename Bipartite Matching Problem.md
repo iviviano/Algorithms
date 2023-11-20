@@ -22,6 +22,8 @@ Step 2: Solve [[Max Flow Problem]] on this network
 >
 Step 3: Return the collection of original edges which have a flow of 1
 
+>[!proof] Feasibility:
+
 
 
 
