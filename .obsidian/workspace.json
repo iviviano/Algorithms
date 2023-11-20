@@ -110,9 +110,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "27af48e5ec43c9ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bipartite Matching Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da74486169df27d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bipartite Graph.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 8.md",
+                "file": "Bipartite Matching Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 8.md",
+                "file": "Bipartite Matching Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 8.md"
+                "file": "Bipartite Matching Problem.md"
               }
             }
           },
@@ -249,8 +275,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74aab18414c9707a",
+  "active": "27af48e5ec43c9ec",
   "lastOpenFiles": [
+    "Bipartite Graph.md",
+    "Bipartite Matching Problem.md",
     "Max Flow Problem.md",
     "Isaac Homework/Homework 8.md",
     "Isaac Homework/Homework 7.md",
@@ -276,8 +304,6 @@
     "Flexible Scheduling Problem.md",
     "Computer.md",
     "Cut.md",
-    "Kruskal's Algorithm.md",
-    "Minimum Spanning Tree Algorithm.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
