@@ -33,3 +33,4 @@ Since no vertices are multiply matched, the algorithm returns a valid matching.
 
 >[!proof] Optimality:
 
+Claim: For any matching of size $k$, there exists a flow of size $k$.
