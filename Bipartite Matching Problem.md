@@ -13,6 +13,7 @@ Output:
 Step 1: Convert matching to a flow network
 1. Add two vertices $s,t$ to $V$.
 2. Make every edge directed from $A$ to $B$
-3. Add directed edges from source to every vertex in $A$
-4. Add directed edges to sink from every vertex in $B$
-5. 
+3. Add directed edges with capacity from source to every vertex in $A$
+4. Add directed edges with capacity to sink from every vertex in $B$
+5. Give all edges capacity 1
+
