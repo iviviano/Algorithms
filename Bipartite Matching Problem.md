@@ -4,3 +4,9 @@
 >[!def]
 >A matching $M$ is said to be a *perfect matching* if every vertex is matched.
 
+Input:
+- Bipartite [[Graph]] $G=(V,E)$
+
+Output:
+- Matching that includes a maximal amount of matching
+
