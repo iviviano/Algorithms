@@ -11,3 +11,5 @@ Output:
 - Matching that includes a maximal amount of matching
 
 Step 1: Convert matching to a flow network
+1. Add two vertices $s,t$ to $V$.
+2. 
