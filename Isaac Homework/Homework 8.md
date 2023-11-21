@@ -46,4 +46,4 @@ We must show that $f'$ satisfies the capacity constraint and the conservation co
 
 Since $f'$ is a flow, the feasibility of FF shows that this algorithm returns a flow.
 
-The optimality of $f'$ similarly follows from the optimality of FF. If there is no path from $s$ to $t$ in $G_{f'}$, then we cannot improve from $f'$ (NEED TO EXPLAIN THIS). Otherwise, augmenting $f'$ adds at least one. Since the value of $f'$ is lower than the value of $f$ by one and $f$ is a max flow, the augmented $f'$ is also a max flow.
+The optimality of $f'$ similarly follows from the optimality of FF. If there is no path from $s$ to $t$ in $G_{f'}$, then we cannot improve from $f'$. Otherwise, augmenting $f'$ adds at least one. Since the value of $f'$ is lower than the value of $f$ by one and $f$ is a max flow, the augmented $f'$ is also a max flow.
