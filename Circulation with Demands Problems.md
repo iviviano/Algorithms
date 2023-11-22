@@ -24,3 +24,4 @@ Step 1: Convert to [[Max Flow Problem]]:
 >
 Step 2: Solve the [[Max Flow Problem]] on $G=(V,E)$ with capacities $c(e)$.
 
+If there is a feasible circulation, $$\sum_{e \text{ out of }s}c(e)=\sum_{e \text{ into }t}c(e)=D$$Additionally, $D$ must be the minimum cut, if $D$ is the max flow.
