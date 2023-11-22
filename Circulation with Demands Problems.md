@@ -13,7 +13,7 @@ Output:
 - Is there a circulation on $G$?
 
 >[!note]
->A [[Graph]] $G$ only has a circulation if $\sum d(v)=0$
+>A [[Graph]] $G$ has a circulation only if $\sum d(v)=0$
 
 >[!alg]
 Step 1: Convert to [[Max Flow Problem]]:
