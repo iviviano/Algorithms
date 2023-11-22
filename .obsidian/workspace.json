@@ -136,9 +136,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "61bd5fdf53b858b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Circulation with Demands Problems.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Max Flow Problem.md",
+                "file": "Circulation with Demands Problems.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -221,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Max Flow Problem.md",
+                "file": "Circulation with Demands Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -244,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Max Flow Problem.md"
+                "file": "Circulation with Demands Problems.md"
               }
             }
           },
@@ -275,11 +288,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51283809e59be095",
+  "active": "61bd5fdf53b858b8",
   "lastOpenFiles": [
+    "Circulation with Demands Problems.md",
     "Isaac Homework/Homework 8.md",
-    "Max Flow Problem.md",
     "Bipartite Matching Problem.md",
+    "Max Flow Problem.md",
     "Bipartite Graph.md",
     "Isaac Homework/Homework 7.md",
     "Bellman-Ford Algorithm.md",
@@ -303,7 +317,6 @@
     "Spanning Tree.md",
     "Flexible Scheduling Problem.md",
     "Computer.md",
-    "Cut.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
