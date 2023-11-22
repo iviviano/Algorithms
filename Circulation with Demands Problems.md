@@ -12,3 +12,7 @@ A *circulation* on $G$ is a value $s(e)$ on each edge $e\in E$ satisfying:
 Ouput:
 - Is there a circulation on $G$
 
+
+>[!note]
+>A [[Graph]] $G$ only has a circulation if $\sum d(v)=0$
+
