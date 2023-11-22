@@ -27,5 +27,7 @@ Step 2: Solve the [[Max Flow Problem]] on $G=(V,E)$ with capacities $c(e)$.
 If there is a feasible circulation, $$\sum_{e \text{ out of }s}c(e)=\sum_{e \text{ into }t}c(e)=D$$Additionally, $D$ must be the minimum cut, if there is a circulation.
 
 >[!proof]
+Suppose there is a feasible circulation. Then, for each $v\in V$ with $d(v)<0$, $$\sum_{e \text{ into }v}s(e)-\sum{e \text{ out of }v}=d(v)$$So, we can create a valid flow by giving all [[edge]]s $e$ from $s$ to $v$ value $-d(v)$. Therefore, $|f|≥d$. As $D$ is the value of a [[Cut]], $|f|≤D$. So, $|f|=D$.
+>
+Suppose the max flow has value $D$. Removing the source and sink and all associated edges gives the circulation on $G$.
 
-Suppose there is a feasible circulation. 
