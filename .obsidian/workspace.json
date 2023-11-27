@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flight Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -230,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flight Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flight Scheduling Problem.md",
+                "file": "Isaac Homework/Abstractions Exam 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -270,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flight Scheduling Problem.md"
+                "file": "Isaac Homework/Abstractions Exam 2.md"
               }
             }
           },
@@ -303,6 +303,8 @@
   },
   "active": "1241b0ffa50375d8",
   "lastOpenFiles": [
+    "Isaac Homework/Abstractions Exam 1.md",
+    "Isaac Homework/Abstractions Exam 2.md",
     "Flight Scheduling Problem.md",
     "Circulation with Demands Problems.md",
     "Isaac Homework/Homework 8.md",
@@ -322,14 +324,12 @@
     "Segmented Least Squares Problem.md",
     "Weighted Interval Scheduling Problem.md",
     "Dynamic Programming Paradigm.md",
-    "Isaac Homework/Abstractions Exam 1.md",
     "Prim's Algorithm.md",
     "Clustering From MST Theorem.md",
     "Isaac Homework/Midterm 1.md",
     "Clustering.md",
     "Spacing.md",
     "Spanning Tree.md",
-    "Flexible Scheduling Problem.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
