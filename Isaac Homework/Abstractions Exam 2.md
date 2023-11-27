@@ -32,7 +32,13 @@ Isaac Viviano
 
 Currently, `(parse '(1 + 2))` returns something like `(app-exp (lit-exp 1) (list (var-exp '+) (lit-exp 2)))`. To implement infix notation, we want to parse `(1 + 2)` to something like `(app-exp (var-exp '+) (list (lit-exp 1) (lit-exp 2)))`. So, in the list cases of parse, we should add a condition to check if `(cadr input)` is one of the infix procedures. Then, check the syntax and parse input to `(app-exp (var-exp (cadr input)) (map parse (list* (car input) (cddr input)))`. Then, infix applications are parsed to the equivalent of the prefix application, so they may be evaluated the same way. So, we must only change parse to implement infix operations.
 
-Since we must change parse for implementation, we need to find a way to 
+Since we must change parse for implementation, we need to find a way to remove prefix from the grammar. We should add a case to the `list?` cases of parse to check if `(first input)` is an infix procedure. This should come before the case added above. In this case, we should throw an error. 
+
+The addition of these two cases to the parser will correctly handle inputs such as `(1 + 2)` and `(lt? 4 2)` in the new grammar. To handle more complicated inputs like: 
+```{racket}
+(let ([+ add1])
+)
+```
 
 
 >[!note] 5
