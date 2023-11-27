@@ -30,7 +30,7 @@ Isaac Viviano
 
 >[!note] 4
 
-Currently, `(parse '(1 + 2))` returns something like `(app-exp (lit-exp 1) (list (var-exp '+) (lit-exp 2)))`. To implement infix notation, we want to parse `(1 + 2)` to something like `(app-exp (var-exp '+) (list (lit-exp 1) (lit-exp 2)))`. So, in the list cases of parse, we should add a condition to check if `(cadr input)` is one of the infix procedures. Then, check the syntax and parse input to `(app-exp (var-exp (cadr input))`
+Currently, `(parse '(1 + 2))` returns something like `(app-exp (lit-exp 1) (list (var-exp '+) (lit-exp 2)))`. To implement infix notation, we want to parse `(1 + 2)` to something like `(app-exp (var-exp '+) (list (lit-exp 1) (lit-exp 2)))`. So, in the list cases of parse, we should add a condition to check if `(cadr input)` is one of the infix procedures. Then, check the syntax and parse input to `(app-exp (var-exp (cadr input)) (map parse (list* (car input) (cddr input)))`. Then, infix applications are parsed to the equivalent of the prefix application, so they may be evaluated the same way. So, we must only change parse for this problem.
 
 
 >[!note] 5
@@ -41,4 +41,6 @@ Changing parse.rkt would be sufficient, as long as interp.rkt only uses the prov
 (struct ite-exp (else then cond) #:transparent)
 (struct let-exp (body exps syms) #:transparent)
 ```
-We need to change parse so that the 
+We need to change parse so that the fields are assigned correctly. For example, the current implementation of parsing if expressions: `(apply ite-exp (cdr input))` would make the `ite-exp` with fields bound: `(ite-exp {else = (second input)} {then = (third input)} {cond = (fourth input)})`. But the condition of an if expression is always `(second input)`. So we should change parsing if expressions to `(apply ite-exp (reverse (cdr input))`. Changes would also need to be made to parsing applications and lets. Since we assume that interp only accesses the fields by name instead of position, the actual structure of these structs is irrelevant to interp. 
+
+Of course, changing interp would also be sufficient. Each time we access a field, we would use that accessor that corresponds to the position that the desired data used to occupy (ie replace each instance of `ite-exp-else` with `ite-exp-cond`). However, I think this solution is not as intuitive.
