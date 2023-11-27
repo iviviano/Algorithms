@@ -24,4 +24,5 @@ Isaac Viviano
 
 (a) e = [x -> 3, y -> 17], f = e([x -> 39, a -> 96]),  g = f([y -> 4])
 
-(b) 
+(b) extended environment: g([x -> 22, y -> 60])
+
