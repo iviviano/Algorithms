@@ -7,3 +7,6 @@ Compatible considerations:
 3. maintenance time
 
 Can we schedule all of the flights with $k$ planes?
+
+>[!alg]
+
