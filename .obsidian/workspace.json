@@ -149,9 +149,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1241b0ffa50375d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flight Scheduling Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -217,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Circulation with Demands Problems.md",
+                "file": "Flight Scheduling Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -234,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Circulation with Demands Problems.md",
+                "file": "Flight Scheduling Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -257,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Circulation with Demands Problems.md"
+                "file": "Flight Scheduling Problem.md"
               }
             }
           },
@@ -288,8 +301,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61bd5fdf53b858b8",
+  "active": "1241b0ffa50375d8",
   "lastOpenFiles": [
+    "Flight Scheduling Problem.md",
     "Circulation with Demands Problems.md",
     "Isaac Homework/Homework 8.md",
     "Bipartite Matching Problem.md",
@@ -316,7 +330,6 @@
     "Spacing.md",
     "Spanning Tree.md",
     "Flexible Scheduling Problem.md",
-    "Computer.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
