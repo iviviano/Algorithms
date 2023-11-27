@@ -30,7 +30,9 @@ Isaac Viviano
 
 >[!note] 4
 
-Currently, `(parse '(1 + 2))` returns something like `(app-exp (lit-exp 1) (list (var-exp '+) (lit-exp 2)))`. To implement infix notation, we want to parse `(1 + 2)` to something like `(app-exp (var-exp '+) (list (lit-exp 1) (lit-exp 2)))`. So, in the list cases of parse, we should add a condition to check if `(cadr input)` is one of the infix procedures. Then, check the syntax and parse input to `(app-exp (var-exp (cadr input)) (map parse (list* (car input) (cddr input)))`. Then, infix applications are parsed to the equivalent of the prefix application, so they may be evaluated the same way. So, we must only change parse for this problem.
+Currently, `(parse '(1 + 2))` returns something like `(app-exp (lit-exp 1) (list (var-exp '+) (lit-exp 2)))`. To implement infix notation, we want to parse `(1 + 2)` to something like `(app-exp (var-exp '+) (list (lit-exp 1) (lit-exp 2)))`. So, in the list cases of parse, we should add a condition to check if `(cadr input)` is one of the infix procedures. Then, check the syntax and parse input to `(app-exp (var-exp (cadr input)) (map parse (list* (car input) (cddr input)))`. Then, infix applications are parsed to the equivalent of the prefix application, so they may be evaluated the same way. So, we must only change parse to implement infix operations.
+
+Since we must change parse for implementation, we need to find a way to 
 
 
 >[!note] 5
