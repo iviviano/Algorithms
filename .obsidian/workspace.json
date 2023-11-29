@@ -177,6 +177,19 @@
             }
           },
           {
+            "id": "13e852f892b525a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Set.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "298a23b1c95443f9",
             "type": "leaf",
             "state": {
@@ -329,8 +342,10 @@
   },
   "active": "4c85174bd2756e5a",
   "lastOpenFiles": [
-    "Conjunctive Normal Form.md",
+    "Independent Set.md",
+    "Independent Set Problem.md",
     "3-SAT Problem.md",
+    "Conjunctive Normal Form.md",
     "Reduction.md",
     "Principle of Mathematical Induction.md",
     "Circulation with Demands Problems.md",
@@ -354,8 +369,6 @@
     "Segmented Least Squares Problem.md",
     "Weighted Interval Scheduling Problem.md",
     "Dynamic Programming Paradigm.md",
-    "Prim's Algorithm.md",
-    "Clustering From MST Theorem.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",

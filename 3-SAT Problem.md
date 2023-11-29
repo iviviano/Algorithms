@@ -14,5 +14,7 @@ Result: Any formula may be written in 3-[[Conjunctive Normal Form]], meaning eac
 >[!note]
 >Nobody knows how to solve this in [[Polynomial Run Time]], but nobody knows how to prove you can't either.
 
+[[Reduction]]tion to [[Independent Set Problem]]:
+
 
 
