@@ -9,5 +9,5 @@ Input:
 >[!def]
 >Each instance of an $x_i$ is a *literal* (includes [[Not]]s)
 
-
+Result: Any formula may be written in 3-[[Conjunctive Normal Form]], meaning each clause has at most 3 literals. 
 

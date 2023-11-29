@@ -175,6 +175,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "298a23b1c95443f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conjunctive Normal Form.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 12
@@ -316,8 +329,9 @@
   },
   "active": "4c85174bd2756e5a",
   "lastOpenFiles": [
-    "Reduction.md",
+    "Conjunctive Normal Form.md",
     "3-SAT Problem.md",
+    "Reduction.md",
     "Principle of Mathematical Induction.md",
     "Circulation with Demands Problems.md",
     "Isaac Homework/Abstractions Exam 2.md",
@@ -342,7 +356,6 @@
     "Dynamic Programming Paradigm.md",
     "Prim's Algorithm.md",
     "Clustering From MST Theorem.md",
-    "Isaac Homework/Midterm 1.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
