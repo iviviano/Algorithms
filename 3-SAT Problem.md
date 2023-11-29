@@ -11,3 +11,8 @@ Input:
 
 Result: Any formula may be written in 3-[[Conjunctive Normal Form]], meaning each clause has at most 3 literals. 
 
+>[!note]
+>Nobody knows how to solve this in [[Polynomial Run Time]], but nobody knows how to prove you can't either.
+
+
+
