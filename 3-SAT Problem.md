@@ -6,3 +6,8 @@ Input:
 	- [[Not]] $\bar{x_{i}}$
 	- parentheses for order of operations
 
+>[!def]
+>Each instance of an $x_i$ is a *literal* (includes [[Not]]s)
+
+
+
