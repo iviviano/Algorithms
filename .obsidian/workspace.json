@@ -162,9 +162,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c85174bd2756e5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-SAT Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -230,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reduction.md",
+                "file": "3-SAT Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -247,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reduction.md",
+                "file": "3-SAT Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -270,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reduction.md"
+                "file": "3-SAT Problem.md"
               }
             }
           },
@@ -301,10 +314,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "972a2fc5132fc807",
+  "active": "4c85174bd2756e5a",
   "lastOpenFiles": [
-    "Principle of Mathematical Induction.md",
     "Reduction.md",
+    "3-SAT Problem.md",
+    "Principle of Mathematical Induction.md",
     "Circulation with Demands Problems.md",
     "Isaac Homework/Abstractions Exam 2.md",
     "Isaac Homework/Abstractions Exam 1.md",
@@ -329,7 +343,6 @@
     "Prim's Algorithm.md",
     "Clustering From MST Theorem.md",
     "Isaac Homework/Midterm 1.md",
-    "Clustering.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
