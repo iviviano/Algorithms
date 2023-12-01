@@ -54,5 +54,24 @@ Source $s$ with demand $-k$. Connect $s$ to each person $i$ with edge $e=(s,i)$.
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Workchart Wizardry}\\
-&\textbf{Input: } \text{}
+&\textbf{Input: } \text{Jobs }j_{k}, \text{ People }p_{i}, \text{ Lists }L_{i}\\
+&\text{Construct a graph }G=(V,E)\\
+&\text{Let }V=\{s,t,p_{1},\ldots,p_{n},j_{1},\ldots,j_{m}\},E=\emptyset\\
+&d(t)=-d(s)=k\\
+&\textbf{For } 1\le i\le n \textbf{ do:}\\
+&\quad d(p_{i})=0\\
+&\quad \text{Add an edge }e=(s,p_{i})\text{ to }E\\
+&\quad c(e)=7,l(e)=5\\
+&\quad \textbf{For } j\in L_{i} \textbf{ do:}\\
+&\quad \quad \text{Add and edge }e=(p_{i},j_{j})\text{ to }E\\
+&\quad \quad c(e)=1,l(e)=0\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\textbf{For } 1\le j\le m \textbf{ do:}\\
+&\quad d(j_{j})=0\\
+&\quad \text{Add an edge }e=(d_{j},t)\text{ to }E\\
+&\quad c(e)=1,l(e)=0\\
+&\textbf{end for}\\
+&\text{Let }s=\texttt{LowerBoundCirculation}(G,c,l,d)\\
+&\textbf{return } s\ne \texttt{null}\\
 \end{align*}$$
