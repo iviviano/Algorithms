@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set Cover.md",
+                "file": "Circulation with Demands Problems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -269,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vertex Cover Problem.md",
+                "file": "Isaac Homework/Homework 9.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vertex Cover Problem.md",
+                "file": "Isaac Homework/Homework 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -309,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vertex Cover Problem.md"
+                "file": "Isaac Homework/Homework 9.md"
               }
             }
           },
@@ -340,14 +340,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "298a23b1c95443f9",
+  "active": "4c85174bd2756e5a",
   "lastOpenFiles": [
-    "Set Cover.md",
     "Vertex Cover Problem.md",
+    "Circulation with Demands Problems.md",
+    "Set Cover.md",
     "Conjunctive Normal Form.md",
     "Independent Set.md",
     "Isaac Homework/Homework 9.md",
-    "Circulation with Demands Problems.md",
     "Bipartite Graph.md",
     "3-SAT Problem.md",
     "Reduction.md",
