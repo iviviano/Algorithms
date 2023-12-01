@@ -1,8 +1,11 @@
 >[!note] 1
 
-(a) Consider the graph $G=(V,E)$ with $V=\{1,2\}$ and $E=\{(1,2)\}$. Let $c(e)=l(e)=1$ for all $e\in E$ and $d(1)=d(2)=1$. Then, there is no circulation on $G$, since the capacities do not sum to $0$. In particular, the circulation $s_{0}$ cannot satisfy the demand constraint.
+(a) $s_{0}$ will satisfy the capacity constraint trivially, if $l(e)≤c(e)$ for all $e\in E$. Consider the graph $G=(V,E)$ with $V=\{1,2\}$ and $E=\{(1,2)\}$. Let $c(e)=l(e)=1$ for all $e\in E$ and $d(1)=d(2)=1$. Then, there is no circulation on $G$, since the capacities do not sum to $0$. In particular, the circulation $s_{0}$ cannot satisfy the demand constraint.
 
 (b) 
+
+
+Capacity constraint: Let $e\in E$. $s(e)=s'(e)+l(e)\ge l(e)$. So, 
 
 >[!note] 2
 
