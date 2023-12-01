@@ -156,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reduction.md",
+                "file": "Vertex Cover Problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Independent Set.md",
+                "file": "Set Cover.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conjunctive Normal Form.md",
+                "file": "Vertex Cover Problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -269,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Vertex Cover Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -286,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Vertex Cover Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -309,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 9.md"
+                "file": "Vertex Cover Problem.md"
               }
             }
           },
@@ -340,23 +340,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c85174bd2756e5a",
+  "active": "298a23b1c95443f9",
   "lastOpenFiles": [
-    "3-SAT Problem.md",
-    "Isaac Homework/Homework 9.md",
-    "Independent Set.md",
-    "Independent Set Problem.md",
+    "Set Cover.md",
+    "Vertex Cover Problem.md",
     "Conjunctive Normal Form.md",
-    "Reduction.md",
-    "Principle of Mathematical Induction.md",
+    "Independent Set.md",
+    "Isaac Homework/Homework 9.md",
     "Circulation with Demands Problems.md",
+    "Bipartite Graph.md",
+    "3-SAT Problem.md",
+    "Reduction.md",
+    "Independent Set Problem.md",
+    "Principle of Mathematical Induction.md",
     "Isaac Homework/Abstractions Exam 2.md",
     "Isaac Homework/Abstractions Exam 1.md",
     "Flight Scheduling Problem.md",
     "Isaac Homework/Homework 8.md",
     "Bipartite Matching Problem.md",
     "Max Flow Problem.md",
-    "Bipartite Graph.md",
     "Isaac Homework/Homework 7.md",
     "Bellman-Ford Algorithm.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
@@ -367,8 +369,6 @@
     "Shortest Paths Problem.md",
     "RNA Secondary Structure.md",
     "Sum Primes.md",
-    "Segmented Least Squares Problem.md",
-    "Weighted Interval Scheduling Problem.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",

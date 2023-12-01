@@ -16,5 +16,11 @@ Result: Any formula may be written in 3-[[Conjunctive Normal Form]], meaning eac
 
 [[Reduction]]tion to [[Independent Set Problem]]:
 
+>[!alg]
+>1. Add a vertex for each literal
+>2. Connect vertices in the same clause
+>3. Connect every pair of conflicting vertices ($x_{i}$ and $\bar{x_{i}}$)
+>4. If there are $m$ clauses and the [[Independent Set]] is size $m$, then a boolean formula can be satisfied.
+
 
 
