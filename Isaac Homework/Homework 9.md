@@ -43,7 +43,9 @@ $$\begin{align*}
 
 The conservation constraint ensures that no person is assigned to more than one dining hall. Each person vertex has only one incoming edge. This edge has capacity one. Therefore, it can only have a flow of 1 on one outgoing edge. 
 
-The conservation constraint ensures that no dining hall is over capacity. Each dining hall has only one outgoing edge. 
+The conservation constraint ensures that no dining hall is over capacity. Each dining hall $h$ has only one outgoing edge. This edge has capacity $C_{j}$. Each person assigned to dining hall $j$ is an incoming edge with flow 1. Since at most $C_{j}$ flow leaves vertex $d_{j}$, at most $C_{j}$ people are assigned to it.
+
+
 
 Attach the source to each person with capacity 1. Attach every dining hall $j$ to the sink with capacity $C_{j}$. Attach each person $i$ to each dining hall in $S_i$ with capacity 1.
 
