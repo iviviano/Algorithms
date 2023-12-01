@@ -20,7 +20,25 @@ If we assume that $l(e)≥0$ for all $e\in E$, then $s(e)\ge s'(e)\ge0$. Therefo
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Hungry Hungry Hippies}\\
-&\textbf{Input: } \text{}
+&\textbf{Input: } \text{People }p_{1},\ldots,p_{n}, \text{ Dining halls }d_{1},\ldots,d_{m},\text{ Sets }S_{i},\text{ Capacities }C_{j}\\
+&\text{Construct a graph }G=(V,E)\\
+&\text{Let }V=\{s,t,p_{1},\ldots,p_{n},d_{1},\ldots,d_{n}\},E=\emptyset\\
+&\textbf{For } 1\le i\le n\textbf{ do:}\\
+&\quad \text{Add }e=(s,p_{i})\text{ to }E\\
+&\quad c(e)=1\\
+&\quad \textbf{For } j\in S_{i} \textbf{ do:}\\
+&\quad \quad \text{Add }e=(p_{i},d_{j})\text{ to }E\\
+&\quad \quad c(e)=1\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\textbf{For } 1\le j\le m\textbf{ do:}\\
+&\quad \text{Add }e=(d_{j},t)\text{ to }E\\
+&\quad c(e)=C_{j}\\
+&\textbf{end for}\\
+&\text{Let }f=\texttt{MaxFlow}(G,c)\\
+&\textbf{If } |f|<n \textbf{ then:}\\
+&\quad \textbf{return } \texttt{false}\\
+&\textbf{return } \{e=(p_{i},d_{j})\in E:f(e)=1\}
 \end{align*}$$
 
 
