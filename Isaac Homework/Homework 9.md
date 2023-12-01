@@ -75,3 +75,4 @@ $$\begin{align*}
 &\text{Let }s=\texttt{LowerBoundCirculation}(G,c,l,d)\\
 &\textbf{return } s\ne \texttt{null}\\
 \end{align*}$$
+The job assignments are represented by edges between people and job vertices with circulation 1. A job may only have one person assigned to it, since it has only one outgoing edge, and this edge has capacity one. The capacities and lower bounds on the incoming edge to each person ensure that a valid circulation assigns each person to 5-7 jobs; since the demands on each person are 0, the incoming 5-7 circulation must go out on 5-7 edges. Since the demand on $s$ is $-k$, a valid circulation must send $k$ total circulation to the people, and thus $k$ total jobs must be assigned. 
