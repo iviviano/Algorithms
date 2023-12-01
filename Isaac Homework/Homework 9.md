@@ -18,6 +18,12 @@ If we assume that $l(e)≥0$ for all $e\in E$, then $s(e)\ge s'(e)\ge0$. Therefo
 
 >[!note] 2
 
+$$\begin{align*}
+&\textbf{Algorithm } \text{Hungry Hungry Hippies}\\
+&\textbf{Input: } \text{}
+\end{align*}$$
+
+
 
 Attach the source to each person with capacity 1. Attach every dining hall $j$ to the sink with capacity $C_{j}$. Attach each person $i$ to each dining hall in $S_i$ with capacity 1.
 
