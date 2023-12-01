@@ -5,7 +5,16 @@
 (b) 
 
 
-Capacity constraint: Let $e\in E$. $s(e)=s'(e)+l(e)\ge l(e)$. So, 
+Capacity constraint: Let $e\in E$. Since $s'$ is a valid circulation, $s'(e)\ge0$, so  $$s(e)=s'(e)+l(e)\ge l(e)$$So, $s$ satisfies all of the lower bounds. Since $s'$ is a valid circulation on $G'$, $s'(e)\le c'(e)=c(e)-l(e)$. So, $$s(e)=s'(e)+l(e)\le c(e)-l(e)+l(e)=c(e)$$ So, $s$ satisfies all of the upper bounds.
+
+Demand constraint: Let $v\in V$. $$\begin{split}\sum_{e \text{ into }v}s(e)&-\sum_{e \text{ out of }v}s(e)=\sum_{e \text{ into }v}s'(e)+l(e)-\sum_{e \text{ out of }v}s'(e)+l(e)\\
+&=\sum_{e \text{ into }v}s'(e)-\sum_{e \text{ out of }v}s'(e)+\sum_{e \text{ into }v}l(e)-\sum_{e \text{ out of }v}l(e)\\
+&=\sum_{e \text{ into }v}s'(e)-\sum_{e \text{ out of }v}s'(e)+L(v)
+\end{split}$$Since $s'$ is a valid circulation on $G'$, $$\sum_{e \text{ into }v}s'(e)-\sum_{e \text{ out of }v}s'(e)=d'(v)$$So, $$\sum_{e \text{ into }v}s(e)-\sum_{e \text{ out of }v}s(e)=d'(v)+L(v)=d(v)-L(v)+L(v)=d(v)$$Therefore, $s$ satisfies the demand constraint.
+
+If we assume that $l(e)≥0$ for all $e\in E$, then $s(e)\ge s'(e)\ge0$. Therefore, $s$ is a valid circulation on $G$.
+
+(c) 
 
 >[!note] 2
 
