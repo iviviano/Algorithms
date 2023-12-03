@@ -16,6 +16,14 @@ If we assume that $l(e)≥0$ for all $e\in E$, then $s(e)\ge s'(e)\ge0$. Therefo
 
 (c) 
 
+Correct circulation: $s(e)=1$ for $e\in\{(\text{PIT } 8,\text{CLE }9),(\text{CLE }9:30,\text{MDW }11),(\text{PHL }7:30,\text{CLE }8:30),(\text{CLE }10,\text{ATL }12),(\text{CLE }9,\text{CLE }10),(\text{CLE }8:30,\text{CLE }9:30),(x,\text{PIT }8),(x,\text{PHL }7:30),(\text{MDW }11,y),(\text{ATL }12,y)\}$. $s(e)=0$ for all other $e$.
+
+
+Correct circulation: $s(e)=1$ for $e\in\{(\text{CLE }9,\text{CLE }10),(\text{CLE }8:30,\text{CLE }9:30),(x,\text{PIT }8),(x,\text{PHL }7:30),(\text{MDW }11,y),(\text{ATL }12,y)\}$. $s(e)=0$ for all other $e$.
+
+
+Correct flow: $f(e)=1$ for $e\in\{(\text{CLE }9,\text{CLE }10),(\text{CLE }8:30,\text{CLE }9:30),(x,\text{PIT }8),(x,\text{PHL }7:30),(\text{MDW }11,y),(\text{ATL }12,y)\}$. $f(e)=c(e)$ for all edges out of $s$ or into $t$. $f(e)=0$ for all other edges. 
+
 >[!note] 2
 
 $$\begin{align*}
