@@ -9,7 +9,7 @@ Compatible considerations:
 Can we schedule all of the flights with $k$ planes?
 
 >[!alg]
-Construct a flow network $G=(V,E)$:
+Construct a circulation network $G=(V,E)$:
 >1. $V=\{u_{i}\}\cup\{v_{i}\}$
 >2. For each flight $i$, add $u_{i}$ and $v_{i}$ with edge $(u_{i},v_{i})=e$. $c(e)=l(e)=1$
 >3. For each compatible flight pair $i,j$, add [[edge]] $(v_{i},u_{j})=e$. $c(e)=1$, $l(e)=0$
