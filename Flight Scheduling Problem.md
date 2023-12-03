@@ -1,5 +1,4 @@
 Input:
-- 
 
 Compatible considerations:
 1. Can't overlap
