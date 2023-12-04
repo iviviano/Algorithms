@@ -104,7 +104,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Isaac Homework/Homework 8.md",
+                "file": "P.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d552ea200f27b2fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Certificate.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "020b250a48eb21af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NP-Hard.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -195,7 +221,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vertex Cover Problem.md",
+                "file": "Isaac Homework/Homework 9.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -269,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flight Scheduling Problem.md",
+                "file": "NP-Hard.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -286,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flight Scheduling Problem.md",
+                "file": "NP-Hard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -309,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flight Scheduling Problem.md"
+                "file": "NP-Hard.md"
               }
             }
           },
@@ -327,8 +353,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -340,11 +365,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c85174bd2756e5a",
+  "active": "020b250a48eb21af",
   "lastOpenFiles": [
-    "Isaac Homework/Homework 9.md",
+    "NP Complete.md",
+    "NP-Hard.md",
+    "Cook and Levin Theorem.md",
+    "P vs NP.md",
+    "NP.md",
+    "Certification.md",
+    "Certificate.md",
+    "P.md",
+    "Dijstra's Algorithm.md",
+    "Decision Problem.md",
+    "Bipartite Matching Problem.md",
     "Circulation with Demands Problems.md",
+    "Isaac Homework/Homework 9.md",
     "Vertex Cover Problem.md",
+    "Isaac Homework/Homework 8.md",
+    "Flight Scheduling Problem.md",
     "Set Cover.md",
     "Conjunctive Normal Form.md",
     "Independent Set.md",
@@ -355,20 +393,7 @@
     "Principle of Mathematical Induction.md",
     "Isaac Homework/Abstractions Exam 2.md",
     "Isaac Homework/Abstractions Exam 1.md",
-    "Flight Scheduling Problem.md",
-    "Isaac Homework/Homework 8.md",
-    "Bipartite Matching Problem.md",
-    "Max Flow Problem.md",
-    "Isaac Homework/Homework 7.md",
-    "Bellman-Ford Algorithm.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
-    "Isaac Homework/Homework 5.md",
-    "Knapsack Problem.md",
-    "Isaac Homework/Homework 6.md",
-    "Untitled 1.md",
-    "Shortest Paths Problem.md",
-    "RNA Secondary Structure.md",
-    "Sum Primes.md",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",

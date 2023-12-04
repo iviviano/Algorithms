@@ -65,7 +65,9 @@ $$\begin{align*}
 &\textbf{Input: } \text{Jobs }j_{k}, \text{ People }p_{i}, \text{ Lists }L_{i}\\
 &\text{Construct a graph }G=(V,E)\\
 &\text{Let }V=\{s,t,p_{1},\ldots,p_{n},j_{1},\ldots,j_{m}\},E=\emptyset\\
-&d(t)=-d(s)=k\\
+&\textbf{If } 5\cdot n>m \textbf{ then:}\\
+&\quad \textbf{return } \texttt{false}\\
+&d(t)=-d(s)=\max\{k,5n\}\\
 &\textbf{For } 1\le i\le n \textbf{ do:}\\
 &\quad d(p_{i})=0\\
 &\quad \text{Add an edge }e=(s,p_{i})\text{ to }E\\
