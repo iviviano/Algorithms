@@ -4,219 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7305db3120ddc421",
+        "id": "aea595fdad9232a1",
         "type": "tabs",
         "children": [
           {
-            "id": "864438601a626d77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dynamic Programming Paradigm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e81214461d98677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Isaac Homework/Abstractions Exam 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cda3cec1f678db6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weighted Interval Scheduling Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d47ef385af2ca1f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Isaac Homework/Homework 5.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "350090cb97809c7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bellman-Ford Algorithm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb7ae1b1a82b7c9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Isaac Homework/Homework 6.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51283809e59be095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Max Flow Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74aab18414c9707a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "P.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d552ea200f27b2fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Certificate.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "020b250a48eb21af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NP-Hard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27af48e5ec43c9ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bipartite Matching Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da74486169df27d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bipartite Graph.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61bd5fdf53b858b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Circulation with Demands Problems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "972a2fc5132fc807",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vertex Cover Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c85174bd2756e5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flight Scheduling Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13e852f892b525a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Circulation with Demands Problems.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "298a23b1c95443f9",
+            "id": "597dcdcbd8f63acf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -228,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NP-Hard.md",
+                "file": "Isaac Homework/Homework 9.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -312,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NP-Hard.md",
+                "file": "Isaac Homework/Homework 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -335,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NP-Hard.md"
+                "file": "Isaac Homework/Homework 9.md"
               }
             }
           },
@@ -365,34 +156,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "020b250a48eb21af",
+  "active": "597dcdcbd8f63acf",
   "lastOpenFiles": [
-    "NP Complete.md",
+    "Isaac Homework/Homework 9.md",
+    "Circulation with Demands Problems.md",
+    "Flight Scheduling Problem.md",
+    "Vertex Cover Problem.md",
+    "Bipartite Graph.md",
+    "Bipartite Matching Problem.md",
     "NP-Hard.md",
+    "Certificate.md",
+    "P.md",
+    "Max Flow Problem.md",
+    "Isaac Homework/Homework 6.md",
+    "Bellman-Ford Algorithm.md",
+    "Isaac Homework/Homework 5.md",
+    "Weighted Interval Scheduling Problem.md",
+    "Isaac Homework/Abstractions Exam 1.md",
+    "Dynamic Programming Paradigm.md",
+    "NP Complete.md",
     "Cook and Levin Theorem.md",
     "P vs NP.md",
     "NP.md",
     "Certification.md",
-    "Certificate.md",
-    "P.md",
     "Dijstra's Algorithm.md",
     "Decision Problem.md",
-    "Bipartite Matching Problem.md",
-    "Circulation with Demands Problems.md",
-    "Isaac Homework/Homework 9.md",
-    "Vertex Cover Problem.md",
     "Isaac Homework/Homework 8.md",
-    "Flight Scheduling Problem.md",
     "Set Cover.md",
     "Conjunctive Normal Form.md",
-    "Independent Set.md",
-    "Bipartite Graph.md",
-    "3-SAT Problem.md",
-    "Reduction.md",
-    "Independent Set Problem.md",
-    "Principle of Mathematical Induction.md",
-    "Isaac Homework/Abstractions Exam 2.md",
-    "Isaac Homework/Abstractions Exam 1.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
