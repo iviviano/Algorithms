@@ -90,7 +90,7 @@ Claim: if there exists a valid assignment of between $k$ and $m$ jobs, there exi
 
 Suppose $k>5n$. Take any valid assignment with more than $k$ jobs. Remove a job from someone with more than $5n$ jobs until only $k$ are assigned. Since $k>5n$ we may do this. Clearly, no one has more than $7$ jobs since we took a valid assignment and removed some job assignments. Since we do not assign anyone less than $5$ jobs and we stop one $k$ jobs are assigned, this gives a valid assignment.
 
-Suppose $5n\ge k$. For each person, assign 
+Suppose $5n\ge k$. Take any valid assignment with more than $5n$ jobs. For each person, assign $5$ of their jobs to them. This is 
 
 
 If $5n>m$, then we cannot assign enough jobs to everyone, so there is no valid assignment. Otherwise, there are enough jobs. So by the claim, it is sufficient to check if there is a valid assignment of $\min\{k,5n\}$ jobs.
