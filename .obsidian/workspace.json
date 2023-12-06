@@ -19,8 +19,74 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "52d10d3d210d9315",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NP-Hard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fee18a72bbb96bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NP-Complete.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c97e373a01c7dee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cook and Levin Theorem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c1b07869077cc36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hamiltonian Cycle Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46fb545dbaa5d0e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Set Cover.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Hamiltonian Cycle Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Hamiltonian Cycle Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 9.md"
+                "file": "Hamiltonian Cycle Problem.md"
               }
             }
           },
@@ -156,16 +222,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "597dcdcbd8f63acf",
+  "active": "4c1b07869077cc36",
   "lastOpenFiles": [
+    "Set Cover.md",
+    "Vertex Cover Problem.md",
+    "Hamiltonian Cycle Problem.md",
+    "vet.md",
+    "Certificate.md",
+    "NP-Hard.md",
+    "NP-Complete.md",
+    "Cook and Levin Theorem.md",
     "Isaac Homework/Homework 9.md",
     "Circulation with Demands Problems.md",
     "Flight Scheduling Problem.md",
-    "Vertex Cover Problem.md",
     "Bipartite Graph.md",
     "Bipartite Matching Problem.md",
-    "NP-Hard.md",
-    "Certificate.md",
     "P.md",
     "Max Flow Problem.md",
     "Isaac Homework/Homework 6.md",
@@ -174,16 +245,11 @@
     "Weighted Interval Scheduling Problem.md",
     "Isaac Homework/Abstractions Exam 1.md",
     "Dynamic Programming Paradigm.md",
-    "NP Complete.md",
-    "Cook and Levin Theorem.md",
     "P vs NP.md",
     "NP.md",
     "Certification.md",
     "Dijstra's Algorithm.md",
     "Decision Problem.md",
-    "Isaac Homework/Homework 8.md",
-    "Set Cover.md",
-    "Conjunctive Normal Form.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",

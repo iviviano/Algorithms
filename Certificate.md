@@ -1,5 +1,5 @@
 ---
-mathLink: certification
+mathLink: certificate
 ---
 
 >[!def]
