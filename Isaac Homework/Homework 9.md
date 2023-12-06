@@ -86,13 +86,43 @@ $$\begin{align*}
 &\textbf{return } s\ne \texttt{null}\\
 \end{align*}$$
 
-Claim: if there exists a valid assignment of between $k$ and $m$ jobs, there exists a valid assignment of $\min\{k,5n\}$ jobs.
+Claim: if there exists a valid assignment of between $k$ and $m$ jobs, there exists a valid assignment of $\max\{k,5n\}$ jobs.
 
-Suppose $k>5n$. Take any valid assignment with more than $k$ jobs. Remove a job from someone with more than $5n$ jobs until only $k$ are assigned. Since $k>5n$ we may do this. Clearly, no one has more than $7$ jobs since we took a valid assignment and removed some job assignments. Since we do not assign anyone less than $5$ jobs and we stop one $k$ jobs are assigned, this gives a valid assignment.
+Suppose $k>5n$. Take any valid assignment with more than $k$ jobs. Remove a job from someone with more than $5n$ jobs until only $k$ are assigned. Since $k>5n$ we may do this. Clearly, no one has more than $7$ jobs since we took a valid assignment and removed some job assignments. Since we do not assign anyone less than $5$ jobs and we stop one $k$ jobs are assigned, this gives a valid assignment with $k$ total jobs.
 
-Suppose $5n\ge k$. Take any valid assignment with more than $5n$ jobs. For each person, assign $5$ of their jobs to them. This is 
+Suppose $5n\ge k$. Take any valid assignment with more than $5n$ jobs. For each person, pick $5$ of the jobs they were assigned to. This gives a valid circulation with $5n$ total jobs.
 
+If $5n>m$, then we cannot assign enough jobs to everyone, so there is no valid assignment. Otherwise, there are enough jobs. So by the claim, it is sufficient to check if there is a valid assignment of $\max\{k,5n\}$ jobs.
 
-If $5n>m$, then we cannot assign enough jobs to everyone, so there is no valid assignment. Otherwise, there are enough jobs. So by the claim, it is sufficient to check if there is a valid assignment of $\min\{k,5n\}$ jobs.
+The job assignments are represented by edges between people and job vertices with circulation 1. A job may only have one person assigned to it, since it has only one outgoing edge, and this edge has capacity one. The capacities and lower bounds on the incoming edge to each person ensure that a valid circulation assigns each person to 5-7 jobs; since the demands on each person are 0, the incoming 5-7 circulation must go out on 5-7 edges. Since the demand on $s$ is $-\max\{k,5n\}$, a valid circulation must send $\max\{k,5n\}$ total circulation to the people, and thus $\max\{k,5n\}$ total jobs must be assigned. 
 
-The job assignments are represented by edges between people and job vertices with circulation 1. A job may only have one person assigned to it, since it has only one outgoing edge, and this edge has capacity one. The capacities and lower bounds on the incoming edge to each person ensure that a valid circulation assigns each person to 5-7 jobs; since the demands on each person are 0, the incoming 5-7 circulation must go out on 5-7 edges. Since the demand on $s$ is $-\min\{k,5n\}$, a valid circulation must send $\min\{k,5n\}$ total circulation to the people, and thus $\min\{k,5n\}$ total jobs must be assigned. 
+[[Decision Problem]]:
+
+\begin{align*}
+&\textbf{Algorithm } \text{Workchart Wizardry}\\
+&\textbf{Input: } \text{Integer }l,\text{ Jobs }j_{j}, \text{ People }p_{i}, \text{ Lists }L_{i}\\
+&\text{Construct a graph }G=(V,E)\\
+&\text{Let }V=\{s,t,p_{1},\ldots,p_{n},j_{1},\ldots,j_{m}\},E=\emptyset\\
+&d(t)=-d(s)=l\\
+&\textbf{For } 1\le i\le n \textbf{ do:}\\
+&\quad d(p_{i})=0\\
+&\quad \text{Add an edge }e=(s,p_{i})\text{ to }E\\
+&\quad c(e)=7,l(e)=5\\
+&\quad \textbf{For } j\in L_{i} \textbf{ do:}\\
+&\quad \quad \text{Add and edge }e=(p_{i},j_{j})\text{ to }E\\
+&\quad \quad c(e)=1,l(e)=0\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\textbf{For } 1\le j\le m \textbf{ do:}\\
+&\quad d(j_{j})=0\\
+&\quad \text{Add an edge }e=(d_{j},t)\text{ to }E\\
+&\quad c(e)=1,l(e)=0\\
+&\textbf{end for}\\
+&\text{Let }s=\texttt{LowerBoundCirculation}(G,c,l,d)\\
+&\textbf{return } s\ne \texttt{null}\\
+\end{align*}
+
+This decision algorithm checks if it is possible to assign $l$ jobs and satisfy the constraints. This is equivalent to the problem is it possible to assign some number $k\le l\le m$ jobs. 
+
+The job assignments are represented by edges between people and job vertices with circulation 1. A job may only have one person assigned to it, since it has only one outgoing edge, and this edge has capacity one. The capacities and lower bounds on the incoming edge to each person ensure that a valid circulation assigns each person to 5-7 jobs; since the demands on each person are 0, the incoming 5-7 circulation must go out on 5-7 edges. Since the demand on $s$ is $-l$, a valid circulation must send $l$ total circulation to the people, and thus $l$ total jobs must be assigned. So, there is only a valid circulation on $G$ if it is possible to assign $l$ jobs with each person working 5-7 shifts. Therefore, the algorithm provides a sufficient decision problem solution to solve the problem.
+
