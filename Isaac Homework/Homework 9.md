@@ -86,6 +86,13 @@ $$\begin{align*}
 &\textbf{return } s\ne \texttt{null}\\
 \end{align*}$$
 
-This decision algorithm checks if it is possible to assign $l$ jobs and satisfy the constraints. This is equivalent to the problem is it possible to assign some number $k\le l\le m$ jobs. 
+Claim: if there exists a valid assignment of between $k$ and $m$ jobs, there exists a valid assignment of $\min\{k,5n\}$ jobs.
 
-The job assignments are represented by edges between people and job vertices with circulation 1. A job may only have one person assigned to it, since it has only one outgoing edge, and this edge has capacity one. The capacities and lower bounds on the incoming edge to each person ensure that a valid circulation assigns each person to 5-7 jobs; since the demands on each person are 0, the incoming 5-7 circulation must go out on 5-7 edges. Since the demand on $s$ is $-k$, a valid circulation must send $k$ total circulation to the people, and thus $k$ total jobs must be assigned. 
+Suppose $k>5n$. Take any valid assignment with more than $k$ jobs. Remove a job from someone with more than $5n$ jobs until only $k$ are assigned. Since $k>5n$ we may do this. Clearly, no one has more than $7$ jobs since we took a valid assignment and removed some job assignments. Since we do not assign anyone less than $5$ jobs and we stop one $k$ jobs are assigned, this gives a valid assignment.
+
+Suppose $5n\ge k$. For each person, assign 
+
+
+If $5n>m$, then we cannot assign enough jobs to everyone, so there is no valid assignment. Otherwise, there are enough jobs. So by the claim, it is sufficient to check if there is a valid assignment of $\min\{k,5n\}$ jobs.
+
+The job assignments are represented by edges between people and job vertices with circulation 1. A job may only have one person assigned to it, since it has only one outgoing edge, and this edge has capacity one. The capacities and lower bounds on the incoming edge to each person ensure that a valid circulation assigns each person to 5-7 jobs; since the demands on each person are 0, the incoming 5-7 circulation must go out on 5-7 edges. Since the demand on $s$ is $-\min\{k,5n\}$, a valid circulation must send $\min\{k,5n\}$ total circulation to the people, and thus $\min\{k,5n\}$ total jobs must be assigned. 
