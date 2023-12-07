@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 9.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 9.md"
+                "file": "Isaac Homework/Homework 10.md"
               }
             }
           },
@@ -223,6 +223,8 @@
   },
   "active": "597dcdcbd8f63acf",
   "lastOpenFiles": [
+    "Isaac Homework/Homework 9.md",
+    "Isaac Homework/Homework 10.md",
     "Hamiltonian Cycle Problem.md",
     "Set Cover.md",
     "Vertex Cover Problem.md",
@@ -231,7 +233,6 @@
     "NP-Hard.md",
     "NP-Complete.md",
     "Cook and Levin Theorem.md",
-    "Isaac Homework/Homework 9.md",
     "Circulation with Demands Problems.md",
     "Flight Scheduling Problem.md",
     "Bipartite Graph.md",
@@ -248,7 +249,6 @@
     "NP.md",
     "Certification.md",
     "Dijstra's Algorithm.md",
-    "Decision Problem.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
