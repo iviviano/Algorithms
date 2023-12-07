@@ -33,14 +33,7 @@ Then, there is an ordering of the vertices $v_{1},\ldots,v_{n}$ such that $(v_{i
 
 Suppose $G$ does not have a Hamiltonian cycle and 
 
-Suppose the algorithm returns $\texttt{true}$. Then, for all $t\in V-\{s\}$, there exists a path through all of the vertices in $V$ from $s$ to $t$. Let $v_{t}$ be the second vertex in such a path from $s$ to $t$. 
-
-Claim: There exists $t\in V-\{s\}$ such that $(t,v_{t})\in E$. 
-
-
-
-
-Pick $t$ by the claim. There is a path from $s$ to $t$ with $v_{t}$ as its second vertex. Therefore, there is a subpath from $v_{t}$ to $t$ with containing every vertex in the original $G$. Since $(t,v_{t})\in E$ as well, this is a Hamiltonian cycle.
+Suppose the algorithm returns $\texttt{true}$. 
 
 
 
