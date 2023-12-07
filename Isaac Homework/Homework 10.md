@@ -12,6 +12,7 @@ Let $G=(V,E)$ be a graph.
 $$\begin{align*}
 &\textbf{Algorithm } \text{Reduce Hamiltonian Cycle to Ployride}\\
 &\textbf{Input: } \text{Directed Graph }G=(V,E)\\
+&\text{Let }t\in V\\
 &\text{Add a vertex }s \text{ to }V\\
 &\textbf{For } v\in V \textbf{ do:}\\
 &\quad \text{Add an edge }(s,v)\text{ to }E\\
@@ -19,10 +20,13 @@ $$\begin{align*}
 &\textbf{For } e\in E \textbf{ do:}\\
 &\quad c_{e}=1\\
 &\textbf{end for}\\
-
+&\textbf{return } \texttt{Ployride}(G,c,s,t,|V|)
 \end{align*}$$
 
-Let $c_{e}=1$
+>[!proof]
+
+
+
 
 
 >[!note] 2
