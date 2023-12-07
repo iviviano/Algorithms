@@ -9,6 +9,14 @@ Reduce [[Hamiltonian Cycle Problem]] to Ployride:
 
 Let $G=(V,E)$ be a graph. 
 
+$$\begin{align*}
+&\textbf{Algorithm } \text{Reduce Hamiltonian Cycle to Ployride}\\
+&\textbf{Input: } \text{Directed Graph }G=(V,E)\\
+
+\end{align*}$$
+
+Let $c_{e}=1$
+
 
 >[!note] 2
 
