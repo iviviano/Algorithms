@@ -14,7 +14,12 @@ $$\begin{align*}
 &\textbf{Input: } \text{Directed Graph }G=(V,E)\\
 &\text{Add a vertex }s \text{ to }V\\
 &\textbf{For } v\in V \textbf{ do:}\\
-&\quad \text{Add an edge }
+&\quad \text{Add an edge }(s,v)\text{ to }E\\
+&\textbf{end for}\\
+&\textbf{For } e\in E \textbf{ do:}\\
+&\quad c_{e}=1\\
+&\textbf{end for}\\
+
 \end{align*}$$
 
 Let $c_{e}=1$
