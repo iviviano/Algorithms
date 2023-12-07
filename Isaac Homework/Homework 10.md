@@ -12,7 +12,9 @@ Let $G=(V,E)$ be a graph.
 $$\begin{align*}
 &\textbf{Algorithm } \text{Reduce Hamiltonian Cycle to Ployride}\\
 &\textbf{Input: } \text{Directed Graph }G=(V,E)\\
-
+&\text{Add a vertex }s \text{ to }V\\
+&\textbf{For } v\in V \textbf{ do:}\\
+&\quad \text{Add an edge }
 \end{align*}$$
 
 Let $c_{e}=1$
