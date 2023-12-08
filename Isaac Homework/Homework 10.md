@@ -71,9 +71,11 @@ $$\begin{align*}
 
 >[!proof]
 Assume that $\texttt{Nightmare}$ returns $\texttt{true}$ $\iff$ there is a subset $S\subseteq I$ with $|S|\ge n$ and for any $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. I will show that the algorithm returns $\texttt{true}$ $\iff$ there is a matching of size $n$.
-
+>
 Let $I=\{n\in \mathbb{N}:n\le|T|\}$. Note: each $P_{i}$ is a path in $G$, since every vertex in $G$ is connected to every other vertex in $G$. 
-
+>
 Suppose the algorithm returns $\texttt{true}$. Let $S\subseteq I$ with $|S|\ge n$ and for all $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. Let $M=\{P_{i}:i\in S\}$. $|M|=|S|=n$. Since each $P_{i}\in T$, $M\subseteq T$. Additionally, if $P_{i},P_{j}\in M$, $P_{i}\cap P_{j}=\emptyset$. Therefore, $M$ is a valid matching with $n$ tuples. 
-
-Suppose the algorithm returns $\texttt{false}$ but there is a valid matching $M$ of size $n$. Let $S=\{i\in I:P_{i}\in M\}$. 
+>
+Suppose there is a valid matching $M$ of size $n$. Let $S=\{i\in I:P_{i}\in M\}$. Since $M\subseteq T$ and each $P_{i}\in T$, $|S|=|M|=n$. If $P_{i},P_{j}\in M$, $P_{i}\cap P_{j}=\emptyset$ , since $M$ is a valid matching. The existence of $S$ implies the algorithm returns $\texttt{true}$. 
+>
+Therefore, the algorithm is correct. 
