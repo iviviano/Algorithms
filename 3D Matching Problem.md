@@ -6,3 +6,11 @@ Input:
 
 Output:
 - a matching set $M\subseteq T$ such that each element of $X\sqcup Y\sqcup Z$ is in at most one element of $M$
+- Does there exist a matching set of size $n$
+
+In [[NP]]:
+- [[Certificate]]: A [[Subset]] $M\subseteq T$
+- [[Certification]]: Is $M$ of size $n$ and does $M$ have any elements sharing an element
+Runtime: $O(n^2)$, look for each of $3n$ variables in $M$.
+
+In [[NP-Hard]]:
