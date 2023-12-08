@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "3f887d8b81e3ecc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3D Matching Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "46fb545dbaa5d0e6",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hamiltonian Cycle Problem.md",
+                "file": "3D Matching Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hamiltonian Cycle Problem.md",
+                "file": "3D Matching Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hamiltonian Cycle Problem.md"
+                "file": "3D Matching Problem.md"
               }
             }
           },
@@ -222,11 +235,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1b07869077cc36",
+  "active": "3f887d8b81e3ecc5",
   "lastOpenFiles": [
+    "Hamiltonian Cycle Problem.md",
+    "3D Matching Problem.md",
     "NP-Hard.md",
     "Isaac Homework/Homework 10.md",
-    "Hamiltonian Cycle Problem.md",
     "Isaac Homework/Homework 9.md",
     "Set Cover.md",
     "Vertex Cover Problem.md",
@@ -249,7 +263,6 @@
     "P vs NP.md",
     "NP.md",
     "Certification.md",
-    "Dijstra's Algorithm.md",
     "CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
