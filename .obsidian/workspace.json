@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D Matching Problem.md"
+                "file": "Isaac Homework/Homework 10.md"
               }
             }
           },
@@ -235,13 +234,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f887d8b81e3ecc5",
+  "active": "597dcdcbd8f63acf",
   "lastOpenFiles": [
+    "3D Matching Problem.md",
+    "Isaac Homework/Homework 10.md",
+    "Hamiltonian Cycle Problem.md",
     "NP-Hard.md",
     "NP-Complete.md",
-    "3D Matching Problem.md",
-    "Hamiltonian Cycle Problem.md",
-    "Isaac Homework/Homework 10.md",
     "Isaac Homework/Homework 9.md",
     "Set Cover.md",
     "Vertex Cover Problem.md",

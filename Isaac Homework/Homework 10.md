@@ -41,3 +41,18 @@ Suppose the algorithm returns $\texttt{true}$.
 >[!note] 2
 
 
+In [[NP]]:
+
+
+
+In [[NP-Hard]]:
+Let $X,Y,Z$ be three disjoint sets of $n$ elements, and let $T\subseteq X\times Y\times Z$ be a set of $m$ elements. 
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Reduce 3D Matching to Nightmare at the Museum}\\
+&\textbf{Input: } \text{Sets }X,Y,Z \text{ of size }n, \text{ matching set }T\subseteq X\times Y\times Z\\
+&\textbf{Output: } \text{Is there a matching of size }n?\\
+&\text{Let }G=(V,E)\text{ be an undirected graph}\\
+&\text{Let }V=X\sqcup Y\sqcup Z\\
+
+\end{align*}$$
