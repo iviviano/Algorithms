@@ -28,5 +28,7 @@ Step 2: Satisfy Clause ($x_{i}\lor\ x_{j}\lor\bar{x}_{k}$)
 - Add edges to clause vertex from $L \rightarrow R$ $P_j$ and back
 - Add edges to clause vertex from $R\rightarrow L$ $P_{k}$ and back
 
+Claim: There exists a satisfying assignment for a $3$-SAT instance [[iff]] there exists a Hamiltonian cycle in the constructed [[Graph]].
+
 
 
