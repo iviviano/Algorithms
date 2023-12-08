@@ -60,9 +60,9 @@ $$\begin{align*}
 &\text{Let }V=X\sqcup Y\sqcup Z\\
 &\text{Let }E=\{\{s,t\}:s,t\in V \text{ and }s\ne t\}\\
 &i=1\\
-&\textbf{For } (x,y,z)\in T \textbf{ do:}\\
+&\textbf{For } P=(x,y,z)\in T \textbf{ do:}\\
 &\quad s_{i}=x\\
-&\quad P_{i}=(x,y,z)\\
+&\quad P_{i}=P\\
 &\quad t_{i}=z\\
 &\quad i++\\
 &\textbf{end for}\\
@@ -75,4 +75,4 @@ Assume that $\texttt{Nightmare}$ returns $\texttt{true}$ $\iff$ there is a subse
 
 Suppose the algorithm returns $\texttt{true}$. Let $S\subseteq I$ with $|S|\ge n$ and for all $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. Let $M=\{P_{i}:i\in S\}$. $|M|=|S|=n$. Since each $P_{i}\in T$, $M\subseteq T$. Additionally, if $P_{i},P_{j}\in M$, $P_{i}\cap P_{j}=\emptyset$. Therefore, $M$ is a valid matching with $n$ tuples. 
 
-Suppose the algorithm returns $\texttt{false}$ and there is a valid matching $M$ of size $n$. Let $M=\{P_{1},\ldots,P_{n}\}$. 
+Suppose the algorithm returns $\texttt{false}$ and there is a valid matching $M$ of size $n$. Let $S=\{i\in I:P_{i}\in M\}$. 
