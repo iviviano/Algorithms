@@ -1,5 +1,8 @@
 3D Version of [[Bipartite Matching Problem]]
 
 Input:
-- $3$ [[Set]]s $X,Y,Z$ each of size $n$
-- 
+- $3$ [[Disjoint]] [[Set]]s $X,Y,Z$ each of size $n$
+- A [[Set]] $T\subseteq X\times Y\times Z$ of size $m$
+
+Output:
+- a matching set $M\subseteq T$ such that each element of $X\sqcup Y\sqcup Z$ is in at most one element of $M$
