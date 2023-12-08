@@ -24,7 +24,7 @@ $$\begin{align*}
 
 >[!proof]
 
-Assume that $\texttt{Ployride}(G,c,s,t,k)$ returns true if there is a simple path in the directed graph $G$ with edge costs given by $c$ with total cost of at least $k$. I will prove that the algorithm returns true $\iff$ $G$ has a Hamiltonian cycle.
+Assume that $\texttt{Ployride}(G,c,s,t,k)$ returns true $\iff$ there is a simple path in the directed graph $G$ with edge costs given by $c$ with total cost of at least $k$. I will prove that the algorithm returns true $\iff$ $G$ has a Hamiltonian cycle.
 
 Suppose $G$ has a Hamiltonian cycle.
 
@@ -48,11 +48,29 @@ In [[NP]]:
 In [[NP-Hard]]:
 Let $X,Y,Z$ be three disjoint sets of $n$ elements, and let $T\subseteq X\times Y\times Z$ be a set of $m$ elements. 
 
+A triple $(x,y,z)\in T$ sends a guard in $s_{x}$ through room $s_{y}$ to bathroom $t_{z}$.
+
+$X$ is the guards, $Y$ is the 
+
 $$\begin{align*}
 &\textbf{Algorithm } \text{Reduce 3D Matching to Nightmare at the Museum}\\
 &\textbf{Input: } \text{Sets }X,Y,Z \text{ of size }n, \text{ matching set }T\subseteq X\times Y\times Z\\
 &\textbf{Output: } \text{Is there a matching of size }n?\\
 &\text{Let }G=(V,E)\text{ be an undirected graph}\\
 &\text{Let }V=X\sqcup Y\sqcup Z\\
-
+&\text{Let }E=\{\{s,t\}:s,t\in V \text{ and }s\ne t\}\\
+&i=1\\
+&\textbf{For } (x,y,z)\in T \textbf{ do:}\\
+&\quad s_{i}=x\\
+&\quad P_{i}=(x,y,z)\\
+&\quad t_{i}=z\\
+&\quad i++\\
+&\textbf{end for}\\
+&\textbf{return } \texttt{Nightmare}(G,s,P,t,|X|)
 \end{align*}$$
+Let $I=\{n\in \mathbb{N}:n\le|T|\}$.
+
+>[!proof]
+Assume that $\texttt{Nightmare}$ returns $\texttt{true}$ $\iff$ there is a subset $S\subseteq I$ with $|S|\ge n$ and for any $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. I will show that the algorithm returns $\texttt{true}$ $\iff$ there is a matching of size $n$.
+
+Suppose the algorithm returns $\texttt{true}$. Let $S\subseteq I$ with $|S|\ge n$ and for all $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. Let $M=\{P_{i}:i\in S\}$. $|M|=|S|=n$. Additionally, if $P_{i},P_{j}\in M$, $P_{i}\cap P_{j}=\emptyset$. 
