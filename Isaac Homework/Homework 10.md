@@ -73,4 +73,6 @@ Let $I=\{n\in \mathbb{N}:n\le|T|\}$.
 >[!proof]
 Assume that $\texttt{Nightmare}$ returns $\texttt{true}$ $\iff$ there is a subset $S\subseteq I$ with $|S|\ge n$ and for any $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. I will show that the algorithm returns $\texttt{true}$ $\iff$ there is a matching of size $n$.
 
-Suppose the algorithm returns $\texttt{true}$. Let $S\subseteq I$ with $|S|\ge n$ and for all $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. Let $M=\{P_{i}:i\in S\}$. $|M|=|S|=n$. Additionally, if $P_{i},P_{j}\in M$, $P_{i}\cap P_{j}=\emptyset$. 
+Suppose the algorithm returns $\texttt{true}$. Let $S\subseteq I$ with $|S|\ge n$ and for all $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. Let $M=\{P_{i}:i\in S\}$. $|M|=|S|=n$. Since each $P_{i}\in T$, $M\subseteq T$. Additionally, if $P_{i},P_{j}\in M$, $P_{i}\cap P_{j}=\emptyset$. Therefore, $M$ is a valid matching with $n$ tuples. 
+
+Suppose the algorithm returns $\texttt{false}$ and there is a valid matching $M$ of size $n$. Let $M=\{P_{1},\ldots,P_{n}\}$. 
