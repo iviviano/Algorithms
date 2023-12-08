@@ -22,7 +22,7 @@ Step 1: Variable Assignments
 - Connect both ends of $P_{n}$ to $t$.
 - Connect $t$ to $s$
 
-Step 2: Satisfy Clauses
+Step 2: Satisfy Clause ($x_{i}\lor\ x_{j}\lor\bar{x}_{k}$)
 - For each clause, create special "clause vertex"
 - 
 

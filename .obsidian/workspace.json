@@ -85,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Homework 10.md",
+                "file": "Hamiltonian Cycle Problem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Homework 10.md",
+                "file": "Hamiltonian Cycle Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Homework 10.md"
+                "file": "Hamiltonian Cycle Problem.md"
               }
             }
           },
@@ -221,11 +222,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "597dcdcbd8f63acf",
+  "active": "4c1b07869077cc36",
   "lastOpenFiles": [
-    "Hamiltonian Cycle Problem.md",
-    "Isaac Homework/Homework 10.md",
     "NP-Hard.md",
+    "Isaac Homework/Homework 10.md",
+    "Hamiltonian Cycle Problem.md",
     "Isaac Homework/Homework 9.md",
     "Set Cover.md",
     "Vertex Cover Problem.md",
