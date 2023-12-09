@@ -3,13 +3,16 @@
 Ployride is in $NP$: 
 - Certificate: a collection $P\subseteq E$
 - Certification: 
-	1.  is $$\sum_{e\in P}c_{e}≥k?$$
+	1.  $$\sum_{e\in P}c_{e}≥k$$
 	2. For all $e=(u,v)\in P$, either
 		1. $u=s$ and $v=t$
 		2. $u=s$ and $(v,\_)\in P$
 		3. $v=t$ and $(\_,u)\in P$
 		4. $(\_,u)\in P$ and $(v,\_)\in P$
-	3. 
+	3. $(s,\_)\in P$ and $(\_,t)\in P$
+
+Let $n=|P|$.
+Step 1 is $O(n)$, since it is a sum of $n$ terms. Step 2 is $O(n^2)$, since for each edge in $P$, we must look for other elements in $S$ satisfying certain conditions. Step 3 is $O(n)$, since 
 
 Reduce [[Hamiltonian Cycle Problem]] to Ployride:
 
