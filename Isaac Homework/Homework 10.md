@@ -68,7 +68,7 @@ $$\begin{align*}
 \end{align*}$$
 
 >[!proof]
-Assume that $\texttt{Nightmare}$ returns $\texttt{true}$ $\iff$ there is a subset $S\subseteq I$ with $|S|\ge n$ and for any $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. I will show that the algorithm returns $\texttt{true}$ $\iff$ there is a matching of size $n$.
+Assume that $\texttt{Nightmare}(G,s,P,t,k)$ returns $\texttt{true}$ $\iff$ there is a subset $S\subseteq I$ with $|S|\ge k$ and for any $i,j\in S$, $P_{i}\cap P_{j}=\emptyset$. I will show that the algorithm returns $\texttt{true}$ $\iff$ there is a matching of size $n$.
 >
 Let $I=\{n\in \mathbb{N}:n\le|T|\}$. Note: each $P_{i}$ is a path in $G$, since every vertex in $G$ is connected to every other vertex in $G$. 
 >
