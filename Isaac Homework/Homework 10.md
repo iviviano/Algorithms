@@ -44,11 +44,6 @@ In [[NP]]:
 
 
 In [[NP-Hard]]:
-Let $X,Y,Z$ be three disjoint sets of $n$ elements, and let $T\subseteq X\times Y\times Z$ be a set of $m$ elements. 
-
-A triple $(x,y,z)\in T$ sends a guard in $s_{x}$ through room $s_{y}$ to bathroom $t_{z}$.
-
-$X$ is the guards, $Y$ is the 
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Reduce 3D Matching to Nightmare at the Museum}\\
