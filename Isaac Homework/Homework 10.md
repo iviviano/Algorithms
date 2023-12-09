@@ -12,7 +12,7 @@ Ployride is in $NP$:
 	3. $(s,\_)\in P$ and $(\_,t)\in P$
 
 Let $n=|P|$.
-Step 1 is $O(n)$, since it is a sum of $n$ terms. Step 2 is $O(n^2)$, since for each edge in $P$, we must look for other elements in $S$ satisfying certain conditions. Step 3 is $O(n)$, since 
+Step 1 is $O(n)$, since it is a sum of $n$ terms. Step 2 is $O(n^2)$, since for each edge in $P$, we must look for other elements in $S$ satisfying certain conditions. Step 3 is $O(n)$, since we must just check that two elements are contained in $P$. Therefore, there exists a polynomial runtime certification for 
 
 Reduce [[Hamiltonian Cycle Problem]] to Ployride:
 
