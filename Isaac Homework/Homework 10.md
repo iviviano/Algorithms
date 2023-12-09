@@ -40,7 +40,8 @@ Then, there is an ordering of the vertices $v_{1},\ldots,v_{n}$ such that $(v_{i
 
 In [[NP]]:
 - [[Certificate]]: A subset $S$ of the guards
-- [[Certification]]: $|S|\ge k$, for all $i,j\in S,P_{i}\cap P_{j}=\emptyset$, and 
+- [[Certification]]: $|S|\ge k$, for all $i,j\in S,P_{i}\cap P_{j}=\emptyset$
+This is [[Polynomial Run Time]], since 
 
 
 In [[NP-Hard]]:
