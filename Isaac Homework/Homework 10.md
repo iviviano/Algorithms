@@ -41,7 +41,7 @@ Then, there is an ordering of the vertices $v_{1},\ldots,v_{n}$ such that $(v_{i
 In [[NP]]:
 - [[Certificate]]: A subset $S$ of the guards
 - [[Certification]]: $|S|\ge k$, for all $i,j\in S,P_{i}\cap P_{j}=\emptyset$
-This is [[Polynomial Run Time]], since there are less than $n^{2}$ pairs of elements of $S$ (where $n$ is the number of guards). 
+This is [[Polynomial Run Time]], since there are less than $n^{2}$ pairs of elements of $S$ (where $n$ is the number of guards). To check that each pair of elements of $S$ is disjoint is constant.
 
 
 In [[NP-Hard]]:
