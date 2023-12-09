@@ -4,6 +4,8 @@ Ployride is in $NP$:
 - Certificate: a collection $P\subseteq E$
 - Certification: 
 	1.  is $$\sum_{e\in P}c_{e}≥k?$$
+	2. For all $e\in P$ is either 
+		1. $$
 
 Reduce [[Hamiltonian Cycle Problem]] to Ployride:
 
