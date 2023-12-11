@@ -20,4 +20,7 @@ Step 1: Simulate Variables
 1. Create a flower for each variable
 
 Step 2: Simulate Clauses
+1. Add clause vertices and tuples
+
+Step 3: Cleanup
 1. 

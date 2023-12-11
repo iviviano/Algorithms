@@ -60,19 +60,6 @@
             }
           },
           {
-            "id": "3f887d8b81e3ecc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3D Matching Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "46fb545dbaa5d0e6",
             "type": "leaf",
             "state": {
@@ -86,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "IMG-1263.jpg",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "IMG-1263.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D Matching Problem.md"
+                "file": "IMG-1263.jpg"
               }
             }
           },
@@ -222,14 +209,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f887d8b81e3ecc5",
+  "active": "369e3d3423d2c99a",
   "lastOpenFiles": [
+    "3D Matching Problem.md",
     "NP-Complete.md",
     "Isaac Homework/Homework 10.md",
     "Isaac Homework/Abstractions Exam 2.md",
     "NP-Hard.md",
     "Set Cover.md",
-    "3D Matching Problem.md",
     "Hamiltonian Cycle Problem.md",
     "Isaac Homework/Homework 9.md",
     "Vertex Cover Problem.md",
@@ -250,7 +237,7 @@
     "Dynamic Programming Paradigm.md",
     "P vs NP.md",
     "NP.md",
-    "CamScanner 11-10-2023 14.10_1.jpg",
+    "Pictures/CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
     "IMG-1264.jpg",
