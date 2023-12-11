@@ -23,4 +23,7 @@ Step 2: Simulate Clauses
 1. Add clause vertices and tuples
 
 Step 3: Cleanup
-1. 
+1. For each flower point, add two vertices
+2. Make a tuple with the point and the two vertices
+
+
