@@ -17,4 +17,7 @@ In [[NP-Hard]]:
 Reduce [[3-SAT Problem]] to [[3D Matching Problem]]:
 
 Step 1: Simulate Variables
+1. Create a flower for each variable
+
+Step 2: Simulate Clauses
 1. 
