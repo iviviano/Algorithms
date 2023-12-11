@@ -15,3 +15,6 @@ Runtime: $O(n^2)$, look for each of $3n$ variables in $M$.
 
 In [[NP-Hard]]:
 Reduce [[3-SAT Problem]] to [[3D Matching Problem]]:
+
+Step 1: Simulate Variables
+1. 
