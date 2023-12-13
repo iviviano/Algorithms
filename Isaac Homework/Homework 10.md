@@ -39,7 +39,16 @@ Suppose $G$ has a Hamiltonian cycle.
 Then, there is an ordering of the vertices $v_{1},\ldots,v_{n}$ such that $(v_{i},v_{i+1})\in E$ for all $i$ and $(v_{n},v_{1})\in E$. Since $(s,v_{1})\in E$ and $(v_{i},v_{i+1})\in E$ for all $i$, $$s,v_{1},v_{2},\ldots,v_{n}$$is a path in $G$ that starts at $s$ and ends at $v_{n}$. Since $(s,v_{2})\in E$, $(v_{i},v_{i+1})\in E$ for all $i$ and $(v_{n},v_{1})\in E$, $$s,v_{2},v_{3},\ldots,v_{n},v_{1}$$is a path in $G$ that starts at $s$ and ends at $v_{1}$. For all $i$, since $(s,v_{i})\in E$, $$s,v_{i},v_{i+1},\ldots,v_{n},v_{1},\ldots,v_{i-1}$$is a path in $G$ that starts at $s$ and ends at $v_{i}$. All of these paths consist of $n+1$ vertices ($n$ edges). So, the total cost of each path is $n$, since each edge has cost 1. Therefore, there is a path costing $n$ from $s$ to $v$ for all $v\in V-\{s\}$. So, $$\forall t\in V-\{s\}: \texttt{Ployride}(G,c,s,t,n)=\texttt{true}$$Since $|V|-1=n$, the algorithm returns $\texttt{true}$.
 
 
+Suppose the algorithm returns $\texttt{true}$. Then, for each $i,$ there exists a path containing every vertex that starts at $s$ and ends at $v_{i}$. 
 
+
+Claim: if there are paths of length $n$ to $k$ vertices, there is a cycle of $k$ vertices. 
+
+Note that I am paths of length $n$ refer to paths from the $s$.
+
+Base case: $k=1$. The base case holds trivially, since a single vertex is a cycle of $k$ vertices.
+
+Inductive step: Suppose for some $k$ that if there are paths of length $n$ to $k$ vertices, there is a cycle of $k$ vertices. Suppose there are paths of length $n$ to $k+1$ vertices. Let $v_{1},\ldots,v_{k}$ be a cycle in that order. Let $v\ne v_{i}$ for all $i$ with a path of length $n$ to $v$. We have a path that goes through all of the vertices to $v$. Let $j$ be the index of the last of the vertices $v_{1},\ldots,v_{k}$ visited by this path.  
 
 
 
