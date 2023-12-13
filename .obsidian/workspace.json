@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Homework 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D Matching Problem.md"
+                "file": "Isaac Homework/Homework 10.md"
               }
             }
           },
@@ -196,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1b07869077cc36",
+  "active": "597dcdcbd8f63acf",
   "lastOpenFiles": [
+    "3D Matching Problem.md",
     "Hamiltonian Cycle Problem.md",
     "Isaac Homework/Homework 10.md",
     "IMG-1263.jpg",
@@ -206,7 +206,6 @@
     "Pictures/IMG-1265.jpg",
     "Pictures/IMG-1264.jpg",
     "Pictures/IMG-1263.jpg",
-    "3D Matching Problem.md",
     "NP-Complete.md",
     "Isaac Homework/Abstractions Exam 2.md",
     "NP-Hard.md",

@@ -27,7 +27,7 @@ $$\begin{align*}
 &\textbf{For } e\in E \textbf{ do:}\\
 &\quad c_{e}=1\\
 &\textbf{end for}\\
-&\textbf{return } \forall t\in V-\{s\}\texttt{Ployride}(G,c,s,t,|V|-1)
+&\textbf{return } \forall t\in V-\{s\}:\texttt{Ployride}(G,c,s,t,|V|-1)
 \end{align*}$$
 
 >[!proof]
