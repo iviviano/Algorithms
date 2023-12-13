@@ -41,15 +41,15 @@ Then, there is an ordering of the vertices $v_{1},\ldots,v_{n}$ such that $(v_{i
 
 Suppose the algorithm returns $\texttt{true}$. Then, for each $i,$ there exists a path containing every vertex that starts at $s$ and ends at $v_{i}$. 
 
+Claim: if there are paths of length $n$ to $k$ vertices, there is a cycle of at least $k$ vertices. 
 
-Claim: if there are paths of length $n$ to $k$ vertices, there is a cycle of $k$ vertices. 
+Note that paths of length $n$ refer to paths from $s$.
 
-Note that I am paths of length $n$ refer to paths from the $s$.
+Base case: $k=1$. The base case holds trivially, since a single vertex is a cycle of $1$ vertices.
 
-Base case: $k=1$. The base case holds trivially, since a single vertex is a cycle of $k$ vertices.
+Inductive step: Suppose for some $k$ that if there are paths of length $n$ to $k$ vertices, then there is a cycle of at least $k$ vertices. Suppose there are paths of length $n$ to $k+1$ vertices. Let $v_{1},\ldots,v_{l}$ be a cycle in that order with $l\ge k$. Let $v\ne v_{i}$ for all $i$ with a path of length $n$ to $v$. We have a path that goes through all of the vertices to $v$. Let $j$ be the index of the last of the vertices $v_{1},\ldots,v_{l}$ visited by this path.  Since there is also a path to $v_{j+1}$ that goes through $v$, $v$ is in the cycle. We have found a cycle of length $l+1$. Since $l\ge k$, this is a cycle of at least $l+1$ vertices.
 
-Inductive step: Suppose for some $k$ that if there are paths of length $n$ to $k$ vertices, there is a cycle of $k$ vertices. Suppose there are paths of length $n$ to $k+1$ vertices. Let $v_{1},\ldots,v_{k}$ be a cycle in that order. Let $v\ne v_{i}$ for all $i$ with a path of length $n$ to $v$. We have a path that goes through all of the vertices to $v$. Let $j$ be the index of the last of the vertices $v_{1},\ldots,v_{k}$ visited by this path.  
-
+By (PMI), if there is a path of length $n$ to $n$ vertices, there is a cycle of length $n$. So, if the algorithm returns $\texttt{true}$, there must be a Hamiltonian cycle.
 
 
 >[!note] 2
