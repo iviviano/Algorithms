@@ -36,6 +36,7 @@ $$\begin{align*}
 \end{align*}$$
 
 (c) 
+If only need 
 
 >[!note] 2
 
