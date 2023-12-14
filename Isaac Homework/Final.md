@@ -96,8 +96,18 @@ $$\begin{align*}
 &\text{Let }f_{B}=\texttt{max\_flow}(G,c_{B})\\
 &\text{Let }f_{C}=\texttt{max\_flow}(G,c_{c})\\
 &\textbf{If } |f_{A}|\ne n\lor|f_{B}|\ne n\lor |f_{C}|\ne n \textbf{ then:}\\
+&\text{Let }f=f_{A}+f_{B}+f_{C}\\
 &\quad \textbf{return } \texttt{false}\\
-&
+&\textbf{For } n+1\le j\le n+m \textbf{ do:}\\
+&\quad \text{Let }S'_{j}=\emptyset\\
+&\quad \textbf{For } i\in S_{j} \textbf{ do:}\\
+&\quad \quad \textbf{If } !f((i,j)) \textbf{ then:}\\
+&\quad \quad \quad \text{Add }i \text{ to }S_{j}'\\
+&\quad \quad \textbf{end if}\\
+&\quad \textbf{end for}\\
+&\quad K_{j}'=K_{j}-f((j,t))\\
+&\textbf{end for}\\
+&\textbf{return } \texttt{daycare}(W_{i}-3,S_{j}',K_{j}')\\
 \end{align*}$$
 
 >[!note] 2
