@@ -35,6 +35,14 @@ $$\begin{align*}
 &\textbf{return } \exists \texttt{circulation\_lower\_bounds}(G,c,l,d)\\
 \end{align*}$$
 
+
+
+Suppose there is a valid circulation $s$ in $G$. 
+
+
+
+Suppose there is a valid assignment of children to employees.
+
 (c) 
 Do above for the subset of teachers in $A,B,C$, but only assign each child to one employee of each type. If that was possible, create a new network removing the edges used, $W_{i}=W_{i}-3$, $K_{j}=K_{j}-$ number of kids assigned to $j$.
 
