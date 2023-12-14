@@ -65,6 +65,41 @@ Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matchin
 (c) 
 Do above for the subset of teachers in $A,B,C$, but only assign each child to one employee of each type. If that was possible, create a new network removing the edges used, $W_{i}=W_{i}-3$, $K_{j}=K_{j}-$ number of kids assigned to $j$.
 
+$$\begin{align*}
+&\textbf{Algorithm } \text{Specialist Daycare}\\
+&\textbf{Input: } \text{min handlers }W_{i},\text{ max children }K_{j},\text{ compatible children }S_{j},\text{ and specialties }A,B,C\\
+&\text{Let }G=(V,E)\text{ be a graph}\\
+&\text{Let }V=\{s,t\},E=\emptyset\\
+&\textbf{For } 1\le i\le n \textbf{ do:}\\
+&\quad \text{Add a vertex }i \text{ to }V\\
+&\quad \text{Add an edge }e=(s,i)\text{ to }E\\
+&\quad c_{A,B,C}(e)=1\\
+&\textbf{end for}\\
+&\textbf{For } n+1\le j\le n+m \textbf{ do:}\\
+&\quad \text{Add a vertex }j \text{ to }V\\
+&\quad \text{Add an edge }e=(j,t)\text{ to }E\\
+&\quad c_{A,B,C}(e)=K_{j}\\
+&\quad \textbf{For } i\in S_{j} \textbf{ do:}\\
+&\quad \quad \text{Add an edge }e=(i,j)\text{ to }E\\
+&\quad \quad \textbf{If } j\in A \textbf{ then:}\\
+&\quad \quad \quad c_{A}(e)=1\\
+&\quad \quad \quad c_{B,C}(e)=0\\
+&\quad \quad \textbf{If } j\in B \textbf{ then:}\\
+&\quad \quad \quad c_{B}(e)=1\\
+&\quad \quad \quad c_{A,C}(e)=0\\
+&\quad \quad \textbf{If } j\in C \textbf{ then:}\\
+&\quad \quad \quad c_{C}(e)=1\\
+&\quad \quad \quad c_{A,B}(e)=0\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\text{Let }f_{A}=\texttt{max\_flow}(G,c_{A})\\
+&\text{Let }f_{B}=\texttt{max\_flow}(G,c_{B})\\
+&\text{Let }f_{C}=\texttt{max\_flow}(G,c_{c})\\
+&\textbf{If } |f_{A}|\ne n\lor|f_{B}|\ne n\lor |f_{C}|\ne n \textbf{ then:}\\
+&\quad \textbf{return } \texttt{false}\\
+&
+\end{align*}$$
+
 >[!note] 2
 
 $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i+1,j),\texttt{OPT}(i,j-1)\}$$
