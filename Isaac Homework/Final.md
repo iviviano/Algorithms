@@ -4,7 +4,7 @@
 
 (b) reduce to circulation with lower bounds
 
-(c) 
+(c) edges from child to each specialty with lower bound 1
 
 >[!note] 2
 
