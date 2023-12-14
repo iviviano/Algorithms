@@ -8,13 +8,13 @@ $$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
 &\textbf{Input: } \text{Children }i,\text{ mininum handlers }W_{i},\text{ workers }j,\text{ max children }K_{j},\text{ compatible children }S_{j}\\
 &\text{Let }V=\{s,t\},E=\emptyset\\\\
-&d(v)=,d(s)=\\
+&d(v)=0,d(s)=0\\
 &\textbf{For } 1\le i\le n \textbf{ do:}\\
 &\quad \text{Add }i \text{ to }V\\
-&\quad d(i)=\\
+&\quad d(i)=0\\
 &\quad \text{Add }e=(s,t)\text{ to }E\\
 &\quad c(e)=m\\
-&\quad l(e)=\\
+&\quad l(e)=W_{i}\\
 &\textbf{end for}\\
 &\textbf{For } n+1\le j\le n+m \textbf{ do:}\\
 &\quad \text{Add }j \text{ to }V\\
