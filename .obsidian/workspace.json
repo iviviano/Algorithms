@@ -111,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Set Cover.md",
+                "file": "Isaac Homework/Final.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Set Cover.md",
+                "file": "Isaac Homework/Final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Set Cover.md"
+                "file": "Isaac Homework/Final.md"
               }
             }
           },
@@ -248,8 +247,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a188825885f5f9b8",
+  "active": "4c1b07869077cc36",
   "lastOpenFiles": [
+    "Set Cover.md",
     "Vertex Cover Problem.md",
     "Isaac Homework/Final.md",
     "3D Matching Problem.md",
@@ -258,7 +258,6 @@
     "Hamiltonian Cycle Problem.md",
     "Independent Set Problem.md",
     "Independent Set.md",
-    "Set Cover.md",
     "NP.md",
     "Bipartite Matching Problem.md",
     "NP-Complete.md",
