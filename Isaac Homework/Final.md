@@ -1,6 +1,8 @@
 >[!note] 1
 
+(a) idea: use max flow to find min cut. Add one to capacity of min cut. Keep track of which edges have been changed. Continue until $|f|=T$. If none of the edges crossing the min cut have been changed, this is a cut of capacity exactly $T$. (Does this guarantee there isn't one if some of the edges have changed?)
 
+(b) 
 
 >[!note] 2
 

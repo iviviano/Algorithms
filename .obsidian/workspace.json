@@ -34,77 +34,12 @@
             }
           },
           {
-            "id": "ffc185bd4656595b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NP-Hard.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d98ac217fb80f883",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vertex Cover Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a188825885f5f9b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Set Cover.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa0ad5e6ba841a6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Independent Set Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12c9dd79da8d016a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hamiltonian Cycle Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d1fbb72501c17c25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-SAT Problem.md",
+                "file": "Max Flow Problem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -249,11 +184,13 @@
   },
   "active": "4c1b07869077cc36",
   "lastOpenFiles": [
+    "Max Flow Problem.md",
+    "Cut.md",
+    "3-SAT Problem.md",
+    "Isaac Homework/Final.md",
     "Set Cover.md",
     "Vertex Cover Problem.md",
-    "Isaac Homework/Final.md",
     "3D Matching Problem.md",
-    "3-SAT Problem.md",
     "NP-Hard.md",
     "Hamiltonian Cycle Problem.md",
     "Independent Set Problem.md",
@@ -277,10 +214,8 @@
     "Flight Scheduling Problem.md",
     "Bipartite Graph.md",
     "P.md",
-    "Max Flow Problem.md",
     "Isaac Homework/Homework 6.md",
     "Bellman-Ford Algorithm.md",
-    "Isaac Homework/Homework 5.md",
     "Pictures/CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
