@@ -110,6 +110,8 @@ $$\begin{align*}
 &W_{i}'=W_{i}-3\\
 &\textbf{return } \texttt{daycare}(W_{i}',S_{j}',K_{j}')\\
 \end{align*}$$
+>[!proof]
+
 Suppose there is a valid matching, and let $M$ be such a matching. Then, there must be a way to assign each child to each specialist. I will show that $|f_{A}|=n$. By symmetry this will also imply that $|f_{B}|=|f_{C}|=n$. 
 
 Define a flow $f$ on $G$ as follows: 
@@ -124,11 +126,7 @@ Capacity constraint: for all $i$, $f((s,i))=1=c((s,i))$. For all $(i,j)\in E$, $
 
 Note that $f$ is the max flow on $G$ with capacities $c_{A}$, so there exists a flow $f_{A}$ with $|f_{A}|=n$.
 
-So if there is a valid matching, we pass the 
-
-
-
-
+So if there is a valid matching, we pass the $\textbf{If } |f_{A}|\ne n\lor|f_{B}|\ne n\lor |f_{C}|\ne n \textbf{ then:}$ line. Now, we must show that $\texttt{daycare}(W_{i}',S_{j}',K_{j}')$ returns $\texttt{true}$. We know that there is a valid matching that assigns each child $W_{i}$ employees. Since we have already assigned each child 3 employees, there is still a valid assignment of at least $W_{i}-3$ employees. We know that there is a valid assignment that assigns each employee only children in $S_{j}$. By removing only the children already assigned to employee $j$ from $S_{j}$, we may still complete the valid assignment with $S_{j}'$. We know that there is a valid assignment that assigns each employee at most $K_{j}$ children. $f((j,t))$ is the number of children assigned to employee in the specialty fulfilling step. We may still complete the valid assignment as long as we assign at most $K_{j}-f((j,t))$ children to employee $j$. Therefore, $\texttt{daycare}(W_{i}',S_{j}',K_{j}')$ returns $\texttt{true}$.
 
 
 Suppose there is no valid matching. There are now two ways for a matching to be invalid: 
@@ -141,6 +139,9 @@ Suppose the matching fails 1.
 
 
 Suppose the matching fails 2.
+
+
+Suppose the algorithm returns $\texttt{true}$. 
 
 
 >[!note] 2
