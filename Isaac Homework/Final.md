@@ -6,8 +6,8 @@
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
-&\textbf{Input: } \text{Children }i,\text{ mininum handlers }W_{i},\text{ workers }j,\text{ max children }K_{j},\text{ compatible children }S_{j}\\
-&\text{Let }V=\{s,t\},E=\emptyset\\\\
+&\textbf{Input: } \text{Children }i,\text{ min handlers }W_{i},\text{ workers }j,\text{ max children }K_{j},\text{ compatible children }S_{j}\\
+&\text{Let }V=\{s,t\},E=\emptyset\\
 &d(v)=0,d(s)=0\\
 &\textbf{For } 1\le i\le n \textbf{ do:}\\
 &\quad \text{Add }i \text{ to }V\\
@@ -21,16 +21,18 @@ $$\begin{align*}
 &\quad d(j)=0\\
 &\quad \text{Add }e=(j,t)\text{ to }E\\
 &\quad c(e)=K_{j}\\
-&\quad l(e)=\\
+&\quad l(e)=0\\
 &\quad \textbf{For } v\in S_{j} \textbf{ do:}\\
 &\quad \quad \text{Add }e=(v,j)\text{ to }E\\
 &\quad \quad c(e)=1\\
-&\quad \quad l(e)=\\
+&\quad \quad l(e)=0\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\text{Add }e=(t,s)\text{ to }E\\
 &c(e)=m\\
-&l(e)=\\
+&l(e)=0\\
+&\text{Let }G=(V,E)\\
+&\textbf{return } \exists \texttt{circulation\_lower\_bounds}(G,c,l,d)\\
 \end{align*}$$
 
 (c) 
