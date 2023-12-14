@@ -2,9 +2,7 @@
 
 (a) idea: use max flow to find min cut. Add one to capacity of min cut. Keep track of which edges have been changed. Continue until $|f|=T$. If none of the edges crossing the min cut have been changed, this is a cut of capacity exactly $T$. (Does this guarantee there isn't one if some of the edges have changed?)
 
-(b) reduce to circulation with lower bounds
-
-$$\begin{align*}
+(b)$$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
 &\textbf{Input: } \text{ min handlers }W_{i},\text{ max children }K_{j},\text{ compatible children }S_{j}\\
 &\text{Let }V=\{s,t\},E=\emptyset\\
@@ -62,10 +60,7 @@ So, a valid matching implies there exists a circulation on $G$.
 
 Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matching.
 
-(c) 
-Do above for the subset of teachers in $A,B,C$, but only assign each child to one employee of each type. If that was possible, create a new network removing the edges used, $W_{i}=W_{i}-3$, $K_{j}=K_{j}-$ number of kids assigned to $j$.
-
-$$\begin{align*}
+(c) $$\begin{align*}
 &\textbf{Algorithm } \text{Specialist Daycare}\\
 &\textbf{Input: } \text{min handlers }W_{i},\text{ max children }K_{j},\text{ compatible children }S_{j},\text{ and specialties }A,B,C\\
 &\text{Let }G=(V,E)\text{ be a graph}\\
@@ -129,20 +124,20 @@ Note that $f$ is the max flow on $G$ with capacities $c_{A}$, so there exists a 
 So if there is a valid matching, we pass the $\textbf{If } |f_{A}|\ne n\lor|f_{B}|\ne n\lor |f_{C}|\ne n \textbf{ then:}$ line. Now, we must show that $\texttt{daycare}(W_{i}',S_{j}',K_{j}')$ returns $\texttt{true}$. We know that there is a valid matching that assigns each child $W_{i}$ employees. Since we have already assigned each child 3 employees, there is still a valid assignment of at least $W_{i}-3$ employees. We know that there is a valid assignment that assigns each employee only children in $S_{j}$. By removing only the children already assigned to employee $j$ from $S_{j}$, we may still complete the valid assignment with $S_{j}'$. We know that there is a valid assignment that assigns each employee at most $K_{j}$ children. $f((j,t))$ is the number of children assigned to employee in the specialty fulfilling step. We may still complete the valid assignment as long as we assign at most $K_{j}-f((j,t))$ children to employee $j$. Therefore, $\texttt{daycare}(W_{i}',S_{j}',K_{j}')$ returns $\texttt{true}$.
 
 
-Suppose there is no valid matching. There are now two ways for a matching to be invalid: 
-1. We cannot give each child 1 of each specialist
-2. After giving each child specialists, we cannot assign enough employees to every child.
+Suppose the algorithm returns $\texttt{true}$. I will show that a valid matching exists. 
 
-Suppose the matching fails 1.
+Claim: The pairs $(i,j)$ for which $f((i,j))=1$ form a sub-matching for which 
+1. each child is matched to an employee of each specialty
+2. no employee is assigned to a non-compatible child
+3. no employee is matched to too many children
+(1) Since $|f_{A}|=n$, $f_{A}((s,i))=1$ for all $i$. By the conservation constraint, $$f_{A}((s,i))=\sum_{e \text{ into }i}f_{A}(e)=\sum_{e \text{ out of }i}f_{A}(e).$$So, there exists $j$ such that $f_{A}((i,j))=1$. By the capacity constraint, this is only possible if $j\in A$. Therefore, $i$ is matched to an employee specializing in $A$, and similarly for $B$ and $C$.
+(2) This is obvious from the definition of $G$. A pair $(i,j)$ is in $E$ only if $i\in S_{j}$. Since the sub-matching is a subset of $E$, this is true.
+(3) Let $j$ be some employee, and suppose $j\in A$ without loss of generality. Clearly, the flow $f$ on all edges into or out of $j$ is equal to $f_{A}$. So, $$K_{j}\ge f_{A}((j,t))=\sum_{e \text{ out of }j}f_{A}(e)=\sum_{e \text{ into }j}f_{A}(e)=\sum_{e \text{ into }j}f(e).$$Since the only incoming edges to $j$ are children, and each edge has capacity 1, at most $K_{j}$ incoming edges have flow 1. So, at most $K_{j}$ children are assigned to employee $j$.
+
+To complete the matching, we must just assign each child sufficiently many employees, without violating any other conditions of matching. We still need to assign each child $W_{i}-3=W_{i}'$ employees. Since we can do this with only the remaining employee assignments and capacities (this is exactly what it means for $\texttt{daycare}(W_{i}',S_{j}',K_{j}')$ to return $\texttt{true}$), there is a valid matching. 
 
 
-
-
-Suppose the matching fails 2.
-
-
-Suppose the algorithm returns $\texttt{true}$. 
-
+Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matching.
 
 >[!note] 2
 
