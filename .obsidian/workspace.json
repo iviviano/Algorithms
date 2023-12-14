@@ -111,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Set Cover.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -194,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Set Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -217,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Final.md"
+                "file": "Set Cover.md"
               }
             }
           },
@@ -247,8 +248,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1b07869077cc36",
+  "active": "a188825885f5f9b8",
   "lastOpenFiles": [
+    "Vertex Cover Problem.md",
+    "Isaac Homework/Final.md",
     "3D Matching Problem.md",
     "3-SAT Problem.md",
     "NP-Hard.md",
@@ -256,10 +259,8 @@
     "Independent Set Problem.md",
     "Independent Set.md",
     "Set Cover.md",
-    "Vertex Cover Problem.md",
     "NP.md",
     "Bipartite Matching Problem.md",
-    "Isaac Homework/Final.md",
     "NP-Complete.md",
     "Isaac Homework/Homework 10.md",
     "IMG-1263.jpg",
