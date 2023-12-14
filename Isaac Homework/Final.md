@@ -96,8 +96,8 @@ $$\begin{align*}
 &\text{Let }f_{B}=\texttt{max\_flow}(G,c_{B})\\
 &\text{Let }f_{C}=\texttt{max\_flow}(G,c_{c})\\
 &\textbf{If } |f_{A}|\ne n\lor|f_{B}|\ne n\lor |f_{C}|\ne n \textbf{ then:}\\
-&\text{Let }f=f_{A}+f_{B}+f_{C}\\
 &\quad \textbf{return } \texttt{false}\\
+&\text{Let }f=f_{A}+f_{B}+f_{C}\\
 &\textbf{For } n+1\le j\le n+m \textbf{ do:}\\
 &\quad \text{Let }S'_{j}=\emptyset\\
 &\quad \textbf{For } i\in S_{j} \textbf{ do:}\\
@@ -107,8 +107,41 @@ $$\begin{align*}
 &\quad \textbf{end for}\\
 &\quad K_{j}'=K_{j}-f((j,t))\\
 &\textbf{end for}\\
-&\textbf{return } \texttt{daycare}(W_{i}-3,S_{j}',K_{j}')\\
+&W_{i}'=W_{i}-3\\
+&\textbf{return } \texttt{daycare}(W_{i}',S_{j}',K_{j}')\\
 \end{align*}$$
+Suppose there is a valid matching, and let $M$ be such a matching. Then, there must be a way to assign each child to each specialist. I will show that $|f_{A}|=n$. By symmetry this will also imply that $|f_{B}|=|f_{C}|=n$. 
+
+Define a flow $f$ on $G$ as follows: 
+1. For all $i$, $f((s,i))=1$
+2. For each $i$, pick $(i,j)\in M$ with $j\in A$, and let $f((i,j))=1$. For all other $(i,j)\in E$, $f((i,j))=0$
+3. For all $j$, $$f((j,t))=\sum_{e \text{ into }j}f(e)$$
+Then, $$|f|=\sum_{e \text{ out of }s}f(e)=n$$since there are $n$ children, so we must show that $f$ is a valid flow. 
+
+Conservation constraint: for each $i$, there is only one edge in. This has flow $1$. Only one edge out has flow, and this edge also has flow 1. The conservation constraint is trivially satisfied for all $j$ by the definition of $f$. 
+
+Capacity constraint: for all $i$, $f((s,i))=1=c((s,i))$. For all $(i,j)\in E$, $f((i,j))\le1=c((s,i))$. For all $j$, $$f((j,t))=\sum_{e \text{ out of }j}f(e)=\sum_{e \text{ into }j}f(e).$$Since the only incoming edges to $j$ are from children, and each capacity 1, we must only show that at most $K_{j}$ incoming edges have flow. An incoming edge $(i,j)$ has flow 1 only if $(i,j)\in M$. Since $M$ is a valid matching, there are at most $K_{j}$ of these edges.
+
+Note that $f$ is the max flow on $G$ with capacities $c_{A}$, so there exists a flow $f_{A}$ with $|f_{A}|=n$.
+
+So if there is a valid matching, we pass the 
+
+
+
+
+
+
+Suppose there is no valid matching. There are now two ways for a matching to be invalid: 
+1. We cannot give each child 1 of each specialist
+2. After giving each child specialists, we cannot assign enough employees to every child.
+
+Suppose the matching fails 1.
+
+
+
+
+Suppose the matching fails 2.
+
 
 >[!note] 2
 
