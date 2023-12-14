@@ -35,13 +35,27 @@ $$\begin{align*}
 &\textbf{return } \exists \texttt{circulation\_lower\_bounds}(G,c,l,d)\\
 \end{align*}$$
 
+A matching of children to employees is a subset $M\subseteq\{1,\ldots,n\}\times\{n+1,\ldots,n+m\}$.
 
+Suppose there is a valid circulation $s$ in $G$. Let $$M=\{(i,j):s((i,j))=1\text{ and }1\le i\le n,n+1\le j\le n+m\}$$Claim: $M$ is a valid matching of children to employees. We need the following:
+1. $(i,j)\in M\implies i\in S_{j}$
+2. For each $i$, $|\{(i,j)\in M\}|\ge W_{i}$
+3. For each $j$, $|\{(i,j)\in M\}\le K_{j}$
+(1) $M$ is a subset of $E$ and there are only edges from child $i$ to employee $j$ if $i\in S_{j}$.
+(2) $l(s,i)=W_{i}$. Since $s$ is a valid circulation, $$\sum_{e \text{ into }i}s(e)-\sum_{e\text{ out of }i}s(e)=d(i)=0.$$and $$\sum_{e\text{ into }i}s(e)=s((s,i))\ge l((s,i))= W_{i}.$$Therefore, $$\sum_{e\text{ out of }i}s(e)\ge W_{i}.$$Since the only edges out $i$ go to employees, and each has capacity $1$, there must be circulation of $1$ on at least $W_{i}$ edges from $i$ to employees.
+(3) $c(j,t)=K_{j}$. Since $s$ is a valid circulation, $$\sum_{e\text{ into }j}s(e)-\sum_{e\text{ out of }j}s(e)=d(j)=0$$and $$\sum_{e \text{ out of }j}s(e)=s((j,t))\le c((j,t))=K_{j}.$$Therefore, $$\sum_{e \text{ into }j}s(e)\le K_{j}.$$Since the only edges into $j$ come from children, and each has capacity 1, there must be circulation of 1 on at most $K_{j}$ edges from children to $j$. 
 
-Suppose there is a valid circulation $s$ in $G$. 
+So, a valid circulation on $G$ implies there exists a valid matching.
 
-
-
-Suppose there is a valid assignment of children to employees.
+Suppose there is a valid assignment $M$ of children to employees. Let a pair $(i,j)$ refer to child-employee edges only. Define a circulation $s$ on $G$ as follows:
+1. $s(p)=1$ for all $p\in M$.
+2. $s((i,j))=0$ $(i,j)\in E-M$
+3. $$s(s,i)=\sum_{(i,j)\in E}s((i,j))$$
+4. $$s(j,t)=\sum_{(i,j)\in E}s((i,j))$$
+5. $$s(t,s)=\sum_{e \text{ into }t}s(e)$$
+Claim: $s$ is a valid circulation: 
+Demand constraint: the definition of $s$ trivially satisfies the demand constraint for all vertices except $s$. 
+Capacity constraint: For all $(i,j)\in E$, $s((i,j))\le1=c((i,j))$. For all 
 
 (c) 
 Do above for the subset of teachers in $A,B,C$, but only assign each child to one employee of each type. If that was possible, create a new network removing the edges used, $W_{i}=W_{i}-3$, $K_{j}=K_{j}-$ number of kids assigned to $j$.
