@@ -32,9 +32,86 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffc185bd4656595b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NP-Hard.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d98ac217fb80f883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vertex Cover Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a188825885f5f9b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Set Cover.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa0ad5e6ba841a6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Independent Set Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12c9dd79da8d016a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hamiltonian Cycle Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1fbb72501c17c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3-SAT Problem.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Final.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D Matching Problem.md"
+                "file": "Isaac Homework/Final.md"
               }
             }
           },
@@ -170,13 +247,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "984e609e8af34630",
+  "active": "4c1b07869077cc36",
   "lastOpenFiles": [
-    "Isaac Homework/Final.md",
     "3D Matching Problem.md",
+    "3-SAT Problem.md",
+    "NP-Hard.md",
+    "Hamiltonian Cycle Problem.md",
+    "Independent Set Problem.md",
+    "Independent Set.md",
+    "Set Cover.md",
+    "Vertex Cover Problem.md",
+    "NP.md",
+    "Bipartite Matching Problem.md",
+    "Isaac Homework/Final.md",
     "NP-Complete.md",
     "Isaac Homework/Homework 10.md",
-    "Hamiltonian Cycle Problem.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
@@ -184,26 +269,18 @@
     "Pictures/IMG-1264.jpg",
     "Pictures/IMG-1263.jpg",
     "Isaac Homework/Abstractions Exam 2.md",
-    "NP-Hard.md",
-    "Set Cover.md",
     "Isaac Homework/Homework 9.md",
-    "Vertex Cover Problem.md",
     "vet.md",
     "Certificate.md",
     "Cook and Levin Theorem.md",
     "Circulation with Demands Problems.md",
     "Flight Scheduling Problem.md",
     "Bipartite Graph.md",
-    "Bipartite Matching Problem.md",
     "P.md",
     "Max Flow Problem.md",
     "Isaac Homework/Homework 6.md",
     "Bellman-Ford Algorithm.md",
     "Isaac Homework/Homework 5.md",
-    "Weighted Interval Scheduling Problem.md",
-    "Isaac Homework/Abstractions Exam 1.md",
-    "Dynamic Programming Paradigm.md",
-    "P vs NP.md",
     "Pictures/CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
