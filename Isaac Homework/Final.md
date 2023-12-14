@@ -7,29 +7,30 @@
 $$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
 &\textbf{Input: } \text{Children }i,\text{ mininum handlers }W_{i},\text{ workers }j,\text{ max children }K_{j},\text{ compatible children }S_{j}\\
-&\text{Let }V=\{s,t\},E=\emptyset\\
+&\text{Let }V=\{s,t\},E=\emptyset\\\\
+&d(v)=,d(s)=\\
 &\textbf{For } 1\le i\le n \textbf{ do:}\\
 &\quad \text{Add }i \text{ to }V\\
 &\quad d(i)=\\
 &\quad \text{Add }e=(s,t)\text{ to }E\\
-&\quad c(e)=\\
+&\quad c(e)=m\\
 &\quad l(e)=\\
 &\textbf{end for}\\
 &\textbf{For } n+1\le j\le n+m \textbf{ do:}\\
 &\quad \text{Add }j \text{ to }V\\
-&\quad d(j)=\\
+&\quad d(j)=0\\
 &\quad \text{Add }e=(j,t)\text{ to }E\\
-&\quad c(e)=\\
+&\quad c(e)=K_{j}\\
 &\quad l(e)=\\
 &\quad \textbf{For } v\in S_{j} \textbf{ do:}\\
 &\quad \quad \text{Add }e=(v,j)\text{ to }E\\
-&\quad \quad c(e)=\\
+&\quad \quad c(e)=1\\
 &\quad \quad l(e)=\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\text{Add }e=(t,s)\text{ to }E\\
-&c(e)=\\
-&l(e)=
+&c(e)=m\\
+&l(e)=\\
 \end{align*}$$
 
 (c) 
