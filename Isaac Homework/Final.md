@@ -4,6 +4,11 @@
 
 >[!note] 2
 
+$$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i+1,j),\texttt{OPT}(i,j-1)\}$$
+Base cases: $\texttt{OPT}(i,i)=0$ for all $i$. 
+
+Goal: compute $\texttt{OPT}(0,k+1)$
+
 
 
 >[!note] 3
