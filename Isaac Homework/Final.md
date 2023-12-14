@@ -6,7 +6,7 @@
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
-&\textbf{Input: } \text{Children }i,\text{ min handlers }W_{i},\text{ workers }j,\text{ max children }K_{j},\text{ compatible children }S_{j}\\
+&\textbf{Input: } \text{ min handlers }W_{i},\text{ max children }K_{j},\text{ compatible children }S_{j}\\
 &\text{Let }V=\{s,t\},E=\emptyset\\
 &d(v)=0,d(s)=0\\
 &\textbf{For } 1\le i\le n \textbf{ do:}\\
@@ -29,7 +29,7 @@ $$\begin{align*}
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\text{Add }e=(t,s)\text{ to }E\\
-&c(e)=m\\
+&c(e)=\sum_{j}K_{j}\\
 &l(e)=0\\
 &\text{Let }G=(V,E)\\
 &\textbf{return } \exists \texttt{circulation\_lower\_bounds}(G,c,l,d)\\
@@ -50,12 +50,13 @@ So, a valid circulation on $G$ implies there exists a valid matching.
 Suppose there is a valid assignment $M$ of children to employees. Let a pair $(i,j)$ refer to child-employee edges only. Define a circulation $s$ on $G$ as follows:
 1. $s(p)=1$ for all $p\in M$.
 2. $s((i,j))=0$ $(i,j)\in E-M$
-3. $$s(s,i)=\sum_{(i,j)\in E}s((i,j))$$
-4. $$s(j,t)=\sum_{(i,j)\in E}s((i,j))$$
-5. $$s(t,s)=\sum_{e \text{ into }t}s(e)$$
+3. $$s((s,i))=\sum_{(i,j)\in E}s((i,j))$$
+4. $$s((j,t))=\sum_{(i,j)\in E}s((i,j))$$
+5. $$s((t,s))=\sum_{e \text{ into }t}s(e)$$
 Claim: $s$ is a valid circulation: 
-Demand constraint: the definition of $s$ trivially satisfies the demand constraint for all vertices except $s$. 
-Capacity constraint: For all $(i,j)\in E$, $s((i,j))\le1=c((i,j))$. For all 
+Demand constraint: the definition of $s$ trivially satisfies the demand constraint for all vertices except $s$. And since the demand of $s$ is 0, this implies that the circulation also satisfies the demand constraint for $s$. 
+Capacity constraint: For all $(i,j)\in E$, $s((i,j))\le1=c((i,j))$. For all $i$, $$s((s,i))=\sum_{e \text{ into }i}s(e)=\sum_{e \text{ out of }i}s(e).$$Since each edge out of $i$ goes to an employee and satisfies the capacity constraint of 1, there is at most $m$ circulation leaving $i$. For all $j$, $$s((j,t))=\sum_{e \text{ out of }j}s(e)=\sum_{e \text{ into }j}s(e).$$Since the only incoming edges to $j$ are from children, and each has capacity 1, we need to show that at most $K_{j}$ circulation enters $j$. Since the matching was valid, at most $K_{j}$ children are matched to $j$. So by the definition of $s,$ $s((j,t))\le K_{j}$. Since edge into $t$ satisfies the demand constraint, $$s((t,s))=\sum_{e \text{ into }t}s(t)\le\sum_{j}K_{j}.$$
+Lower bound constraint: For all $(i,j)\in E$, $s((i,j))\ge0=l((i,j))$. For all $i$, 
 
 (c) 
 Do above for the subset of teachers in $A,B,C$, but only assign each child to one employee of each type. If that was possible, create a new network removing the edges used, $W_{i}=W_{i}-3$, $K_{j}=K_{j}-$ number of kids assigned to $j$.
