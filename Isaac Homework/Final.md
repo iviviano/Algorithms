@@ -150,6 +150,16 @@ Goal: compute $\texttt{OPT}(0,k+1)$
 
 >[!note] 3
 
+(a) Let $V=\{v\}$ and $E=\emptyset$. If $k=1$ and $W=2$, then the solution is $S=V$. Since there are no pairs of vertices in this set, the weight condition is vacuously true.
+
+IMAGE
+
+(b) Let $V=\{v,t\}$ and $E=\{\{v,t\}\}$. Let $w_{e}=1$ for $e\in E$. If $k=2$ and $W=2$, there is no solution. The only subset of size 2 of $V$ is $V$. However, $w_{e}=1<W$ for $e=\{v,t\}$ and $\{v,t\}\subseteq V$. 
+
+IMAGE
+
+(c)
+
 Let $P_{i}$ be a collection of paths. We want to know if there are $k$ paths that don't overlap.
 
 Make a vertex $i$ for each $P_{i}$. For each $i,j$, add an edge $e=\{i,j\}$. Let $w(e)=1$ if $P_{i}\cap P_{j}=\emptyset$ and $w(e)=0$ if $P_{i}\cap P_{j}≠\emptyset$.
@@ -161,4 +171,14 @@ Return true iff there is a collection of $k$ vertices such that the weight of an
 
 
 In $NP$:
-Certificate: 
+Certificate: A subset $K\subseteq V$.
+Certificate:
+1. Is $|K|=k$
+2. For all pairs $\{v,t\}\subseteq K$, is $w_{e}\ge W$ for $e=\{v,t\}$?
+It is constant to check the size of $K$. There are less than $|K|^2$ pairs in $K$. So, this is a polynomial time certificate.
+
+In $NP$-Hard:
+
+Claim: restroom nightmare $\le_{p}$ this problem
+
+$$$$
