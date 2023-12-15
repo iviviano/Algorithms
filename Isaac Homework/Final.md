@@ -163,14 +163,25 @@ Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OP
 Base cases: 
 $\texttt{OPT}(i,i+1)=0$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. 
 
+
 Goal: compute $\texttt{OPT}(0,k+1)$
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{String processing}\\
 &\textbf{Input: } \text{String }s_{1}\cdots s_{n},\text{ splitting indices }l(1),\ldots,l(k)\\
-&\text{Let }memo[][] \text{ be an array of ints}\\
-
+&\text{Let }memo[k+2][k+2] \text{ be an array of ints}\\
+&\textbf{For } 0\le i\le k+1 \textbf{ do:}\\
+&\quad memo[i][i+1]=0\\
+&\textbf{end for}\\
+&\textbf{For } 1\le j\le k+2 \textbf{ do:}\\
+&\quad \textbf{For } j\ge i\ge0 \textbf{ do:}\\
+&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+k]+memo[i+k][j]:1<k<j-i\}\\
+&\quad \textbf{end for}\\
+&\textbf{end for}\\
+&\textbf{return } memo[0][k+1]
 \end{align*}$$
+The algorithm is $O(k^{3})$.
+
 
 >[!note] 3
 
