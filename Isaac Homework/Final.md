@@ -12,6 +12,14 @@ $$\begin{align*}
 &\textbf{end while}\\
 &\textbf{return } f
 \end{align*}$$
+The algorithm is feasible, since 
+
+Suppose there is a flow of size $T$.
+
+
+
+
+
 
 (b)$$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
