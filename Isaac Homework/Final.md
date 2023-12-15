@@ -183,7 +183,7 @@ Return true iff there is a collection of $k$ vertices such that the weight of an
 
 
 
-
+I will refer to this problem as weighted net.
 
 In $NP$:
 Certificate: A subset $K\subseteq V$.
@@ -194,6 +194,9 @@ It is constant to check the size of $K$. There are less than $|K|^2$ pairs in $K
 
 In $NP$-Hard:
 
-Claim: restroom nightmare $\le_{p}$ this problem
+Claim: restroom nightmare $\le_{p}$ weighted net
 
-$$$$
+$$\begin{align*}
+&\textbf{Algorithm } \text{Reduce restroom nightmare to weighted net}\\
+&\textbf{Input: } 
+\end{align*}$$
