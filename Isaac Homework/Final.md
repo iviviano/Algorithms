@@ -175,12 +175,13 @@ $$\begin{align*}
 &\quad memo[i][i+1]=0\\
 &\textbf{end for}\\
 &\textbf{For } 1\le j\le k+2 \textbf{ do:}\\
-&\quad \textbf{For } j\ge i\ge0 \textbf{ do:}\\
+&\quad \textbf{For } j\gt i\ge0 \textbf{ do:}\\
 &\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+k]+memo[i+k][j]:1<k<j-i\}\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
 \end{align*}$$
+Creating the array is constant time. Assigning the base cases is 
 The algorithm is $O(k^{3})$.
 
 
