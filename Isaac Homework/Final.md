@@ -215,4 +215,6 @@ Suppose that $\texttt{weighted\_net}(G,w,k,W)$ returns $\texttt{true}$ $\iff$ th
 
 Suppose there is a set $K$ of $k$ guards such that for all $i,j\in K$ with $i\ne j$, $P_{i}\cap P_{j}=\emptyset$. Then, $K\subseteq S$ has $k$ vertices. For each $\{v,t\}\subseteq K$, $P_{v}\cap P_{t}=\emptyset$. Therefore, $w_{\{v,t\}}=1$. Thus, $K$ is a subset of $k$ vertices such that the edge connecting each pair has weight at least $W=1$. So, the algorithm returns $\texttt{true}$.
 
-Suppose the algorithm returns $\texttt{true}$. Let $K\subseteq H$ with $|K|=k$ and for all pairs of vertices $e=\{v,t\}\subseteq K$, $w_{e}\ge1$. 
+Suppose the algorithm returns $\texttt{true}$. Let $K\subseteq H$ with $|K|=k$ and for all pairs of vertices $e=\{v,t\}\subseteq K$, $w_{e}\ge1$. Then, $K$ is a collection of $k$ guards such that for all $i,j\in K$ with $i\ne j$, $P_{i}\ne P_{j}$. So, there are $k$ guards that don't overlap.
+
+Therefore, the algorithm is correct.
