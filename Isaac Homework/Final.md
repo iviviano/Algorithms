@@ -13,9 +13,6 @@ $$\begin{align*}
 &\textbf{return } f
 \end{align*}$$
 
-Suppose there is a flow of size $T$. 
-
-
 
 
 
