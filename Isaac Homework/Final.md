@@ -12,7 +12,7 @@ $$\begin{align*}
 &\textbf{end while}\\
 &\textbf{return } f
 \end{align*}$$
-The algorithm is feasible, since 
+The algorithm is feasible, since it returns the result of $\texttt{max\_flow}$. Thus, to prove the algorithm is correct, we must 
 
 Suppose there is a flow of size $T$.
 
