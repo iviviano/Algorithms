@@ -181,7 +181,7 @@ $$\begin{align*}
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
 \end{align*}$$
-Creating the array is constant time. Assigning the base cases is 
+Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. 
 The algorithm is $O(k^{3})$.
 
 
