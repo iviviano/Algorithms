@@ -166,6 +166,9 @@ $\texttt{OPT}(i,i+1)=0$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ a
 Goal: compute $\texttt{OPT}(0,k+1)$
 
 $$\begin{align*}
+&\textbf{Algorithm } \text{String processing}\\
+&\textbf{Input: } \text{String }s_{1}\cdots s_{n},\text{ splitting indices }l(1),\ldots,l(k)\\
+&\text{Let }memo[][] \text{ be an array of ints}\\
 
 \end{align*}$$
 
