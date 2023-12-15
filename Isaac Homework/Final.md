@@ -198,5 +198,22 @@ Claim: restroom nightmare $\le_{p}$ weighted net
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Reduce restroom nightmare to weighted net}\\
-&\textbf{Input: } 
+&\textbf{Input: } \text{Graph }G=(V,E),\text{ stations }s_{i},\text{ bathrooms }P_{i},\text{ paths }P_{i},\text{ integer }k\\
+&\text{Let }H=(S,T)\\
+&\text{Let }S=\{i:i\text{ is a guard}\}\\
+&\text{Let }T=\{\{v,t\}:v,t\in S \text{ and }v\ne t\}\\
+&\textbf{For } e=\{v,t\}\in T \textbf{ do:}\\
+&\quad \textbf{If } P_{v}\cap P_{t}=\emptyset \textbf{ then:}\\
+&\quad \quad w_{e}=1\\
+&\quad \textbf{Else:}\\
+&\quad \quad w_{e}=0\\
+&\quad \textbf{end if}\\
+&\textbf{end for}\\
+&\textbf{return } \texttt{weighted\_net}(H,w,k,W=1)\\
 \end{align*}$$
+Suppose that $\texttt{weighted\_net}(G,w,k,W)$ returns $\texttt{true}$ $\iff$ there is a subset of vertices of size $k$ such that for each pair of vertices in this set, the edge connecting them has weight at least $W$.
+
+Suppose there is a set $K$ of $k$ guards such that for all $i,j\in K$ with $i\ne j$, $P_{i}\cap P_{j}=\emptyset$. 
+
+
+Suppose the algorithm returns $\texttt{true}$. Then, there is a 
