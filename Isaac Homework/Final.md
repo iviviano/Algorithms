@@ -165,7 +165,9 @@ $\texttt{OPT}(i,i+1)=0$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ a
 
 Goal: compute $\texttt{OPT}(0,k+1)$
 
+$$\begin{align*}
 
+\end{align*}$$
 
 >[!note] 3
 
