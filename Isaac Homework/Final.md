@@ -158,7 +158,7 @@ Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matchin
 
 Let $\texttt{OPT}(i,j)$ be the minimum cost of splitting the substring $s_{l(i)+1}\cdots s_{l(j)}$ at each index $l(i+1),\ldots,l(j-1)$. 
 
-Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):1\le k\le j-i-1\}$$
+Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):i\lt i+k\lt j\}$$
 
 Base cases: 
 $\texttt{OPT}(i,i+1)=0$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. 
