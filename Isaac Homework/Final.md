@@ -213,7 +213,6 @@ $$\begin{align*}
 \end{align*}$$
 Suppose that $\texttt{weighted\_net}(G,w,k,W)$ returns $\texttt{true}$ $\iff$ there is a subset of vertices of size $k$ such that for each pair of vertices in this set, the edge connecting them has weight at least $W$.
 
-Suppose there is a set $K$ of $k$ guards such that for all $i,j\in K$ with $i\ne j$, $P_{i}\cap P_{j}=\emptyset$. Then, $K\subseteq S$ has $k$ vertices. 
-
+Suppose there is a set $K$ of $k$ guards such that for all $i,j\in K$ with $i\ne j$, $P_{i}\cap P_{j}=\emptyset$. Then, $K\subseteq S$ has $k$ vertices. For each $\{v,t\}\subseteq K$, $P_{v}\cap P_{t}=\emptyset$. Therefore, $w_{\{v,t\}}=1$. Thus, $K$ is a subset of $k$ vertices such that the edge connecting each pair has weight at least $W=1$. So, the algorithm returns $\texttt{true}$.
 
 Suppose the algorithm returns $\texttt{true}$. Then, there is a 
