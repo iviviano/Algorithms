@@ -2,6 +2,17 @@
 
 (a) idea: use max flow to find min cut. Add one to capacity of min cut. Keep track of which edges have been changed. Continue until $|f|=T$. If none of the edges crossing the min cut have been changed, this is a cut of capacity exactly $T$. (Does this guarantee there isn't one if some of the edges have changed?)
 
+$$\begin{align*}
+&\textbf{Algorithm } \text{Flow Size }T\\
+&\textbf{Input: } \text{Graph }G=(V,E),\text{ capacities }c,\text{ integer }T\\
+&\textbf{If } \texttt{max\_flow}(G,c)<T \textbf{ then:}\\
+&\quad \textbf{return } \texttt{false}\\
+&\textbf{While } |f=\texttt{max\_flow}(G,c)|\ne T \textbf{ do:}\\
+&\quad \text{decrease the maximal }c \text{ values by }1\\
+&\textbf{end while}\\
+&\textbf{return } f
+\end{align*}$$
+
 (b)$$\begin{align*}
 &\textbf{Algorithm } \text{Daycare}\\
 &\textbf{Input: } \text{ min handlers }W_{i},\text{ max children }K_{j},\text{ compatible children }S_{j}\\
