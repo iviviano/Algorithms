@@ -160,10 +160,10 @@ Let $\texttt{OPT}(i,j)$ be the minimum cost of splitting the substring $s_{l(i)+
 
 Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):i\lt i+k\lt j\}$$
 Proof of recurrence:
-
+For the substring $s_{l(i)+1}\cdots s_{l(j)}$, we can first split at any index $l(i+1),\ldots,l(j-1)$. 
 
 Base cases: 
-$\texttt{OPT}(i,i+1)=0$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. 
+$\texttt{OPT}(i,i+1)$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. Since there are no splitting indices, 
 
 
 Goal: compute $\texttt{OPT}(0,k+1)$
