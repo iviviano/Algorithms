@@ -1,8 +1,6 @@
 >[!note] 1
 
-(a) idea: use max flow to find min cut. Add one to capacity of min cut. Keep track of which edges have been changed. Continue until $|f|=T$. If none of the edges crossing the min cut have been changed, this is a cut of capacity exactly $T$. (Does this guarantee there isn't one if some of the edges have changed?)
-
-$$\begin{align*}
+(a) $$\begin{align*}
 &\textbf{Algorithm } \text{Flow Size }T\\
 &\textbf{Input: } \text{Graph }G=(V,E),\text{ capacities }c,\text{ integer }T\\
 &\textbf{If } \texttt{max\_flow}(G,c)<T \textbf{ then:}\\
@@ -13,9 +11,10 @@ $$\begin{align*}
 &\textbf{return } f
 \end{align*}$$
 
-Proof: Obviously, the algorithm either returns a flow of size $T$ or returns false. So we must show that if there exists a flow of size $T$ on $G$, the algorithm terminates and doesn't return $\texttt{false}$. 
+Suppose there is a flow of size $T$ on $f$. 
 
-Suppose there is a flow of size $T$ on $G$. 
+
+Suppose the algorithm returns a flow $f$. Then, $f$ satisfies the conservation constraint, since it is the output of $\texttt{max\_flow}$. Since we only decreased capacities $c$, $f$ also satisfies the original capacity constraints. Therefore, $f$ is a valid flow on $G$. Since we only return a flow if its size is $T$, 
 
 
 
