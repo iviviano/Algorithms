@@ -1,16 +1,5 @@
 >[!note] 1
 
-
-$$\begin{align*}
-&\textbf{Algorithm } \text{Flow Size }T\\
-&\textbf{Input: } \text{Graph }G=(V,E),\text{ capacities }c, \text{ integer }T\\
-&\textbf{If } T=0 \textbf{ then:}\\
-&\quad \textbf{return } f:\forall e\in E,f(e)=0\\
-&\text{Let }f=\texttt{max\_flow}(G,c)\\
-&\textbf{If } \text{} \textbf{ then:}
-\end{align*}$$
-
-
 (a) $$\begin{align*}
 &\textbf{Algorithm } \text{Flow Size }T\\
 &\textbf{Input: } \text{Graph }G=(V,E),\text{ capacities }c,\text{ integer }T\\
@@ -25,13 +14,11 @@ $$\begin{align*}
 \end{align*}$$
 Consider the case where $T=0$. Then, any flow network has a valid flow given by $f(e)=0$ for all $e$ (since flow networks are connected). So, the algorithm is correct in this case. Now assume $T>0$.
 
-Claim: $|f|$ decreases by at most 1 each loop iteration. Assume not: decreasing a single edge capacity by 1 causes $|f|$ to decrease by more than 1. 
-Let $e$ be the edge for which $c$ was decreased. The maximum flow $f$ on $e$ can decrease by at most 1.  and thus the magnitude of $f$ decreases by 
+Claim: $|f|$ decreases by at most 1 each loop iteration. In the solution to Nuts About Flow, the max flow on $G$ is decreased by at most 1 by the squirrel infestation. Here, we also decrease the capacity of a single edge by 1; since $f$ is the max flow on the new network, its magnitude is decreased by at most 1.
 
-Suppose there is a flow of size $T$ on $f$ and the algorithm returns $\texttt{false}$. Then, $\texttt{max\_flow}(G,c)<T$. Since the maximum flow on $G$ has size less than $T$,  no flow on $G$ can have size $T$. By contradiction, the algorithm will not return $\texttt{false}$ if there is a flow of size $T$ on $G$. Note that decreasing a maximal value of $c$ each iteration of the while loop will eventually take $c(e)$ to 0 for all $e\in E$. Then, the maximum flow on $G$ will be 0. Since this is not greater than $T$, the loop will break and return a flow. 
+Suppose there is a flow of size $T$ on $f$ and the algorithm returns $\texttt{false}$. Then, $\texttt{max\_flow}(G,c)<T$. Since the maximum flow on $G$ has size less than $T$,  no flow on $G$ can have size $T$. By contradiction, the algorithm will not return $\texttt{false}$ if there is a flow of size $T$ on $G$. Note that decreasing a maximal value of $c$ each iteration of the while loop will eventually take $c(e)$ to 0 for all $e\in E$. Then, the maximum flow on $G$ will be 0. Since this is not greater than $T$, the algorithm will terminate and return a flow. Since $|f|$ started as greater than $T$, takes integer values, and decreases by at most 1 each loop iteration, there will be an iteration for which $|f|=T$. Since this is the first $|f|$ value violating $|f|>T$, the flow of size $T$ will be returned.
 
-
-Suppose the algorithm returns a flow $f$. Then, $f$ satisfies the conservation constraint, since it is the output of $\texttt{max\_flow}$. Since we only decreased capacities $c$, $f$ also satisfies the original capacity constraints. Therefore, $f$ is a valid flow on $G$. Note that $|f|\le T$, since we cannot return a flow if its magnitude is greater than $T$.
+Suppose the algorithm returns a flow $f$. Then, $f$ satisfies the conservation constraint, since it is the output of $\texttt{max\_flow}$. Since we only decreased capacities $c$, $f$ also satisfies the original capacity constraints. Therefore, $f$ is a valid flow on $G$. Note that $|f|\le T$, since we cannot return a flow if its magnitude is greater than $T$. Also, there exists a flow $f'$ on $G$ with $|f'|\ge T$ since we didn't return $\texttt{false}.$ If $|f'|=T$, then the while loop never enters, so $|f|=T$. Otherwise, $|f'|>T$. By the same argument as above, the first flow returned will have size exactly $T$, so $|f|=T$.
 
 Therefore, the algorithm returns a flow of size $T$ $\iff$ one exists.
 
@@ -94,6 +81,8 @@ Lower bound constraint: For all $(i,j)\in E$, $s((i,j))\ge0=l((i,j))$. For all $
 So, a valid matching implies there exists a circulation on $G$.
 
 Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matching.
+
+The first for loop is $O(n)$ and the second for loop is $O(mn)$, giving $O(mn)$. Since this is polynomial and circulation with lower bounds reduces to max flow which is polynomial, the algorithm is polynomial.
 
 (c) $$\begin{align*}
 &\textbf{Algorithm } \text{Specialist Daycare}\\
@@ -173,6 +162,9 @@ To complete the matching, we must just assign each child sufficiently many emplo
 
 
 Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matching.
+
+
+Like part (b), the first for loop is $O(n)$ and the second is $O(mn)$. Computing max flow 3 times is polynomial. The next for loop is $O(mn)$ and the algorithm for part (b) is polynomial. Since each step is polynomial, the algorithm is in $P$.
 
 >[!note] 2
 
