@@ -13,7 +13,9 @@ $$\begin{align*}
 &\textbf{return } f
 \end{align*}$$
 
-Feasibility: Obviously, the algorithm returns 
+Proof: Obviously, the algorithm either returns a flow of size $T$ or returns false. So we must show that if there exists a flow of size $T$ on $G$, the algorithm terminates and doesn't return $\texttt{false}$. 
+
+
 
 
 
