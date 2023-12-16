@@ -160,10 +160,10 @@ Let $\texttt{OPT}(i,j)$ be the minimum cost of splitting the substring $s_{l(i)+
 
 Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):i\lt i+k\lt j\}$$
 Proof of recurrence:
-For the substring $s_{l(i)+1}\cdots s_{l(j)}$, we can first split at any index $l(i+1),\ldots,l(j-1)$. 
+For the substring $s_{l(i)+1}\cdots s_{l(j)}$, we can first split at any index $l(i+1),\ldots,l(j-1)$. Suppose we split at $l(i+k)$ for some $1\le k\lt j-i$. 
 
 Base cases: 
-$\texttt{OPT}(i,i+1)$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. This is an empty list: we are not splitting the substring at all. So, 
+$\texttt{OPT}(i,i+1)$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. This is an empty list: we are not splitting the substring at all. So, $\texttt{OPT}(i,i+1)=0$.
 
 
 Goal: compute $\texttt{OPT}(0,k+1)$
@@ -177,7 +177,7 @@ $$\begin{align*}
 &\textbf{end for}\\
 &\textbf{For } 1\le j\le k+2 \textbf{ do:}\\
 &\quad \textbf{For } j\gt i\ge0 \textbf{ do:}\\
-&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+m]+memo[i+m][j]:1<m<j-i\}\\
+&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+m]+memo[i+m][j]:0<m<j-i\}\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
