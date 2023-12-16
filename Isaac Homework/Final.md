@@ -158,9 +158,9 @@ Therefore, the algorithm returns $\texttt{true}$ $\iff$ there is a valid matchin
 
 Let $\texttt{OPT}(i,j)$ be the minimum cost of splitting the substring $s_{l(i)+1}\cdots s_{l(j)}$ at each index $l(i+1),\ldots,l(j-1)$. 
 
-Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):i\lt i+k\lt j\}$$
+Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\min\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):i\lt i+k\lt j\}$$
 Proof of recurrence:
-For the substring $s_{l(i)+1}\cdots s_{l(j)}$, we can first split at any index $l(i+1),\ldots,l(j-1)$. The cost of splitting the substring is $l(j)-l(i)-1$ for any splitting index. Suppose we split at $l(i+k)$ for some $1\le k\lt j-i$. We then get the two substrings $s_{l(i)+1}\cdots s_{l(i+k)}$ and $s_{l(i+k)+1}\cdots s_{l(j)}$. The minimum cost of finishing splitting the first substring is $\texttt{OPT}(i,i+k)$, and $\texttt{OPT}(i+k,j)$ for the second. So, the total splitting cost at $l(i+k)$ is $$l(j)-l(i)-1+\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j)$$
+For the substring $s_{l(i)+1}\cdots s_{l(j)}$, we can first split at any index $l(i+1),\ldots,l(j-1)$. The cost of splitting the substring is $l(j)-l(i)-1$ for any splitting index. Suppose we split at $l(i+k)$ for some $1\le k\lt j-i$. We then get the two substrings $s_{l(i)+1}\cdots s_{l(i+k)}$ and $s_{l(i+k)+1}\cdots s_{l(j)}$. The minimum cost of finishing splitting the first substring is $\texttt{OPT}(i,i+k)$, and $\texttt{OPT}(i+k,j)$ for the second. So, the total splitting cost at $l(i+k)$ is $$l(j)-l(i)-1+\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j).$$Since we may split at $l(i+k)$ for any $1\le k\lt j-i$, the minimum splitting cost is given by the recurrence.
 
 
 Base cases: 
@@ -178,12 +178,12 @@ $$\begin{align*}
 &\textbf{end for}\\
 &\textbf{For } 1\le j\le k+2 \textbf{ do:}\\
 &\quad \textbf{For } j\gt i\ge0 \textbf{ do:}\\
-&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+m]+memo[i+m][j]:0<m<j-i\}\\
+&\quad \quad memo[i][j]=l(j)-l(i)-1+\min\{memo[i][i+m]+memo[i+m][j]:0<m<j-i\}\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
 \end{align*}$$
-Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. The outer for loop iterates about $k$ times. So, the inner for loop iterates a total of $O(k^{2})$ times. The $\max$ statement is $O(k)$: $j$ goes up to $k$, and $i$ goes down to 0. So, there can be $O(k)$ terms in $\max$. Since there are $O(k^{2})$ steps and each is $O(k)$, the total loop runtime is $O(k^{3})$. Therefore, the algorithm is $O(k^{3})$.
+Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. The outer for loop iterates about $k$ times. So, the inner for loop iterates a total of $O(k^{2})$ times. The $\min$ statement is $O(k)$: $j$ goes up to $k$, and $i$ goes down to 0. So, there can be $O(k)$ terms in $\max$. Since there are $O(k^{2})$ steps and each is $O(k)$, the total loop runtime is $O(k^{3})$. Therefore, the algorithm is $O(k^{3})$.
 
 
 >[!note] 3
