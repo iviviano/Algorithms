@@ -176,12 +176,12 @@ $$\begin{align*}
 &\textbf{end for}\\
 &\textbf{For } 1\le j\le k+2 \textbf{ do:}\\
 &\quad \textbf{For } j\gt i\ge0 \textbf{ do:}\\
-&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+k]+memo[i+k][j]:1<k<j-i\}\\
+&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+l]+memo[i+k][j]:1<k<j-i\}\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
 \end{align*}$$
-Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. The outer for loop iterates about $k$ times. 
+Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. The outer for loop iterates about $k$ times. So, the inner for loop iterates a total of $O(k^{2})$ times. The $\max$ is $O(k)$, 
 The algorithm is $O(k^{3})$.
 
 
