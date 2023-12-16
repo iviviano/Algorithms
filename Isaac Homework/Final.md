@@ -1,5 +1,16 @@
 >[!note] 1
 
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Flow Size }T\\
+&\textbf{Input: } \text{Graph }G=(V,E),\text{ capacities }c, \text{ integer }T\\
+&\textbf{If } T=0 \textbf{ then:}\\
+&\quad \textbf{return } f:\forall e\in E,f(e)=0\\
+&\text{Let }f=\texttt{max\_flow}(G,c)\\
+&\textbf{If } \text{} \textbf{ then:}
+\end{align*}$$
+
+
 (a) $$\begin{align*}
 &\textbf{Algorithm } \text{Flow Size }T\\
 &\textbf{Input: } \text{Graph }G=(V,E),\text{ capacities }c,\text{ integer }T\\
