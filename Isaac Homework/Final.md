@@ -161,6 +161,7 @@ Let $\texttt{OPT}(i,j)$ be the minimum cost of splitting the substring $s_{l(i)+
 Recurrence: $$\texttt{OPT}(i,j)=l(j)-l(i)-1+\max\{\texttt{OPT}(i,i+k)+\texttt{OPT}(i+k,j):i\lt i+k\lt j\}$$
 Proof of recurrence:
 
+
 Base cases: 
 $\texttt{OPT}(i,i+1)=0$ is the cost of splitting $s_{l(i)+1}\cdots s_{l(i+1)}$ at each of $l(i+1),\ldots,l(i+1-1)$. 
 
@@ -181,8 +182,7 @@ $$\begin{align*}
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
 \end{align*}$$
-Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. The outer for loop iterates about $k$ times. So, the inner for loop iterates a total of $O(k^{2})$ times. The $\max$ statement is $O(k)$: $j$ goes up to $k$, and $i$ goes down to 0. So, there can be $O(k)$ terms in $\max$. 
-The algorithm is $O(k^{3})$.
+Creating the array is constant time. Assigning the base cases is $O(k)$, since the for loop iterates $k+2$ times and the body is constant. The outer for loop iterates about $k$ times. So, the inner for loop iterates a total of $O(k^{2})$ times. The $\max$ statement is $O(k)$: $j$ goes up to $k$, and $i$ goes down to 0. So, there can be $O(k)$ terms in $\max$. Since there are $O(k^{2})$ steps and each is $O(k)$, the total loop runtime is $O(k^{3})$. Therefore, the algorithm is $O(k^{3})$.
 
 
 >[!note] 3
