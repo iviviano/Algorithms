@@ -16,7 +16,7 @@ Suppose there is a flow of size $T$ on $f$.
 
 Suppose the algorithm returns a flow $f$. Then, $f$ satisfies the conservation constraint, since it is the output of $\texttt{max\_flow}$. Since we only decreased capacities $c$, $f$ also satisfies the original capacity constraints. Therefore, $f$ is a valid flow on $G$. Since we only return a flow if its size is $T$, $|f|=T$.
 
-
+Therefore, the algorithm returns a flow of size $T$ $\iff$ one exists.
 
 
 
