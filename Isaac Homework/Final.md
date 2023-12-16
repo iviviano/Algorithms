@@ -15,7 +15,7 @@
 Consider the case where $T=0$. Then, any flow network has a valid flow given by $f(e)=0$ for all $e$ (since flow networks are connected). So, the algorithm is correct in this case. Now assume $T>0$.
 
 Claim: $|f|$ decreases by at most 1 each loop iteration. Assume not: decreasing a single edge capacity by 1 causes $|f|$ to decrease by more than 1. 
-Let $e$ be the edge for which $c$ was decreased. The maximum flow $f$ on $e$ can decrease by at most 1. 
+Let $e$ be the edge for which $c$ was decreased. The maximum flow $f$ on $e$ can decrease by at most 1.  and thus the magnitude of $f$ decreases by 
 
 Suppose there is a flow of size $T$ on $f$ and the algorithm returns $\texttt{false}$. Then, $\texttt{max\_flow}(G,c)<T$. Since the maximum flow on $G$ has size less than $T$,  no flow on $G$ can have size $T$. By contradiction, the algorithm will not return $\texttt{false}$ if there is a flow of size $T$ on $G$. Note that decreasing a maximal value of $c$ each iteration of the while loop will eventually take $c(e)$ to 0 for all $e\in E$. Then, the maximum flow on $G$ will be 0. Since this is not greater than $T$, the loop will break and return a flow. 
 

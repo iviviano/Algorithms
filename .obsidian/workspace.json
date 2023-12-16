@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3D Matching Problem.md",
+                "file": "Isaac Homework/Homework 8.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Isaac Homework/Homework 8.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Isaac Homework/Homework 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Final.md"
+                "file": "Isaac Homework/Homework 8.md"
               }
             }
           },
@@ -195,15 +196,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1b07869077cc36",
+  "active": "984e609e8af34630",
   "lastOpenFiles": [
-    "Max Flow Problem.md",
+    "3D Matching Problem.md",
     "Isaac Homework/Final.md",
+    "Max Flow Problem.md",
     "Cut.md",
     "3-SAT Problem.md",
     "Set Cover.md",
     "Vertex Cover Problem.md",
-    "3D Matching Problem.md",
     "NP-Hard.md",
     "Hamiltonian Cycle Problem.md",
     "Independent Set Problem.md",
