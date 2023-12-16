@@ -176,7 +176,7 @@ $$\begin{align*}
 &\textbf{end for}\\
 &\textbf{For } 1\le j\le k+2 \textbf{ do:}\\
 &\quad \textbf{For } j\gt i\ge0 \textbf{ do:}\\
-&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+l]+memo[i+k][j]:1<k<j-i\}\\
+&\quad \quad memo[i][j]=l(j)-l(i)-1+\max\{memo[i][i+m]+memo[i+m][j]:1<m<j-i\}\\
 &\quad \textbf{end for}\\
 &\textbf{end for}\\
 &\textbf{return } memo[0][k+1]
