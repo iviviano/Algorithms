@@ -6,12 +6,12 @@
 &\textbf{If } \texttt{max\_flow}(G,c)<T \textbf{ then:}\\
 &\quad \textbf{return } \texttt{false}\\
 &\textbf{While } |f=\texttt{max\_flow}(G,c)|\gt T \textbf{ do:}\\
-&\quad \text{decrease the maximal }c \text{ values by }1\\
+&\quad \text{decrease a maximal }c \text{ value by }1\\
 &\textbf{end while}\\
 &\textbf{return } f
 \end{align*}$$
 
-Suppose there is a flow of size $T$ on $f$ and the algorithm returns $\texttt{false}$. Then, $\texttt{max\_flow}(G,c)<T$. Since the maximum flow on $G$ has size less than $T$,  no flow on $G$ can have size $T$. By contradiction, the algorithm will not return $\texttt{false}$ if there is a flow of size $T$ on $G$. Note that decreasing the maximal values of $c$ each iteration of the while loop will eventually take $c(e)$ to 0 for all $e\in E$. Then, the maximum flow on $G$ will be 0. Since this is not greater than $T$, the loop will break and return a flow. 
+Suppose there is a flow of size $T$ on $f$ and the algorithm returns $\texttt{false}$. Then, $\texttt{max\_flow}(G,c)<T$. Since the maximum flow on $G$ has size less than $T$,  no flow on $G$ can have size $T$. By contradiction, the algorithm will not return $\texttt{false}$ if there is a flow of size $T$ on $G$. Note that decreasing a maximal value of $c$ each iteration of the while loop will eventually take $c(e)$ to 0 for all $e\in E$. Then, the maximum flow on $G$ will be 0. Since this is not greater than $T$, the loop will break and return a flow. 
 
 
 Suppose the algorithm returns a flow $f$. Then, $f$ satisfies the conservation constraint, since it is the output of $\texttt{max\_flow}$. Since we only decreased capacities $c$, $f$ also satisfies the original capacity constraints. Therefore, $f$ is a valid flow on $G$. Note that $|f|\le T$, since we cannot return a flow if its magnitude is greater than $T$.
