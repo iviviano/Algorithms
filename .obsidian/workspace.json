@@ -58,9 +58,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c95171bf91269061",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indegree.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c07d1a7c963906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alphabet.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "895de858c4d224bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prefix-free.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -126,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Outdegree.md",
+                "file": "Prefix-free.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Outdegree.md",
+                "file": "Prefix-free.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outdegree.md"
+                "file": "Prefix-free.md"
               }
             }
           },
@@ -196,34 +235,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a51670f912364b3f",
+  "active": "895de858c4d224bc",
   "lastOpenFiles": [
+    "Language.md",
+    "Prefix-free.md",
+    "Proper Prefix.md",
+    "Prefix.md",
+    "Shortlex Order.md",
+    "Lexicographic Order.md",
+    "Concatenation.md",
+    "Substring.md",
+    "Reverse.md",
+    "Reverse Delete Algorithm.md",
+    "Empty String.md",
+    "Length.md",
+    "String.md",
+    "Symbol.md",
+    "Asymptotic Tight Bound of Logarithms.md",
+    "Alphabet.md",
+    "Strongly Connected.md",
+    "Directed Path.md",
+    "Indegree.md",
+    "Outdegree.md",
     "Degree of a Vertex.md",
     "Degree of a Polynomial.md",
-    "Outdegree.md",
     "Directed Graph.md",
     "Graph.md",
     "Path.md",
     "Leaf.md",
-    "Root of a Tree.md",
-    "Tree.md",
-    "Simple Cycle.md",
-    "Cycle.md",
-    "Connected Graph.md",
-    "Simple Path.md",
-    "Subgraph.md",
-    "Max Flow Problem.md",
-    "Isaac Homework/Homework 8.md",
-    "Isaac Homework/Final.md",
-    "3D Matching Problem.md",
-    "Cut.md",
-    "3-SAT Problem.md",
-    "Set Cover.md",
-    "Vertex Cover Problem.md",
-    "NP-Hard.md",
-    "Hamiltonian Cycle Problem.md",
-    "Independent Set Problem.md",
-    "Independent Set.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
