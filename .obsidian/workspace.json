@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k-Regular.md",
+                "file": "Language of Machine.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k-Regular.md",
+                "file": "Language of Machine.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k-Regular.md",
+                "file": "Language of Machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k-Regular.md"
+                "file": "Language of Machine.md"
               }
             }
           },
@@ -250,8 +250,12 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Prefix-free.md",
+    "Finite Automaton.md",
+    "Language of Machine.md",
+    "Set-Theory/Tuple.md",
+    "Transition Function.md",
     "k-Regular.md",
+    "Prefix-free.md",
     "Language.md",
     "Proper Prefix.md",
     "Prefix.md",
@@ -272,10 +276,6 @@
     "Indegree.md",
     "Outdegree.md",
     "Degree of a Vertex.md",
-    "Degree of a Polynomial.md",
-    "Directed Graph.md",
-    "Graph.md",
-    "Path.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
