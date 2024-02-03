@@ -21,7 +21,7 @@ Check for cycles with [[Algorithm]] from [[Homework 1]]
 
 Proof of feasibility: (Show that $T$ is a [[Spanning Tree]])
 1. [[Acyclic]]: we never add an [[edge]] if it creates a [[Cycle]], so $T$ must be [[Acyclic]]
-2. [[Spanning Tree]]: Assume that $T$ is not [[Connected]]. Then there are two components $T_{1},T_{2}$ with no [[edge]]s connecting them. As $G$ is [[Connected]], there must be some [[edge]] between a [[node]] $v_{1}\in T_{1}$ and a [[node]] $v_{2}\in T_{2}$. Adding the [[edge]] $\{v_{1},v_{2}\}$ does not create a [[Cycle]] as there is no other [[Path]] from $v_{1}$ to $v_{2}$. [[therefore]] our algorithm would have added $\{v_{1},v_{2}\}$.
+2. [[Spanning Tree]]: Assume that $T$ is not [[Connected Graph]]. Then there are two components $T_{1},T_{2}$ with no [[edge]]s connecting them. As $G$ is [[Connected Graph]], there must be some [[edge]] between a [[node]] $v_{1}\in T_{1}$ and a [[node]] $v_{2}\in T_{2}$. Adding the [[edge]] $\{v_{1},v_{2}\}$ does not create a [[Cycle]] as there is no other [[Path]] from $v_{1}$ to $v_{2}$. [[therefore]] our algorithm would have added $\{v_{1},v_{2}\}$.
 
 >[!proof] Proof of Optimality:
 Let $S$ be another [[Spanning Tree]] and let $T$ be our solution. Let $\{e_{1},\ldots,e_{n-1}\}=T,\{s_{1},\ldots,s_{n-1}\}=S$ be in [[Sort]]ed order.

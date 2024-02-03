@@ -1,7 +1,7 @@
 Idea: How much traffic can we route through our network?
 
 Input: A flow network
-- Directed [[Connected]] graph: $G=(V,E)$
+- Directed [[Connected Graph]] graph: $G=(V,E)$
 - Source $s$, with only outgoing edges
 - Sink $t$, with only incoming edges
 - Capacities $c(e)≥0$ for each edge $e\in E$
@@ -46,7 +46,7 @@ There are at most $C=\sum c(e)$ iterations.
 
 Each iteration, must find bottleneck capacity, choose a path, augment the flow, and update the residual graph.
 
-Finding an $s \rightarrow t$ path is $O(m)$ through a [[Breadth-First Search]] on a [[Connected]] [[Graph]]. 
+Finding an $s \rightarrow t$ path is $O(m)$ through a [[Breadth-First Search]] on a [[Connected Graph]] [[Graph]]. 
 
 Finding the bottleneck in the path is $O(n)$, since a path is at most $n-1$ edges.
 

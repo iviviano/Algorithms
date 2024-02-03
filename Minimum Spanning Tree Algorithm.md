@@ -3,7 +3,7 @@ mathLink: minimum spanning tree algorithm
 ---
 
 Input: 
-- [[Connected]] undirected [[Graph]] $G=V,E$
+- [[Connected Graph]] undirected [[Graph]] $G=V,E$
 - [[edge]] weights: $w(e)$
 
 Output:

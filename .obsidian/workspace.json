@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Degree of a Polynomial.md",
+                "file": "Degree of a Vertex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Degree of a Vertex.md",
+                "file": "Graph.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6e2a69d7acd32a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Directed Graph.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a51670f912364b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Outdegree.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Degree of a Vertex.md",
+                "file": "Outdegree.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Degree of a Vertex.md",
+                "file": "Outdegree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Degree of a Vertex.md"
+                "file": "Outdegree.md"
               }
             }
           },
@@ -170,11 +196,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f64c948953100543",
+  "active": "a51670f912364b3f",
   "lastOpenFiles": [
     "Degree of a Vertex.md",
     "Degree of a Polynomial.md",
+    "Outdegree.md",
+    "Directed Graph.md",
     "Graph.md",
+    "Path.md",
+    "Leaf.md",
+    "Root of a Tree.md",
+    "Tree.md",
+    "Simple Cycle.md",
+    "Cycle.md",
+    "Connected Graph.md",
+    "Simple Path.md",
+    "Subgraph.md",
     "Max Flow Problem.md",
     "Isaac Homework/Homework 8.md",
     "Isaac Homework/Final.md",
@@ -187,23 +224,12 @@
     "Hamiltonian Cycle Problem.md",
     "Independent Set Problem.md",
     "Independent Set.md",
-    "NP.md",
-    "Bipartite Matching Problem.md",
-    "NP-Complete.md",
-    "Isaac Homework/Homework 10.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
     "Pictures/IMG-1265.jpg",
     "Pictures/IMG-1264.jpg",
     "Pictures/IMG-1263.jpg",
-    "Isaac Homework/Abstractions Exam 2.md",
-    "Isaac Homework/Homework 9.md",
-    "vet.md",
-    "Certificate.md",
-    "Cook and Levin Theorem.md",
-    "Circulation with Demands Problems.md",
-    "Flight Scheduling Problem.md",
     "Pictures/CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
