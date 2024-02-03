@@ -97,9 +97,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0e3aa8d377c4103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "k-Regular.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prefix-free.md",
+                "file": "k-Regular.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prefix-free.md",
+                "file": "k-Regular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prefix-free.md"
+                "file": "k-Regular.md"
               }
             }
           },
@@ -235,10 +248,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "895de858c4d224bc",
+  "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Language.md",
     "Prefix-free.md",
+    "k-Regular.md",
+    "Language.md",
     "Proper Prefix.md",
     "Prefix.md",
     "Shortlex Order.md",
@@ -262,7 +276,6 @@
     "Directed Graph.md",
     "Graph.md",
     "Path.md",
-    "Leaf.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
