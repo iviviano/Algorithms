@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language of Machine.md",
+                "file": "Regular Language.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language of Machine.md",
+                "file": "Regular Language.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language of Machine.md",
+                "file": "Regular Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language of Machine.md"
+                "file": "Regular Language.md"
               }
             }
           },
@@ -250,8 +250,10 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Finite Automaton.md",
+    "Recognize.md",
+    "Regular Language.md",
     "Language of Machine.md",
+    "Finite Automaton.md",
     "Set-Theory/Tuple.md",
     "Transition Function.md",
     "k-Regular.md",
@@ -274,8 +276,6 @@
     "Strongly Connected.md",
     "Directed Path.md",
     "Indegree.md",
-    "Outdegree.md",
-    "Degree of a Vertex.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
