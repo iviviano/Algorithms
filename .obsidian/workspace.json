@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aea595fdad9232a1",
+        "id": "bdf6a196090ce298",
         "type": "tabs",
         "children": [
           {
-            "id": "4c1b07869077cc36",
+            "id": "8be204803b84a8ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Degree of a Polynomial.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,45 +21,20 @@
             }
           },
           {
-            "id": "984e609e8af34630",
+            "id": "f64c948953100543",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Isaac Homework/Homework 8.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1fbb72501c17c25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Max Flow Problem.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d383c9dcc9ec71b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Max Flow Problem.md",
+                "file": "Degree of a Vertex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Degree of a Vertex.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Isaac Homework/Final.md",
+                "file": "Degree of a Vertex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Isaac Homework/Final.md"
+                "file": "Degree of a Vertex.md"
               }
             }
           },
@@ -195,12 +170,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1b07869077cc36",
+  "active": "f64c948953100543",
   "lastOpenFiles": [
+    "Degree of a Vertex.md",
+    "Degree of a Polynomial.md",
+    "Graph.md",
+    "Max Flow Problem.md",
     "Isaac Homework/Homework 8.md",
     "Isaac Homework/Final.md",
     "3D Matching Problem.md",
-    "Max Flow Problem.md",
     "Cut.md",
     "3-SAT Problem.md",
     "Set Cover.md",
@@ -226,9 +204,6 @@
     "Cook and Levin Theorem.md",
     "Circulation with Demands Problems.md",
     "Flight Scheduling Problem.md",
-    "Bipartite Graph.md",
-    "P.md",
-    "Isaac Homework/Homework 6.md",
     "Pictures/CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
