@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular Language.md",
+                "file": "Class of Regular Languages Closed Under Union.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Language.md",
+                "file": "Class of Regular Languages Closed Under Union.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Language.md",
+                "file": "Class of Regular Languages Closed Under Union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Language.md"
+                "file": "Class of Regular Languages Closed Under Union.md"
               }
             }
           },
@@ -250,8 +250,15 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Recognize.md",
     "Regular Language.md",
+    "Class of Regular Languages Closed Under Union.md",
+    "Closed Under an Operation.md",
+    "Star.md",
+    "Regular Operation.md",
+    "Language Concatenation.md",
+    "String Concatenation.md",
+    "Language Union.md",
+    "Recognize.md",
     "Language of Machine.md",
     "Finite Automaton.md",
     "Set-Theory/Tuple.md",
@@ -263,19 +270,12 @@
     "Prefix.md",
     "Shortlex Order.md",
     "Lexicographic Order.md",
-    "Concatenation.md",
     "Substring.md",
     "Reverse.md",
     "Reverse Delete Algorithm.md",
     "Empty String.md",
     "Length.md",
     "String.md",
-    "Symbol.md",
-    "Asymptotic Tight Bound of Logarithms.md",
-    "Alphabet.md",
-    "Strongly Connected.md",
-    "Directed Path.md",
-    "Indegree.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
