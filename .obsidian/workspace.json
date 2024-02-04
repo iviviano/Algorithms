@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md",
+                "file": "Regular Expression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md",
+                "file": "Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md",
+                "file": "Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md"
+                "file": "Regular Expression.md"
               }
             }
           },
@@ -250,8 +250,10 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Equivalent Machines.md",
+    "Class of Regular Languages Closed Under Star.md",
+    "Regular Expression.md",
     "Equivalence of NFAs and DFAs.md",
+    "Equivalent Machines.md",
     "Deterministic Finite Automaton.md",
     "Accept.md",
     "Nondeterministic Finite Automaton.md",
@@ -274,8 +276,6 @@
     "Proper Prefix.md",
     "Prefix.md",
     "Shortlex Order.md",
-    "Lexicographic Order.md",
-    "Substring.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
