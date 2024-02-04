@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Token.md",
+                "file": "Equivalence of NFAs and Regular Expressions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Token.md",
+                "file": "Equivalence of NFAs and Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Token.md",
+                "file": "Equivalence of NFAs and Regular Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Token.md"
+                "file": "Equivalence of NFAs and Regular Expressions.md"
               }
             }
           },
@@ -250,8 +250,9 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Regular Expression.md",
     "Token.md",
+    "Equivalence of NFAs and Regular Expressions.md",
+    "Regular Expression.md",
     "Class of Regular Languages Closed Under Star.md",
     "Equivalence of NFAs and DFAs.md",
     "Equivalent Machines.md",
@@ -275,7 +276,6 @@
     "Prefix-free.md",
     "Language.md",
     "Proper Prefix.md",
-    "Prefix.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
