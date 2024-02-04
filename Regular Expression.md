@@ -9,3 +9,6 @@ mathLink: regular expression
 >4. $(R_{1}\cup R_{2})$ where $R_{1},R_{2}$ are regular expressions
 >5. $(R_{1}\circ R_{2})$ where $R_{1},R_{2}$ are regular expressions, or
 >6. $(R_{1}^{*}),$ where $R_{1}$ is a regular expression
+
+>[!note]
+>If parentheses are omitted, 
