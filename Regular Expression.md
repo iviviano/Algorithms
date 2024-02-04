@@ -13,4 +13,5 @@ mathLink: regular expression
 >[!note]
 >If parentheses are omitted, precedence order is [[Star]], then [[Language Concatenation]]ion, then [[Language Union]]. Some shorthands:
 >- $R^{+}=RR^{*}$
->- $R^{k}$
+>- $R^{k}=$ [[Language Concatenation]]ion of $R$ $k$ times
+
