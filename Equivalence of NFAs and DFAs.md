@@ -6,4 +6,3 @@ mathLink: equivalence of NFAs and DFAs
 
 >[!prop] Corollary
 >A [[Language]] is [[Regular Language]] [[iff]] some [[Nondeterministic Finite Automaton]] [[Recognize]]s it.
-
