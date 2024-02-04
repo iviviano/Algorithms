@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md",
+                "file": "Class of Regular Languages Closed Under Concatenation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md",
+                "file": "Class of Regular Languages Closed Under Concatenation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md",
+                "file": "Class of Regular Languages Closed Under Concatenation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md"
+                "file": "Class of Regular Languages Closed Under Concatenation.md"
               }
             }
           },
@@ -250,8 +250,9 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Regular Language.md",
     "Class of Regular Languages Closed Under Union.md",
+    "Class of Regular Languages Closed Under Concatenation.md",
+    "Regular Language.md",
     "Closed Under an Operation.md",
     "Star.md",
     "Regular Operation.md",
@@ -275,7 +276,6 @@
     "Reverse Delete Algorithm.md",
     "Empty String.md",
     "Length.md",
-    "String.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
