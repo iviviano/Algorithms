@@ -1,5 +1,5 @@
 ---
-mathLink: finite automaton
+mathLink: deterministic finite automaton
 ---
 >[!def]
 >A *finite automaton* is a $5$-[[Tuple]] $(Q,\Sigma,\delta,q_{0},F)$, where

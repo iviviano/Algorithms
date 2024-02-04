@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class of Regular Languages Closed Under Concatenation.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class of Regular Languages Closed Under Concatenation.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class of Regular Languages Closed Under Concatenation.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class of Regular Languages Closed Under Concatenation.md"
+                "file": "Equivalence of NFAs and DFAs.md"
               }
             }
           },
@@ -250,8 +250,13 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Class of Regular Languages Closed Under Union.md",
+    "Equivalent Machines.md",
+    "Equivalence of NFAs and DFAs.md",
+    "Deterministic Finite Automaton.md",
+    "Accept.md",
+    "Nondeterministic Finite Automaton.md",
     "Class of Regular Languages Closed Under Concatenation.md",
+    "Class of Regular Languages Closed Under Union.md",
     "Regular Language.md",
     "Closed Under an Operation.md",
     "Star.md",
@@ -261,7 +266,6 @@
     "Language Union.md",
     "Recognize.md",
     "Language of Machine.md",
-    "Finite Automaton.md",
     "Set-Theory/Tuple.md",
     "Transition Function.md",
     "k-Regular.md",
@@ -272,10 +276,6 @@
     "Shortlex Order.md",
     "Lexicographic Order.md",
     "Substring.md",
-    "Reverse.md",
-    "Reverse Delete Algorithm.md",
-    "Empty String.md",
-    "Length.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
