@@ -4,3 +4,6 @@ mathLink: a language is context free $\iff$ some pushdown automaton recognizes i
 >[!thm]
 >A [[Language]] is a [[Context-Free Languages]] [[iff]] some [[Pushdown Automaton]] [[Recognize]]s it.
 
+>[!prop] Corollary
+>Every [[Regular Language]] [[Language]] is a [[Context-Free Languages]]
+
