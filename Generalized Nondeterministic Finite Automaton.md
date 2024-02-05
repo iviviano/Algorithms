@@ -11,4 +11,5 @@ mathLink: generalized nondeterministic finite automaton
 
 >[!note] 
 >- $\mathcal{R}$ is the [[Collection]] of all [[Regular Expression]]s over the [[Alphabet]] $\Sigma$. 
->- The [[Domain]] of $q$ is chosen because no 
+>- The [[Domain]] of $q$ is chosen because no arrows come from $q_{accept}$ or going to $q_{start}$
+

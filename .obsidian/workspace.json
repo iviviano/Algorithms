@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generalized Nondeterministic Finite Automaton.md",
+                "file": "Accept.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Generalized Nondeterministic Finite Automaton.md",
+                "file": "Accept.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Generalized Nondeterministic Finite Automaton.md",
+                "file": "Accept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Generalized Nondeterministic Finite Automaton.md"
+                "file": "Accept.md"
               }
             }
           },
@@ -250,8 +250,8 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Equivalence of NFAs and Regular Expressions.md",
     "Generalized Nondeterministic Finite Automaton.md",
+    "Equivalence of NFAs and Regular Expressions.md",
     "Token.md",
     "Regular Expression.md",
     "Class of Regular Languages Closed Under Star.md",
