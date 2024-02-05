@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CFG From DFA.md",
+                "file": "Ambiguously.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CFG From DFA.md",
+                "file": "Ambiguously.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CFG From DFA.md",
+                "file": "Ambiguously.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CFG From DFA.md"
+                "file": "Ambiguously.md"
               }
             }
           },
@@ -250,8 +250,10 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Deterministic Finite Automaton.md",
+    "Ambiguous Grammar.md",
+    "Ambiguously.md",
     "CFG From DFA.md",
+    "Deterministic Finite Automaton.md",
     "Language of a Grammar.md",
     "Language.md",
     "Derive.md",
@@ -274,8 +276,6 @@
     "Equivalent Machines.md",
     "Nondeterministic Finite Automaton.md",
     "Class of Regular Languages Closed Under Concatenation.md",
-    "Class of Regular Languages Closed Under Union.md",
-    "Regular Language.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
