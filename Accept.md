@@ -18,3 +18,14 @@ Let $G=(Q, \Sigma,\delta,q_{start},q_{accept})$ be a [[Generalized Nondeterminis
 >1. $q_{0}=q_{start}$
 >2. $q_{k}=q_{accept}$
 >3. for each $i$, we have $w_{i}\in L(\delta(q_{i-1},q_{i}))$
+
+>[!def]
+>Let $M=(Q,\Sigma,\Gamma,\delta,q_{0},F)$ be a [[Pushdown Automaton]] and let $w$ be a [[String]] in $\Sigma$. Then, $M$ *accepts* $w$ if $w=w_{1}\cdots w_{n}$, where each $w_{i}\in \Sigma_\epsilon$, a [[Sequence]] of [[States]] $r_{0},\cdots,r_{n}\in Q$, and [[String]]s $s_{0},\ldots,s_{n}\in \Gamma^{*}$ exist such that
+>1. $r_{0}=q_{0}$ and $s_{0}=\epsilon$. 
+>2. For $i=0,\ldots,n-1$, we have $(r_{i+1},b)\in \delta(r_{i},w_{i+1},a)$, where $s_{i}=at$ and $s_{i+1}=bt$ for some $a,b\in \Gamma_\epsilon$ and $t\in \Gamma^*$
+>3. $r_{m}\in F$
+
+>[!note]
+>1. Makes sure $M$ starts out properly in the [[Start State]] with empty [[Stack]]
+>2. $M$ moves properly according to the state, stack, and next input [[Symbol]]
+>3. 
