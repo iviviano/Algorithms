@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prefix-free.md",
+                "file": "Yield.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Context-Free Languages.md",
+                "file": "Language of a Grammar.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Context-Free Languages.md",
+                "file": "Language of a Grammar.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Context-Free Languages.md",
+                "file": "Language of a Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Context-Free Languages.md"
+                "file": "Language of a Grammar.md"
               }
             }
           },
@@ -250,8 +250,16 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Pigeonhole Principle.md",
+    "Language.md",
+    "Language of a Grammar.md",
+    "Derive.md",
+    "Yield.md",
+    "Prefix-free.md",
+    "Substitution Rule.md",
+    "Context-Free Grammar.md",
     "Context-Free Languages.md",
+    "Untitled 2.md",
+    "Pigeonhole Principle.md",
     "Pumping Length.md",
     "Pumping Lemma.md",
     "Accept.md",
@@ -268,14 +276,6 @@
     "Class of Regular Languages Closed Under Union.md",
     "Regular Language.md",
     "Closed Under an Operation.md",
-    "Star.md",
-    "Regular Operation.md",
-    "Language Concatenation.md",
-    "String Concatenation.md",
-    "Language Union.md",
-    "Recognize.md",
-    "Language of Machine.md",
-    "Set-Theory/Tuple.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
