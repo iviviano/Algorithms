@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language of a Grammar.md",
+                "file": "CFG From DFA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language of a Grammar.md",
+                "file": "CFG From DFA.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language of a Grammar.md",
+                "file": "CFG From DFA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language of a Grammar.md"
+                "file": "CFG From DFA.md"
               }
             }
           },
@@ -250,8 +250,10 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Language.md",
+    "Deterministic Finite Automaton.md",
+    "CFG From DFA.md",
     "Language of a Grammar.md",
+    "Language.md",
     "Derive.md",
     "Yield.md",
     "Prefix-free.md",
@@ -270,12 +272,10 @@
     "Class of Regular Languages Closed Under Star.md",
     "Equivalence of NFAs and DFAs.md",
     "Equivalent Machines.md",
-    "Deterministic Finite Automaton.md",
     "Nondeterministic Finite Automaton.md",
     "Class of Regular Languages Closed Under Concatenation.md",
     "Class of Regular Languages Closed Under Union.md",
     "Regular Language.md",
-    "Closed Under an Operation.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
