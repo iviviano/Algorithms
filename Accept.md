@@ -28,4 +28,6 @@ Let $G=(Q, \Sigma,\delta,q_{start},q_{accept})$ be a [[Generalized Nondeterminis
 >[!note]
 >1. Makes sure $M$ starts out properly in the [[Start State]] with empty [[Stack]]
 >2. $M$ moves properly according to the state, stack, and next input [[Symbol]]
->3. 
+>3. Accept state occurs at the input end
+
+
