@@ -1,0 +1,5 @@
+---
+mathLink: pigeonhole principle
+---
+>[!thm]
+
