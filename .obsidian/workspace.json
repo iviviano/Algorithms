@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pigeonhole Principle.md",
+                "file": "Context-Free Languages.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pigeonhole Principle.md",
+                "file": "Context-Free Languages.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pigeonhole Principle.md",
+                "file": "Context-Free Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pigeonhole Principle.md"
+                "file": "Context-Free Languages.md"
               }
             }
           },
@@ -250,8 +250,9 @@
   },
   "active": "f0e3aa8d377c4103",
   "lastOpenFiles": [
-    "Pumping Length.md",
     "Pigeonhole Principle.md",
+    "Context-Free Languages.md",
+    "Pumping Length.md",
     "Pumping Lemma.md",
     "Accept.md",
     "Generalized Nondeterministic Finite Automaton.md",
@@ -275,7 +276,6 @@
     "Recognize.md",
     "Language of Machine.md",
     "Set-Theory/Tuple.md",
-    "Transition Function.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
