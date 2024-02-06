@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalence of NTMs and DTMs.md",
+                "file": "Decider.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence of NTMs and DTMs.md",
+                "file": "Decider.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence of NTMs and DTMs.md",
+                "file": "Decider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence of NTMs and DTMs.md"
+                "file": "Decider.md"
               }
             }
           },
@@ -250,8 +250,8 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
-    "Nondeterministic Turing Machine.md",
     "Equivalence of NTMs and DTMs.md",
+    "Nondeterministic Turing Machine.md",
     "Turing Machine.md",
     "Equivalence of multitape and regular Turing machines.md",
     "Multitape Turing Machine.md",
