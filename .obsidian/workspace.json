@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turing-Decidable.md",
+                "file": "Equivalence of multitape and regular Turing machines.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turing-Decidable.md",
+                "file": "Equivalence of multitape and regular Turing machines.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turing-Decidable.md",
+                "file": "Equivalence of multitape and regular Turing machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turing-Decidable.md"
+                "file": "Equivalence of multitape and regular Turing machines.md"
               }
             }
           },
@@ -250,8 +250,10 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
-    "Decide.md",
+    "Multitape Turing Machine.md",
+    "Equivalence of multitape and regular Turing machines.md",
     "Turing-Decidable.md",
+    "Decide.md",
     "Decider.md",
     "Halt.md",
     "Loop.md",
@@ -274,8 +276,6 @@
     "Chomsky Normal Form.md",
     "Inherently Ambiguous.md",
     "Ambiguously.md",
-    "Leftmost Derivation.md",
-    "Ambiguous Grammar.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
