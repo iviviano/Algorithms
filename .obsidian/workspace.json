@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yield.md",
+                "file": "Start Configuration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yield.md",
+                "file": "Start Configuration.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yield.md",
+                "file": "Start Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yield.md"
+                "file": "Start Configuration.md"
               }
             }
           },
@@ -250,10 +250,11 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
+    "Yield.md",
+    "Start Configuration.md",
     "Configuration.md",
     "Accept.md",
     "Turing Machine.md",
-    "Yield.md",
     "Set-Theory/Range.md",
     "Pumping Lemma for Context-Free Languages.md",
     "Equivalence of PDAs and CFGs.md",
@@ -275,7 +276,6 @@
     "Context-Free Languages.md",
     "Untitled 2.md",
     "Pigeonhole Principle.md",
-    "Pumping Length.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
