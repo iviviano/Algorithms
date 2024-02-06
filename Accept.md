@@ -34,3 +34,5 @@ Let $G=(Q, \Sigma,\delta,q_{start},q_{accept})$ be a [[Generalized Nondeterminis
 >3. Accept state occurs at the input end
 
 
+>[!def]
+>Let $M=(Q,\Sigma,\Gamma,\delta,q_{0},q_{accept},q_{reject})$ be a [[Turing Machine]]. 
