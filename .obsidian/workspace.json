@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yield.md",
+                "file": "Turing-Decidable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yield.md",
+                "file": "Turing-Decidable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yield.md",
+                "file": "Turing-Decidable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yield.md"
+                "file": "Turing-Decidable.md"
               }
             }
           },
@@ -250,8 +250,15 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
-    "Accept.md",
+    "Decide.md",
+    "Turing-Decidable.md",
+    "Decider.md",
+    "Halt.md",
+    "Loop.md",
+    "Turing-Recognizable.md",
+    "Language of Machine.md",
     "Yield.md",
+    "Accept.md",
     "Alphabet.md",
     "Halting Configuration.md",
     "Rejecting Configuration.md",
@@ -269,13 +276,6 @@
     "Ambiguously.md",
     "Leftmost Derivation.md",
     "Ambiguous Grammar.md",
-    "CFG From DFA.md",
-    "Deterministic Finite Automaton.md",
-    "Language of a Grammar.md",
-    "Language.md",
-    "Derive.md",
-    "Prefix-free.md",
-    "Substitution Rule.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
