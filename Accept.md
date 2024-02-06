@@ -35,4 +35,7 @@ Let $G=(Q, \Sigma,\delta,q_{start},q_{accept})$ be a [[Generalized Nondeterminis
 
 
 >[!def]
->Let $M=(Q,\Sigma,\Gamma,\delta,q_{0},q_{accept},q_{reject})$ be a [[Turing Machine]]. 
+>Let $M=(Q,\Sigma,\Gamma,\delta,q_{0},q_{accept},q_{reject})$ be a [[Turing Machine]] and let $w$ be an input [[String]]. Then, $M$ *accepts* $w$ if a [[Sequence]] of [[Configuration]]s $C_{1},\ldots,C_n$ exists such that 
+>1. $C_{1}$ is the [[Start Configuration]] of $M$ on $w$
+>2. each $C_{i}$ [[Yield]]s $C_{i+1}$
+>3. $C_n$ is an [[Accepting Configuration]]
