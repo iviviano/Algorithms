@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turing Machine.md",
+                "file": "AREX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Symmetric Difference.md",
+                "file": "AREX.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Symmetric Difference.md",
+                "file": "AREX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Symmetric Difference.md"
+                "file": "AREX.md"
               }
             }
           },
@@ -235,11 +235,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00c07d1a7c963906",
+  "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
-    "Yield.md",
-    "Symmetric Difference.md",
+    "ANFA.md",
+    "AREX.md",
+    "ADFA.md",
     "Turing Machine.md",
+    "Symmetric Difference.md",
+    "Yield.md",
     "Equivalence of Turing-recognizability and Enumerability.md",
     "Enumerates.md",
     "Decider.md",
@@ -260,9 +263,6 @@
     "Accepting Configuration.md",
     "Start Configuration.md",
     "Configuration.md",
-    "Set-Theory/Range.md",
-    "Pumping Lemma for Context-Free Languages.md",
-    "Equivalence of PDAs and CFGs.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
