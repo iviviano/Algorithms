@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AREX.md",
+                "file": "EQCFG.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AREX.md",
+                "file": "EQCFG.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AREX.md",
+                "file": "EQCFG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AREX.md"
+                "file": "EQCFG.md"
               }
             }
           },
@@ -237,10 +237,15 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
+    "ECFG.md",
+    "EQCFG.md",
+    "ACFG.md",
+    "EQDFA.md",
+    "Turing Machine.md",
+    "ADFA.md",
     "ANFA.md",
     "AREX.md",
-    "ADFA.md",
-    "Turing Machine.md",
+    "EDFA.md",
     "Symmetric Difference.md",
     "Yield.md",
     "Equivalence of Turing-recognizability and Enumerability.md",
@@ -258,11 +263,6 @@
     "Language of Machine.md",
     "Accept.md",
     "Alphabet.md",
-    "Halting Configuration.md",
-    "Rejecting Configuration.md",
-    "Accepting Configuration.md",
-    "Start Configuration.md",
-    "Configuration.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",

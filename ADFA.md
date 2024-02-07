@@ -1,5 +1,5 @@
 ---
-mathLink: $A_{DFA}$
+mathLink: $A_\text{DFA}$
 ---
 >[!def]
->$$A_{DFA}=\{\langle B,w\rangle|B \text{ is a DFA that accepts input string w}\}$$
+>$$A_\text{DFA}=\{\langle B,w\rangle|B \text{ is a DFA that accepts input string w}\}$$
