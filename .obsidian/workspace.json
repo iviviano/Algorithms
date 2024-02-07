@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EQCFG.md",
+                "file": "Decidable Languages Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EQCFG.md",
+                "file": "Decidable Languages Theorem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EQCFG.md",
+                "file": "Decidable Languages Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EQCFG.md"
+                "file": "Decidable Languages Theorem.md"
               }
             }
           },
@@ -237,8 +237,9 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
-    "ECFG.md",
     "EQCFG.md",
+    "Decidable Languages Theorem.md",
+    "ECFG.md",
     "ACFG.md",
     "EQDFA.md",
     "Turing Machine.md",
@@ -262,7 +263,6 @@
     "Turing-Recognizable.md",
     "Language of Machine.md",
     "Accept.md",
-    "Alphabet.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
