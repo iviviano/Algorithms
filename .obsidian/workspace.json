@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "ATM is Undecidable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "ATM is Undecidable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "ATM is Undecidable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Decidable Languages Theorem.md"
+                "file": "ATM is Undecidable.md"
               }
             }
           },
@@ -237,8 +237,12 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
-    "EQCFG.md",
+    "ATM.md",
+    "ATM is Undecidable.md",
+    "String Concatenation.md",
+    "Empty String.md",
     "Decidable Languages Theorem.md",
+    "EQCFG.md",
     "ECFG.md",
     "ACFG.md",
     "EQDFA.md",
@@ -259,10 +263,6 @@
     "Turing-Decidable.md",
     "Decide.md",
     "Halt.md",
-    "Loop.md",
-    "Turing-Recognizable.md",
-    "Language of Machine.md",
-    "Accept.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
