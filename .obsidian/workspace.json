@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Star.md",
+                "file": "Language.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Star.md",
+                "file": "Language.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Star.md",
+                "file": "Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Star.md"
+                "file": "Language.md"
               }
             }
           },
@@ -237,6 +237,9 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
+    "String.md",
+    "Alphabet.md",
+    "Star.md",
     "Language Concatenation.md",
     "Regular Operation.md",
     "Language.md",
@@ -260,9 +263,6 @@
     "AREX.md",
     "EDFA.md",
     "Symmetric Difference.md",
-    "Yield.md",
-    "Equivalence of Turing-recognizability and Enumerability.md",
-    "Enumerates.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
