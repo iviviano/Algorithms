@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Universal Turing Machine.md",
+                "file": "Countable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Universal Turing Machine.md",
+                "file": "Countable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Universal Turing Machine.md",
+                "file": "Countable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Universal Turing Machine.md"
+                "file": "Countable.md"
               }
             }
           },
@@ -237,9 +237,10 @@
   },
   "active": "d2bda5dbb1d1c39c",
   "lastOpenFiles": [
+    "Universal Turing Machine.md",
+    "Countable.md",
     "Language.md",
     "Graph.md",
-    "Universal Turing Machine.md",
     "Prefix.md",
     "Degree of a Vertex.md",
     "ATM is Undecidable.md",
@@ -262,7 +263,6 @@
     "Enumerates.md",
     "Decider.md",
     "Equivalence of NTMs and DTMs.md",
-    "Nondeterministic Turing Machine.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
