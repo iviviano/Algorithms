@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recognize.md",
+                "file": "Accept.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory Homework/Homework 1.md",
+                "file": "Accept.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory Homework/Homework 1.md",
+                "file": "Accept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory Homework/Homework 1.md"
+                "file": "Accept.md"
               }
             }
           },
@@ -235,11 +234,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f64c948953100543",
+  "active": "8be204803b84a8ab",
   "lastOpenFiles": [
-    "Palindrome.md",
-    "Theory Homework/Homework 1.md",
     "Recognize.md",
+    "Theory Homework/Homework 1.md",
+    "Palindrome.md",
     "Prefix.md",
     "Set-Theory/Range.md",
     "Mapping Reduction Characterization of Recognizability.md",

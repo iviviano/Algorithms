@@ -22,7 +22,6 @@
 (d) $A\cap B=B$
 (e) $\{(\texttt{x,x}),(\texttt{x,y}),(\texttt{y,x}),(\texttt{y,y}),(\texttt{z,x}),(\texttt{z,y})\}$
 (f) $\{\emptyset,\{\texttt{x}\},\{\texttt{y}\},\{\texttt{x,y}\}\}$
-\*using the definition of [[Range]] given in Sipser
 
 >[!note] 4
 (a) $f(2)=7$
@@ -30,6 +29,7 @@
 (c) $g(2,10)=6$
 (d) [[Range]] of $g$ is $Y$, [[Domain]] of $g$ is $X\times Y$
 (e) $f(4)=7$, $g(4,f(4))=g(4,7)=8$
+\*using the definition of [[Range]] given in Sipser
 
 >[!note] 5
 Enumerate the elements of $A=\{a_{1},\ldots,a_{n}\}$. Let $A_{k}=\{a_{1},\ldots,a_{k}\}$ for $0\le k\le n$. Let $P(k)$ be $|\mathcal{P}(A_{k})|=2^{k}$.
