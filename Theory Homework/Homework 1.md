@@ -15,7 +15,7 @@
 (b) $\mathbb{N}-\{1,2,3,4,5\}$
 (c) $\{1,2,3,4\}$
 (d) $\{\texttt{aba}\}$
-(e) $\{\epsilon\}$
+(e) $\{\varepsilon\}$
 (f) $\emptyset$
 
 >[!note] 3
@@ -37,10 +37,10 @@
 
 >[!note] 5
 
-Enumerate the elements of $A=\{a_{1},\ldots,a_{n}\}$. Let $P(k)$ be $|\mathcal{P}(\{a_{1},\ldots,a_{k}\})|=2^{k}$.
+Enumerate the elements of $A=\{a_{1},\ldots,a_{n}\}$. Let $A_{k}=\{a_{1},\ldots,a_{k}\}$ for $0\le k\le n$. Let $P(k)$ be $|\mathcal{P}(A_{k})|=2^{k}$.
 
 Base Case: $k=0$. 
-Here, $A=\emptyset$. Note that $\mathcal{P}(\emptyset)=\{\emptyset\}$ and $2^{k}=1$, so $P(0)$ holds.
+Here, $A_{k}=\emptyset$. Note that $\mathcal{P}(\emptyset)=\{\emptyset\}$ and $2^{k}=1$, so $P(0)$ holds.
 
 Inductive Step: Let $k≥0$ be given and assume $P(k)$.
-Let $A_{k}=\{a_{1},\ldots,a_{k}\}$ and $A_{k+1}=\{a_{1},\ldots,a_{k+1}\}$. 
+Let $f:A_{k}\rightarrow[2^{k}]$ be a [[Bijective]] [[Function]].  
