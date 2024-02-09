@@ -16,7 +16,7 @@ mathLink: Kruskal's algorithm
 &\quad \quad \ \text{add } e \text{ to } T\\
 &\textbf{return } T\\
 \end{align}$$
-Check for cycles with [[Algorithm]] from [[Homework 1]]
+Check for cycles with [[Algorithm]] from [[Isaac Homework Algorithms/Homework 1]]
 
 
 Proof of feasibility: (Show that $T$ is a [[Spanning Tree]])

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mapping Reduction Characterization of Recognizability.md",
+                "file": "Theory Homework/Homework 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mapping Reduction Characterization of Recognizability.md",
+                "file": "Theory Homework/Homework 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mapping Reduction Characterization of Recognizability.md",
+                "file": "Theory Homework/Homework 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mapping Reduction Characterization of Recognizability.md"
+                "file": "Theory Homework/Homework 1.md"
               }
             }
           },
@@ -237,8 +237,11 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
-    "Mapping Reduction Characterization of Decidability.md",
+    "Set-Theory/Range.md",
+    "Theory Homework/Homework 1.md",
     "Mapping Reduction Characterization of Recognizability.md",
+    "Theory Homework",
+    "Mapping Reduction Characterization of Decidability.md",
     "Mapping Reducibility.md",
     "Computable.md",
     "Mapping Reduction.md",
@@ -261,8 +264,6 @@
     "Reduction.md",
     "Decidable Language Characterization Theorem.md",
     "Co-Turing-Recognizable.md",
-    "ATM is Undecidable.md",
-    "Language.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
@@ -282,7 +283,6 @@
     "Elinor Homework/EFrost_CS280_HW0 12.pdf",
     "Elinor Homework/EFrost_CS280_HW0 11.pdf",
     "Elinor Homework/EFrost_CS280_HW0 10.pdf",
-    "Set-Theory/Preimage.md.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak.bak 3.bak",
     "Untitled.canvas"
   ]
 }
