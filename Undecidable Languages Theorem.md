@@ -9,5 +9,6 @@ mathLink: undecidable languages theorem
 >- [[EQTM]]
 >- [[ELBA]]
 >- [[ALLCFG]]
+>- [[EQCFG]]
 >
 >are [[Undecidable]]
