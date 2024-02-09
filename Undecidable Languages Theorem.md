@@ -8,5 +8,6 @@ mathLink: undecidable languages theorem
 >- [[REGULARTM]]
 >- [[EQTM]]
 >- [[ELBA]]
+>- [[ALLCFG]]
 >
 >are [[Undecidable]]

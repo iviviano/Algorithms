@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Undecidable Languages Theorem.md",
+                "file": "ALLCFG.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Undecidable Languages Theorem.md",
+                "file": "ALLCFG.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Undecidable Languages Theorem.md",
+                "file": "ALLCFG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Undecidable Languages Theorem.md"
+                "file": "ALLCFG.md"
               }
             }
           },
@@ -237,6 +237,8 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
+    "Undecidable Languages Theorem.md",
+    "ALLCFG.md",
     "Undecidable.md",
     "ELBA.md",
     "Decidable Languages Theorem.md",
@@ -245,7 +247,6 @@
     "Rejecting Computation History.md",
     "Accepting Computation History.md",
     "EQTM.md",
-    "Undecidable Languages Theorem.md",
     "ETM.md",
     "Equivalence of multitape and regular Turing machines.md",
     "REGULARTM.md",
@@ -262,7 +263,6 @@
     "Star.md",
     "Language Concatenation.md",
     "Regular Operation.md",
-    "Countable.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
