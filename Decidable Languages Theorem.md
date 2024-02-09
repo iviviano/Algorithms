@@ -11,5 +11,6 @@ mathLink: decidable languages theorem
 >- [[ACFG]]
 >- [[ECFG]]
 >- any [[Context-Free Languages]] 
+>- [[ALBA]]
 >
 >are [[Decide]]able
