@@ -5,5 +5,7 @@ mathLink: undecidable languages theorem
 >The [[Language]]s 
 >- [[ATM]]
 >- [[ETM]]
+>- [[REGULARTM]]
+>- [[EQTM]]
 >
 >are [[Undecidable]]
