@@ -43,4 +43,5 @@ Base Case: $k=0$.
 Here, $A_{k}=\emptyset$. Note that $\mathcal{P}(\emptyset)=\{\emptyset\}$ and $2^{k}=1$, so $P(0)$ holds.
 
 Inductive Step: Let $k≥0$ be given and assume $P(k)$.
-Let $f:A_{k}\rightarrow[2^{k}]$ be a [[Bijective]] [[Function]].  
+Let $f:A_{k}\rightarrow[2^{k}]$ be a [[Bijective]] [[Function]]. We build a [[Function]] $g:\mathcal{P}(A_{k+1})\rightarrow[2^{k+1}]$ with the [[Rule of Assignment]] $$g(B)=\begin{cases}f(B)&\text{ if }a_{k+1}\notin B\\f(B)+2^{k}&\text{ if }a_{k+1}\in B\end{cases}$$ 
+
