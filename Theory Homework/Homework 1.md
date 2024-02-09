@@ -4,9 +4,9 @@
 (b) The [[Set]] of all even integers.
 (c) The [[Set]] of all positive even integers
 (d) The [[Set]] of all positive multiples of $6$
-(e) 
+(e) The [[Set]] of [[Palindrome]]s of $\texttt{0}$s and $\texttt{1}$s 
 (f) The [[Set]] containing nothing at all.
-\*(assuming $0\notin \mathbb{N}$)
+\*assuming $0\notin \mathbb{N}$
 
 >[!note] 2
 (a) $\{1,10,100\}$
