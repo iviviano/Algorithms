@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HALTTM is Undecidable.md",
+                "file": "ETM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HALTTM is Undecidable.md",
+                "file": "ETM.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HALTTM is Undecidable.md",
+                "file": "ETM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HALTTM is Undecidable.md"
+                "file": "ETM.md"
               }
             }
           },
@@ -237,8 +237,10 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
-    "Undecidable.md",
+    "Undecidable Languages Theorem.md",
+    "ETM.md",
     "HALTTM is Undecidable.md",
+    "Undecidable.md",
     "HALTTM.md",
     "Halting Problem.md",
     "Reduction.md",
@@ -261,8 +263,6 @@
     "Empty String.md",
     "Decidable Languages Theorem.md",
     "EQCFG.md",
-    "ECFG.md",
-    "ACFG.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
