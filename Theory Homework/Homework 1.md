@@ -1,5 +1,4 @@
 >[!note] 1
-
 (a) The [[Set]] containing the numbers $1,3,5$ and $7$
 (b) The [[Set]] of all even integers.
 (c) The [[Set]] of all positive even integers
