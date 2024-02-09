@@ -7,5 +7,6 @@ mathLink: undecidable languages theorem
 >- [[ETM]]
 >- [[REGULARTM]]
 >- [[EQTM]]
+>- [[ELBA]]
 >
 >are [[Undecidable]]

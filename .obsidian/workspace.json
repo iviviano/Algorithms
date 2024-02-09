@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "Undecidable Languages Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "Undecidable Languages Theorem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "Undecidable Languages Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Decidable Languages Theorem.md"
+                "file": "Undecidable Languages Theorem.md"
               }
             }
           },
@@ -237,6 +237,9 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
+    "Undecidable.md",
+    "ELBA.md",
+    "Decidable Languages Theorem.md",
     "ALBA.md",
     "Linear Bounded Automaton.md",
     "Rejecting Computation History.md",
@@ -247,7 +250,6 @@
     "Equivalence of multitape and regular Turing machines.md",
     "REGULARTM.md",
     "HALTTM is Undecidable.md",
-    "Undecidable.md",
     "HALTTM.md",
     "Halting Problem.md",
     "Reduction.md",
@@ -261,8 +263,6 @@
     "Language Concatenation.md",
     "Regular Operation.md",
     "Countable.md",
-    "Universal Turing Machine.md",
-    "Graph.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
