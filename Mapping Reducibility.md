@@ -2,5 +2,5 @@
 mathLink: mapping reducibility
 ---
 >[!def]
->If there exists a [[Computable]] [[Function]] that converts instances of problem $A$ to [[Decision Problem]] $B$, then there is a *mapping reducibility* of $A$ to $B$.
+Language $A$ is *mapping reducible* to [[Language]] $B$, written $A≤_{m}B$, if there is a [[Computable]] [[Function]] $f:\Sigma^{*}\rightarrow \Sigma^*$, where for every $s$, $$w\in A\iff f(w)\in B$$
 
