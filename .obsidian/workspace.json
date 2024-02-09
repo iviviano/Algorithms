@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language.md",
+                "file": "Decidable Language Characterization Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language.md",
+                "file": "Decidable Language Characterization Theorem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language.md",
+                "file": "Decidable Language Characterization Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language.md"
+                "file": "Decidable Language Characterization Theorem.md"
               }
             }
           },
@@ -237,18 +237,20 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
+    "Co-Turing-Recognizable.md",
+    "Decidable Language Characterization Theorem.md",
+    "ATM is Undecidable.md",
+    "Language.md",
     "String.md",
     "Alphabet.md",
     "Star.md",
     "Language Concatenation.md",
     "Regular Operation.md",
-    "Language.md",
     "Countable.md",
     "Universal Turing Machine.md",
     "Graph.md",
     "Prefix.md",
     "Degree of a Vertex.md",
-    "ATM is Undecidable.md",
     "ATM.md",
     "String Concatenation.md",
     "Empty String.md",
@@ -261,8 +263,6 @@
     "ADFA.md",
     "ANFA.md",
     "AREX.md",
-    "EDFA.md",
-    "Symmetric Difference.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
