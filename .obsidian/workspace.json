@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prefix.md",
+                "file": "Recognize.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -237,8 +237,10 @@
   },
   "active": "f64c948953100543",
   "lastOpenFiles": [
-    "Set-Theory/Range.md",
+    "Recognize.md",
+    "Prefix.md",
     "Theory Homework/Homework 1.md",
+    "Set-Theory/Range.md",
     "Mapping Reduction Characterization of Recognizability.md",
     "Theory Homework",
     "Mapping Reduction Characterization of Decidability.md",
@@ -262,8 +264,6 @@
     "HALTTM.md",
     "Halting Problem.md",
     "Reduction.md",
-    "Decidable Language Characterization Theorem.md",
-    "Co-Turing-Recognizable.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
