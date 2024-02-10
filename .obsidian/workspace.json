@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Accept.md",
+                "file": "Class of Regular Languages Closed Under Union.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,19 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "Theory Homework/Homework 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6e2a69d7acd32a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Directed Graph.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -164,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accept.md",
+                "file": "Class of Regular Languages Closed Under Union.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -181,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Accept.md",
+                "file": "Class of Regular Languages Closed Under Union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -204,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accept.md"
+                "file": "Class of Regular Languages Closed Under Union.md"
               }
             }
           },
@@ -236,8 +223,27 @@
   },
   "active": "8be204803b84a8ab",
   "lastOpenFiles": [
-    "Recognize.md",
+    "Indegree.md",
+    "Countable.md",
+    "Symmetric Difference.md",
+    "Outdegree.md",
     "Theory Homework/Homework 1.md",
+    "Grading/Grading Notes.md",
+    "Grading",
+    "Accept.md",
+    "Class of Regular Languages Closed Under Union.md",
+    "Cycle.md",
+    "Equivalence of NFAs and DFAs.md",
+    "Simple Cycle.md",
+    "Tree.md",
+    "Root of a Tree.md",
+    "Leaf.md",
+    "Directed Graph.md",
+    "Nondeterministic Finite Automaton.md",
+    "Deterministic Finite Automaton.md",
+    "Regular Language.md",
+    "Class of Regular Languages Closed Under Concatenation.md",
+    "Recognize.md",
     "Palindrome.md",
     "Prefix.md",
     "Set-Theory/Range.md",
@@ -245,24 +251,6 @@
     "Theory Homework",
     "Mapping Reduction Characterization of Decidability.md",
     "Mapping Reducibility.md",
-    "Computable.md",
-    "Mapping Reduction.md",
-    "Undecidable Languages Theorem.md",
-    "ALLCFG.md",
-    "Undecidable.md",
-    "ELBA.md",
-    "Decidable Languages Theorem.md",
-    "ALBA.md",
-    "Linear Bounded Automaton.md",
-    "Rejecting Computation History.md",
-    "Accepting Computation History.md",
-    "EQTM.md",
-    "ETM.md",
-    "Equivalence of multitape and regular Turing machines.md",
-    "REGULARTM.md",
-    "HALTTM is Undecidable.md",
-    "HALTTM.md",
-    "Halting Problem.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
@@ -281,7 +269,6 @@
     "Elinor Homework/EFrost_CS280_HW0 9.pdf",
     "Elinor Homework/EFrost_CS280_HW0 12.pdf",
     "Elinor Homework/EFrost_CS280_HW0 11.pdf",
-    "Elinor Homework/EFrost_CS280_HW0 10.pdf",
     "Untitled.canvas"
   ]
 }

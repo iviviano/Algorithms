@@ -14,6 +14,8 @@ mathLink: accept
 >2. $r_{i+1}\in\delta(r_{i},w_{i+1})$ for $i=0,\ldots,n-1$
 >3. $r_{n}\in F$
 
+>[!question]
+>What if there is a sequence longer than $n+1$ where some of the states are led to by the empty string splits?
 
 >[!def]
 Let $G=(Q, \Sigma,\delta,q_{start},q_{accept})$ be a [[Generalized Nondeterministic Finite Automaton]] and let $w$ be a [[String]] in $\Sigma^{*}$. Then, $G$ *accepts* $w$ if $w=w_{1},\ldots,w_{k}$, and a [[Sequence]] of [[States]] $q_{0},\ldots,q_{k}$ exists such that 
