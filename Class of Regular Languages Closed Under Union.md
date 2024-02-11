@@ -19,3 +19,6 @@ Let $Q=Q_{1}\cup Q_{2}\cup\{q_0\}$ for new states $q_{0}\notin Q_{1}\cup Q_{2}$.
 Let $w\notin A$. (FINISH)
 >
 So, $A$ is a [[Regular Language]] [[Language]] by the [[Equivalence of NFAs and DFAs]]. 
+
+
+
