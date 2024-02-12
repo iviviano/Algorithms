@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md",
+                "file": "Grading/Grading Notes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md",
+                "file": "Grading/Grading Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md",
+                "file": "Grading/Grading Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class of Regular Languages Closed Under Union.md"
+                "file": "Grading/Grading Notes.md"
               }
             }
           },
@@ -223,6 +223,7 @@
   },
   "active": "8be204803b84a8ab",
   "lastOpenFiles": [
+    "Class of Regular Languages Closed Under Union.md",
     "Indegree.md",
     "Countable.md",
     "Symmetric Difference.md",
@@ -231,7 +232,6 @@
     "Grading/Grading Notes.md",
     "Grading",
     "Accept.md",
-    "Class of Regular Languages Closed Under Union.md",
     "Cycle.md",
     "Equivalence of NFAs and DFAs.md",
     "Simple Cycle.md",
