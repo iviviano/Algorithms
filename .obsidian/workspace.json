@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Theory Homework/Homework 1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Theory Homework/Homework 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Operation.md"
+                "file": "Theory Homework/Homework 1.md"
               }
             }
           },
@@ -248,9 +248,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bcc5cfa4ae9f489",
+  "active": "f64c948953100543",
   "lastOpenFiles": [
     "Accept.md",
+    "Theory Homework/Homework 1.md",
+    "Regular Operation.md",
     "Nondeterministic Finite Automaton.md",
     "Pushdown Automaton.md",
     "Countable.md",
@@ -259,7 +261,6 @@
     "Grading/Grading Notes.md",
     "Class of Regular Languages Closed Under Union.md",
     "Indegree.md",
-    "Theory Homework/Homework 1.md",
     "Grading",
     "Cycle.md",
     "Equivalence of NFAs and DFAs.md",
@@ -277,7 +278,6 @@
     "Set-Theory/Range.md",
     "Mapping Reduction Characterization of Recognizability.md",
     "Theory Homework",
-    "Mapping Reduction Characterization of Decidability.md",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
     "Pictures/IMG-1266.jpg",
