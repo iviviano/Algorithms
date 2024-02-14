@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory Homework/Homework 1.md",
+                "file": "Accept.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory Homework/Homework 1.md",
+                "file": "Accept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory Homework/Homework 1.md"
+                "file": "Accept.md"
               }
             }
           },
@@ -248,10 +248,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f64c948953100543",
+  "active": "cc51d465ea14fa1b",
   "lastOpenFiles": [
-    "Accept.md",
     "Theory Homework/Homework 1.md",
+    "Accept.md",
     "Regular Operation.md",
     "Nondeterministic Finite Automaton.md",
     "Pushdown Automaton.md",

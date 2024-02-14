@@ -43,4 +43,3 @@ When forming a [[Subset]] $B$ of $A_{k+1}$, we can include $a_{k+1}$ or not. If 
 >
 Therefore, by [[Principle of Mathematical Induction]], $P(k)$ for all $0\le k\le n$. In particular, $|\mathcal{P}(A_{n})|=2^k$, and $A_{k}=A$.
 
-I'm confused about the definition of computation for nondeterministic finite automata. The change from $$r_{i+1}=\delta(r_{i},w_{i+1})$$to $$r_{i+1}\in\delta(r_{i},w_{i+1})$$makes sense and I understand why that handles nondeterminism. However, I don't see how this definition handles the possibility of transitions marked by $\varepsilon$. 
