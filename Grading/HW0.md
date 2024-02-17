@@ -2,7 +2,7 @@
 Abby https://github.com/orgs/24sp-oberlin-csci275/teams/abby_tejera_hw0
 Honor Code: yes
 ```
-Github Success: /40
+Github Success: 40/40
 Problem  1: /13
 Problem  2: 15/15
 Problem  3: 8/8
@@ -17,7 +17,7 @@ Great job! One note on style. For your list-traversing functions, you used `and`
 
 Al https://github.com/orgs/24sp-oberlin-csci275/teams/al
 
-Honor Code: 
+Honor Code: yes
 ```
 Github Success: /40
 Problem  1: /13
