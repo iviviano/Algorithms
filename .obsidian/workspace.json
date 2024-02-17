@@ -4,115 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "bdf6a196090ce298",
+        "id": "bff3e821e43c6f43",
         "type": "tabs",
         "children": [
           {
-            "id": "8be204803b84a8ab",
+            "id": "ecc44b1364024075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grading/Grading Notes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f64c948953100543",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Theory Homework/Homework 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a51670f912364b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Outdegree.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c95171bf91269061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indegree.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00c07d1a7c963906",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Symmetric Difference.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2bda5dbb1d1c39c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nondeterministic Finite Automaton.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc51d465ea14fa1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Accept.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1bcc5cfa4ae9f489",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Regular Operation.md",
+                "file": "Grading/HW0.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accept.md",
+                "file": "Grading/HW0.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Accept.md",
+                "file": "Grading/HW0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accept.md"
+                "file": "Grading/HW0.md"
               }
             }
           },
@@ -248,19 +156,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc51d465ea14fa1b",
+  "active": "ecc44b1364024075",
   "lastOpenFiles": [
-    "Theory Homework/Homework 1.md",
-    "Accept.md",
+    "Grading/HW0.md",
     "Regular Operation.md",
+    "Accept.md",
     "Nondeterministic Finite Automaton.md",
+    "Symmetric Difference.md",
+    "Indegree.md",
+    "Outdegree.md",
+    "Theory Homework/Homework 1.md",
     "Pushdown Automaton.md",
     "Countable.md",
-    "Symmetric Difference.md",
-    "Outdegree.md",
     "Grading/Grading Notes.md",
     "Class of Regular Languages Closed Under Union.md",
-    "Indegree.md",
     "Grading",
     "Cycle.md",
     "Equivalence of NFAs and DFAs.md",
@@ -276,7 +185,6 @@
     "Palindrome.md",
     "Prefix.md",
     "Set-Theory/Range.md",
-    "Mapping Reduction Characterization of Recognizability.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
