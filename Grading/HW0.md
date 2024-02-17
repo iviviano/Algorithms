@@ -4,7 +4,7 @@ Honor Code: yes
 ```
 Github Success: /40
 Problem  1: /13
-Problem  2: /15
+Problem  2: 15/15
 Problem  3: /8
 Problem  4: /8
 Problem  5: /8
