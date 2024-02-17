@@ -19,14 +19,14 @@ Al https://github.com/orgs/24sp-oberlin-csci275/teams/al
 
 Honor Code: yes
 ```
-Github Success: /40
+Github Success: 40/40
 Problem  1: 13/13 Good concise test suite with appropriate edge cases.
 Problem  2: 15/15
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 100/100
 ```
 
 Great job overall and good comments on `arith`. One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
@@ -34,7 +34,7 @@ Great job overall and good comments on `arith`. One style note: closing parenthe
 
 Alec https://github.com/orgs/24sp-oberlin-csci275/teams/alec0
 
-Honor Code: 
+Honor Code: yes
 ```
 Github Success: /40
 Problem  1: /13
