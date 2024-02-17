@@ -1,6 +1,6 @@
 
 Abby https://github.com/orgs/24sp-oberlin-csci275/teams/abby_tejera_hw0
-Honor Code: 
+Honor Code: yes
 ```
 Github Success: /40
 Problem  1: /13
