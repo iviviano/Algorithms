@@ -100,6 +100,8 @@ TOTAL: /100
 
 Danny https://github.com/orgs/24sp-oberlin-csci275/teams/danny_hw0
 
+WAS LATE
+
 Honor Code: 
 ```
 Github Success: /40
