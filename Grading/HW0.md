@@ -46,6 +46,8 @@ Problem  6: /8
 TOTAL: /100
 ```
 
+Great job! One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
+
 Amanda https://github.com/orgs/24sp-oberlin-csci275/teams/amanda_hw0
 
 Honor Code: 
