@@ -29,6 +29,8 @@ Problem  6: /8
 TOTAL: /100
 ```
 
+Great job overall and good comments on `arith`. One style note: closing parentheses should all be on the same line. Check out the racket style guide if you are confused 
+
 Alec https://github.com/orgs/24sp-oberlin-csci275/teams/alec0
 
 Honor Code: 
