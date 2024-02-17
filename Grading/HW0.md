@@ -36,14 +36,14 @@ Alec https://github.com/orgs/24sp-oberlin-csci275/teams/alec0
 
 Honor Code: yes
 ```
-Github Success: /40
-Problem  1: /13
-Problem  2: /15
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Github Success: 40/40
+Problem  1: 10/13 Lost 3 points for no singleton list test. Good tests of the empty list and varied data types. 
+Problem  2: 13/15 Good implementation, but no test for an input of 0.
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 97/100
 ```
 
 Great job! One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
