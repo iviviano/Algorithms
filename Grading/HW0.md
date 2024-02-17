@@ -12,6 +12,8 @@ Problem  6: /8
 TOTAL: /100
 ```
 
+Great job! One note on style. For your list-traversing functions, you used `and` to check if both the first element and the rest of the list meets the tested criteria. For the future, it is better style to use the test on the first element as your condition and let testing the rest be what you return. For example, the third case of `all-atoms?` could have condition `(atom? (first lst)` and return a recursive call. No points off, but this can help make your code more readable and concise. 
+
 
 Al https://github.com/orgs/24sp-oberlin-csci275/teams/al
 
