@@ -118,11 +118,11 @@ Danny https://github.com/orgs/24sp-oberlin-csci275/teams/danny_hw0
 
 WAS LATE
 
-Honor Code: 
+Honor Code: yes
 ```
-Github Success: /40
-Problem  1: /13
-Problem  2: /15
+Github Success: 40/40
+Problem  1: 10/13 Lost 3 points for no test of a singleton list.
+Problem  2: 15/15
 Problem  3: /8
 Problem  4: /8
 Problem  5: /8
