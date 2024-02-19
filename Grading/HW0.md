@@ -52,16 +52,17 @@ Amanda https://github.com/orgs/24sp-oberlin-csci275/teams/amanda_hw0
 
 Honor Code: yes
 ```
-Github Success: /40
+Github Success: 40/40
 Problem  1: 13/13
-Problem  2: /15
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Problem  2: 13/15 Good implementation, but no test for an input of 0.
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 98/100
 ```
 
+Great job! One note on style. For your list-traversing functions, you used `and` to check if both the first element and the rest of the list meets the tested criteria. For the future, it is better style to use the test on the first element as your condition and let testing the rest be what you return. For example, the third case of `all-atoms?` could have condition `(atom? (first lst)` and return a recursive call. No points off, but this can help make your code more readable and concise. 
 
 Ezra https://github.com/orgs/24sp-oberlin-csci275/teams/as-the-crowe-flies
 
