@@ -105,12 +105,14 @@ Honor Code: yes
 Github Success: 40/40
 Problem  1: 13/13
 Problem  2: 13/15 Good implementation, but no test for an input of 0.
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 98/100
 ```
+
+Nice job!
 
 Danny https://github.com/orgs/24sp-oberlin-csci275/teams/danny_hw0
 
