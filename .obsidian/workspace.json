@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d7595967ecdbb3d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equivalence of NFAs and DFAs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW0.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW0.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW0.md"
+                "file": "Equivalence of NFAs and DFAs.md"
               }
             }
           },
@@ -170,10 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0663350a7a94e596",
+  "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
-    "Grading/HW0 Rubric.md",
     "Grading/HW0.md",
+    "Grading/HW0 Rubric.md",
     "Regular Operation.md",
     "Accept.md",
     "Nondeterministic Finite Automaton.md",
