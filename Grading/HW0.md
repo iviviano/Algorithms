@@ -130,6 +130,8 @@ Problem  6: /8
 TOTAL: /100
 ```
 
+G
+
 Daniel Cruz https://github.com/orgs/24sp-oberlin-csci275/teams/dc
 
 Honor Code: 
