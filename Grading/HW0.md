@@ -136,12 +136,14 @@ Daniel Cruz https://github.com/orgs/24sp-oberlin-csci275/teams/dc
 
 Honor Code: yes
 ```
-Github Success: /40
-Problem  1: 10/13
-Problem  2: 13/15
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Github Success: 40/40
+Problem  1: 10/13 Lost 3 points for not testing a singleton list. In a test suite, you should try to demonstrate a procedure's accuracy on general examples and edge cases. Typically, 2 tests will not be enough to do so.
+Problem  2: 12/15 Lost 1 point for error with inputs odd and less than 10. For example, (arith 1) should return 2, but returned 1. Lost 2 points for not testing the input 0.
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 94/100
 ```
+
+Great job! One style note. When your tests get more complicated in the future, it will be helpful to write the name, test, and expected value each on different lines
