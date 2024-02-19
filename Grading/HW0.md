@@ -50,7 +50,7 @@ Great job! One style note: closing parentheses should all be on the same line. C
 
 Amanda https://github.com/orgs/24sp-oberlin-csci275/teams/amanda_hw0
 
-Honor Code: 
+Honor Code: yes
 ```
 Github Success: /40
 Problem  1: /13
