@@ -123,22 +123,22 @@ Honor Code: yes
 Github Success: 40/40
 Problem  1: 10/13 Lost 3 points for no test of a singleton list.
 Problem  2: 15/15
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 97/100
 ```
 
-G
+Great job and nice comments!
 
 Daniel Cruz https://github.com/orgs/24sp-oberlin-csci275/teams/dc
 
-Honor Code: 
+Honor Code: yes
 ```
 Github Success: /40
-Problem  1: /13
-Problem  2: /15
+Problem  1: 10/13
+Problem  2: 13/15
 Problem  3: /8
 Problem  4: /8
 Problem  5: /8
