@@ -66,7 +66,7 @@ Great job! One note on style. For your list-traversing functions, you used `and`
 
 Ezra https://github.com/orgs/24sp-oberlin-csci275/teams/as-the-crowe-flies
 
-Honor Code: 
+Honor Code: NO HONOR CODE!!
 ```
 Github Success: /40
 Problem  1: /13
