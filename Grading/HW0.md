@@ -68,15 +68,17 @@ Ezra https://github.com/orgs/24sp-oberlin-csci275/teams/as-the-crowe-flies
 
 Honor Code: NO HONOR CODE!!
 ```
-Github Success: /40
-Problem  1: /13
-Problem  2: /15
-Problem  3: /8
-Problem  4: /8
-Problem  5: /8
-Problem  6: /8
-TOTAL: /100
+Github Success: 40/40
+Problem  1: 13/13
+Problem  2: 13/15 Good implementation, but no test for an input of 0.
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 98/100
 ```
+
+Please remember to sign the Honor Code! You're grade will not be put on campus wire until you do so.
 
 Great job with your implementations and tests. It's great that you tested for invalid inputs. For future reference, there is an easy way to throw descriptive exceptions with the error syntax. Check out the Racket documentation if you're interested https://docs.racket-lang.org/reference/exns.html#%28def._%28%28quote._~23~25kernel%29._error%29%29.
 
