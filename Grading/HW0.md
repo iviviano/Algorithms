@@ -78,6 +78,10 @@ Problem  6: /8
 TOTAL: /100
 ```
 
+Great job with your implementations and tests. It's great that you tested for invalid inputs. For future reference, there is an easy way to throw descriptive exceptions with the error syntax. Check out the Racket documentation if you're interested https://docs.racket-lang.org/reference/exns.html#%28def._%28%28quote._~23~25kernel%29._error%29%29.
+
+
+
 Late https://github.com/orgs/24sp-oberlin-csci275/teams/bgalbraith_hw0
 
 Honor Code: 
