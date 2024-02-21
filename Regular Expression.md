@@ -15,3 +15,11 @@ mathLink: regular expression
 >- $R^{+}=RR^{*}$
 >- $R^{k}=$ [[Language Concatenation]]ion of $R$ $k$ times
 
+>[!example]
+>- $\Sigma\Sigma=\{w:|w=2\}$
+>- $(\Sigma \Sigma)^{*}=\{w:|w|\text{ is even}\}$
+>- $\texttt{a}^{*}(\texttt{baa}^{*})^{*}=\{w:\text{ every }\texttt{b} \text{ in }w \text{ is followed by at least one }\texttt{a}\}$
+>- $(\texttt{a}|\varepsilon)b^{*}= \texttt{ab}^{*}|\texttt{b}^{*}$
+
+$$L((\texttt{a}|\texttt{bb})(\varepsilon|\texttt{a}))=\{\texttt{a},\texttt{bb},\texttt{aa},\texttt{bba}\}$$
+$$L()$$

@@ -58,9 +58,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "886386518ed90598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Star.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6269bfd5f54a0d9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Regular Expression.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -126,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Operation.md"
+                "file": "Regular Expression.md"
               }
             }
           },
@@ -196,12 +222,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d923339332825577",
+  "active": "6269bfd5f54a0d9d",
   "lastOpenFiles": [
+    "Star.md",
+    "Regular Operation.md",
     "Equivalence of NFAs and DFAs.md",
     "Grading/HW0.md",
     "Grading/HW0 Rubric.md",
-    "Regular Operation.md",
     "Accept.md",
     "Nondeterministic Finite Automaton.md",
     "Symmetric Difference.md",
@@ -224,7 +251,6 @@
     "Class of Regular Languages Closed Under Concatenation.md",
     "Recognize.md",
     "Palindrome.md",
-    "Prefix.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
