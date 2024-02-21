@@ -15,7 +15,7 @@ mathLink: regular expression
 >- $R^{+}=RR^{*}$
 >- $R^{k}=$ [[Language Concatenation]]ion of $R$ $k$ times
 
->[!example]
+>[!example] Examples
 >- $\Sigma\Sigma=\{w:|w=2\}$
 >- $(\Sigma \Sigma)^{*}=\{w:|w|\text{ is even}\}$
 >- $\texttt{a}^{*}(\texttt{baa}^{*})^{*}=\{w:\text{ every }\texttt{b} \text{ in }w \text{ is followed by at least one }\texttt{a}\}$
@@ -27,4 +27,9 @@ $$(\texttt{a|b|baba})^{*}$$
 
 - $$(\Sigma a \Sigma^{*})|(\Sigma^{*}b \Sigma^{2})=\{w:\text{the second symbol of }w \text{ is }\texttt{a} \text{ or the third to last symbol of }w \text{ is }\texttt{b}\}$$
 - a regular expression $R^*$ contains one string if $R=\varepsilon$ or $R=\emptyset$. Otherwise $R^{*}$ is infinite. 
+- $R|\emptyset=R$
+- $R\circ \epsilon=R$
+- $(R_{1}|R_2)R_3=R_1R_3|R_2R_3$
+- $(R_1^*)^*=R_1^*$
+- $(R_1|R_2)^*=(R_1^*R_2^*)^*$
 - 
