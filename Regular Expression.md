@@ -24,12 +24,11 @@ mathLink: regular expression
 >- $$L((\texttt{a}|\varepsilon)(a|\varepsilon))=\{\texttt{aa},\texttt{b},\varepsilon\}$$
 $$(\texttt{a}|\texttt{b})^*(\texttt{ba})^{2}(\texttt{a|b})^{*}=\{w:\texttt{baba}\text{ is a substring of }w\}$$
 $$(\texttt{a|b|baba})^{*}$$
-
-- $$(\Sigma a \Sigma^{*})|(\Sigma^{*}b \Sigma^{2})=\{w:\text{the second symbol of }w \text{ is }\texttt{a} \text{ or the third to last symbol of }w \text{ is }\texttt{b}\}$$
-- a regular expression $R^*$ contains one string if $R=\varepsilon$ or $R=\emptyset$. Otherwise $R^{*}$ is infinite. 
-- $R|\emptyset=R$
-- $R\circ \epsilon=R$
-- $(R_{1}|R_2)R_3=R_1R_3|R_2R_3$
-- $(R_1^*)^*=R_1^*$
-- $(R_1|R_2)^*=(R_1^*R_2^*)^*$
+>- $$(\Sigma a \Sigma^{*})|(\Sigma^{*}b \Sigma^{2})=\{w:\text{the second symbol of }w \text{ is }\texttt{a} \text{ or the third to last symbol of }w \text{ is }\texttt{b}\}$$
+>- a regular expression $R^*$ contains one string if $R=\varepsilon$ or $R=\emptyset$. Otherwise $R^{*}$ is infinite. 
+>- $R|\emptyset=R$
+>- $R\circ \epsilon=R$
+>- $(R_{1}|R_2)R_3=R_1R_3|R_2R_3$
+>- $(R_1^*)^*=R_1^*$
+>- $(R_1|R_2)^*=(R_1^*R_2^*)^*$
 - 
