@@ -20,6 +20,8 @@ mathLink: regular expression
 >- $(\Sigma \Sigma)^{*}=\{w:|w|\text{ is even}\}$
 >- $\texttt{a}^{*}(\texttt{baa}^{*})^{*}=\{w:\text{ every }\texttt{b} \text{ in }w \text{ is followed by at least one }\texttt{a}\}$
 >- $(\texttt{a}|\varepsilon)b^{*}= \texttt{ab}^{*}|\texttt{b}^{*}$
+>- $$L((\texttt{a}|\texttt{bb})(\varepsilon|\texttt{a}))=\{\texttt{a},\texttt{bb},\texttt{aa},\texttt{bba}\}$$
+>- $$L((\texttt{a}|\varepsilon)(a|\varepsilon))=\{\texttt{aa},\texttt{b},\varepsilon\}$$
+$$(\texttt{a}|\texttt{b})^*(\texttt{ba})^{2}(\texttt{a|b})^{*}=\{w:\texttt{baba}\text{ is a substring of }w\}$$
+$$(\texttt{a|b|baba})^{*}$$
 
-$$L((\texttt{a}|\texttt{bb})(\varepsilon|\texttt{a}))=\{\texttt{a},\texttt{bb},\texttt{aa},\texttt{bba}\}$$
-$$L((\texttt{a}|\varepsilon)(a|\varepsilon))=\{\texttt{aa},\texttt{b},\varepsilon\}$$
