@@ -22,4 +22,4 @@ mathLink: regular expression
 >- $(\texttt{a}|\varepsilon)b^{*}= \texttt{ab}^{*}|\texttt{b}^{*}$
 
 $$L((\texttt{a}|\texttt{bb})(\varepsilon|\texttt{a}))=\{\texttt{a},\texttt{bb},\texttt{aa},\texttt{bba}\}$$
-$$L()$$
+$$L((\texttt{a}|\varepsilon)(a|\varepsilon))=\{\texttt{aa},\texttt{b},\varepsilon\}$$
