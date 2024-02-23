@@ -25,3 +25,5 @@ We will use integers mod 2 for binary signal
 	- inverts certain regions, so that it is easier to scan
 	- question: if I read some of the code works and had strong enough error correction, would I be able to figure out the masking?
 	- eight kinds of maskings
+- reading order and location of redundancy 
+	- question: what is the relationship between error correction level and 
