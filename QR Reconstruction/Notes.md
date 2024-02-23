@@ -13,9 +13,11 @@ We will use integers mod 2 for binary signal
 - [[Lagrange Interpolation]]
 - prepare an example
 
+Start with 29 x 29 QR Code (Need prime dimensions)
+
 [[QR Code]] structure:
 - squares in the corners - help with determining orientation
-- certain pixels known zero or one
+- certain pixels known zero or one (may depend on [[QR Code]] type, different types of same size, but probably only at larger sizes)
 - indicators of 
 	- level of [[Read-Solomon]] error correction
 	- length of message
@@ -26,4 +28,5 @@ We will use integers mod 2 for binary signal
 	- question: if I read some of the code works and had strong enough error correction, would I be able to figure out the masking?
 	- eight kinds of maskings
 - reading order and location of redundancy 
-	- question: what is the relationship between error correction level and 
+	- question: what is the relationship between error correction level and message length
+ 
