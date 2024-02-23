@@ -11,4 +11,10 @@ We will use integers mod 2 for binary signal
 - [[Finite Field]]
 - code type, parameters
 - [[Lagrange Interpolation]]
+- prepare an example
+
+[[QR Code]] structure:
+- squares in the corners - help with determining orientation
+- certain pixels known zero or one
+- indicators of level of [[Read-Solomon]] error correction
 - 
