@@ -30,6 +30,15 @@ Start with 29 x 29 QR Code (Need prime dimensions)
 - reading order and location of redundancy 
 	- question: what is the relationship between error correction level and message length
 
+Directional Sums: For p x p array, 
+- $p+1$ possible directions:
+	- slope 0, $\infty$
+- of original image
+
+
+
+
  TODO:
  - Find existing Python QR Code generation
  - Write framework that can read in a an N x N binary image
+ - Data generation- directional sums
