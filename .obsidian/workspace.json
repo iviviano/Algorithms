@@ -65,7 +65,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Star.md",
+                "file": "Generalized Nondeterministic Finite Automaton.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30a6c9042e9438a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Accept.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -211,16 +224,17 @@
   },
   "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
-    "Grading/HW0.md",
-    "Equivalence of NFAs and Regular Expressions.md",
-    "Equivalence of NFAs and DFAs.md",
+    "Generalized Nondeterministic Finite Automaton.md",
+    "Accept.md",
     "Star.md",
+    "Equivalence of NFAs and Regular Expressions.md",
+    "Grading/HW0.md",
+    "Equivalence of NFAs and DFAs.md",
     "QR Reconstruction/Notes.md",
     "Regular Expression.md",
     "QR Reconstruction",
     "Regular Operation.md",
     "Grading/HW0 Rubric.md",
-    "Accept.md",
     "Nondeterministic Finite Automaton.md",
     "Symmetric Difference.md",
     "Indegree.md",
@@ -238,7 +252,6 @@
     "Leaf.md",
     "Directed Graph.md",
     "Deterministic Finite Automaton.md",
-    "Regular Language.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
