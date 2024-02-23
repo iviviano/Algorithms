@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular Expression.md",
+                "file": "QR Reconstruction/Notes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Expression.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Expression.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Expression.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -224,6 +224,9 @@
   },
   "active": "6269bfd5f54a0d9d",
   "lastOpenFiles": [
+    "Regular Expression.md",
+    "QR Reconstruction/Notes.md",
+    "QR Reconstruction",
     "Star.md",
     "Regular Operation.md",
     "Equivalence of NFAs and DFAs.md",
@@ -249,8 +252,6 @@
     "Deterministic Finite Automaton.md",
     "Regular Language.md",
     "Class of Regular Languages Closed Under Concatenation.md",
-    "Recognize.md",
-    "Palindrome.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
@@ -269,7 +270,6 @@
     "Isaac Homework/Algorithms_viviano_Homework_0 11.pdf",
     "Elinor Homework/EFrost_CS280_HW0 9.pdf",
     "Elinor Homework/EFrost_CS280_HW0 12.pdf",
-    "Elinor Homework/EFrost_CS280_HW0 11.pdf",
     "Untitled.canvas"
   ]
 }
