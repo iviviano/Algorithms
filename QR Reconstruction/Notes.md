@@ -16,5 +16,9 @@ We will use integers mod 2 for binary signal
 [[QR Code]] structure:
 - squares in the corners - help with determining orientation
 - certain pixels known zero or one
-- indicators of level of [[Read-Solomon]] error correction
-- 
+- indicators of 
+	- level of [[Read-Solomon]] error correction
+	- length of message
+	- type of message
+- Masking
+	- 
