@@ -29,4 +29,7 @@ Start with 29 x 29 QR Code (Need prime dimensions)
 	- eight kinds of maskings
 - reading order and location of redundancy 
 	- question: what is the relationship between error correction level and message length
- 
+
+ TODO:
+ - Find existing Python QR Code generation
+ - Write framework that can read in a an N x N binary image
