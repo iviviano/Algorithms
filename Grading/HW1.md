@@ -14,7 +14,7 @@ TOTAL: /100
 ```
 
 Maxann
-Honor Code: 
+Honor Code: yes
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
