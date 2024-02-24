@@ -8,38 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ecc44b1364024075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW0 Rubric.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0663350a7a94e596",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW0.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d7595967ecdbb3d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md",
+                "file": "Grading/HW1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Grading/HW1 Rubric.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -85,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Grading/HW1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Grading/HW1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "Grading/HW1.md"
               }
             }
           },
@@ -222,19 +195,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30a6c9042e9438a0",
+  "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
-    "Accept.md",
+    "Grading/HW1 Rubric.md",
+    "Regular Operation.md",
+    "Grading/HW1.md",
     "Equivalence of NFAs and Regular Expressions.md",
+    "Grading/HW0.md",
+    "Grading/HW0 Rubric.md",
+    "QR Reconstruction/Notes.md",
+    "Accept.md",
     "Generalized Nondeterministic Finite Automaton.md",
     "Star.md",
-    "Grading/HW0.md",
     "Equivalence of NFAs and DFAs.md",
-    "QR Reconstruction/Notes.md",
     "Regular Expression.md",
     "QR Reconstruction",
-    "Regular Operation.md",
-    "Grading/HW0 Rubric.md",
     "Nondeterministic Finite Automaton.md",
     "Symmetric Difference.md",
     "Indegree.md",
@@ -250,8 +225,6 @@
     "Tree.md",
     "Root of a Tree.md",
     "Leaf.md",
-    "Directed Graph.md",
-    "Deterministic Finite Automaton.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
