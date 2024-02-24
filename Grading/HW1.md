@@ -54,7 +54,7 @@ TOTAL: 100/100
 Nice job! 
 
 Danny Perlow (Teamthatiamin)
-Honor Code: 
+Honor Code: yes
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
