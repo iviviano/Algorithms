@@ -39,10 +39,10 @@ Nice, thoughtful, and concise tests. Your test suites demonstrated general proce
 Robert and Leah
 Honor Code: yes
 ```
-Assignment Attempted:   /15
+Assignment Attempted:   15/15
 Problem  1:             /10
 Problem  2:             /10
-Problem  3:             /10
+Problem  3:             /10 Nice use of a helper function. Note that the third case of the cond in `is-in?` is redundant.
 Problem  4:             /10
 Problem  5:             /15
 Problem  6:             /10
