@@ -45,9 +45,9 @@ Problem  2:             /10
 Problem  3:             /10 Nice use of a helper function. Note that the third case of the cond in `is-in?` is redundant.
 Problem  4:             /10
 Problem  5:             /15
-Problem  6:             /10 When possible, style conventions prefer to use a single cond with more conditions instead of nesting conds. There is always a balance with trying to simplify your cases. 
+Problem  6:             /10 When possible, style conventions prefer to use a single cond with more conditions instead of nesting conds. There is always a balance with trying to simplify your cases. As an excersise, try to write delete-pair using one cond with four cases.
 Problem  7:             /10
-Problem  8:             /10
+Problem  8:             /10 The same comment about nesting conds applies here.
 TOTAL: /100
 ```
 
