@@ -1,5 +1,5 @@
 Becca
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -14,7 +14,7 @@ TOTAL: /100
 ```
 
 Maxann
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -29,7 +29,7 @@ TOTAL: /100
 ```
 
 Robert and Leah
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -44,7 +44,7 @@ TOTAL: /100
 ```
 
 Danny Perlow (Teamthatiamin)
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -59,7 +59,7 @@ TOTAL: /100
 ```
 
 Ben an Anya
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -74,7 +74,7 @@ TOTAL: /100
 ```
 
 Ben Toker
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -89,7 +89,7 @@ TOTAL: /100
 ```
 
 Jasper
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
@@ -104,7 +104,7 @@ TOTAL: /100
 ```
 
 Autumn
-
+Honor Code: 
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
