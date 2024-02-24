@@ -39,7 +39,7 @@ Directional Sums: For p x p array,
 
 
  TODO:
- - Find existing Python QR Code generation
+ - Find existing Python QR Code generation [[https://github.com/nayuki/QR-Code-generator/tree/master/python]]
  - Write framework that can read in a an N x N binary image
  - Data generation- directional sums
  - data reduction based on fixed structure

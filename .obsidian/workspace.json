@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Accept.md",
+                "file": "QR Reconstruction/Notes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -222,12 +222,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7595967ecdbb3d9",
+  "active": "30a6c9042e9438a0",
   "lastOpenFiles": [
-    "Generalized Nondeterministic Finite Automaton.md",
     "Accept.md",
-    "Star.md",
     "Equivalence of NFAs and Regular Expressions.md",
+    "Generalized Nondeterministic Finite Automaton.md",
+    "Star.md",
     "Grading/HW0.md",
     "Equivalence of NFAs and DFAs.md",
     "QR Reconstruction/Notes.md",
