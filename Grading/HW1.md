@@ -17,15 +17,15 @@ Maxann
 Honor Code: yes
 ```
 Assignment Attempted:   15/15
-Problem  1:             /10
-Problem  2:             /10
-Problem  3:             /10
-Problem  4:             /10
-Problem  5:             /15
-Problem  6:             /10
-Problem  7:             /10
-Problem  8:             /10
-TOTAL: /100
+Problem  1:             10/10
+Problem  2:             10/10
+Problem  3:             10/10
+Problem  4:             10/10
+Problem  5:             15/15
+Problem  6:             10/10
+Problem  7:             10/10
+Problem  8:             10/10
+TOTAL: 100/100
 ```
 
 Great job! When writing curried versions of procedures you have already written, you can use existing procedure. For example, you could have done 
@@ -34,9 +34,10 @@ Great job! When writing curried versions of procedures you have already written,
 	(lambda (lst) (all-same? pred lst)))
 ```
 The same applies to `curry-delete-second`. Full credit for your implementations, but you will use currying again in the future and this can save you some time :)
+Nice, thoughtful, and concise tests. Your test suites demonstrated general procedure functionality and possible edge cases without redundant examples. Excellent work!
 
 Robert and Leah
-Honor Code: 
+Honor Code: yes
 ```
 Assignment Attempted:   /15
 Problem  1:             /10
