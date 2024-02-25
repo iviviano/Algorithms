@@ -78,9 +78,9 @@ Nice, thoughtful, and concise tests. Your test suites demonstrated general proce
 
 
 Ben an Anya
-Honor Code: 
+Honor Code: yes
 ```
-Assignment Attempted:   /15
+Assignment Attempted:   15/15
 Problem  1:             /10
 Problem  2:             /10
 Problem  3:             /10
