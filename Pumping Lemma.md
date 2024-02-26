@@ -31,9 +31,10 @@ Let $$\delta^{*}(q,s)$$be the state the DFA ends in after reading the [[String]]
 \end{align*}$$
 Repeated state $r$:
 $$\begin{align*}
-\delta^{*}(q_{0},x)=r\\
-\delta^{*}(r,y)&= y\\
-\delta^**
+\delta^{*}(q_{0},x)&= r\\
+\delta^{*}(r,y)&= r\\
+\delta^{*}(r,z)&= q_{a}\in F\\
+\delta^{*}(q_{0},xyz)&= q_{a}
 \end{align*}
 $$
 
