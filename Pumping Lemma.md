@@ -40,7 +40,9 @@ $$\begin{align*}
 $$
 ---
 Consider $\delta^{*}(xy^{i}z)$. $$\begin{align*}
-\delta^{*}*q*
+\delta^{*}(q_{0},xy^{i}z&= \begin{cases}
+\delta^{*}(r,z)=
+\end{cases}
 \end{align*}$$
 
 
