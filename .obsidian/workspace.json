@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generalized Nondeterministic Finite Automaton.md",
+                "file": "Grading/HW0.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -197,13 +197,13 @@
   },
   "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
-    "Grading/HW1 Rubric.md",
-    "Grading/HW1.md",
+    "Grading/HW0.md",
     "Generalized Nondeterministic Finite Automaton.md",
+    "Grading/HW1.md",
+    "Grading/HW1 Rubric.md",
     "QR Reconstruction/Notes.md",
     "Regular Operation.md",
     "Equivalence of NFAs and Regular Expressions.md",
-    "Grading/HW0.md",
     "Grading/HW0 Rubric.md",
     "Accept.md",
     "Star.md",

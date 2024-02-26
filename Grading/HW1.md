@@ -92,6 +92,15 @@ Problem  8:             /10
 TOTAL: /100
 ```
 
+Great job! When writing curried versions of procedures you have already written, you can use existing procedure. For example, you could have done 
+```
+(define (make-all-same pred)
+	(lambda (lst) (all-same? pred lst)))
+```
+The same applies to `curry-delete-second`. Full credit for your implementations, but you will use currying again in the future and this can save you some time :)
+One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
+
+
 Ben Toker
 Honor Code: 
 ```
