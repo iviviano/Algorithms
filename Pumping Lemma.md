@@ -25,11 +25,12 @@ x&= w_{1}\cdots w_{j}\\
 y&= w_{j+1}\cdots w_{k}\\
 z&= w_{k+1}\cdots w_{n}
 \end{align*}$$
+---
 Let $$\delta^{*}(q,s)$$be the state the DFA ends in after reading the [[String]] $s$ after starting in the state $q$. That is $$\begin{align*}
 	\delta^{*}(q,\varepsilon)&= q\\
 \delta^{*}(q,cs)&= \delta^{*}(\delta(q,c),s)\quad\forall c\in \Sigma,s\in \Sigma^*
 \end{align*}$$
-Repeated state $r$:
+For a repeated state $r$:
 $$\begin{align*}
 \delta^{*}(q_{0},x)&= r\\
 \delta^{*}(r,y)&= r\\
@@ -37,6 +38,11 @@ $$\begin{align*}
 \delta^{*}(q_{0},xyz)&= q_{a}
 \end{align*}
 $$
+---
+Consider $\delta^{*}(xy^{i}z)$. $$\begin{align*}
+\delta^{*}*q*
+\end{align*}$$
+
 
 (2) $|y|=k-j>0$
 
