@@ -24,4 +24,4 @@ Since $A$ is given by the finite [[Union]] $$A=\bigcup \{a_{i}\}$$and finite uni
 
 >[!3]
 
-(a) Let $N=(Q,\Sigma,\delta,q_{0},F)$ be a [[Nondeterministic Finite Automaton]]. Create a new state $q_f$. 
+(a) Let $N=(Q,\Sigma,\delta,q_{0},F)$ be a [[Nondeterministic Finite Automaton]]. Create a two new states $q_a,q_r$. The new [[Nondeterministic Finite Automaton]] will have states $$Q'=Q\cup\{q_{a},q_{r}\}$$For each state $q\in F$, we will add an $\varepsilon$-transition to the new accept state. 
