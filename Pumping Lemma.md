@@ -42,10 +42,10 @@ $$
 Consider $\delta^{*}(xy^{i}z)$. $$\begin{align*}
 \delta^{*}(q_{0},xy^{i}z&= \begin{cases}
 \delta^{*}(r,z)=q_{a} & \text{ for }i=0\\
-\delta^{*}(r,y^{i}z)=\delta^{*}
+\delta^{*}(r,y^{i}z)=\delta^{*}(r,y^{i-1}z)=\cdots=\delta^{*}(r,z)=q_{a} & \text{for }i\gt0
 \end{cases}
 \end{align*}$$
-
+Therefore, 
 
 (2) $|y|=k-j>0$
 
