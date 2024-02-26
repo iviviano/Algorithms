@@ -32,8 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0e8d2322b2466da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pumpable.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "197114e7bb82a354",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pumpable.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory Homework/Homework 3.md",
+                "file": "Pumpable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory Homework/Homework 3.md",
+                "file": "Pumpable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory Homework/Homework 3.md"
+                "file": "Pumpable.md"
               }
             }
           },
@@ -169,17 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7595967ecdbb3d9",
+  "active": "c0e8d2322b2466da",
   "lastOpenFiles": [
-    "Recognize.md",
+    "Pumping Lemma.md",
+    "Pumpable.md",
+    "QR Reconstruction/Notes.md",
     "Theory Homework/Homework 3.md",
+    "Recognize.md",
     "Nondeterministic Finite Automaton.md",
     "Grading/HW1.md",
     "Grading/HW0.md",
     "Grading/HW1 Rubric.md",
     "Deterministic Finite Automaton.md",
     "Generalized Nondeterministic Finite Automaton.md",
-    "QR Reconstruction/Notes.md",
     "Regular Operation.md",
     "Equivalence of NFAs and Regular Expressions.md",
     "Grading/HW0 Rubric.md",
@@ -197,8 +226,6 @@
     "Grading/Grading Notes.md",
     "Class of Regular Languages Closed Under Union.md",
     "Grading",
-    "Cycle.md",
-    "Simple Cycle.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",

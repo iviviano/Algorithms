@@ -7,3 +7,8 @@ mathLink: pumping lemma
 >2. $|y|>0$
 >3. $|xy|≤p$
 
+>[!thm]
+>If $A$ is a [[Regular Language]] [[Language]], then $A$ is [[Pumpable]].
+
+
+
