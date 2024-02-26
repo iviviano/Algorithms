@@ -116,6 +116,16 @@ Problem  8:             /10
 TOTAL: /100
 ```
 
+Please sign the Honor Code! You're grade will not be updated on campuswire until you do so.
+
+Great job! When writing curried versions of procedures you have already written, you can use existing procedure. For example, you could have done 
+```
+(define (make-all-same pred)
+	(lambda (lst) (all-same? pred lst)))
+```
+The same applies to `curry-delete-second`. Full credit for your implementations, but you will use currying again in the future and this can save you some time :)
+Please use the default Dr Racket indentation, and don't forget to put your name at the top of each file.
+
 Jasper
 Honor Code: 
 ```
