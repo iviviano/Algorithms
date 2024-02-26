@@ -45,7 +45,7 @@ Problem  2:             10/10
 Problem  3:             10/10 Nice use of a helper function. Note that the third case of the cond in `is-in?` is redundant.
 Problem  4:             10/10
 Problem  5:             15/15
-Problem  6:             10/10 When possible, style conventions prefer to use a single cond with more conditions instead of nesting conds. There is always a balance with trying to simplify your cases. As an excersise, try to write delete-pair using one cond with four cases.
+Problem  6:             10/10 
 Problem  7:             10/10
 Problem  8:             10/10 The same comment about nesting conds applies here.
 TOTAL: 100/100
@@ -107,7 +107,7 @@ Honor Code: NO!!
 Assignment Attempted:   15/15
 Problem  1:             /10
 Problem  2:             /10
-Problem  3:             /10
+Problem  3:             /10 When possible, style conventions prefer to use a single cond with more conditions instead of nesting conds. You're helper function in-list? is not correct as the following returns #f: (in-list? '() '(())).
 Problem  4:             /10
 Problem  5:             /15
 Problem  6:             /10
@@ -117,6 +117,16 @@ TOTAL: /100
 ```
 
 Please sign the Honor Code! You're grade will not be updated on campuswire until you do so.
+
+A style note on the third case of your `all-members?` procedure: 
+```
+[(= (length lst1) 1) (in-list? (first lst1) lst2)]
+```
+It is preferred to use the structure of the list instead of its length. I would write 
+```
+[(empty? (cdr lst)) ...]
+```
+Also note that this case is redundant.
 
 Great job! When writing curried versions of procedures you have already written, you can use existing procedure. For example, you could have done 
 ```
