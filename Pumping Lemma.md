@@ -30,7 +30,7 @@ Let $$\delta^{*}(q,s)$$be the state the DFA ends in after reading the [[String]]
 	\delta^{*}(q,\varepsilon)&= q\\
 \delta^{*}(q,cs)&= \delta^{*}(\delta(q,c),s)\quad\forall c\in \Sigma,s\in \Sigma^*
 \end{align*}$$
-For a repeated state $r$:
+For our repeated state $r$:
 $$\begin{align*}
 \delta^{*}(q_{0},x)&= r\\
 \delta^{*}(r,y)&= r\\
