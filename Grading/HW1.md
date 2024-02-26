@@ -124,7 +124,7 @@ A style note on the third case of your `all-members?` procedure:
 ```
 It is preferred to use the structure of the list instead of its length. I would write 
 ```
-[(empty? (cdr lst)) ...]
+[(empty? (rest lst)) ...]
 ```
 Also note that this case is redundant.
 
