@@ -25,7 +25,7 @@ x&= w_{1}\cdots w_{j}\\
 y&= w_{j+1}\cdots w_{k}\\
 z&= w_{k+1}\cdots w_{n}
 \end{align*}$$
-Let $$\delta^{*}(q,s)$$
+Let $$\delta^{*}(q,s)$$be the state the DFA ends in after reading the [[String]] $s$ after starting in the state $q$. 
 
 (2) $|y|=k-j>0$
 
