@@ -17,6 +17,6 @@ Since $A$ is given by the finite [[Union]] $$A=\bigcup \{a_{i}\}$$and finite uni
 
 >[!2]
 
-(a) Let $\Sigma=\{\texttt{a}\}$ and let $A=\Sigma^{*}$. Then, $A$ is the [[Language]] of the [[Regular Expression]] $\Sigma^{*}$, so $A$ is [[Regular Language]]. $A$ is infinite
+(a) Let $\Sigma=\{\texttt{a}\}$ and let $A=\Sigma^{*}$. Then, $A$ is the [[Language]] of the [[Regular Expression]] $\Sigma^{*}$, so $A$ is [[Regular Language]]. $A$ is infinite since word length maps $A$ [[Surjective]]ly onto $\mathbb{N}\cup\{0\}$
 
 (b) 
