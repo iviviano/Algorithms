@@ -85,11 +85,11 @@ Problem  1:             10/10
 Problem  2:             10/10
 Problem  3:             10/10
 Problem  4:             9/10 Incorrect base case.
-Problem  5:             8/15 Same as for problem 4.
+Problem  5:             13/15 Same as for problem 4.
 Problem  6:             10/10
 Problem  7:             10/10
 Problem  8:             10/10
-TOTAL: 94/100
+TOTAL: 97/100
 ```
 
 Great job! When writing curried versions of procedures you have already written, you can use existing procedure. For example, you could have done 
