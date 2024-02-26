@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "Theory Homework/Homework 3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "Theory Homework/Homework 3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "Theory Homework/Homework 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW1.md"
+                "file": "Theory Homework/Homework 3.md"
               }
             }
           },
@@ -197,8 +197,10 @@
   },
   "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
-    "Grading/HW1 Rubric.md",
+    "Deterministic Finite Automaton.md",
+    "Theory Homework/Homework 3.md",
     "Grading/HW1.md",
+    "Grading/HW1 Rubric.md",
     "Grading/HW0.md",
     "Generalized Nondeterministic Finite Automaton.md",
     "QR Reconstruction/Notes.md",
@@ -223,8 +225,6 @@
     "Cycle.md",
     "Simple Cycle.md",
     "Tree.md",
-    "Root of a Tree.md",
-    "Leaf.md",
     "Theory Homework",
     "IMG-1263.jpg",
     "Pictures/Screenshot 2023-09-18 at 10.40.06 AM.png",
