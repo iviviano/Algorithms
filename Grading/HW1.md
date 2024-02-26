@@ -102,9 +102,9 @@ One style note: closing parentheses should all be on the same line. Check out th
 
 
 Ben Toker
-Honor Code: 
+Honor Code: NO!!
 ```
-Assignment Attempted:   /15
+Assignment Attempted:   15/15
 Problem  1:             /10
 Problem  2:             /10
 Problem  3:             /10
