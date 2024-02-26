@@ -28,6 +28,10 @@ Since $A$ is given by the finite [[Union]] $$A=\bigcup \{a_{i}\}$$and finite uni
 \delta(q,s)\cup\{q_{a}\} & \text{if }q\in F \text{ and }s=\varepsilon \\
 \varnothing & \text{if }q=q_{a}
 \end{cases}$$
-Defining $N'=(Q',\Sigma,\delta',q_{0},\{q_{a}\})$, $N'$ is a [[Nondeterministic Finite Automaton]] that [[Recognize]]s $N'$. 
+Defining $N'=(Q',\Sigma,\delta',q_{0},\{q_{a}\})$, $N'$ is a [[Nondeterministic Finite Automaton]] with one accept state [[Equivalent Machines]] to $N$. 
 
-(b) Let $N=$
+(b) Let $N=(Q,\Sigma,\delta,Q_{0},F)$ be a multi-start [[Nondeterministic Finite Automaton]]. Create a new start state $q_0$. The new [[Nondeterministic Finite Automaton]] will have states $$Q'=Q\cup\{q_{0}\}$$For each state $q\in Q_0$, we will add an $\varepsilon$-transition from $q_{0}$ to $q$. The new start state has no incoming transitions. Formally, $\delta':Q'\times \Sigma\rightarrow Q'$ is defined by $$\delta'(q,s)=\begin{cases} 
+ Q & \text{if }q=q_{0}\text{ and }s=\varepsilon \\
+\varnothing & \text{if }q=q_{0} \text{ and }s\ne\varepsilon \\
+\delta(q,s) & \text{if }q\ne q_{0}
+\end{cases}$$Defining $N'=(Q',\Sigma,\delta',q_{0},F)$, $N'$ is a [[Nondeterministic Finite Automaton]] with one start state [[Equivalent Machines]] to $N$. 
