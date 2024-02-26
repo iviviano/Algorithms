@@ -20,8 +20,14 @@ Otherwise, let $w$ be a string in $A$ of [[Length]] $n≥p$. Write $w_{1}\cdots 
 
 Let $r_{0},r_{1},\ldots,r_{n}$ be the [[Accept]]ing computation of $M$ on $w$
 
-By the [[Pigeonhole Principle]], pick two states $r_{j}=r_k$ with $j<k$. Set $$\begin{align*}
+By the [[Pigeonhole Principle]], pick two states $r_{j}=r_k$ with $j<k\le p$. Set $$\begin{align*}
 x&= w_{1}\cdots w_{j}\\
 y&= w_{j+1}\cdots w_{k}\\
 z&= w_{k+1}\cdots w_{n}
 \end{align*}$$
+Let $$\delta^{*}(q,s)$$
+
+(2) $|y|=k-j>0$
+
+(3) $|xy|\le p$ because $k\le p$
+
