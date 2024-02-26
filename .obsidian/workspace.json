@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pumpable.md",
+                "file": "Pumping Lemma.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pumpable.md",
+                "file": "Pumping Lemma.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pumpable.md",
+                "file": "Pumping Lemma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pumpable.md"
+                "file": "Pumping Lemma.md"
               }
             }
           },
@@ -198,8 +198,8 @@
   },
   "active": "c0e8d2322b2466da",
   "lastOpenFiles": [
-    "Pumping Lemma.md",
     "Pumpable.md",
+    "Pumping Lemma.md",
     "QR Reconstruction/Notes.md",
     "Theory Homework/Homework 3.md",
     "Recognize.md",

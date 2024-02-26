@@ -10,5 +10,3 @@ mathLink: pumping lemma
 >[!thm]
 >If $A$ is a [[Regular Language]] [[Language]], then $A$ is [[Pumpable]].
 
-
-
