@@ -27,8 +27,15 @@ z&= w_{k+1}\cdots w_{n}
 \end{align*}$$
 Let $$\delta^{*}(q,s)$$be the state the DFA ends in after reading the [[String]] $s$ after starting in the state $q$. That is $$\begin{align*}
 	\delta^{*}(q,\varepsilon)&= q\\
-\delta^{*}(q,cs)&= \delta^{*}(\delta(q,c),s)\forall c\in \Sigma,
+\delta^{*}(q,cs)&= \delta^{*}(\delta(q,c),s)\quad\forall c\in \Sigma,s\in \Sigma^*
 \end{align*}$$
+Repeated state $r$:
+$$\begin{align*}
+\delta^{*}(q_{0},x)=r\\
+\delta^{*}(r,y)&= y\\
+\delta^**
+\end{align*}
+$$
 
 (2) $|y|=k-j>0$
 
