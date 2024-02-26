@@ -21,32 +21,6 @@
             }
           },
           {
-            "id": "d923339332825577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW1 Rubric.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "886386518ed90598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW0.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "30a6c9042e9438a0",
             "type": "leaf",
             "state": {
@@ -197,11 +171,12 @@
   },
   "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
-    "Deterministic Finite Automaton.md",
+    "Nondeterministic Finite Automaton.md",
     "Theory Homework/Homework 3.md",
     "Grading/HW1.md",
-    "Grading/HW1 Rubric.md",
     "Grading/HW0.md",
+    "Grading/HW1 Rubric.md",
+    "Deterministic Finite Automaton.md",
     "Generalized Nondeterministic Finite Automaton.md",
     "QR Reconstruction/Notes.md",
     "Regular Operation.md",
@@ -212,7 +187,6 @@
     "Equivalence of NFAs and DFAs.md",
     "Regular Expression.md",
     "QR Reconstruction",
-    "Nondeterministic Finite Automaton.md",
     "Symmetric Difference.md",
     "Indegree.md",
     "Outdegree.md",
