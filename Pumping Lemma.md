@@ -41,7 +41,8 @@ $$
 ---
 Consider $\delta^{*}(xy^{i}z)$. $$\begin{align*}
 \delta^{*}(q_{0},xy^{i}z&= \begin{cases}
-\delta^{*}(r,z)=
+\delta^{*}(r,z)=q_{a} & \text{ for }i=0\\
+\delta^{*}(r,y^{i}z)=\delta^{*}
 \end{cases}
 \end{align*}$$
 
