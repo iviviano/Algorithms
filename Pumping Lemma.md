@@ -10,3 +10,8 @@ mathLink: pumping lemma
 >[!thm]
 >If $A$ is a [[Regular Language]] [[Language]], then $A$ is [[Pumpable]].
 
+>[!proof]
+
+Let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]] with $L(M)=A$ and set $p=|Q|$.
+
+If $A$ contains no strings of length at least $p$, we are done.
