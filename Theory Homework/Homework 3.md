@@ -29,3 +29,5 @@ Since $A$ is given by the finite [[Union]] $$A=\bigcup \{a_{i}\}$$and finite uni
 \{q_{r}\} & \text{if }q=\in Q'-Q
 \end{cases}$$
 Defining $N'=(Q',\Sigma,\delta',q_{0},\{q_{a}\})$, $N'$ is a [[Nondeterministic Finite Automaton]] that [[Recognize]]s $N'$. 
+
+(b) 
