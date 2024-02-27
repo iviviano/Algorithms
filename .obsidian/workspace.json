@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "QR Reconstruction/Notes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -172,8 +172,9 @@
   },
   "active": "30a6c9042e9438a0",
   "lastOpenFiles": [
-    "QR Reconstruction/Notes.md",
+    "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction/QR Reed-Solomon.md",
+    "QR Reconstruction/Notes.md",
     "Pumpable.md",
     "Pumping Lemma.md",
     "Theory Homework/Homework 3.md",
@@ -198,7 +199,6 @@
     "Theory Homework/Homework 1.md",
     "Pushdown Automaton.md",
     "Countable.md",
-    "Grading/Grading Notes.md",
     "Grading",
     "Theory Homework",
     "IMG-1263.jpg",

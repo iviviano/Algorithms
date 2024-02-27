@@ -30,6 +30,8 @@ Start with 29 x 29 QR Code (Need prime dimensions)
 - reading order and location of redundancy 
 	- question: what is the relationship between error correction level and message length
 
+![[1056px-QR_Code_Unmasked.svg.png]]
+
 Directional Sums: For p x p array, 
 - $p+1$ possible directions:
 	- slope 0, $\infty$
