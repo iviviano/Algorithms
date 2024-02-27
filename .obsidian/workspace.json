@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d53a26091884901c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "QR Reconstruction/QR Reed-Solomon.md"
               }
             }
           },
@@ -170,11 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30a6c9042e9438a0",
+  "active": "d53a26091884901c",
   "lastOpenFiles": [
+    "QR Reconstruction/Notes.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction/QR Reed-Solomon.md",
-    "QR Reconstruction/Notes.md",
     "Pumpable.md",
     "Pumping Lemma.md",
     "Theory Homework/Homework 3.md",
@@ -210,7 +223,6 @@
     "Pictures/CamScanner 11-10-2023 14.10_1.jpg",
     "IMG-1266.jpg",
     "IMG-1265.jpg",
-    "IMG-1264.jpg",
     "Linked List 2",
     "Linked List",
     "Isaac Homework/Algorithms_viviano_Homework_0 9.pdf",
