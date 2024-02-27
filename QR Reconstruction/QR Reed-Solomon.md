@@ -10,3 +10,10 @@ Generator Polynomial: $$\begin{align*}
 g_{n}(x)&= \prod_{i=0}^{n-1}(x-\alpha^{i})\\
 g_{3}&= (x-1)(x-\alpha)(x-\alpha^{2})
 \end{align*}$$
+
+>[!alg]
+
+$$\begin{align*}
+&\textbf{Algorithm } \text{Encode}\\
+
+\end{align*}$$
