@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "c0e8d2322b2466da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pumping Lemma.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "197114e7bb82a354",
             "type": "leaf",
             "state": {
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pumping Lemma.md",
+                "file": "Pumpable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pumping Lemma.md",
+                "file": "Pumpable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pumping Lemma.md"
+                "file": "Pumpable.md"
               }
             }
           },
@@ -196,11 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0e8d2322b2466da",
+  "active": "197114e7bb82a354",
   "lastOpenFiles": [
-    "Pumpable.md",
-    "Pumping Lemma.md",
     "QR Reconstruction/Notes.md",
+    "Pumping Lemma.md",
+    "Pumpable.md",
     "Theory Homework/Homework 3.md",
     "Recognize.md",
     "Nondeterministic Finite Automaton.md",
