@@ -6,3 +6,6 @@ For multiplication, multiply as polynomials, then take remainder modulo a prime 
 Why don't we just modulo with the Galois Field size? Because we will end up with lots of duplicate values, and we want to have as many unique values as possible in the field, so that a number always has one and only projection when doing a modulo or a XOR with the prime polynomial.
 
 
+Generator Polynomial: $$\begin{align*}
+g_{n}(x)=\prod_{i=0}^{n-1}(x^i)
+\end{align*}$$
