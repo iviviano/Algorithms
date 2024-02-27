@@ -3,3 +3,6 @@ Addition and Subtraction are exclusive or
 
 For multiplication, multiply as polynomials, then take remainder modulo a prime polynomial (a common primitive polynomial is $\texttt{100011101}$). 
 
+Why don't we just modulo with the Galois Field size? Because we will end up with lots of duplicate values, and we want to have as many unique values as possible in the field, so that a number always has one and only projection when doing a modulo or a XOR with the prime polynomial.
+
+
