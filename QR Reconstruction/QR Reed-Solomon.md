@@ -7,5 +7,6 @@ Why don't we just modulo with the Galois Field size? Because we will end up with
 
 
 Generator Polynomial: $$\begin{align*}
-g_{n}(x)=\prod_{i=0}^{n-1}(x^i)
+g_{n}(x)&= \prod_{i=0}^{n-1}(x-\alpha^{i})\\
+g_{3}&= (x-1)(x-\alpha)(x-\alpha^{2})
 \end{align*}$$
