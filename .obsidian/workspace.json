@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "Theory Homework/Homework 3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "Theory Homework/Homework 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md"
+                "file": "Theory Homework/Homework 3.md"
               }
             }
           },
@@ -183,11 +182,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d53a26091884901c",
+  "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
     "QR Reconstruction/Notes.md",
-    "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction/QR Reed-Solomon.md",
+    "1056px-QR_Code_Unmasked.svg.png",
     "Pumpable.md",
     "Pumping Lemma.md",
     "Theory Homework/Homework 3.md",
