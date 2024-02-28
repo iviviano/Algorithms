@@ -13,4 +13,4 @@ Suppose $A$ is [[Regular Language]]. Let $p$ be the [[Pumping Length]] of $A$. C
 x&= 0^{l}\\
 y&= 0^{k}\\
 z&= 0^{p-l-k}1^{p}
-\end{align*}$$We have $k>0$, since $|y|>0$. Consider the [[String]] $$xy$$
+\end{align*}$$We have $k>0$, since $|y|>0$. Consider the [[String]] $$xy^{2}z=0^{l}0^{2k}0^{p-l-k}1^{p}=0^p+k$$
