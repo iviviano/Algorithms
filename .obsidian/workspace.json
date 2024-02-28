@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory Homework/Homework 3.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory Homework/Homework 3.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory Homework/Homework 3.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -195,18 +196,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7595967ecdbb3d9",
+  "active": "30a6c9042e9438a0",
   "lastOpenFiles": [
+    "Regular Language.md",
+    "QR Reconstruction/Notes.md",
+    "Theory Homework/Homework 3.md",
     "Decidable Languages Theorem.md",
     "ALBA.md",
     "Linear Bounded Automaton.md",
     "Deterministic Finite Automaton.md",
     "Alphabet.md",
-    "Regular Language.md",
     "Equivalence of NFAs and Regular Expressions.md",
     "Regular Expression.md",
-    "Theory Homework/Homework 3.md",
-    "QR Reconstruction/Notes.md",
     "Accept.md",
     "Language of a Grammar.md",
     "Recognize.md",
