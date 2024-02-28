@@ -18,9 +18,8 @@ z&= 0^{p-l-k}1^{p}
 >The [[Language]] of [[Palindrome]]s $$B=\{w|w\in\{0,1\}^{*}\text{ and }w=w^\mathcal{R}\}$$
 
 >[!prop]
-
 Suppose $B$ is [[Regular Language]]. let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}10^{p}$$Let $xyz=w$ such that $|xy|≤p$ and $|y|>0$. We have $$\begin{align*}
 x&= 0^{m}\\
 y&= 0^{l}\\
 z&= 0^{p-l-m}10^{p}
-\end{align*}$$Since $|y|>0$, $l>$Then, $$xy^{0}z= 0^{m}0^{p-l-m}10^{p}=$$
+\end{align*}$$Since $|y|>0$, $l>0$. Then, $$xy^{0}z= 0^{m}0^{p-l-m}10^{p}=0^{p-l}10^{p}$$which is not a [[Palindrome]], since $p-l≠p$. This contradicts the [[Pumping Lemma]], so $B$ is not [[Regular Language]].
