@@ -19,3 +19,4 @@ z&= 0^{p-l-k}1^{p}
 
 >[!prop]
 
+Suppose $B$ is [[Regular Language]]. let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}10^{p}$$
