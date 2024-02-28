@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Bounded Automaton.md",
+                "file": "Decidable Languages Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Bounded Automaton.md",
+                "file": "Decidable Languages Theorem.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Bounded Automaton.md",
+                "file": "Decidable Languages Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Bounded Automaton.md"
+                "file": "Decidable Languages Theorem.md"
               }
             }
           },
@@ -199,6 +199,7 @@
   "active": "33544502ed6729c3",
   "lastOpenFiles": [
     "ALBA.md",
+    "Linear Bounded Automaton.md",
     "Deterministic Finite Automaton.md",
     "Alphabet.md",
     "Regular Language.md",
@@ -225,7 +226,6 @@
     "QR Reconstruction",
     "Symmetric Difference.md",
     "Indegree.md",
-    "Outdegree.md",
     "Grading",
     "Theory Homework",
     "IMG-1263.jpg",
