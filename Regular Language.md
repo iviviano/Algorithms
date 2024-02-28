@@ -19,4 +19,8 @@ z&= 0^{p-l-k}1^{p}
 
 >[!prop]
 
-Suppose $B$ is [[Regular Language]]. let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}10^{p}$$
+Suppose $B$ is [[Regular Language]]. let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}10^{p}$$Let $xyz=w$ such that $|xy|≤p$ and $|y|>0$. We have $$\begin{align*}
+x&= 0^{m}\\
+y&= 0^{l}\\
+z&= 0^{p-l-m}10^{p}
+\end{align*}$$
