@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "Theory Homework/Homework 3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Decidable Languages Theorem.md",
+                "file": "Theory Homework/Homework 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Decidable Languages Theorem.md"
+                "file": "Theory Homework/Homework 3.md"
               }
             }
           },
@@ -196,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33544502ed6729c3",
+  "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
+    "Decidable Languages Theorem.md",
     "ALBA.md",
     "Linear Bounded Automaton.md",
     "Deterministic Finite Automaton.md",
@@ -225,7 +225,6 @@
     "Equivalence of NFAs and DFAs.md",
     "QR Reconstruction",
     "Symmetric Difference.md",
-    "Indegree.md",
     "Grading",
     "Theory Homework",
     "IMG-1263.jpg",
