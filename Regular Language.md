@@ -13,3 +13,6 @@ x&= 0^{l}\\
 y&= 0^{k}\\
 z&= 0^{p-l-k}1^{p}
 \end{align*}$$We have $k>0$, since $|y|>0$. Consider the [[String]] $$xy^{2}z=0^{l}0^{2k}0^{p-l-k}1^{p}=0^{p+k}1^{p}$$But since $k>0$, $p+k\ne p$. So, $$xy^{2}z\notin A$$This contradicts the [[Pumping Lemma]], so $A$ is not [[Regular Language]].
+
+>[!prop]
+>The [[Language]] of [[Palindrome]]s $$B=\{w|w\in\{0,1\}^{*}\text{ and }}$$
