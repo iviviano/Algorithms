@@ -11,6 +11,6 @@ mathLink: regular
 
 Suppose $A$ is [[Regular Language]]. Let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}1^{p}$$Let $xyz=w$ such that $|xy|≤p$ and $|y|>0$. We have $$\begin{align*}
 x&= 0^{l}\\
-y&= 0^{k}1^{p-k}\\
-z&= 
-\end{align*}$$
+y&= 0^{k}\\
+z&= 0^{p-l-k}1^{p}
+\end{align*}$$We have $k>0$, since $|y|>0$. Consider the [[String]] $$xy$$
