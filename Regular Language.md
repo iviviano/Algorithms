@@ -9,4 +9,6 @@ mathLink: regular
 
 >[!proof]
 
-Suppose $A$ is [[Regular Language]]. Let $p$ be the [[Pumping Length]] of $A$. Let $n=p$. 
+Suppose $A$ is [[Regular Language]]. Let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}1^{p}$$Let $xyz=w$ such that $|xy|≤p$ and $|y|>0$. We have $$\begin{align*}
+x&= 
+\end{align*}$$
