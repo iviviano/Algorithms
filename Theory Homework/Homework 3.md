@@ -1,8 +1,8 @@
 >[!1]
->>[!prop] Lemma
+>>[!prop] **Lemma**
 >Finite unions of regular languages are regular
 >
->>[!proof]
+>>[!proof] **Proof**
 Let $\{A_{i}:1\le i\le n\}$ be a collection of regular languages. Let $P(j)$ be that $$\bigcup_{i=1}^{j}A_{i}$$is [[Regular Language]]. 
 >>
 Base Case: $j=0$. The empty union $$\bigcup_{i=1}^{0}A_{i}=\varnothing$$Since the empty language is regular, $P(0)$ holds.
