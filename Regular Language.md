@@ -23,4 +23,4 @@ Suppose $B$ is [[Regular Language]]. let $p$ be the [[Pumping Length]] of $A$. C
 x&= 0^{m}\\
 y&= 0^{l}\\
 z&= 0^{p-l-m}10^{p}
-\end{align*}$$
+\end{align*}$$Since $|y|>0$, $l>$Then, $$xy^{0}z= 0^{m}0^{p-l-m}10^{p}=$$
