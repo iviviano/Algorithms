@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alphabet.md",
+                "file": "Deterministic Finite Automaton.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alphabet.md",
+                "file": "Deterministic Finite Automaton.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alphabet.md",
+                "file": "Deterministic Finite Automaton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alphabet.md"
+                "file": "Deterministic Finite Automaton.md"
               }
             }
           },
@@ -198,6 +198,7 @@
   },
   "active": "33544502ed6729c3",
   "lastOpenFiles": [
+    "Alphabet.md",
     "Regular Language.md",
     "Equivalence of NFAs and Regular Expressions.md",
     "Regular Expression.md",
@@ -225,7 +226,6 @@
     "Indegree.md",
     "Outdegree.md",
     "Theory Homework/Homework 1.md",
-    "Pushdown Automaton.md",
     "Grading",
     "Theory Homework",
     "IMG-1263.jpg",
