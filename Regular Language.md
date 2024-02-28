@@ -10,5 +10,7 @@ mathLink: regular
 >[!proof]
 
 Suppose $A$ is [[Regular Language]]. Let $p$ be the [[Pumping Length]] of $A$. Consider $$w=0^{p}1^{p}$$Let $xyz=w$ such that $|xy|≤p$ and $|y|>0$. We have $$\begin{align*}
-x&= 
+x&= 0^{l}\\
+y&= 0^{k}1^{p-k}\\
+z&= 
 \end{align*}$$
