@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "Regular Expression.md"
               }
             }
           },
@@ -183,15 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30a6c9042e9438a0",
+  "active": "ff3fc36a0bce6fb7",
   "lastOpenFiles": [
+    "Theory Homework/Homework 3.md",
+    "QR Reconstruction/Notes.md",
+    "Regular Expression.md",
     "Accept.md",
     "Language of a Grammar.md",
     "Recognize.md",
     "QR Reconstruction/QR Reed-Solomon.md",
-    "Regular Expression.md",
-    "Theory Homework/Homework 3.md",
-    "QR Reconstruction/Notes.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "Pumpable.md",
     "Pumping Lemma.md",
