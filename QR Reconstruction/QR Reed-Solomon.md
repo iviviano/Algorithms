@@ -10,12 +10,13 @@ Generator Polynomial: $$\begin{align*}
 g_{n}(x)&= \prod_{i=0}^{n-1}(x-\alpha^{i})\\
 g_{3}&= (x-1)(x-\alpha)(x-\alpha^{2})
 \end{align*}$$
-Note that $$
+Note that $\alpha=2$
 
 >[!alg]
 
 $$\begin{align*}
 &\textbf{Algorithm } \text{Encode}\\
 &\text{message as polynomial }p\\
-&\text{multiply }p \text{ by }x^{n}\text{ where }n \text{ is the number of }
+&\text{multiply }p \text{ by }x^{n}\text{ where }n \text{ is the number of redundant bytes}\\
+&\text{endcoded message is the sum of }p\cdot x^{n}
 \end{align*}$$
