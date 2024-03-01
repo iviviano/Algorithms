@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b0ef378ce89ea9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Equivalence of NFAs and DFAs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pumping Lemma.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pumping Lemma.md",
+                "file": "Equivalence of NFAs and DFAs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pumping Lemma.md"
+                "file": "Equivalence of NFAs and DFAs.md"
               }
             }
           },
@@ -156,8 +170,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c615205bb0b72ac4",
+  "active": "8b0ef378ce89ea9d",
   "lastOpenFiles": [
+    "Pumping Lemma.md",
     "Regular Operation.md",
     "Regular Language.md",
     "Theory Homework/Homework 3.md",
@@ -182,7 +197,6 @@
     "Recognize.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "Pumpable.md",
-    "Pumping Lemma.md",
     "Nondeterministic Finite Automaton.md",
     "Grading/HW1.md",
     "QR Reconstruction",
