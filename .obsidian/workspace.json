@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alphabet.md",
+                "file": "Set-Theory/Sequence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alphabet.md",
+                "file": "Set-Theory/Sequence.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alphabet.md",
+                "file": "Set-Theory/Sequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alphabet.md"
+                "file": "Set-Theory/Sequence.md"
               }
             }
           },
@@ -198,8 +198,9 @@
   },
   "active": "4500fbcf9b9cb178",
   "lastOpenFiles": [
-    "Language.md",
+    "List.md",
     "Alphabet.md",
+    "Language.md",
     "Polynomial Run Time.md",
     "Cook and Levin Theorem.md",
     "NP.md",
@@ -224,7 +225,6 @@
     "Grading/HW1.md",
     "Grading/HW0.md",
     "Grading/HW1 Rubric.md",
-    "Generalized Nondeterministic Finite Automaton.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
