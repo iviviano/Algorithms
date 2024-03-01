@@ -11,8 +11,13 @@
             "id": "c615205bb0b72ac4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Regular Operation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Regular Operation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Regular Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Regular Operation.md"
+              }
             }
           },
           {
@@ -149,6 +158,7 @@
   },
   "active": "c615205bb0b72ac4",
   "lastOpenFiles": [
+    "Regular Language.md",
     "Theory Homework/Homework 3.md",
     "QR Reconstruction/Notes.md",
     "Set-Theory/Sequence.md",
@@ -160,7 +170,6 @@
     "NP.md",
     "P.md",
     "QR Reconstruction/QR Reed-Solomon.md",
-    "Regular Language.md",
     "Decidable Languages Theorem.md",
     "ALBA.md",
     "Linear Bounded Automaton.md",
