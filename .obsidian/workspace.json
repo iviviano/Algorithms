@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polynomial Run Time.md",
+                "file": "Alphabet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polynomial Run Time.md",
+                "file": "Alphabet.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polynomial Run Time.md",
+                "file": "Alphabet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polynomial Run Time.md"
+                "file": "Alphabet.md"
               }
             }
           },
@@ -198,6 +198,9 @@
   },
   "active": "4500fbcf9b9cb178",
   "lastOpenFiles": [
+    "Language.md",
+    "Alphabet.md",
+    "Polynomial Run Time.md",
     "Cook and Levin Theorem.md",
     "NP.md",
     "P.md",
@@ -209,7 +212,6 @@
     "ALBA.md",
     "Linear Bounded Automaton.md",
     "Deterministic Finite Automaton.md",
-    "Alphabet.md",
     "Equivalence of NFAs and Regular Expressions.md",
     "Regular Expression.md",
     "Accept.md",
@@ -223,8 +225,6 @@
     "Grading/HW0.md",
     "Grading/HW1 Rubric.md",
     "Generalized Nondeterministic Finite Automaton.md",
-    "Regular Operation.md",
-    "Grading/HW0 Rubric.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
