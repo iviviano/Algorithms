@@ -54,4 +54,8 @@ Directional Sums: For p x p array,
 
 
 Integer Linear Programming:
-maximize $$c_{1}x_{1}+c_{2}x_{2}+\cdots +c_{3}x_{n}$$where $$\hat x=\begin{bmatrix}x_{1}\\\vf$$
+maximize $$c_{1}x_{1}+c_{2}x_{2}+\cdots +c_{3}x_{n}$$where $$\hat x=\begin{bmatrix}x_{1}\\\vdots x_{n}\end{bmatrix}$$subject to $$\begin{align*}
+A_{1} \hat x&\le \hat b_{1}\\
+A_{2}\hat x&= \hat b_{2}\\
+x_{i}&\in\{0,1\}
+\end{align*}$$
