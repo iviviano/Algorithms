@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Set-Theory/Sequence.md",
+                "file": "Theory Homework/Homework 3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Set-Theory/Sequence.md",
+                "file": "Theory Homework/Homework 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Set-Theory/Sequence.md"
+                "file": "Theory Homework/Homework 3.md"
               }
             }
           },
@@ -196,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4500fbcf9b9cb178",
+  "active": "d7595967ecdbb3d9",
   "lastOpenFiles": [
+    "Set-Theory/Sequence.md",
     "List.md",
     "Alphabet.md",
     "Language.md",
@@ -224,7 +224,6 @@
     "Nondeterministic Finite Automaton.md",
     "Grading/HW1.md",
     "Grading/HW0.md",
-    "Grading/HW1 Rubric.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
