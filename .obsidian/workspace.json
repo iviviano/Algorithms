@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md",
+                "file": "Deterministic Finite Automaton.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md",
+                "file": "Deterministic Finite Automaton.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md",
+                "file": "Deterministic Finite Automaton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence of NFAs and DFAs.md"
+                "file": "Deterministic Finite Automaton.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "8b0ef378ce89ea9d",
   "lastOpenFiles": [
+    "Equivalence of NFAs and DFAs.md",
     "Pumping Lemma.md",
     "Regular Operation.md",
     "Regular Language.md",
@@ -198,7 +199,6 @@
     "1056px-QR_Code_Unmasked.svg.png",
     "Pumpable.md",
     "Nondeterministic Finite Automaton.md",
-    "Grading/HW1.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
