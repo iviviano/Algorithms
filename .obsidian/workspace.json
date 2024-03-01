@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cook and Levin Theorem.md",
+                "file": "Polynomial Run Time.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cook and Levin Theorem.md",
+                "file": "Polynomial Run Time.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cook and Levin Theorem.md",
+                "file": "Polynomial Run Time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cook and Levin Theorem.md"
+                "file": "Polynomial Run Time.md"
               }
             }
           },
@@ -198,6 +198,7 @@
   },
   "active": "4500fbcf9b9cb178",
   "lastOpenFiles": [
+    "Cook and Levin Theorem.md",
     "NP.md",
     "P.md",
     "QR Reconstruction/Notes.md",
@@ -224,7 +225,6 @@
     "Generalized Nondeterministic Finite Automaton.md",
     "Regular Operation.md",
     "Grading/HW0 Rubric.md",
-    "Star.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
