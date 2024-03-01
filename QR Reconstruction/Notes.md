@@ -59,3 +59,4 @@ A_{1} \hat x&\le \hat b_{1}\\
 A_{2}\hat x&= \hat b_{2}\\
 x_{i}&\in\{0,1\}
 \end{align*}$$
+Our case:
