@@ -46,3 +46,11 @@ Directional Sums: For p x p array,
  - Data generation- directional sums
  - data reduction based on fixed structure
 	 - subtract 1 from every directional sum going through a certain pixel... 
+
+
+
+
+
+
+
+Integer Linear Programming:
