@@ -69,3 +69,4 @@ directional sums is the $$A_{2}\hat x=\hat b_{2}$$
 TODO:
 1. Code to turn directional sums into block of linear system
 2. remove known pixels from linear system
+3. Find ICP solver and make sure it works
