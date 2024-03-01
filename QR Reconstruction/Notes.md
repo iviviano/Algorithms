@@ -60,3 +60,4 @@ A_{2}\hat x&= \hat b_{2}\\
 x_{i}&\in\{0,1\}
 \end{align*}$$
 Our case:
+directional sums is the $$A_{2}\hat x=\hat b_{2}$$
