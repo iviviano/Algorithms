@@ -65,3 +65,6 @@ directional sums is the $$A_{2}\hat x=\hat b_{2}$$
 
 >[!question]
 >Masking is a maximum... maybe affects ...
+
+TODO:
+1. Code to turn directional sums into block of linear system
