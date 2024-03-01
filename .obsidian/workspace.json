@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Pumping Lemma.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Pumping Lemma.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Pumping Lemma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Operation.md"
+                "file": "Pumping Lemma.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "c615205bb0b72ac4",
   "lastOpenFiles": [
+    "Regular Operation.md",
     "Regular Language.md",
     "Theory Homework/Homework 3.md",
     "QR Reconstruction/Notes.md",
@@ -184,7 +185,6 @@
     "Pumping Lemma.md",
     "Nondeterministic Finite Automaton.md",
     "Grading/HW1.md",
-    "Grading/HW0.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
