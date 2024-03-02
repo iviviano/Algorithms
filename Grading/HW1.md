@@ -13,6 +13,9 @@ Problem  8:             /10
 TOTAL: /100
 ```
 
+Great job! For future, it is usually a good idea to test the empty list for all procedures o
+
+
 Maxann
 Honor Code: yes
 ```
