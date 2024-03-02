@@ -20,8 +20,8 @@ Nice job overall, especially with tests. For future, use the default Dr Racket i
               test
               expected)
 ```
-These will make 
-Remember that you can ask for an extension...
+These will make your code more readable.
+I saw your commit messages. Remember that you can ask for an extension *before the due date* if you won't be able to finish a homework on time.
 
 Haley:
 
