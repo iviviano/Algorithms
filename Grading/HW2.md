@@ -118,7 +118,7 @@ Honor Code: yes
 Homework Base:      20/20
 Problem  1:         10/10
 Problem  2:         10/10
-Problem  3:         10/10
+Problem  3:         10/10 For future, avoid functions like take and length. We want
 Problem  4:         10/10
 Problem  5:         10/10
 Problem  6:         10/10
