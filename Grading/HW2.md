@@ -56,8 +56,8 @@ Problem  3:         4/10 Everything works except that the order of your base cas
 Problem  4:         5/10 
 Problem  5:         5/10
 Problem  6:         5/10
-Problem  7:         0/10
-Problem  8:         4/10
+Problem  7:         0/10 Missing
+Problem  8:         4/10 Using so many helper
 TOTAL:              /100
 ```
 
