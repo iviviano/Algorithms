@@ -9,7 +9,7 @@ Problem  3:         9/10 Your implementation correctly identifies whenever the e
 Problem  4:         7/10 Incomplete procedure. Lost 1 additional point on tests for not having a test where the sublist is not in the biglist.
 Problem  5:         10/10
 Problem  6:         8/10 Your implementation fails for all nonempty lists, since you call second on the list. 
-Problem  7:         -/10
+Problem  7:         10/10
 Problem  8:         -1/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(c))should return '(a) instead of '(c).
 TOTAL:              /100
 ```
