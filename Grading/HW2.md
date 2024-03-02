@@ -61,7 +61,7 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
-There were no tests in your tests.rkt file. If this a
+You lost 5 points on every problem because there were no tests in your tests.rkt file. If this is a github issue, please reach out to Molly.
 
 Jkutchey
 
