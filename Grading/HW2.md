@@ -90,7 +90,7 @@ Kai:
 Honor Code: yes
 ```
 Homework Base:      20/20
-Problem  1:         10/10 
+Problem  1:         10/10 Great job using letrec for your helper function.
 Problem  2:         /10
 Problem  3:         /10
 Problem  4:         -1/10
@@ -100,6 +100,8 @@ Problem  7:         /10
 Problem  8:         -1/10
 TOTAL:              /100
 ```
+
+Please make use of c
 
 follow this format for your tests:
 ```
