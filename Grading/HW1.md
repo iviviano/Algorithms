@@ -13,6 +13,8 @@ Problem  8:             10/10
 TOTAL: 100/100
 ```
 
+Please sign the Honor Code! You're grade will not be updated on campuswire until you do so.
+
 Great job! For future, it is usually a good idea to test the empty list for most procedures operating on lists.
 
 
