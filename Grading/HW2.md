@@ -139,11 +139,11 @@ Problem  1:         10/10
 Problem  2:         10/10
 Problem  3:         10/10
 Problem  4:         10/10
-Problem  5:         /10
-Problem  6:         /10
-Problem  7:         /10
-Problem  8:         -1/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(a)) should return '(c) instead of '(a).
-TOTAL:              /100
+Problem  5:         10/10
+Problem  6:         10/10
+Problem  7:         10/10
+Problem  8:         9/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(a)) should return '(c) instead of '(a).
+TOTAL:              99/100
 ```
 
 Thank you for numbering the procedures and tests! It helps a lot with grading :) Great job and excellent tests!
@@ -156,3 +156,4 @@ Also, follow this format for your non-predicate tests:
               test
               expected)
 ```
+It helps with readability.
