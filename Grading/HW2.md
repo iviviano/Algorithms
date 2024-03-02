@@ -111,9 +111,9 @@ Also, follow this format for your tests:
 ```
 
 
-Kenean and Kejela:
+Kenean 
 
-Honor Code:
+Honor Code: yes
 ```
 Homework Base:      /20
 Problem  1:         /10
