@@ -51,7 +51,7 @@ Honor Code: yes
 ```
 Homework Base:      20/20
 Problem  1:         5/10 Please use letrec in the future for helper functions. Note that you could assume input lists were sorted for this problem.
-Problem  2:         5/10 This implem if merge only 
+Problem  2:         5/10 This implementation relies on merge working on unsorted lists.
 Problem  3:         /10
 Problem  4:         4/10
 Problem  5:         5/10
