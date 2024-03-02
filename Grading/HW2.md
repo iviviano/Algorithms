@@ -50,7 +50,7 @@ Janny:
 Honor Code: yes
 ```
 Homework Base:      20/20
-Problem  1:         5/10
+Problem  1:         5/10 Please use letrec in the future for 
 Problem  2:         5/10
 Problem  3:         /10
 Problem  4:         4/10
