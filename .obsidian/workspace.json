@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW2 Rubric.md",
+                "file": "Grading/HW2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW2 Rubric.md",
+                "file": "Grading/HW2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW2 Rubric.md"
+                "file": "Grading/HW2.md"
               }
             }
           },
@@ -170,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4911edc48ad82b4",
+  "active": "8f9a33aae0a0af5a",
   "lastOpenFiles": [
-    "Grading/HW2.md",
     "Grading/HW2 Rubric.md",
+    "Grading/HW2.md",
     "Grading/HW0.md",
     "Pumping Lemma.md",
     "Deterministic Finite Automaton.md",
