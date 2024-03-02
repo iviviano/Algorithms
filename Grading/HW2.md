@@ -39,7 +39,7 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
-Please only submit the required files to github. You can use a 
+Please only submit the required files to github. You can use a .gitignore file to prevent committing extra stuff: https://git-scm.com/docs/gitignore.
 
 
 Janny:
