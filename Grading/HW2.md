@@ -97,8 +97,8 @@ Problem  4:         9/10 Lost 1 point for not testing the empty sublist case.
 Problem  5:         10/10
 Problem  6:         10/10
 Problem  7:         10/10
-Problem  8:         /10
-TOTAL:              /100
+Problem  8:         9/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(c)) should return '(a) instead of '(c).
+TOTAL:              97/100
 ```
 
 Please make use of the `cond` special form more. It is generally more readable than `if`. Every instance of nested `if`'s should be replaced by a `cond`.
