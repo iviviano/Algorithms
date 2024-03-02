@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "79a3bcd341ce815c",
+        "id": "f2e1fc60bed69995",
         "type": "tabs",
         "children": [
           {
-            "id": "c615205bb0b72ac4",
+            "id": "8f9a33aae0a0af5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pumping Lemma.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b0ef378ce89ea9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deterministic Finite Automaton.md",
+                "file": "Grading/HW2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deterministic Finite Automaton.md",
+                "file": "Grading/HW2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deterministic Finite Automaton.md",
+                "file": "Grading/HW2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deterministic Finite Automaton.md"
+                "file": "Grading/HW2.md"
               }
             }
           },
@@ -170,10 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b0ef378ce89ea9d",
+  "active": "8f9a33aae0a0af5a",
   "lastOpenFiles": [
-    "Equivalence of NFAs and DFAs.md",
+    "Grading/HW2 Rubric.md",
+    "Grading/HW2.md",
     "Pumping Lemma.md",
+    "Deterministic Finite Automaton.md",
+    "Equivalence of NFAs and DFAs.md",
     "Regular Operation.md",
     "Regular Language.md",
     "Theory Homework/Homework 3.md",
@@ -190,15 +179,12 @@
     "Decidable Languages Theorem.md",
     "ALBA.md",
     "Linear Bounded Automaton.md",
-    "Deterministic Finite Automaton.md",
     "Equivalence of NFAs and Regular Expressions.md",
     "Regular Expression.md",
     "Accept.md",
     "Language of a Grammar.md",
     "Recognize.md",
     "1056px-QR_Code_Unmasked.svg.png",
-    "Pumpable.md",
-    "Nondeterministic Finite Automaton.md",
     "QR Reconstruction",
     "Grading",
     "Theory Homework",
