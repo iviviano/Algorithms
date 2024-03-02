@@ -115,8 +115,8 @@ Kenean
 
 Honor Code: yes
 ```
-Homework Base:      /20
-Problem  1:         /10
+Homework Base:      20/20
+Problem  1:         10/10
 Problem  2:         /10
 Problem  3:         /10
 Problem  4:         /10
@@ -127,7 +127,7 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
-Great comments, it's especially helpful to have descriptions of your helper functions. For future assignments, you should use a `let` form to define helpers if they are only used for a single procedure.
+Great comments, it's especially helpful to have descriptions of your helper functions :) For future assignments, you should use a `let` form to define helpers if they are only used for a single procedure.
 
 
 Leah and Henry:
