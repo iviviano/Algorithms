@@ -77,8 +77,11 @@ Problem  5:         8/10 Your base case is wrong for nest. (nest '()) should ret
 Problem  6:         10/10
 Problem  7:         9/10 Again, there is a simpler way to do exchange. Try to do it without a helper function based on the structure of lst. Your implementation didn't work on singletons because of issues with the connect helper.
 Problem  8:         9/10 Your implementation of all-exchange was missing base cases to handle empty replacement lists: (all-exchange null null '(1 2 3)) raises an error. It is also circular: (all-exchange '(a b) '(b a) '(a a)) should return '(b b) but returns '(a a).
-TOTAL:              /100
+TOTAL:              97/100
 ```
+
+You did not sign the Honor Code! Your grade will not be updated on campus wire until you do so.
+
 
 
 
