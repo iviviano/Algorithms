@@ -10,7 +10,7 @@ Problem  4:         7/10 Incomplete procedure. Lost 1 additional point on tests 
 Problem  5:         10/10
 Problem  6:         8/10 Your implementation fails for all nonempty lists, since you call second on the list. 
 Problem  7:         10/10
-Problem  8:         9/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(c))should return '(a) instead of '(c).
+Problem  8:         9/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(c)) should return '(a) instead of '(c).
 TOTAL:              93/100
 ```
 
@@ -27,15 +27,15 @@ Haley:
 
 Honor Code: yes
 ```
-Homework Base:      /20
-Problem  1:         /10
+Homework Base:      20/20
+Problem  1:         10/10
 Problem  2:         /10
 Problem  3:         -2/10
 Problem  4:         -1/10
 Problem  5:         /10
 Problem  6:         /10
 Problem  7:         /10
-Problem  8:         /10
+Problem  8:         -1/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(c)) should return '(a) instead of '(c).
 TOTAL:              /100
 ```
 
