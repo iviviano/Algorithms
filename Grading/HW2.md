@@ -25,7 +25,7 @@ I saw your commit messages. Remember that you can ask for an extension *before t
 
 Haley:
 
-Honor Code:
+Honor Code: yes
 ```
 Homework Base:      /20
 Problem  1:         /10
@@ -38,6 +38,8 @@ Problem  7:         /10
 Problem  8:         /10
 TOTAL:              /100
 ```
+
+Please only submit the required files to github. You can use a 
 
 
 Janny:
