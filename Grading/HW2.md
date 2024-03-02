@@ -71,8 +71,8 @@ Honor Code: NO!!
 Homework Base:      20/20
 Problem  1:         10/10
 Problem  2:         10/10
-Problem  3:         10/10
-Problem  4:         9/10
+Problem  3:         10/10 Cool implementation of has-sublist?. Please use a letrec for your helper functions in the future :)
+Problem  4:         9/10 
 Problem  5:         -2/10
 Problem  6:         /10
 Problem  7:         -1/10
