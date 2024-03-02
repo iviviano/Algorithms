@@ -14,13 +14,13 @@ Problem  8:         9/10 Your implementation of all-exchange is circular. For ex
 TOTAL:              93/100
 ```
 
-Nice job overall, especially with tests. For future, use the default Dr Racket formatting and follow the 
+Nice job overall, especially with tests. For future, use the default Dr Racket indentation and follow this format for your tests:
 ```
 (test-equal? "label"
-(test-equal? "Odds and evens"
-                (merge '(1 3 5 7 9) '(2 4 6 8 10))
-                '(1 2 3 4 5 6 7 8 9 10)
+              test
+              expected)
 ```
+These will make 
 Remember that you can ask for an extension...
 
 Haley:
