@@ -46,10 +46,11 @@ Give the points listed below for the corresponding problem. Each function should
    - 1 point for a test of a nonempty list; and
    - 3 points for additional tests.
    
-6. - Give 5 points if there are at least 3 tests
+6.
+   - Give 5 points if there are at least 3 tests
    - 4 points if there are 2 tests; and
    - 3 points if there's 1 test.
-7. 
+7.
    - 1 point for a test with no matching elements;
    - 1 point for a test with at least one matching element; and
    - 3 points for additional tests.
