@@ -30,7 +30,7 @@ Honor Code: yes
 Homework Base:      20/20
 Problem  1:         10/10
 Problem  2:         10/10 No points off this week, but you should avoid using append. Use cons instead to construct lists. Also, you should use a letrec for helper functions. 
-Problem  3:         -2/10 A comment on the second case of your cond: try to make your conditions as simple as possible. If you find yourself using or, you can split this into two cond cases. Also, avoid using functions like length or index for lists. We want to operate bas
+Problem  3:         -2/10 A comment on the second case of your cond: try to make your conditions as simple as possible. If you find yourself using or, you can split this into two cond cases. Also, avoid using functions like length or index for lists. We want to operate based on their recursive structure.
 Problem  4:         -1/10
 Problem  5:         /10
 Problem  6:         /10
