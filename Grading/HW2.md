@@ -119,11 +119,11 @@ Homework Base:      20/20
 Problem  1:         10/10
 Problem  2:         10/10
 Problem  3:         10/10 For future, avoid functions like take and length. We want to recurse based on the pairwise structure of lists.
-Problem  4:         10/10
+Problem  4:         10/10 
 Problem  5:         10/10
-Problem  6:         10/10
+Problem  6:         10/10 Nice implementation.
 Problem  7:         10/10
-Problem  8:         10/10
+Problem  8:         10/10 Nice use of assoc
 TOTAL:              100/100
 ```
 
