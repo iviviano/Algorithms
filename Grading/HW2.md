@@ -127,6 +127,7 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
+Great comments, it's especially helpful to have descriptions of your helper functions. For future assignments, you should use a `let` form to define helpers if they are only used for a single procedure.
 
 
 Leah and Henry:
