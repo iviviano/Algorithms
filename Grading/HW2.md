@@ -41,6 +41,7 @@ TOTAL:              /100
 
 Please only submit the required files to github. You can use a .gitignore file to prevent committing extra stuff: https://git-scm.com/docs/gitignore.
 
+One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
 
 Janny:
 
