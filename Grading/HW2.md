@@ -123,7 +123,7 @@ Problem  4:         10/10
 Problem  5:         10/10
 Problem  6:         10/10 Nice implementation.
 Problem  7:         10/10
-Problem  8:         10/10 Nice use of assoc
+Problem  8:         10/10 Nice use of assoc and member for this problem.
 TOTAL:              100/100
 ```
 
@@ -132,7 +132,7 @@ Great job and excellent tests! Great comments, it's especially helpful to have d
 
 Leah and Henry:
 
-Honor Code:
+Honor Code: yes
 ```
 Homework Base:      /20
 Problem  1:         /10
@@ -145,3 +145,5 @@ Problem  7:         /10
 Problem  8:         /10
 TOTAL:              /100
 ```
+
+Please only submit the required files to github. You can use a .gitignore file to prevent committing extra stuff: https://git-scm.com/docs/gitignore.
