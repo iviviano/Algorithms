@@ -147,3 +147,18 @@ TOTAL: 94/100
 ```
 
 Great job! One style note. When your tests get more complicated in the future, it will be helpful to write the name, test, and expected value each on different lines. See the formatting of `length-tests`.
+
+
+
+
+Honor Code: yes
+```
+Github Success: 40/40
+Problem  1: 10/13 
+Problem  2: 12/15
+Problem  3: 8/8
+Problem  4: 8/8
+Problem  5: 8/8
+Problem  6: 8/8
+TOTAL: 94/100
+```
