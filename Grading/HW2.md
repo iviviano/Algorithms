@@ -69,8 +69,8 @@ Jkutchey
 Honor Code: NO!!
 ```
 Homework Base:      20/20
-Problem  1:         /10
-Problem  2:         /10
+Problem  1:         10/10
+Problem  2:         10/10
 Problem  3:         /10
 Problem  4:         -1/10
 Problem  5:         -2/10
