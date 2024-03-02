@@ -75,7 +75,7 @@ Problem  3:         10/10 Cool implementation of has-sublist?. Please use a letr
 Problem  4:         9/10 This strategy overcomplicated the delete-sublist? function. It failed on the (delete-sublist '(x y z) '(a b x y z c)). Your function returned '((a b) c) instead of '(a b c). No points off, but append will not be allowed on future homeworks unless otherwise noted.
 Problem  5:         8/10 Your base case is wrong for nest. (nest '()) should return '() instead of '(()). 
 Problem  6:         10/10
-Problem  7:         9/10 Again, there is a simpler way to do exchange. Try to do it without a helper function based on the structure of lst. Your implementation failed 
+Problem  7:         9/10 Again, there is a simpler way to do exchange. Try to do it without a helper function based on the structure of lst. Your implementation didn't work on singletons 
 Problem  8:         -1/10
 TOTAL:              /100
 ```
