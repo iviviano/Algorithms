@@ -1,7 +1,7 @@
 Becca
-Honor Code: 
+Honor Code:  NO!!!
 ```
-Assignment Attempted:   /15
+Assignment Attempted:   15/15
 Problem  1:             /10
 Problem  2:             /10
 Problem  3:             /10
