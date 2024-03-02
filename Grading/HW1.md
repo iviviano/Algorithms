@@ -4,16 +4,16 @@ Honor Code:  NO!!!
 Assignment Attempted:   15/15
 Problem  1:             10/10
 Problem  2:             10/10
-Problem  3:             /10
-Problem  4:             /10
-Problem  5:             /15
-Problem  6:             /10
-Problem  7:             /10
-Problem  8:             /10
-TOTAL: /100
+Problem  3:             10/10
+Problem  4:             10/10
+Problem  5:             15/15
+Problem  6:             10/10
+Problem  7:             10/10
+Problem  8:             10/10
+TOTAL: 100/100
 ```
 
-Great job! For future, it is usually a good idea to test the empty list for all procedures o
+Great job! For future, it is usually a good idea to test the empty list for most procedures operating on lists.
 
 
 Maxann
