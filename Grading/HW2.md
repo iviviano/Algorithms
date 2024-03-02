@@ -87,9 +87,9 @@ Great job and excellent tests!
 
 Kai:
 
-Honor Code:
+Honor Code: yes
 ```
-Homework Base:      /20
+Homework Base:      20/20
 Problem  1:         /10
 Problem  2:         /10
 Problem  3:         /10
