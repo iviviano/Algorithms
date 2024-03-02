@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "befdee44753f7962",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW0.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c07726781d60d264",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW0 Rubric.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "409616e27d516888",
             "type": "leaf",
             "state": {
@@ -125,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW0.md",
+                "file": "Grading/HW1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW0.md",
+                "file": "Grading/HW1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW0.md"
+                "file": "Grading/HW1.md"
               }
             }
           },
@@ -195,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "befdee44753f7962",
+  "active": "409616e27d516888",
   "lastOpenFiles": [
     "Grading/HW0 Rubric.md",
     "Grading/HW0.md",
