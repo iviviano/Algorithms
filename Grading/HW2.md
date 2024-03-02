@@ -10,7 +10,7 @@ Problem  4:         -2/10 Incomplete procedure.
 Problem  5:         -/10
 Problem  6:         -2/10 Your implementation fails for all nonempty lists, since you call second on the list. 
 Problem  7:         -/10
-Problem  8:         -1/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a b c) '(b c a) '(a)) should return 
+Problem  8:         -1/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(c))should return 
 TOTAL:              /100
 ```
 
