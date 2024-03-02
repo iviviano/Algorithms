@@ -61,6 +61,7 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
+There were no tests in your tests.rkt file. If this a
 
 Jkutchey
 
