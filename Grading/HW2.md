@@ -52,8 +52,8 @@ Honor Code: yes
 Homework Base:      20/20
 Problem  1:         5/10 Please use letrec in the future for helper functions. Note that you could assume input lists were sorted for this problem.
 Problem  2:         5/10 This implementation relies on merge working on unsorted lists.
-Problem  3:         4/10 Everything works except that the order of your base cases is wrong
-Problem  4:         4/10
+Problem  3:         4/10 Everything works except that the order of your base cases is wrong. So, (has-sublist? null null) returns #f but should return #t.
+Problem  4:         4/10 
 Problem  5:         5/10
 Problem  6:         5/10
 Problem  7:         0/10
