@@ -39,7 +39,7 @@ Problem  8:         -1/10 Your implementation of all-exchange is circular. For e
 TOTAL:              /100
 ```
 
-
+Great job and excellent tests! 
 
 Please only submit the required files to github. You can use a .gitignore file to prevent committing extra stuff: https://git-scm.com/docs/gitignore.
 
