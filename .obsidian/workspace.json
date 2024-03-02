@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "Grading/HW1 Rubric.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "Grading/HW1 Rubric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW1.md"
+                "file": "Grading/HW1 Rubric.md"
               }
             }
           },
@@ -196,10 +196,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "409616e27d516888",
+  "active": "26ee64cb2db68afc",
   "lastOpenFiles": [
-    "Grading/HW1 Rubric.md",
     "Grading/HW1.md",
+    "Grading/HW1 Rubric.md",
     "Grading/HW0 Rubric.md",
     "Grading/HW0.md",
     "Grading/HW2 Rubric.md",
