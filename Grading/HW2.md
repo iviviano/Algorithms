@@ -14,6 +14,7 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
+Remember that you can ask for an extension...
 
 Haley:
 
