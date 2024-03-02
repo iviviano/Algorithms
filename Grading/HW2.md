@@ -101,7 +101,7 @@ Problem  8:         -1/10
 TOTAL:              /100
 ```
 
-Please make use of c
+Please make use of the `cond` special form more. It is generally more readable than `if`. Every instance of nested `if`'s should be replaced by a `cond`.
 
 follow this format for your tests:
 ```
