@@ -73,7 +73,7 @@ Problem  1:         10/10
 Problem  2:         10/10
 Problem  3:         10/10 Cool implementation of has-sublist?. Please use a letrec for your helper functions in the future :)
 Problem  4:         9/10 This strategy overcomplicated the delete-sublist? function. It failed on the (delete-sublist '(x y z) '(a b x y z c)). Your function returned '((a b) c) instead of '(a b c). No points off, but append will not be allowed on future homeworks unless otherwise noted.
-Problem  5:         8/10 Your base case is wrong for nest. (nest '()) should return '() instead of '(()).
+Problem  5:         8/10 Your base case is wrong for nest. (nest '()) should return '() instead of '(()). 
 Problem  6:         10/10
 Problem  7:         -1/10 
 Problem  8:         -1/10
