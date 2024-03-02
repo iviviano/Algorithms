@@ -93,7 +93,7 @@ Homework Base:      20/20
 Problem  1:         10/10 Great job using letrec for your helper function.
 Problem  2:         10/10
 Problem  3:         9/10 You are missing a base case to check if sublist is empty, so (has-sublist? empty empty) fails.
-Problem  4:         /10
+Problem  4:         9/10 Lost 1 point for not testing the empty sublis
 Problem  5:         /10
 Problem  6:         /10
 Problem  7:         /10
