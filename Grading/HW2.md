@@ -101,7 +101,12 @@ Problem  8:         /10
 TOTAL:              /100
 ```
 
-
+follow this format for your tests:
+```
+(test-equal? "label"
+              test
+              expected)
+```
 
 Kenean and Kejela:
 
