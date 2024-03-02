@@ -14,7 +14,7 @@ Problem  8:         9/10 Your implementation of all-exchange is circular. For ex
 TOTAL:              93/100
 ```
 
-Nice job overall, especially with tests. For future, use the default Dr Racket indentation and follow this format for your tests:
+Nice job overall, especially with tests. For future, use the default Dr Racket indentation and follow this format for your non-predicate tests:
 ```
 (test-equal? "label"
               test
@@ -103,7 +103,7 @@ TOTAL:              97/100
 
 Great job! Please make use of the `cond` special form more. It is generally more readable than `if`. Every instance of nested `if`'s should be replaced by a `cond`.
 
-Also, follow this format for your tests:
+Also, follow this format for your non-predicate tests:
 ```
 (test-equal? "label"
               test
@@ -149,3 +149,10 @@ TOTAL:              /100
 Thank you for numbering the procedures and tests! It helps a lot with grading :)
 
 Please only submit the required files to github. You can use a .gitignore file to prevent committing extra stuff: https://git-scm.com/docs/gitignore.
+
+Also, follow this format for your non-predicate tests:
+```
+(test-equal? "label"
+              test
+              expected)
+```
