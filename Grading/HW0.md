@@ -155,10 +155,12 @@ Honor Code: yes
 ```
 Github Success: 40/40
 Problem  1: 10/13 Lost 3 points for not testing a singleton list. In a test suite, you should try to demonstrate a procedure's accuracy on general examples and edge cases. 
-Problem  2: 12/15
+Problem  2: 15/15
 Problem  3: 8/8
 Problem  4: 8/8
 Problem  5: 8/8
 Problem  6: 8/8
-TOTAL: 94/100
+TOTAL: 97/100
 ```
+
+Great job!
