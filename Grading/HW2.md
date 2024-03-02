@@ -76,7 +76,7 @@ Problem  4:         9/10 This strategy overcomplicated the delete-sublist? funct
 Problem  5:         8/10 Your base case is wrong for nest. (nest '()) should return '() instead of '(()). 
 Problem  6:         10/10
 Problem  7:         9/10 Again, there is a simpler way to do exchange. Try to do it without a helper function based on the structure of lst. Your implementation didn't work on singletons because of issues with the connect helper.
-Problem  8:         9/10 
+Problem  8:         9/10 Your implementation of all-exchange was missing base cases to handle empty replacement lists: (all-exchange null null '(1 2 3)) raises an error. 
 TOTAL:              /100
 ```
 
