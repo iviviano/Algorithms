@@ -57,7 +57,9 @@ Problem  4:         5/10
 Problem  5:         5/10
 Problem  6:         5/10
 Problem  7:         0/10 Missing
-Problem  8:         4/10 I think that using so many helper functions overcomplicates this
+Problem  8:         4/10 I think that using so many helper functions overcomplicated the problem. Your implementation fails on the inputs: (all-exchange '(a c) '(c a) '(c)) and 
+
+first should return '(a)
 TOTAL:              /100
 ```
 
