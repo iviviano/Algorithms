@@ -137,7 +137,7 @@ Honor Code: yes
 Homework Base:      20/20
 Problem  1:         10/10
 Problem  2:         10/10
-Problem  3:         /10
+Problem  3:         10/10
 Problem  4:         /10
 Problem  5:         /10
 Problem  6:         /10
@@ -145,5 +145,7 @@ Problem  7:         /10
 Problem  8:         -1/10 Your implementation of all-exchange is circular. For example, (all-exchange '(a c) '(c a) '(a)) should return '(c) instead of '(a).
 TOTAL:              /100
 ```
+
+Thank you for numbering the procedures and tests! It helps a lot with grading :)
 
 Please only submit the required files to github. You can use a .gitignore file to prevent committing extra stuff: https://git-scm.com/docs/gitignore.
