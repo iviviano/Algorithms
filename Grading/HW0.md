@@ -154,7 +154,7 @@ Great job! One style note. When your tests get more complicated in the future, i
 Honor Code: yes
 ```
 Github Success: 40/40
-Problem  1: 10/13 
+Problem  1: 10/13 Lost 3 points for not testing a singleton list. In a test suite, you should try to demonstrate a procedure's accuracy on general examples and edge cases. 
 Problem  2: 12/15
 Problem  3: 8/8
 Problem  4: 8/8
