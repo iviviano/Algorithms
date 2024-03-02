@@ -63,9 +63,10 @@ TOTAL:              53/100
 
 You lost 5 points on every problem because there were no tests in your tests.rkt file. If this is a github issue, please reach out to Molly.
 
+
 Jkutchey
 
-Honor Code:
+Honor Code: NO!!
 ```
 Homework Base:      /20
 Problem  1:         /10
