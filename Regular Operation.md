@@ -23,5 +23,4 @@ and $\delta(q,\epsilon)=\{q_{1},q_{2}\}$. Then, $M$ is a [[Nondeterministic Fini
 
 
 >[!proof] Proof (prefix)
-
-Take the [[Deterministic Finite Automaton]] and make every 
+If there is a path from the end state to an accep
