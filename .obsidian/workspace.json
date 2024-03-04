@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grading/HW2.md",
+                "file": "Pumping Lemma.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Pumping Lemma.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Pumping Lemma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Operation.md"
+                "file": "Pumping Lemma.md"
               }
             }
           },
@@ -196,12 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5bbef5707857b7d",
+  "active": "26ee64cb2db68afc",
   "lastOpenFiles": [
+    "Grading/HW2.md",
     "Regular Language.md",
     "Regular Operation.md",
     "QR Reconstruction/QR Reed-Solomon.md",
-    "Grading/HW2.md",
     "Grading/HW1 Rubric.md",
     "Grading/HW1.md",
     "Grading/HW0 Rubric.md",
