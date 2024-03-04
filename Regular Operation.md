@@ -23,4 +23,4 @@ and $\delta(q,\epsilon)=\{q_{1},q_{2}\}$. Then, $M$ is a [[Nondeterministic Fini
 
 
 >[!proof] Proof (prefix)
-If there is a path from the end state to an accep
+If there is a path from the end state to an accepting state, 

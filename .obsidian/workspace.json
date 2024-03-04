@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Prefix (language).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Operation.md",
+                "file": "Prefix (language).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Operation.md"
+                "file": "Prefix (language).md"
               }
             }
           },
@@ -196,13 +196,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5bbef5707857b7d",
+  "active": "1e7f0e6af0a58f7e",
   "lastOpenFiles": [
+    "Regular Operation.md",
     "Prefix (string).md",
     "Pumping Lemma.md",
     "Prefix (language).md",
     "Regular Language.md",
-    "Regular Operation.md",
     "Grading/HW2.md",
     "QR Reconstruction/QR Reed-Solomon.md",
     "Grading/HW1 Rubric.md",
