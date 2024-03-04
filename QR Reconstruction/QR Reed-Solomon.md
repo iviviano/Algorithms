@@ -22,4 +22,5 @@ $$\begin{align*}
 \end{align*}$$
 
 >[!question]
->How can we 
+>How can we use Reed-Solomon to correct bitwise errors?
+
