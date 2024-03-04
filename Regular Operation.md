@@ -2,7 +2,7 @@
 mathLink: regular operation
 ---
 >[!def]
->The *regular operations* are [[Compliment]], [[Language Union]], [[Intersection]], [[Language Concatenation]]e, and [[Star]].
+>The *regular operations* are [[Compliment]], [[Language Union]], [[Intersection]], [[Language Concatenation]]e, [[Prefix]], and [[Star]].
 
 >[!note]
 >Can use these to show a language is not regular: let $A$ be a non-[[Regular Language]] [[Language]]. If we do regular operations on $A$ and arrive at a non-regular language, we show that $A$ is not regular.
