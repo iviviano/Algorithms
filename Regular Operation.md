@@ -2,10 +2,10 @@
 mathLink: regular operation
 ---
 >[!def]
->The *regular operations* are [[Compliment]], [[Language Union]], [[Language Concatenation]]e, and [[Star]].
+>The *regular operations* are [[Compliment]], [[Language Union]], [[Intersection]], [[Language Concatenation]]e, and [[Star]].
 
 >[!note]
->Can use these to show a language is not regular: let $A$ be a non-[[Regular Language]] [[Language]]. If we do regular operations on $A$ and arrive at a non-regular language, we show that $A$ is not 
+>Can use these to show a language is not regular: let $A$ be a non-[[Regular Language]] [[Language]]. If we do regular operations on $A$ and arrive at a non-regular language, we show that $A$ is not regular.
 
 >[!proof] Proof (compliment)
 Let $A$ be a [[Regular Language]] [[Language]] and let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]] that [[Recognize]]s $A$. Let $$M'=(Q,\Sigma,\delta,q_{0},Q-F)$$Then, $M'$ is a [[Deterministic Finite Automaton]] that [[Recognize]]s $A^{c}$, so $A^{c}$ is [[Regular Language]].
