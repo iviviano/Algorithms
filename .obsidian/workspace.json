@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regular Language.md",
+                "file": "Regular Operation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regular Language.md",
+                "file": "Regular Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regular Language.md"
+                "file": "Regular Operation.md"
               }
             }
           },
@@ -196,8 +196,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e7f0e6af0a58f7e",
+  "active": "b5bbef5707857b7d",
   "lastOpenFiles": [
+    "Regular Language.md",
     "Regular Operation.md",
     "QR Reconstruction/QR Reed-Solomon.md",
     "Grading/HW2.md",
@@ -209,7 +210,6 @@
     "Pumping Lemma.md",
     "Deterministic Finite Automaton.md",
     "Equivalence of NFAs and DFAs.md",
-    "Regular Language.md",
     "Theory Homework/Homework 3.md",
     "QR Reconstruction/Notes.md",
     "Set-Theory/Sequence.md",
