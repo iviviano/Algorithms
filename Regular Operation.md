@@ -20,3 +20,8 @@ Let $M=(Q,\Sigma,\delta:Q\times \Sigma \rightarrow Q,q,F)$ where $$\begin{align}
 q&=(q_{1},q_{2})\\
 F&=F_{1}\times Q_{2}\cup Q_{1}\times F_{2}\end{align}$$
 and $\delta(q,\epsilon)=\{q_{1},q_{2}\}$. Then, $M$ is a [[Nondeterministic Finite Automaton]] that [[Recognize]]s $A_{1}\cup A_2$. So by the [[Equivalence of NFAs and DFAs]], $A_{1}\cup A_{2}$ is [[Regular Language]].
+
+
+>[!proof] Proof (prefix)
+
+Take the [[Deterministic Finite Automaton]] and make every 
