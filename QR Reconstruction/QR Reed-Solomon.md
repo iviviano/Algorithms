@@ -18,5 +18,8 @@ $$\begin{align*}
 &\textbf{Algorithm } \text{Encode}\\
 &\text{message as polynomial }p\\
 &\text{multiply }p \text{ by }x^{n}\text{ where }n \text{ is the number of redundant bytes}\\
-&\text{endcoded message is the sum of }p\cdot x^{n}+ p\%g_{n}(x)
+&\text{endcoded message is the sum of }p\cdot x^{n}+ p\cdot x^{n}\%g_{n}(x)
 \end{align*}$$
+
+>[!question]
+>How can we 
