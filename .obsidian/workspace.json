@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prefix.md",
+                "file": "Regular Operation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regular Language.md",
+                "file": "Prefix (language).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prefix.md",
+                "file": "Regular Operation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prefix.md",
+                "file": "Regular Operation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prefix.md"
+                "file": "Regular Operation.md"
               }
             }
           },
@@ -198,10 +198,12 @@
   },
   "active": "b5bbef5707857b7d",
   "lastOpenFiles": [
-    "Regular Operation.md",
+    "Prefix (string).md",
     "Pumping Lemma.md",
-    "Grading/HW2.md",
+    "Prefix (language).md",
     "Regular Language.md",
+    "Regular Operation.md",
+    "Grading/HW2.md",
     "QR Reconstruction/QR Reed-Solomon.md",
     "Grading/HW1 Rubric.md",
     "Grading/HW1.md",
@@ -222,8 +224,6 @@
     "P.md",
     "Decidable Languages Theorem.md",
     "ALBA.md",
-    "Linear Bounded Automaton.md",
-    "Equivalence of NFAs and Regular Expressions.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",

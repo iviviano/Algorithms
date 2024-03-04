@@ -1,0 +1,5 @@
+---
+mathLink: prefix
+---
+>[!def]
+
