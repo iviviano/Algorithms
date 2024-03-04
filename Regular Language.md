@@ -25,4 +25,6 @@ z&= 0^{p-l-m}10^{p}
 \end{align*}$$Since $|y|>0$, $l>0$. Then, $$xy^{0}z= 0^{m}0^{p-l-m}10^{p}=0^{p-l}10^{p}$$which is not a [[Palindrome]], since $p-l≠p$. This contradicts the [[Pumping Lemma]], so $B$ is not [[Regular Language]].
 
 >[!prop]
->The duplicated [[Language]]: $$A=\{xx|x\in\{\texttt{0,1}^**}}$$
+>The duplicated [[Language]]: $$A=\{xx|x\in\{\texttt{0,1}\}^{*}\}$$is not [[Regular Language]]
+
+Let $w=0^{p}10^{p}1$. 
