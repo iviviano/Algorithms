@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10ab48f745ea867b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context-Free Grammar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pushdown Automaton.md",
+                "file": "Context-Free Grammar.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pushdown Automaton.md",
+                "file": "Context-Free Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pushdown Automaton.md"
+                "file": "Context-Free Grammar.md"
               }
             }
           },
@@ -196,8 +209,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da784787ee31c3ef",
+  "active": "10ab48f745ea867b",
   "lastOpenFiles": [
+    "Pushdown Automaton.md",
     "Pumping Lemma.md",
     "QR Reconstruction/Notes.md",
     "QR Reconstruction/QR Reed-Solomon.md",
@@ -223,7 +237,6 @@
     "NP.md",
     "P.md",
     "Decidable Languages Theorem.md",
-    "ALBA.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
