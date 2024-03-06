@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pushdown Automaton.md",
+                "file": "Leftmost Derivation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Context-Free Grammar.md",
+                "file": "Derive.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Context-Free Grammar.md",
+                "file": "Leftmost Derivation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Context-Free Grammar.md",
+                "file": "Leftmost Derivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Context-Free Grammar.md"
+                "file": "Leftmost Derivation.md"
               }
             }
           },
@@ -209,13 +209,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10ab48f745ea867b",
+  "active": "da784787ee31c3ef",
   "lastOpenFiles": [
+    "Prefix (language).md",
+    "Leftmost Derivation.md",
     "Pushdown Automaton.md",
+    "Derive.md",
+    "Context-Free Grammar.md",
     "Pumping Lemma.md",
     "QR Reconstruction/Notes.md",
     "QR Reconstruction/QR Reed-Solomon.md",
-    "Prefix (language).md",
     "Regular Operation.md",
     "Prefix (string).md",
     "Regular Language.md",
@@ -234,9 +237,6 @@
     "Language.md",
     "Polynomial Run Time.md",
     "Cook and Levin Theorem.md",
-    "NP.md",
-    "P.md",
-    "Decidable Languages Theorem.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
