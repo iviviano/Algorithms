@@ -7,5 +7,7 @@ mathLink: leftmost derivation
 Example: 
 $$\begin{align*}
 S&\rightarrow ST|\texttt{a}T  \texttt{a}\\
-T&\rightarrow S|\texttt{a}
+T&\rightarrow S|\texttt{a}T \texttt{a}|b
 \end{align*}$$
+Leftmost Derivation:
+$$S\implies ST\implies \texttt{a}T \texttt{a}T=\texttt{aa}$$
