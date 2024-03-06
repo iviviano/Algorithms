@@ -40,5 +40,9 @@ N&\rightarrow aN|bN|\varepsilon
 Language $C=\{w|w \text{ starts and ends with different symbols }\}$
 $$\begin{align*}
 S&\rightarrow \texttt{a}N\texttt{b}|bNa\\
-N&\rightarrow a
+N&\rightarrow aN|bN|\varepsilon
+\end{align*}$$
+Language $D=\{w|\text{ the length of }w \text{ is odd and the nmiddle symbol is }\texttt{b}\}$:
+$$\begin{align*}
+S&\rightarrow
 \end{align*}$$
