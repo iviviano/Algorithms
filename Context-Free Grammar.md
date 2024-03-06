@@ -31,6 +31,8 @@ S&\rightarrow (S)\ |\ [B]\ |\ SS\ |\ \varepsilon
 
 Language $A=\Sigma^{*}$: $$\begin{align*}
 S&\rightarrow \texttt{a}S|\texttt{b}S|\varepsilon
+\end{align*}$$or $$\begin{align*}
+S&\rightarrow SS\ |\ \texttt{a}\ |\ \texttt{b}\ |\ \varepsilon
 \end{align*}$$
 Language $B=\{w|w \text{ contains at least three }\texttt{b}s\}$
 $$\begin{align*}
