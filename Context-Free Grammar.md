@@ -42,14 +42,14 @@ $$\begin{align*}
 S&\rightarrow \texttt{a}N\texttt{b}|bNa\\
 N&\rightarrow aN|bN|\varepsilon
 \end{align*}$$
-Language $D=\{w|\text{ the length of }w \text{ is odd and the nmiddle symbol is }\texttt{b}\}$:
+Language $D=\{w|\text{ the length of }w \text{ is odd and the middle symbol is }\texttt{b}\}$:
 $$\begin{align*}
-S&\rightarrow \texttt{a}S \texttt{a}|\texttt{a}S \texttt{b}|\texttt{b}S \texttt{a}|\texttt{b}S \texttt{b}|\texttt{b}
+S&\rightarrow \texttt{a}S \texttt{a}\ |\ \texttt{a}S \texttt{b}\ |\ \texttt{b}S \texttt{a}\ |\ \texttt{b}S \texttt{b}\ |\ \texttt{b}
 \end{align*}$$or $$\begin{align*}
 S&\rightarrow ASA\ |\ \texttt{b}\\
 A&\rightarrow \texttt{a}\ |\ \texttt{b}
 \end{align*}$$
 Language $E=\{w|w=w^\mathcal{R}\}$: $$\begin{align*}
-S&\rightarrow a S a\ |\ bSb\ |a|b
+S&\rightarrow a S a\ |\ bSb\ |\ a\ |\ b
 \end{align*}$$
 Language $F=\varnothing$: no rules
