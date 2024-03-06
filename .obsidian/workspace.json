@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Derive.md",
+                "file": "Context-Free Grammar.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leftmost Derivation.md",
+                "file": "Context-Free Grammar.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leftmost Derivation.md",
+                "file": "Context-Free Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leftmost Derivation.md"
+                "file": "Context-Free Grammar.md"
               }
             }
           },
@@ -209,13 +209,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da784787ee31c3ef",
+  "active": "10ab48f745ea867b",
   "lastOpenFiles": [
-    "Rightmost Derivation.md",
+    "Derive.md",
     "Leftmost Derivation.md",
+    "Rightmost Derivation.md",
     "Prefix (language).md",
     "Pushdown Automaton.md",
-    "Derive.md",
     "Context-Free Grammar.md",
     "Pumping Lemma.md",
     "QR Reconstruction/Notes.md",

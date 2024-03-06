@@ -17,3 +17,8 @@ B &\rightarrow \texttt{b}B|\varepsilon
 \end{align*}$$
 [[Derive]]: $$S\implies AB\implies \varepsilon B\implies \varepsilon\varepsilon=\varepsilon$$
 $$A\implies AB\implies \texttt{a}AB\implies a \varepsilon B\implies \texttt{aab}B\implies\texttt{aab}\varepsilon=\texttt{aab}$$
+
+Properly nested parens: $\Sigma=\{(,),[,]\}$
+$$\begin{align*}
+S&\rightarrow P|B
+\end{align*}$$
