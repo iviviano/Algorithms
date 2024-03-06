@@ -29,6 +29,9 @@ $$\begin{align*}
 S&\rightarrow (S)\ |\ [B]\ |\ SS\ |\ \varepsilon
 \end{align*}$$
 
-Language $A$
+Language $A=\Sigma^{*}$: $$\begin{align*}
+S&\rightarrow \texttt{a}S|\texttt{b}S|\varepsilon
+\end{align*}$$
+Language $B=\{w|w \text{ contains at least three }\texttt{b}s\}$
 
 
