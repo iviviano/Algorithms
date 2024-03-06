@@ -20,5 +20,11 @@ $$A\implies AB\implies \texttt{a}AB\implies a \varepsilon B\implies \texttt{aab}
 
 Properly nested parens: $\Sigma=\{(,),[,]\}$
 $$\begin{align*}
-S&\rightarrow P|B
+S&\rightarrow P|B|SS|\varepsilon\\
+P&\rightarrow(S)\\
+B&\rightarrow[B]
+\end{align*}$$
+
+$$\begin{align*}
+S&\rightarrow (S)|
 \end{align*}$$
