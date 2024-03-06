@@ -33,5 +33,9 @@ Language $A=\Sigma^{*}$: $$\begin{align*}
 S&\rightarrow \texttt{a}S|\texttt{b}S|\varepsilon
 \end{align*}$$
 Language $B=\{w|w \text{ contains at least three }\texttt{b}s\}$
-
-
+$$\begin{align*}
+S&\rightarrow NbNbNbN\\
+N&\rightarrow aN|\varepsilon
+\end{align*}$$
+Language $C=\{w|w \text{ starts and ends with different symbols }\}$
+$$ali$$
