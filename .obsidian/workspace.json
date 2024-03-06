@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "QR Reconstruction/Notes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prefix (language).md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prefix (language).md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prefix (language).md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -196,15 +196,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e7f0e6af0a58f7e",
+  "active": "68df7c2bf9382943",
   "lastOpenFiles": [
+    "QR Reconstruction/QR Reed-Solomon.md",
+    "Prefix (language).md",
     "Regular Operation.md",
     "Prefix (string).md",
     "Pumping Lemma.md",
-    "Prefix (language).md",
     "Regular Language.md",
     "Grading/HW2.md",
-    "QR Reconstruction/QR Reed-Solomon.md",
     "Grading/HW1 Rubric.md",
     "Grading/HW1.md",
     "Grading/HW0 Rubric.md",

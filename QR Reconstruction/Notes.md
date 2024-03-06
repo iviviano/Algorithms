@@ -23,6 +23,8 @@ Start with 29 x 29 QR Code (Need prime dimensions)
 	- length of message
 	- type of message
 	- alphabet
+ >[!important]
+ >indicators of masking and error correction level placed twice
 - Masking
 	- inverts certain regions, so that it is easier to scan
 	- question: if I read some of the code works and had strong enough error correction, would I be able to figure out the masking?
