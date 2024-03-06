@@ -24,7 +24,11 @@ S&\rightarrow P|B|SS|\varepsilon\\
 P&\rightarrow(S)\\
 B&\rightarrow[B]
 \end{align*}$$
-
+or
 $$\begin{align*}
-S&\rightarrow (S)|
+S&\rightarrow (S)\ |\ [B]\ |\ SS\ |\ \varepsilon
 \end{align*}$$
+
+Language $A$
+
+
