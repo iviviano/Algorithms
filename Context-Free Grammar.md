@@ -47,5 +47,6 @@ $$\begin{align*}
 S&\rightarrow \texttt{a}S \texttt{a}|\texttt{a}S \texttt{b}|\texttt{b}S \texttt{a}|\texttt{b}S \texttt{b}|\texttt{b}
 \end{align*}$$
 Language $E=\{w|w=w^\mathcal{R}\}$: $$\begin{align*}
-S&\rightarrow 
+S&\rightarrow a S a|bSb|a|b
 \end{align*}$$
+Language $F=\varnothing$: no rules
