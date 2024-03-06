@@ -9,5 +9,7 @@ mathLink: context-free grammar
 >4. $S\in V$ is the [[Start Variable]]
 
 
-`asdfs`
-$\texttt{asdfs}$
+Example: 
+```
+S -> ABV
+```
