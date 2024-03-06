@@ -10,4 +10,4 @@ S&\rightarrow ST|\texttt{a}T  \texttt{a}\\
 T&\rightarrow S|\texttt{a}T \texttt{a}|b
 \end{align*}$$
 Leftmost Derivation:
-$$S\implies ST\implies \texttt{a}T \texttt{a}T=\texttt{aa}$$
+$$S\implies ST\implies \texttt{a}T \texttt{a}T\implies\texttt{aa}T \texttt{aa}T\implies \texttt{aabaa}T\implies \texttt{aabaaa}T \texttt{a}\implies \texttt{aabaaaba}$$
