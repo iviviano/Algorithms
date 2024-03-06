@@ -52,6 +52,6 @@ S&\rightarrow ASA\ |\ \texttt{b}\\
 A&\rightarrow \texttt{a}\ |\ \texttt{b}
 \end{align*}$$
 Language $E=\{w|w=w^\mathcal{R}\}$: $$\begin{align*}
-S&\rightarrow a S a\ |\ bSb\ |\ a\ |\ b
+S&\rightarrow a S a\ |\ bSb\ |\ a\ |\ b\ |\ \varepsilon
 \end{align*}$$
 Language $F=\varnothing$: no rules
