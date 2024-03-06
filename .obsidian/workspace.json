@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "QR Reconstruction/QR Reed-Solomon.md"
               }
             }
           },
@@ -170,10 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad343f1539867d62",
+  "active": "99676b200d8ba670",
   "lastOpenFiles": [
-    "QR Reconstruction/QR Reed-Solomon.md",
     "QR Reconstruction/Notes.md",
+    "QR Reconstruction/QR Reed-Solomon.md",
     "Pumping Lemma.md",
     "Regular Operation.md",
     "Prefix (language).md",
