@@ -10,6 +10,14 @@ mathLink: context-free grammar
 
 
 Example: 
+$$\begin{align*}
+S &\rightarrow AB\\
+A &\rightarrow
+\end{align*}$$
 ```
-S -> ABV
+S -> AB
+A -> aA
+A -> 
+B -> bB
+B -> 
 ```
