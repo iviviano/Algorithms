@@ -12,12 +12,7 @@ mathLink: context-free grammar
 Example: 
 $$\begin{align*}
 S &\rightarrow AB\\
-A &\rightarrow
+A &\rightarrow \texttt{a}A|\varepsilon\\
+B &\rightarrow \texttt{b}B|\varepsilon
 \end{align*}$$
-```
-S -> AB
-A -> aA
-A -> 
-B -> bB
-B -> 
-```
+[[Deriva]]
