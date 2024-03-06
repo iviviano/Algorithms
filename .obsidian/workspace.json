@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rightmost Derivation.md",
+                "file": "Leftmost Derivation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rightmost Derivation.md",
+                "file": "Leftmost Derivation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rightmost Derivation.md",
+                "file": "Leftmost Derivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rightmost Derivation.md"
+                "file": "Leftmost Derivation.md"
               }
             }
           },
@@ -211,8 +211,8 @@
   },
   "active": "da784787ee31c3ef",
   "lastOpenFiles": [
-    "Leftmost Derivation.md",
     "Rightmost Derivation.md",
+    "Leftmost Derivation.md",
     "Prefix (language).md",
     "Pushdown Automaton.md",
     "Derive.md",
