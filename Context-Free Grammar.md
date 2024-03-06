@@ -15,4 +15,5 @@ S &\rightarrow AB\\
 A &\rightarrow \texttt{a}A|\varepsilon\\
 B &\rightarrow \texttt{b}B|\varepsilon
 \end{align*}$$
-[[Deriva]]
+[[Derive]]: $$S\implies AB\implies \varepsilon B\implies \varepsilon\varepsilon$$
+$$A\im$$
