@@ -72,3 +72,9 @@ TODO:
 1. Code to turn directional sums into block of linear system
 2. remove known pixels from linear system
 3. Find ICP solver and make sure it works
+
+
+
+>[!note]
+>Size 29 QR code has 7 0 bits at the end of the message for padding, could we use this to determine masking?
+
