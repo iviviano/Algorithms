@@ -35,7 +35,10 @@ S&\rightarrow \texttt{a}S|\texttt{b}S|\varepsilon
 Language $B=\{w|w \text{ contains at least three }\texttt{b}s\}$
 $$\begin{align*}
 S&\rightarrow NbNbNbN\\
-N&\rightarrow aN|\varepsilon
+N&\rightarrow aN|bN|\varepsilon
 \end{align*}$$
 Language $C=\{w|w \text{ starts and ends with different symbols }\}$
-$$ali$$
+$$\begin{align*}
+S&\rightarrow \texttt{a}N\texttt{b}|bNa\\
+N&\rightarrow a
+\end{align*}$$
