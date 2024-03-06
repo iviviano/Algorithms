@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leftmost Derivation.md",
+                "file": "Rightmost Derivation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leftmost Derivation.md",
+                "file": "Rightmost Derivation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leftmost Derivation.md",
+                "file": "Rightmost Derivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leftmost Derivation.md"
+                "file": "Rightmost Derivation.md"
               }
             }
           },
@@ -211,8 +211,9 @@
   },
   "active": "da784787ee31c3ef",
   "lastOpenFiles": [
-    "Prefix (language).md",
     "Leftmost Derivation.md",
+    "Rightmost Derivation.md",
+    "Prefix (language).md",
     "Pushdown Automaton.md",
     "Derive.md",
     "Context-Free Grammar.md",
@@ -236,7 +237,6 @@
     "Alphabet.md",
     "Language.md",
     "Polynomial Run Time.md",
-    "Cook and Levin Theorem.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
