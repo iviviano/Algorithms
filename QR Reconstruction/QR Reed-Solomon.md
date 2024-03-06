@@ -27,4 +27,3 @@ $$\begin{align*}
 >[!question]
 >Can the syndromes be additional equations for the ILP solver? (Would need to factor in masking)
 
-

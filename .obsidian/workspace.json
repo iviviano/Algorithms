@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad343f1539867d62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "QR Reconstruction/Notes.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/QR Reed-Solomon.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -156,8 +170,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99676b200d8ba670",
+  "active": "ad343f1539867d62",
   "lastOpenFiles": [
+    "QR Reconstruction/QR Reed-Solomon.md",
     "Pumping Lemma.md",
     "Regular Operation.md",
     "Prefix (language).md",
@@ -167,7 +182,6 @@
     "Rightmost Derivation.md",
     "Pushdown Automaton.md",
     "QR Reconstruction/Notes.md",
-    "QR Reconstruction/QR Reed-Solomon.md",
     "Prefix (string).md",
     "Regular Language.md",
     "Grading/HW2.md",
