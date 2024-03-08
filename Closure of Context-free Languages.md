@@ -7,4 +7,4 @@ mathLink: closure of context-free languages
 >[!proof]
 
 Union: 
-Let $G_{1}=(v_{1},\Sigma,R_{1},S_{1})$ and $G_{2}=(V_{2},\Sigma,R)$
+Let $G_{1}=(V_{1},\Sigma,R_{1},S_{1})$ have the [[Language]] $A$ and $G_{2}=(V_{2},\Sigma,R_{2},S_{2})$ have the [[Language of a Grammar]] $B$ with $V_{1}≠V_{2}$
