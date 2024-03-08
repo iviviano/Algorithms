@@ -8,3 +8,8 @@ mathLink: closure of context-free languages
 
 Union: 
 Let $G_{1}=(V_{1},\Sigma,R_{1},S_{1})$ have the [[Language]] $A$ and $G_{2}=(V_{2},\Sigma,R_{2},S_{2})$ have the [[Language of a Grammar]] $B$ with $V_{1}≠V_{2}$
+
+Construct a new [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$: $$\begin{align*}
+V&= V_{1}\cup V_{2}\cup\{S\}\\
+R&= R_{1}\cup R_{2}\cup\
+\end{align*}$$
