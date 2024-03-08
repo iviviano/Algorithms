@@ -14,4 +14,6 @@ V&= V_{1}\cup V_{2}\cup\{S\}\\
 R&= R_{1}\cup R_{2}\cup\{S \rightarrow S_{1}|S_{2}\}
 \end{align*}$$
 If $w\in A$, then $G_{1}$ [[Derive]]s $w$, $S_{1}\xRightarrow{*}w$, so $G$ [[Derive]]s $w$ by $S \implies S_{1}\xRightarrow{*}w$.
-If $w\in B$, then $G_{2}$ [[Derive]]s $w$, $S_{2}\xRightarrow{*}w$, so $G$ [[]]
+If $w\in B$, then $G_{2}$ [[Derive]]s $w$, $S_{2}\xRightarrow{*}w$, so $G$ [[Derive]]s $w$ by $S \implies S_{2}\xRightarrow{*}w$
+
+If $w\in L(G)$, then either 
