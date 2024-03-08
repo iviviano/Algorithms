@@ -78,5 +78,5 @@ TODO:
 >[!note]
 >Size 29 QR code has 7 0 bits at the end of the message for padding, could we use this to determine masking?
 
-
-Are the syndromes exactly 0 or just $0\in\text{GF}$
+TODO:
+Are the syndromes exactly 0 or just $0\in\text{GF}(256)$?
