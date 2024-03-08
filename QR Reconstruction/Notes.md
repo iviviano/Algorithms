@@ -77,8 +77,3 @@ TODO:
 
 >[!note]
 >Size 29 QR code has 7 0 bits at the end of the message for padding, could we use this to determine masking?
-
-
->[!question]
->How does the current algorithm?
-
