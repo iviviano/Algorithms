@@ -19,3 +19,6 @@ If $w\in B$, then $G_{2}$ [[Derive]]s $w$, $S_{2}\xRightarrow{*}w$, so $G$ [[Der
 If $w\in L(G)$, then either $S\implies S_{1}\xRightarrow{*}w$ or $S\implies S_{2}\xRightarrow{*}w$. Thus, $w\in A\cup B$.
 
 Concatenation:
+Let $G_{1}=(V_{1},\Sigma,R_{1},S_{1})$ generate $A$ and $G_{2}=(V_{2},\Sigma,R_{2},S_{2})$ generate $B$ with $V_{1}≠V_{2}$.
+
+Construct a new [[Context-Free Grammar]] $G=(V,\Sigma,R)$
