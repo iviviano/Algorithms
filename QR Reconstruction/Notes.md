@@ -80,3 +80,6 @@ TODO:
 
 TODO:
 Are the syndromes exactly 0 or just $0\in\text{GF}(256)$?
+How big do the syndromes get?
+Explain $\text{GF}(4)$
+
