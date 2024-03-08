@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "QR Reconstruction/QR Reed-Solomon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW1.md"
+                "file": "QR Reconstruction/QR Reed-Solomon.md"
               }
             }
           },
@@ -183,8 +182,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3da2958d8cfa546",
+  "active": "99676b200d8ba670",
   "lastOpenFiles": [
+    "Grading/HW1.md",
     "Grading/HW2.md",
     "QR Reconstruction/Notes.md",
     "QR Reconstruction/QR Reed-Solomon.md",
@@ -199,7 +199,6 @@
     "Prefix (string).md",
     "Regular Language.md",
     "Grading/HW1 Rubric.md",
-    "Grading/HW1.md",
     "Grading/HW0 Rubric.md",
     "Grading/HW0.md",
     "Grading/HW2 Rubric.md",
