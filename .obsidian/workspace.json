@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "f3da2958d8cfa546",
+            "id": "6badba630b330720",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grading/HW1.md",
+                "file": "Inherently Ambiguous.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Inherently Ambiguous.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Inherently Ambiguous.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "Inherently Ambiguous.md"
               }
             }
           },
@@ -183,11 +183,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad343f1539867d62",
+  "active": "6badba630b330720",
   "lastOpenFiles": [
-    "QR Reconstruction/QR Reed-Solomon.md",
+    "Ambiguous Grammar.md",
+    "Ambiguously.md",
     "QR Reconstruction/Notes.md",
     "Grading/HW1.md",
+    "QR Reconstruction/QR Reed-Solomon.md",
     "Grading/HW2.md",
     "Pumping Lemma.md",
     "Regular Operation.md",
@@ -209,8 +211,6 @@
     "Set-Theory/Sequence.md",
     "List.md",
     "Alphabet.md",
-    "Language.md",
-    "Polynomial Run Time.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
