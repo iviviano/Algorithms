@@ -76,7 +76,7 @@ Ben and Anya
 
 Honor Code: NO!!!
 
-Neither of you signed the Honor Code. You 
+Neither of you signed the Honor Code. You must do so for your grade to be posted on campuswire.
 
 Implementation notes:
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. `apply` handles this when its procedure can accept no arguments. For example, `(+)` returns `0`, so `(apply + empty)` returns `0`.
