@@ -50,7 +50,7 @@ Great job! You've got a good handle on the higher order functions.
 
 Rory and Amanda
 
-Honor Code:
+Honor Code: yes
 
 Implementation notes:
 
