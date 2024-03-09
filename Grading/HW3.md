@@ -53,7 +53,7 @@ Rory and Amanda
 Honor Code: yes
 
 Implementation notes:
-
+- `map` handles the the empty list input by returning the
 
 Testing notes:
 
