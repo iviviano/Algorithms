@@ -77,7 +77,7 @@ Ben and Anya
 Honor Code: NO!!!
 
 Implementation notes:
-
+- `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. 
 
 Testing notes:
 
