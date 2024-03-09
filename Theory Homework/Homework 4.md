@@ -4,4 +4,11 @@
 (b) $$\Sigma^{+}$$
 (c) $$(\Sigma \texttt{b} \Sigma)^{+}$$
 (d) $$(\texttt{b}\texttt{a}\texttt{a}^{+})^{*}$$
-(e) $$$$
+(e) $$\texttt{a}^{*}\texttt{b}^{*}$$
+
+>[!2]
+
+
+
+>[!3]
+
