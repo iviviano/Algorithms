@@ -28,7 +28,7 @@ Honor Code: yes
 
 Implementation notes:
 - You used a helper function for `mat-vec-mul`, which is fine. From now on, you should avoid using `define` to declare helpers if they are only used in one procedure. Instead, use an appropriate `let` form or an anonymous `lambda`.
-- You might be interested in `append*`, which works like `(apply append ...)`.
+- Nice implementation of `flatten`. You might be interested in `append*`, which works like `(apply append ...)`.
 - Your implementation of `gen-map` only handles 1 "layer" of list nesting. Note that `(gen-map list? lst)` should maintain the structure of `lst`, replacing every atom with `#f`. Your implementation correctly handles `(gen-map list? '(() (1) (1 2)))`, returning `'(() (#f) (#f #f))`. For a deeper nested list, it fails: `(gen-map list? '((() ())))` returns `'((#t #t))` instead of `'((() ()))`.
 
 ```
@@ -78,7 +78,7 @@ Honor Code: NO!!!
 
 Implementation notes:
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. `apply` handles this when its procedure can accept no arguments. For example, `(+)` returns `0`, so `(apply + empty)` returns `0`.
-- 
+- Nice implementation of `flatten`. You might be interested in `append*`, which works like `(apply append ...)`.
 - Your base case for `sum` is incorrect, since `(sum empty)` should return `0`. If you remove the base case, it would work, because of the note above. 
 - You used a helper function for `gen-map`, which is fine. From now on, you should avoid using `define` to declare helpers if they are only used in one procedure. Instead, use an appropriate `let` form or an anonymous `lambda`.
 
