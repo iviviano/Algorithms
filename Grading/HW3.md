@@ -55,8 +55,6 @@ Honor Code: yes
 Implementation notes:
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. 
 
-Testing notes:
-
 ```
 Homework Attempted:     10/10
 Problem  1:             10/10
@@ -70,6 +68,8 @@ Problem  8:             10/10
 Problem  9:             10/10
 TOTAL:                  100/100
 ```
+
+
 
 
 Ben and Anya
