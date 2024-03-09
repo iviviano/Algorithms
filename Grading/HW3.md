@@ -53,7 +53,7 @@ Rory and Amanda
 Honor Code: yes
 
 Implementation notes:
-- `map` handles the the empty list input by returning the
+- `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for 
 
 Testing notes:
 
