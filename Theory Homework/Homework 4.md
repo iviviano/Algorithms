@@ -18,4 +18,4 @@ $$\begin{align*}
 A\ \triangle\ B&:= (A-B)\cup(B-A)\\
 &= (A\cap(\Sigma^{*}-B))\cup(B\cap (\Sigma^{*}-A))
 \end{align*}$$
-Since $\Sigma^{*},A,$
+Since $A$ and $B$ are [[Regular Language]] [[Language]]s, and the class of [[Regular Language]] [[Language]]s is [[Closed Under an Operation]] under [[Intersection]], [[Union]], and [[Compliment]]
