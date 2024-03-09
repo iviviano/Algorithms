@@ -27,6 +27,7 @@ Al
 Honor Code: yes
 
 Implementation notes:
+- Your implementation of `gen-map` only handles 1 "layer" 
 
 
 
@@ -46,6 +47,7 @@ Problem  9:             -1/10
 TOTAL:                  /100
 ```
 
+Great job! You've got a good handle on the higher order functions.
 
 Rory and Amanda
 
