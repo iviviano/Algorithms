@@ -12,8 +12,10 @@
 
 >[!3]
 
+Note that for all [[Language]]s $A,B\subseteq \Sigma^{*}$,
+$$A-B= A\cap(\Sigma^{*}-B)$$So,
 $$\begin{align*}
-A-B&= A\cap(\Sigma^{*}-B)\\
 A\ \triangle\ B&:= (A-B)\cup(B-A)\\
-&= (A\cap(\Sigma^{*}-B))\cup(B\cap (\Sigma-A))
+&= (A\cap(\Sigma^{*}-B))\cup(B\cap (\Sigma^{*}-A))
 \end{align*}$$
+Since $\Sigma^{*},A,$
