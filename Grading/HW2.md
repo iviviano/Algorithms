@@ -50,18 +50,18 @@ Janny:
 Honor Code: yes
 ```
 Homework Base:      20/20
-Problem  1:         5/10 Please use letrec in the future for helper functions. Note that you could assume input lists were sorted for this problem.
-Problem  2:         5/10 This implementation relies on merge working on unsorted lists.
-Problem  3:         4/10 Everything works except that the order of your base cases is wrong. So, (has-sublist? null null) returns #f but should return #t.
-Problem  4:         5/10 
-Problem  5:         5/10
-Problem  6:         5/10
+Problem  1:         10/10 Please use letrec in the future for helper functions. Note that you could assume input lists were sorted for this problem.
+Problem  2:         10/10 This implementation relies on merge working on unsorted lists.
+Problem  3:         9/10 Everything works except that the order of your base cases is wrong. So, (has-sublist? null null) returns #f but should return #t.
+Problem  4:         10/10 
+Problem  5:         10/10
+Problem  6:         10/10
 Problem  7:         0/10 Missing
-Problem  8:         4/10 I think that using so many helper functions overcomplicated the problem. Your implementation fails on the inputs: (all-exchange '(a c) '(c a) '(c)) and (all-exchange '(a b c) '(x y z) '(a b r a c a d a b r a)). The first should return '(a) and the second should return '(x y r x z x d x y r x).
-TOTAL:              53/100
+Problem  8:         9/10 I think that using so many helper functions overcomplicated the problem. Your implementation fails on the inputs: (all-exchange '(a c) '(c a) '(c)) and (all-exchange '(a b c) '(x y z) '(a b r a c a d a b r a)). The first should return '(a) and the second should return '(x y r x z x d x y r x).
+TOTAL:              88/100
 ```
 
-You lost 5 points on every problem because there were no tests in your tests.rkt file. If this is a github issue, please reach out to Molly.
+
 
 
 Jkutchey
