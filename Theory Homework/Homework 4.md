@@ -13,9 +13,13 @@
 >[!3]
 
 Note that for all [[Language]]s $A,B\subseteq \Sigma^{*}$,
-$$A-B= A\cap(\Sigma^{*}-B)$$So,
+$$A-B= A\cap(\Sigma^{*}-B)$$where $\Sigma^{*}-B$ is the [[Compliment]] of $B$. So,
 $$\begin{align*}
 A\ \triangle\ B&:= (A-B)\cup(B-A)\\
 &= (A\cap(\Sigma^{*}-B))\cup(B\cap (\Sigma^{*}-A))
 \end{align*}$$
-Since $A$ and $B$ are [[Regular Language]] [[Language]]s, and the class of [[Regular Language]] [[Language]]s is [[Closed Under an Operation]] under [[Intersection]], [[Union]], and [[Compliment]]
+Since $A$ and $B$ are [[Regular Language]] [[Language]]s, and the class of [[Regular Language]] [[Language]]s is [[Closed Under an Operation]] under [[Intersection]], [[Union]], and [[Compliment]], the symmetric difference is regular.
+
+
+>[!4]
+>
