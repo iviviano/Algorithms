@@ -83,7 +83,7 @@ Implementation notes:
 Testing notes:
 
 ```
-Homework Attempted:     /10
+Homework Attempted:     10/10
 Problem  1:             /10
 Problem  2:             /10
 Problem  3:             /10
