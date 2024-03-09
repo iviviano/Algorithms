@@ -26,7 +26,7 @@ Al
 
 Honor Code: yes
 
-Implementation notes:
+Implementation notes: 
 
 
 Testing notes:
