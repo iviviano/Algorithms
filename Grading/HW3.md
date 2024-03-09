@@ -76,6 +76,8 @@ Ben and Anya
 
 Honor Code: NO!!!
 
+Neither of you signed the Honor Code. You 
+
 Implementation notes:
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. `apply` handles this when its procedure can accept no arguments. For example, `(+)` returns `0`, so `(apply + empty)` returns `0`.
 - Nice implementation of `flatten`. You might be interested in `append*`, which works like `(apply append ...)`.
