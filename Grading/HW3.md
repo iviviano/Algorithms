@@ -27,7 +27,7 @@ Al
 Honor Code: yes
 
 Implementation notes:
-- Your implementation of `gen-map` only handles 1 "layer" 
+- Your implementation of `gen-map` only handles 1 "layer" of list nesting. Note that `(gen-map list? lst)`
 
 
 
