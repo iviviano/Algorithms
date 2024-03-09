@@ -165,3 +165,18 @@ It helps with readability.
 
 Becca
 
+Honor Code: yes
+```
+Homework Base:      20/20
+Problem  1:         10/10
+Problem  2:         10/10
+Problem  3:         10/10
+Problem  4:         10/10
+Problem  5:         10/10
+Problem  6:         10/10
+Problem  7:         10/10
+Problem  8:         9/10 
+TOTAL:              99/100
+```
+
+
