@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW3 Rubric.md",
+                "file": "Grading/HW3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW3 Rubric.md",
+                "file": "Grading/HW3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW3 Rubric.md"
+                "file": "Grading/HW3.md"
               }
             }
           },
@@ -182,10 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41d59e43898dd06a",
+  "active": "b3edf01abbae2c8d",
   "lastOpenFiles": [
-    "Grading/HW3.md",
     "Grading/HW3 Rubric.md",
+    "Grading/HW3.md",
     "Grading/HW2.md",
     "Grading/HW2 Rubric.md",
     "QR Reconstruction/QR Reed-Solomon.md",
