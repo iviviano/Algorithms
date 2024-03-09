@@ -12,3 +12,6 @@
 
 >[!3]
 
+$$\begin{align*}
+A\ \triangle\ B&:= (A-B)\cup(B-A)
+\end{align*}$$
