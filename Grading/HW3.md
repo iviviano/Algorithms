@@ -24,7 +24,7 @@ TOTAL:                  /100
 
 Al
 
-Honor Code:
+Honor Code: yes
 
 Implementation notes:
 
