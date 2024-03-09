@@ -28,7 +28,7 @@ Honor Code: yes
 
 Implementation notes:
 - You used a helper function for `mat-vec-mul`, which is fine. From now on, you should avoid using `define` to declare helpers if they are only used in one procedure. Instead, use an appropriate `let` form or an anonymous `lambda`.
-- If you're going to use `append` on a homework assignment or exam, please talk to Molly and make sure it's ok. No points off this week, since `append` allows the use of higher order functions for `flatten`. Also, you might be interested in `append*`, which works like `(apply append ...)`.
+- You might be interested in `append*`, which works like `(apply append ...)`.
 - Your implementation of `gen-map` only handles 1 "layer" of list nesting. Note that `(gen-map list? lst)` should maintain the structure of `lst`, replacing every atom with `#f`. Your implementation correctly handles `(gen-map list? '(() (1) (1 2)))`, returning `'(() (#f) (#f #f))`. For a deeper nested list, it fails: `(gen-map list? '((() ())))` returns `'((#t #t))` instead of `'((() ()))`.
 
 ```
