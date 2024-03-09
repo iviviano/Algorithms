@@ -77,7 +77,8 @@ Ben and Anya
 Honor Code: NO!!!
 
 Implementation notes:
-- `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. 
+- `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. `apply` handles this when it
+- Your base case for 
 
 Testing notes:
 
@@ -95,7 +96,7 @@ Problem  9:             /10
 TOTAL:                  /100
 ```
 
-Great job! Please use the default Dr Racket indentation w
+Great job! Please use the default Dr Racket indentation when formatting your code.
 
 William (extension, due Saturday)
 
