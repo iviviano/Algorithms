@@ -78,7 +78,7 @@ Honor Code: NO!!!
 
 Implementation notes:
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. `apply` handles this when its procedure can accept no arguments. For example, `(+)` returns `0`, so `(apply + empty)` returns `0`.
-- Your base case for `sum` is incorrect, since `(sum empty)` should return 
+- Your base case for `sum` is incorrect, since `(sum empty)` should return `0`. If you remove the base case, it would work, because of the note above. 
 
 Testing notes:
 
@@ -91,7 +91,7 @@ Problem  4:             /10
 Problem  5:             /10
 Problem  6:             /10
 Problem  7:             /10
-Problem  8:             /10
+Problem  8:             -1/10
 Problem  9:             /10
 TOTAL:                  /100
 ```
