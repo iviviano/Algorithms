@@ -27,8 +27,9 @@ S &\rightarrow AB\ |\ CD\\
 A&\rightarrow \texttt{a}A \texttt{b}\ |\ \varepsilon\\
 B&\rightarrow \texttt{c}B\ |\ \varepsilon\\
 C&\rightarrow \texttt{a}C\ |\ \varepsilon\\
-D&\rightarrow \texttt{b}D \texttt{c}
+D&\rightarrow \texttt{b}D \texttt{c}\ |\ \varepsilon
 \end{align*}$$
 
 >[!5]
 
+The [[Context-Free Grammar]] from (4) is [[Ambiguous Grammar]]. Here are two derivations of 
