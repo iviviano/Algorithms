@@ -58,9 +58,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05a65ceec2e0d5d8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -176,7 +186,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -196,7 +208,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85b057479a21bb26",
+  "active": "05a65ceec2e0d5d8",
   "lastOpenFiles": [
     "Theory Homework/Homework 4.md",
     "Grading/Grading Notes.md",
