@@ -25,5 +25,6 @@ Since $A$ and $B$ are [[Regular Language]] [[Language]]s, and the class of [[Reg
 
 $$\begin{align*}
 S &\rightarrow AB\ |\ CD\\
-A&\rightarrow 
+A&\rightarrow \texttt{a}A \texttt{b}\ |\ \varepsilon\\
+B&\rightarrow \texttt{c}B\ |\ 
 \end{align*}$$
