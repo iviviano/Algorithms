@@ -33,4 +33,4 @@ D&\rightarrow \texttt{b}D \texttt{c}\ |\ \varepsilon
 >[!5]
 
 The [[Context-Free Grammar]] from (4) is [[Ambiguous Grammar]]. Here are two derivations of $\varepsilon$:
-$$S\implies AB\implies$$
+$$S\implies AB\implies \varepsilon B\implies \varepsilon \varepsilon=\varepsilon$$$$S\implies CD\implies \varepsilon B\implies \varepsilon \varepsilon=\varepsilon$$
