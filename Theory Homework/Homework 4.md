@@ -22,10 +22,13 @@ Since $A$ and $B$ are [[Regular Language]] [[Language]]s, and the class of [[Reg
 
 
 >[!4]
-
 $$\begin{align*}
 S &\rightarrow AB\ |\ CD\\
 A&\rightarrow \texttt{a}A \texttt{b}\ |\ \varepsilon\\
 B&\rightarrow \texttt{c}B\ |\ \varepsilon\\
-C&\rightarrow \texttt{a}
+C&\rightarrow \texttt{a}C\ |\ \varepsilon\\
+D&\rightarrow \texttt{b}D \texttt{c}
 \end{align*}$$
+
+>[!5]
+
