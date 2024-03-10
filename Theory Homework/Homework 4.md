@@ -23,3 +23,6 @@ Since $A$ and $B$ are [[Regular Language]] [[Language]]s, and the class of [[Reg
 
 >[!4]
 
+$$\begin{align*}
+S &\rightarrow TC
+\end{align*}$$
