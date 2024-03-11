@@ -14,4 +14,5 @@ Use structural induction on [[Regular Expression]]s: Three base cases: $$\begin{
 \varepsilon: S &\rightarrow \varepsilon\\
 \forall t\in \Sigma: S&\rightarrow t\\
 \end{align*}$$
-Inductive 
+Inductive cases: 
+- $R_{1}R_{2}$ can be generated as the [[Language Concatenation]]ion of two [[Context-Free Languages]], so it is [[cont]]
