@@ -177,6 +177,6 @@ Problem  8:         9/10 You lost one point for not having a test case with no e
 TOTAL:              94/100
 ```
 
-Nice job on your implementations! When writing a test suite, it is important to 
+Nice job on your implementations! When writing a test suite, it is important to consider possible edge cases. For most functions on lists, this inc
 
 One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
