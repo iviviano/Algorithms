@@ -40,7 +40,7 @@ B&\rightarrow \texttt{b}B\ |\ \varepsilon
 - $E=\{w|w\in\{0,1\}^{*}\text{ and }w\text{ is a binary number not divisible by }5\}$ $$\begin{align*}
 Z&\rightarrow \texttt{0}Z\ |\ \texttt{1}O\\
 O&\rightarrow \texttt{0}T\ |\ \texttt{1}T\\
-T&\rightarrow \texttt{0}O\ |\ \\
+T&\rightarrow \texttt{0}F\ |\ \texttt{1}Z\\
 H\\
 F\\
 \end{align*}$$This can also be done by converting the DFA that [[Recognize]]s $E$ into a [[Context-Free Grammar]]
