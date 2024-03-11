@@ -41,6 +41,6 @@ B&\rightarrow \texttt{b}B\ |\ \varepsilon
 Z&\rightarrow \texttt{0}Z\ |\ \texttt{1}O\\
 O&\rightarrow \texttt{0}T\ |\ \texttt{1}T\\
 T&\rightarrow \texttt{0}F\ |\ \texttt{1}Z\\
-H\\
-F\\
+H&\rightarrow \texttt{0}T\ |\ \texttt{1}T\\
+F&\rightarrow \texttt{0}\\
 \end{align*}$$This can also be done by converting the DFA that [[Recognize]]s $E$ into a [[Context-Free Grammar]]
