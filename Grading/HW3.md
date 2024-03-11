@@ -110,6 +110,8 @@ Implementation notes:
 
 Testing notes:
 - tests for `rests` were missing (-2 points)
+- only two tests for `vec-add` (-1 point)
+- only two test for `dot-product` (-1 )
 - tests for `mat-mat-mul` were missing (-5 points)
 
 ```
