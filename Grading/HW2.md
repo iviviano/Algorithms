@@ -174,8 +174,9 @@ Problem  5:         9/10 You lost one point for not testing an empty input.
 Problem  6:         10/10
 Problem  7:         9/10 You lost one point for not having a test case with no exchanges.
 Problem  8:         9/10 You lost one point for not having a test case with no exchanges.
-TOTAL:              /100
+TOTAL:              94/100
 ```
 
+Nice job on your implementations. When writing a test suite, it is important to 
 
 One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
