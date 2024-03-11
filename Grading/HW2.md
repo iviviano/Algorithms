@@ -172,7 +172,7 @@ Problem  3:         9/10 You lost one point for not testing an empty sublist.
 Problem  4:         9/10 You lost one point for not testing an empty sublist. 
 Problem  5:         9/10 You lost one point for not testing an empty input.
 Problem  6:         10/10
-Problem  7:         10/10 
+Problem  7:         9/10 You lost one point for not having a test case with no exchanges.
 Problem  8:         10/10 
 TOTAL:              99/100
 ```
