@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory Homework/Homework 4.md",
+                "file": "Grading/HW3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW2.md",
+                "file": "Grading/HW3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW2.md",
+                "file": "Grading/HW3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW2.md"
+                "file": "Grading/HW3.md"
               }
             }
           },
@@ -198,12 +198,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "569b8fce55deca9f",
+  "active": "b3edf01abbae2c8d",
   "lastOpenFiles": [
-    "QR Reconstruction/Notes.md",
-    "Equivalence of NFAs and Regular Expressions.md",
+    "Theory Homework/Homework 3.md",
     "Theory Homework/Homework 4.md",
     "Grading/HW2.md",
+    "QR Reconstruction/Notes.md",
+    "Equivalence of NFAs and Regular Expressions.md",
     "Grading/HW3 Rubric.md",
     "Grading/Grading Notes.md",
     "Grading/HW3.md",
@@ -225,7 +226,6 @@
     "Rightmost Derivation.md",
     "Pushdown Automaton.md",
     "Prefix (string).md",
-    "Regular Language.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
