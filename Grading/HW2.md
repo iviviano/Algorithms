@@ -178,3 +178,4 @@ TOTAL:              99/100
 ```
 
 
+One style note: closing parentheses should all be on the same line. Check out the racket fundamentals if you are confused https://campuswire.com/c/GD97EB223/feed/11.
