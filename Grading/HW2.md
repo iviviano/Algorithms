@@ -170,7 +170,7 @@ Problem  1:         10/10
 Problem  2:         9/10 Using a helper function is great! For future homeworks, you will be expected to implement them with the appropriate let form instead of define. You lost one point for not testing an empty input.
 Problem  3:         9/10 You lost one point for not testing an empty sublist.
 Problem  4:         9/10 You lost one point for not testing an empty sublist. 
-Problem  5:         10/10
+Problem  5:         9/10 You lost one point for not testing an empty input.
 Problem  6:         10/10
 Problem  7:         10/10 
 Problem  8:         10/10 
