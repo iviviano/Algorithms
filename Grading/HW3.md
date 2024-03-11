@@ -106,9 +106,11 @@ William (extension, due Saturday)
 Honor Code: yes
 
 Implementation notes:
-- `mat-mat-mul` w
+- `mat-mat-mul` was missing (-5 points)
 
 Testing notes:
+- tests for `rests` were missing (-2 points)
+- tests for `mat-mat-mul` were missing (-5 points)
 
 ```
 Homework Attempted:     /10
