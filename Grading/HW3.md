@@ -114,15 +114,16 @@ Testing notes:
 - only two tests for `dot-product` (-1 point)
 - only two tests for `mat-vec-mul` (-1 point)
 - tests for `mat-mat-mul` were missing (-5 points)
-- only
+- only two tests for `sum` (-1 points)
+- only one test for `gen-map` (-2 points)
 
 ```
-Homework Attempted:     /10
-Problem  1:             /10
-Problem  2:             /10
-Problem  3:             /10
-Problem  4:             /10
-Problem  5:             /10
+Homework Attempted:     10/10
+Problem  1:             8/10
+Problem  2:             9/10
+Problem  3:             9/10
+Problem  4:             9/10
+Problem  5:             10/10
 Problem  6:             /10
 Problem  7:             /10
 Problem  8:             /10
