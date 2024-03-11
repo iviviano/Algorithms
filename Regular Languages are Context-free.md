@@ -23,3 +23,4 @@ V&= Q\\
 R&= \{q \rightarrow tr| q\in Q,t\in \Sigma,\text{ and } \delta(q,t)=r\}\\
 S&= q_{0}
 \end{align*}$$
+Then, $G$ is a 
