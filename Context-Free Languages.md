@@ -37,4 +37,4 @@ S&\rightarrow S_{1}S\ |\ \varepsilon\\
 S_{1}&\rightarrow \texttt{ab}B\ |\ \texttt{bbaa}\\
 B&\rightarrow \texttt{b}B\ |\ \varepsilon
 \end{align*}$$
-- 
+- $E=\{w|w\in\{0,1\}^{*}\text{ and }w^\mathcal{R}}$
