@@ -172,8 +172,8 @@ Problem  3:         10/10
 Problem  4:         10/10
 Problem  5:         10/10
 Problem  6:         10/10
-Problem  7:         10/10
-Problem  8:         9/10 
+Problem  7:         10/10 Exchange did not need to 
+Problem  8:         10/10 
 TOTAL:              99/100
 ```
 
