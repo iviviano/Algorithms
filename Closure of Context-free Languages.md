@@ -25,3 +25,5 @@ Construct a new [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$ where $$\begin{align
 V&= V_{1}\cup V_{2}\cup\{S\}\\
 R&= R_{1}\cup R_{2}\cup\{S\rightarrow S_{1}S_{2}\}
 \end{align*}$$
+Star:
+Let $G_{1}=(V_{1},\Sigma,)$
