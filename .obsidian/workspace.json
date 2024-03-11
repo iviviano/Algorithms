@@ -52,25 +52,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md",
+                "file": "QR Reconstruction/Notes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "05a65ceec2e0d5d8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -153,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence of NFAs and Regular Expressions.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -208,13 +198,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05a65ceec2e0d5d8",
+  "active": "85b057479a21bb26",
   "lastOpenFiles": [
+    "Equivalence of NFAs and Regular Expressions.md",
     "Theory Homework/Homework 4.md",
+    "Grading/HW2.md",
+    "Grading/HW3 Rubric.md",
     "Grading/Grading Notes.md",
     "Grading/HW3.md",
-    "Grading/HW3 Rubric.md",
-    "Grading/HW2.md",
     "Grading/HW2 Rubric.md",
     "QR Reconstruction/QR Reed-Solomon.md",
     "QR Reconstruction/Notes.md",
@@ -235,7 +226,6 @@
     "Pushdown Automaton.md",
     "Prefix (string).md",
     "Regular Language.md",
-    "Grading/HW1 Rubric.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
