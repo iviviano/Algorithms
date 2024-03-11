@@ -30,5 +30,5 @@ S&\rightarrow aSbS\ |\ aScS\ |\ bSaS\ |\ cSaS\ |\ \varepsilon
 \end{align*}$$
 - $C=\{1^{m}+1^{n}|m,n≥1|m,n≥1\}$. $$\begin{align*}
 S&\rightarrow1S1 |T\\
-T&t
+T&\rightarrow+N
 \end{align*}$$
