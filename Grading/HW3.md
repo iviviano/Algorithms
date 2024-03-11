@@ -103,7 +103,7 @@ Great job! Please use the default Dr Racket indentation when formatting your cod
 
 William (extension, due Saturday)
 
-Honor Code:
+Honor Code: yes
 
 Implementation notes:
 
