@@ -106,7 +106,7 @@ William (extension, due Saturday)
 Honor Code: yes
 
 Implementation notes:
-
+- `mat-mat-mul` w
 
 Testing notes:
 
