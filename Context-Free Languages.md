@@ -38,9 +38,8 @@ S_{1}&\rightarrow \texttt{ab}B\ |\ \texttt{bbaa}\\
 B&\rightarrow \texttt{b}B\ |\ \varepsilon
 \end{align*}$$
 - $E=\{w|w\in\{0,1\}^{*}\text{ and }w\text{ is a binary number not divisible by }5\}$ $$\begin{align*}
-S&\rightarrow\\
-Z\\
-O\\
+Z&\rightarrow \texttt{0}Z\ |\ \texttt{1}O\\
+O&\rightarrow \texttt{0}O\ |\ \\
 T\\
 H\\
 F\\
