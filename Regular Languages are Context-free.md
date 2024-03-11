@@ -18,4 +18,7 @@ Inductive cases:
 
 >[!proof] Proof 2
 
-Let $$
+Let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]]. Let $G=(V,\Sigma,R,S)$ be a [[Context-Free Grammar]] defined by $$\begin{align*}
+V&= Q\\
+R
+\end{align*}$$
