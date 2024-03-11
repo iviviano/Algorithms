@@ -167,7 +167,7 @@ Honor Code: yes
 ```
 Homework Base:      20/20
 Problem  1:         10/10
-Problem  2:         10/10 Using a helper function is great! For future homeworks, you will be expected to implement them with the appropriate let form instea
+Problem  2:         10/10 Using a helper function is great! For future homeworks, you will be expected to implement them with the appropriate let form instead of define.
 Problem  3:         10/10
 Problem  4:         10/10
 Problem  5:         10/10
