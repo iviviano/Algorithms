@@ -32,4 +32,7 @@ S&\rightarrow aSbS\ |\ aScS\ |\ bSaS\ |\ cSaS\ |\ \varepsilon
 S&\rightarrow1S1 \ |\ +1T1\\
 T&\rightarrow 1T1\ |\ 1=1
 \end{align*}$$
-- $D=(\texttt{abb}^{*}\ |\ \texttt{bbaa})$
+- $D=(\texttt{abb}^{*}\ |\ \texttt{bbaa})^{*}$: $$\begin{align*}
+S&\rightarrow S_{1}S\ |\ \varepsilon\\
+S_{1}&\rightarrow \texttt{a}
+\end{align*}$$
