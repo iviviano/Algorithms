@@ -18,3 +18,4 @@ Inductive cases:
 
 >[!proof] Proof 2
 
+Let $$

@@ -39,8 +39,8 @@ B&\rightarrow \texttt{b}B\ |\ \varepsilon
 \end{align*}$$
 - $E=\{w|w\in\{0,1\}^{*}\text{ and }w\text{ is a binary number not divisible by }5\}$ $$\begin{align*}
 Z&\rightarrow \texttt{0}Z\ |\ \texttt{1}O\\
-O&\rightarrow \texttt{0}O\ |\ \\
-T\\
+O&\rightarrow \texttt{0}T\ |\ \texttt{1}T\\
+T&\rightarrow \texttt{0}\\
 H\\
 F\\
 \end{align*}$$
