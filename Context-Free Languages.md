@@ -21,5 +21,8 @@ B&\rightarrow \texttt{b}B|\varepsilon
 This is $$\begin{align*}
 S&\rightarrow TC|U\\
 C&\rightarrow \texttt{c}C|\varepsilon\\
-T&\rightarrow \texttt{a}B \texttt{b}|B\texttt{b}|\varepsilon
+T&\rightarrow \texttt{a}B \texttt{b}|B\texttt{b}|\varepsilon\\
+U&\rightarrow \texttt{a}U \texttt{c}|\texttt{a}B \texttt{c}|B|\varepsilon\\
+B&\rightarrow \texttt{b}B|\varepsilon
 \end{align*}$$
+- $B=\{w|w\in\{a,b,c\}}$
