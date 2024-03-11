@@ -34,5 +34,7 @@ T&\rightarrow 1T1\ |\ 1=1
 \end{align*}$$
 - $D=(\texttt{abb}^{*}\ |\ \texttt{bbaa})^{*}$: $$\begin{align*}
 S&\rightarrow S_{1}S\ |\ \varepsilon\\
-S_{1}&\rightarrow \texttt{a}
+S_{1}&\rightarrow \texttt{ab}B\ |\ \texttt{bbaa}\\
+B&\rightarrow \texttt{b}B\ |\ \varepsilon
 \end{align*}$$
+- 
