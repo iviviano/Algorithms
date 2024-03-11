@@ -25,4 +25,6 @@ T&\rightarrow \texttt{a}B \texttt{b}|B\texttt{b}|\varepsilon\\
 U&\rightarrow \texttt{a}U \texttt{c}|\texttt{a}B \texttt{c}|B|\varepsilon\\
 B&\rightarrow \texttt{b}B|\varepsilon
 \end{align*}$$
-- $B=\{w|w\in\{a,b,c\}}$
+- $B=\{w|w\in\{a,b,c\}^{*}\text{ contains the same number of }a \text{'s as }b \text{'s and }c \text{'s combined}\}$ $$\begin{align*}
+S&\rightarrow
+\end{align*}$$
