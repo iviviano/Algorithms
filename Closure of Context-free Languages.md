@@ -28,5 +28,5 @@ R&= R_{1}\cup R_{2}\cup\{S\rightarrow S_{1}S_{2}\}
 Star:
 Let $G_{1}=(V_{1},\Sigma,R_{1},S_{1})$ generate $A$. Construct a new [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$ to generate $A^*$ where $$\begin{align*}
 V&= V\cup\{S\}\\
-R=R_{1}\cup\{S \rightarrow SS}
+R&= R_{1}\cup\{S \rightarrow SS_{1}\ |\ \varepsilon\}
 \end{align*}$$
