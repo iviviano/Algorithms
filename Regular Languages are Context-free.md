@@ -20,5 +20,6 @@ Inductive cases:
 
 Let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]]. Let $G=(V,\Sigma,R,S)$ be a [[Context-Free Grammar]] defined by $$\begin{align*}
 V&= Q\\
-R
+R&= \{q \rightarrow tr| q\in Q,t\in \Sigma,\text{ and } \delta(q,t)=r\}\\
+S&= q_{0}
 \end{align*}$$
