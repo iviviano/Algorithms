@@ -9,4 +9,9 @@ mathLink: context-free language
 
 >[!proof]
 
-Use structural induction on [[regu]]
+Use structural induction on [[Regular Expression]]s: Three base cases: $$\begin{align*}
+\varnothing: S &\rightarrow S\\
+\varepsilon: S &\rightarrow \varepsilon\\
+\forall t\in \Sigma: S&\rightarrow t\\
+\end{align*}$$
+Inductive 
