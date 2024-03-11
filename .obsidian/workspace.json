@@ -32,35 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "569b8fce55deca9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85b057479a21bb26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW2 Rubric.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW2.md",
+                "file": "Grading/HW3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW2.md",
+                "file": "Grading/HW3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW2.md"
+                "file": "Grading/HW3.md"
               }
             }
           },
@@ -198,10 +172,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "569b8fce55deca9f",
+  "active": "b3edf01abbae2c8d",
   "lastOpenFiles": [
-    "Grading/HW2 Rubric.md",
     "Grading/HW2.md",
+    "Grading/HW2 Rubric.md",
     "Grading/HW3.md",
     "Grading/HW3 Rubric.md",
     "QR Reconstruction/Notes.md",
