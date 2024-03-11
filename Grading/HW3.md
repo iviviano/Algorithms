@@ -124,11 +124,11 @@ Problem  2:             9/10
 Problem  3:             9/10
 Problem  4:             9/10
 Problem  5:             10/10
-Problem  6:             /10
-Problem  7:             /10
-Problem  8:             /10
-Problem  9:             /10
-TOTAL:                  /100
+Problem  6:             0/10
+Problem  7:             10/10
+Problem  8:             9/10
+Problem  9:             8/10
+TOTAL:                  82/100
 ```
 
-
+Nice job with your implementations! 
