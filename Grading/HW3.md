@@ -131,4 +131,4 @@ Problem  9:             8/10
 TOTAL:                  82/100
 ```
 
-Nice job with your implementations! You lost a lot of points on tests. Make sure to follow the directions and provide enough testing examples. They are easy points to get, and writing thoughtful test suites will help you understand the functions as well. You should think about including edge cases in your tests. For example, try
+Nice job with your implementations! You lost a lot of points on tests. Make sure to follow the directions and provide enough testing examples. They are easy points to get, and writing thoughtful test suites will help you understand the functions as well. You should think about including edge cases in your tests. For example, trying the vector and matrix operations on empty inputs is important to demonstr
