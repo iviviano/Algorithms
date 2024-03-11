@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Grading/HW2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "Grading/HW2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "Grading/HW2.md"
               }
             }
           },
@@ -198,8 +198,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85b057479a21bb26",
+  "active": "569b8fce55deca9f",
   "lastOpenFiles": [
+    "QR Reconstruction/Notes.md",
     "Equivalence of NFAs and Regular Expressions.md",
     "Theory Homework/Homework 4.md",
     "Grading/HW2.md",
@@ -208,7 +209,6 @@
     "Grading/HW3.md",
     "Grading/HW2 Rubric.md",
     "QR Reconstruction/QR Reed-Solomon.md",
-    "QR Reconstruction/Notes.md",
     "Closure of Context-free Languages.md",
     "Regular Operation.md",
     "Context-Free Languages.md",
