@@ -38,9 +38,9 @@ S_{1}&\rightarrow \texttt{ab}B\ |\ \texttt{bbaa}\\
 B&\rightarrow \texttt{b}B\ |\ \varepsilon
 \end{align*}$$
 - $E=\{w|w\in\{0,1\}^{*}\text{ and }w\text{ is a binary number not divisible by }5\}$ $$\begin{align*}
-Z&\rightarrow \texttt{0}Z\ |\ \texttt{1}O\\
-O&\rightarrow \texttt{0}T\ |\ \texttt{1}T\\
-T&\rightarrow \texttt{0}F\ |\ \texttt{1}Z\\
-H&\rightarrow \texttt{0}T\ |\ \texttt{1}T\\
+Z&\rightarrow \texttt{0}Z\ |\ \texttt{1}T\\
+O&\rightarrow \texttt{0}T\ |\ \texttt{1}O\ |\ \varepsilon\\
+T&\rightarrow \texttt{0}F\ |\ \texttt{1}Z\ |\ \varepsilon\\
+H&\rightarrow \texttt{0}T\ |\ \texttt{1}T\ |\ \varepsilon\\
 F&\rightarrow \texttt{0}\\
 \end{align*}$$This can also be done by converting the DFA that [[Recognize]]s $E$ into a [[Context-Free Grammar]]
