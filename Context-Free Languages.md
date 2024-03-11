@@ -29,6 +29,7 @@ B&\rightarrow \texttt{b}B|\varepsilon
 S&\rightarrow aSbS\ |\ aScS\ |\ bSaS\ |\ cSaS\ |\ \varepsilon
 \end{align*}$$
 - $C=\{1^{m}+1^{n}|m,n≥1|m,n≥1\}$. $$\begin{align*}
-S&\rightarrow1S1 |T\\
-T&\rightarrow+N
+S&\rightarrow1S1 \ |\ +1T1\\
+T&\rightarrow 1T1\ |\ 1=1
 \end{align*}$$
+- $D=(\texttt{abb}^{*}\ |\ \texttt{bbaa})$
