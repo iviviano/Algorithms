@@ -37,8 +37,13 @@
             "id": "fe5c35ebe5ce1ffa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Theory Homework/Homework 4.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -108,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Theory Homework/Homework 4.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Theory Homework/Homework 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Theory Homework/Homework 4.md"
+              }
             }
           },
           {
@@ -178,6 +187,7 @@
   },
   "active": "fe5c35ebe5ce1ffa",
   "lastOpenFiles": [
+    "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "Grading/HW3.md",
     "Grading/HW2.md",
     "Grading/HW2 Rubric.md",
@@ -203,7 +213,6 @@
     "Derive.md",
     "Rightmost Derivation.md",
     "Pushdown Automaton.md",
-    "Prefix (string).md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
