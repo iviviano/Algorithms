@@ -3,7 +3,7 @@
 (a) $$\Sigma \Sigma \Sigma\ |\ \Sigma \Sigma\ |\ \Sigma\ |\ \varepsilon$$
 (b) $$\Sigma^{+}$$
 (c) $$\Sigma \texttt{b} \Sigma(\Sigma^{3})^{*}$$
-(d) $$(\texttt{b}\texttt{a}\texttt{a}^{+})^{*}$$
+(d) $$\texttt{a}^{*}(\texttt{b}\texttt{a}\texttt{a}^{+})^{*}$$
 (e) $$\texttt{a}^{*}\texttt{b}^{*}$$
 
 >[!2]
