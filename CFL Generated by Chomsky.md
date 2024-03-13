@@ -54,4 +54,10 @@ $\Sigma^{*}$ given by the [[Context-Free Grammar]]: $$T \rightarrow aT|bT|\varep
 START: $$\begin{align*}
 S&\rightarrow T\\
 T& \rightarrow aT|bT|\varepsilon
+\end{align*}$$DEL-$\varepsilon$: $$\begin{align*}
+S&\rightarrow T|\varepsilon\\
+T&\rightarrow aT|a|bT|b
+\end{align*}$$UNIT: $$\begin{align*}
+S&\rightarrow aT|a|bT|b|\varepsilon\\
+
 \end{align*}$$
