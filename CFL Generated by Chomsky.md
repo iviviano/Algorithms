@@ -67,8 +67,7 @@ B&\rightarrow b
 \end{align*}$$
 
 >[!example]
-
-$\{w:w \text{ starts and ends with different symbols}\}$ given by the grammar $$\begin{align*}
+$\{w:w\in\{} \text{ starts and ends with different symbols}\}$ given by the grammar $$\begin{align*}
 T &\rightarrow aUb|bUa\\
 U& \rightarrow aU|bU|\varepsilon
 \end{align*}$$START: $$\begin{align*}
@@ -96,5 +95,9 @@ X&\rightarrow Ua|a
 \end{align*}$$TERM: $$\begin{align*}
 S&\rightarrow T\\
 T&\rightarrow AV|BX\\
-U&\rightarrow AU|a|BU|b|
+U&\rightarrow AU|a|BU|b\\
+V&\rightarrow UB|b\\
+X&\rightarrow UA|a\\
+A&\rightarrow a\\
+B&\rightarrow b
 \end{align*}$$
