@@ -19,7 +19,7 @@ z&\rightarrow EF\\
 	2. $B \rightarrow AA$ Add rule $B \rightarrow A$ and if $B \rightarrow \varepsilon$ has not already been removed, add it
 	3. $B \rightarrow xA$ or $B \rightarrow Ax$, add rule $B \rightarrow x$
 4. (UNIT) Remove all Unit rules $(A \rightarrow B)$ and add rules $A \rightarrow u$ for  each $B \rightarrow u$ unless $A \rightarrow u$ is a unit rule already removed
-5. TERM
+	1. (TERM) For each $t\in \Sigma$, add a new variable $T$ and a rule $T \rightarrow t$; replace each $t$ in the RHS of non-unit rules with $T$
 
 
 
@@ -45,4 +45,7 @@ S &\rightarrow aU|bV|a|b|\varepsilon\\
 T &\rightarrow aU|bV|a|b\\
 U&\rightarrow Ta|a\\
 V&\rightarrow Tb|b
+\end{align*}$$
+TERM: $$\begin{align*}
+S&\rightarrow AU|BV|a
 \end{align*}$$
