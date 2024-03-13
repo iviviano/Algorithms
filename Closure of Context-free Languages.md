@@ -31,4 +31,4 @@ V&= V\cup\{S\}\\
 R&= R_{1}\cup\{S \rightarrow SS_{1}\ |\ \varepsilon\}
 \end{align*}$$
 Prefix:
-Let $G_{1}=(V_{1},)$
+Let $G_{1}=(V_{1},\Sigma,R_{1},S_{1})$ be a [[Context-Free Grammar]] in [[Chomsky Normal Form]] generating $A$. 
