@@ -80,5 +80,10 @@ S&\rightarrow T\\
 T&\rightarrow aV|bX\\
 U&\rightarrow aU|bU|\varepsilon\\
 V&\rightarrow Ub\\
-X&t
+X&\rightarrow Ua
+\end{align*}$$DEL-$\varepsilon$: $$\begin{align*}
+S&\rightarrow T\\
+T& \rightarrow aV|bX\\
+U \rightarrow aU|bU|\varepsilon\\
+V&\rightarrow U b|
 \end{align*}$$
