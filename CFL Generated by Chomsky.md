@@ -47,5 +47,10 @@ U&\rightarrow Ta|a\\
 V&\rightarrow Tb|b
 \end{align*}$$
 TERM: $$\begin{align*}
-S&\rightarrow AU|BV|a
+S&\rightarrow AU|BV|a|b|\varepsilon\\
+T&\rightarrow AU|BV|a|b\\
+U&\rightarrow TA|a\\
+V&\rightarrow TB|b\\
+A&\rightarrow a\\
+B&\rightarrow b
 \end{align*}$$
