@@ -11,3 +11,13 @@ Given a [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$ generating $A$, we construct
 2. (BIN) Replace rules with RHS larger than two with mutiple rules each of which has a RHS of length two
 3. (DEL-$\varepsilon$) Remove all $\varepsilon$-rules
 4. (UNIT) Remove all Unit rules $(A \rightarrow B)$
+5. 
+
+
+
+>[!example]
+
+The language of [[Palindrome]]s has grammar $$T \rightarrow aTa|bTb|a|b|\varepsilon$$START:$$\begin{align*}
+S&\rightarrowT\\
+T \rightarrow aTa
+\end{align*}$$
