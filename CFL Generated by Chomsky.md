@@ -18,7 +18,7 @@ z&\rightarrow EF\\
 	1. $B \rightarrow A$ Add rule $B \rightarrow \varepsilon$ unless $B \rightarrow \varepsilon$ has already been removed
 	2. $B \rightarrow AA$ Add rule $B \rightarrow A$ and if $B \rightarrow \varepsilon$ has not already been removed, add it
 	3. $B \rightarrow xA$ or $B \rightarrow Ax$, add rule $B \rightarrow x$
-4. (UNIT) Remove all Unit rules $(A \rightarrow B)$
+4. (UNIT) Remove all Unit rules $(A \rightarrow B)$ and add rules $A \rightarrow u$ for  each $B \rightarrow u$ unless $A$
 5. 
 
 
@@ -40,4 +40,6 @@ S &\rightarrow T|\varepsilon\\
 T &\rightarrow aU|bV|a|b\\
 U&\rightarrow Ta | a\\
 V&\rightarrow Tb|b\\
-\end{align*}$$UNIT
+\end{align*}$$UNIT: $$\begin{align*}
+
+\end{align*}$$
