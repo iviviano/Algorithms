@@ -18,6 +18,10 @@ Given a [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$ generating $A$, we construct
 >[!example]
 
 The language of [[Palindrome]]s has grammar $$T \rightarrow aTa|bTb|a|b|\varepsilon$$START:$$\begin{align*}
-S&\rightarrowT\\
-T \rightarrow aTa
+S&\rightarrow T\\
+T &\rightarrow aTa|bTb|a|b|\varepsilon\\
+\end{align*}$$BIN: $$\begin{align*}
+S \rightarrow T\\
+T &\rightarrow aU\\
+
 \end{align*}$$
