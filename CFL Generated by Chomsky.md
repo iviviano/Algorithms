@@ -84,15 +84,17 @@ X&\rightarrow Ua
 \end{align*}$$DEL-$\varepsilon$: $$\begin{align*}
 S&\rightarrow T\\
 T& \rightarrow aV|bX\\
-U &\rightarrow aU|bU|\varepsilon\\
+U &\rightarrow aU|a|bU|b|\varepsilon\\
 V&\rightarrow U b| b\\
 X&\rightarrow Ua| a
 \end{align*}$$UNIT: $$\begin{align*}
 S &\rightarrow aV|bX\\
 T& \rightarrow aV|bX\\
-U&\rightarrow aU|bU|\varepsilon\\
-V&\rightarrow Ub|b
+U&\rightarrow aU|a|bU|b\\
+V&\rightarrow Ub|b\\
+X&\rightarrow Ua|a
 \end{align*}$$TERM: $$\begin{align*}
 S&\rightarrow T\\
-
+T&\rightarrow AV|BX\\
+U&\rightarrow AU|a|BU|b|
 \end{align*}$$
