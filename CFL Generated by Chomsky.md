@@ -68,3 +68,10 @@ B&\rightarrow b
 
 >[!example]
 
+$\{w:w \text{ starts and ends with different symbols}\}$ given by the grammar $$\begin{align*}
+T &\rightarrow aUb|bUa\\
+U \rightarrow aU|bU|\varepsilon
+\end{align*}$$START: $$\begin{align*}
+S&\rightarrow T\\
+
+\end{align*}$$
