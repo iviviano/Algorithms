@@ -36,10 +36,8 @@ T&\rightarrow bV\\
 V&\rightarrow Tb\\
 T&\rightarrow a|b|\varepsilon\\
 \end{align*}$$DEL-$\varepsilon$: $$\begin{align*}
-S &\rightarrow T\\
-T &\rightarrow aU\\
-U&\rightarrow Ta\\
-T&\rightarrow bV\\
-V&\rightarrow Tb\\
-T&\rightarrow a|b|\varepsilon\\
+S &\rightarrow T|\varepsilon\\
+T &\rightarrow aU|bV|a|b\\
+U&\rightarrow Ta | a\\
+V&\rightarrow Tb|b\\
 \end{align*}$$UNIT
