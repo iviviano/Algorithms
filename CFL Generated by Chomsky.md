@@ -88,7 +88,10 @@ U &\rightarrow aU|bU|\varepsilon\\
 V&\rightarrow U b| b\\
 X&\rightarrow Ua| a
 \end{align*}$$UNIT: $$\begin{align*}
-S &\rightarrow aV|bX
+S &\rightarrow aV|bX\\
+T& \rightarrow aV|bX\\
+U&\rightarrow aU|bU|\varepsilon\\
+V&\rightarrow Ub|b
 \end{align*}$$TERM: $$\begin{align*}
 S&\rightarrow T\\
 
