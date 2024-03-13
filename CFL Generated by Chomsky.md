@@ -49,7 +49,6 @@ B&\rightarrow b
 \end{align*}$$
 
 >[!example]
-
 $\Sigma^{*}$ given by the [[Context-Free Grammar]]: $$T \rightarrow aT|bT|\varepsilon$$
 START: $$\begin{align*}
 S&\rightarrow T\\
@@ -59,5 +58,10 @@ S&\rightarrow T|\varepsilon\\
 T&\rightarrow aT|a|bT|b
 \end{align*}$$UNIT: $$\begin{align*}
 S&\rightarrow aT|a|bT|b|\varepsilon\\
-
+T&\rightarrow aT|a|bT|b
+\end{align*}$$TERM: $$\begin{align*}
+S&\rightarrow AT|a|BT|b|\varepsilon\\
+T&\rightarrow AT|a|BT|b|\\
+A&\rightarrow a\\
+B&\rightarrow b
 \end{align*}$$
