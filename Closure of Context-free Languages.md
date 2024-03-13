@@ -2,7 +2,7 @@
 mathLink: closure of context-free languages
 ---
 >[!thm]
->The class of [[Context-Free Languages]]s are [[Closed Under an Operation]] under the [[Regular Operation]]s [[Union]], [[Language Concatenation]]ion, and [[Star]].
+>The class of [[Context-Free Languages]]s are [[Closed Under an Operation]] under the [[Regular Operation]]s [[Union]], [[Language Concatenation]]ion, and [[Star]]. It is also [[Closed Under an Operation]] under [[Prefix (language)]].
 
 >[!proof]
 
@@ -30,3 +30,5 @@ Let $G_{1}=(V_{1},\Sigma,R_{1},S_{1})$ generate $A$. Construct a new [[Context-F
 V&= V\cup\{S\}\\
 R&= R_{1}\cup\{S \rightarrow SS_{1}\ |\ \varepsilon\}
 \end{align*}$$
+Prefix:
+Let $G_{1}=(V_{1},)$
