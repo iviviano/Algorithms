@@ -14,9 +14,10 @@ X&\rightarrow CY\\
 Y&\rightarrow dZ\\
 z&\rightarrow EF\\
 \end{align*}$$)
-3. (DEL-$\varepsilon$) Remove all $\varepsilon$-rules (if we have $A \rightarrow \varepsilon$, delete it and update all rules with $A$ in the RHS)
+3. (DEL-$\varepsilon$) Remove all $\varepsilon$-rules, if we have $A \rightarrow \varepsilon$, delete it and update all rules with $A$ in the RHS as follows:
 	1. $B \rightarrow A$ Add rule $B \rightarrow \varepsilon$ unless $B \rightarrow \varepsilon$ has already been removed
-	2. $B t$
+	2. $B \rightarrow AA$ Add rule $B \rightarrow A$ and if $B \rightarrow \varepsilon$ has not already been removed, add it
+	3. $B \rightarrow xA$ or $B \rightarrow Ax$, add rule $B \rightarrow x$
 4. (UNIT) Remove all Unit rules $(A \rightarrow B)$
 5. 
 
