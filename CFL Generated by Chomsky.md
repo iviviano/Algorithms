@@ -49,7 +49,7 @@ B&\rightarrow b
 \end{align*}$$
 
 >[!example]
-$\Sigma^{*}$ given by the [[Context-Free Grammar]]: $$T \rightarrow aT|bT|\varepsilon$$
+$\{a,b\}^{*}$ given by the [[Context-Free Grammar]]: $$T \rightarrow aT|bT|\varepsilon$$
 START: $$\begin{align*}
 S&\rightarrow T\\
 T& \rightarrow aT|bT|\varepsilon
@@ -65,3 +65,6 @@ T&\rightarrow AT|a|BT|b|\\
 A&\rightarrow a\\
 B&\rightarrow b
 \end{align*}$$
+
+>[!example]
+
