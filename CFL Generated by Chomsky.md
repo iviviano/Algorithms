@@ -21,7 +21,10 @@ The language of [[Palindrome]]s has grammar $$T \rightarrow aTa|bTb|a|b|\varepsi
 S&\rightarrow T\\
 T &\rightarrow aTa|bTb|a|b|\varepsilon\\
 \end{align*}$$BIN: $$\begin{align*}
-S \rightarrow T\\
+S &\rightarrow T\\
 T &\rightarrow aU\\
-
-\end{align*}$$
+U&\rightarrow Ta\\
+T&\rightarrow bV\\
+V&\rightarrow Tb\\
+T&\rightarrow a|b|\varepsilon\\
+\end{align*}$$DEL-$ep$
