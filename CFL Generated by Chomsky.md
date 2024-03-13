@@ -70,8 +70,15 @@ B&\rightarrow b
 
 $\{w:w \text{ starts and ends with different symbols}\}$ given by the grammar $$\begin{align*}
 T &\rightarrow aUb|bUa\\
-U \rightarrow aU|bU|\varepsilon
+U& \rightarrow aU|bU|\varepsilon
 \end{align*}$$START: $$\begin{align*}
 S&\rightarrow T\\
-
+T&\rightarrow aUb|bUa\\
+U&\rightarrow aU|bU|\varepsilon
+\end{align*}$$BIN: $$\begin{align*}
+S&\rightarrow T\\
+T&\rightarrow aV|bX\\
+U&\rightarrow aU|bU|\varepsilon\\
+V&\rightarrow Ub\\
+X&t
 \end{align*}$$
