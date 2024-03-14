@@ -7,6 +7,15 @@ Why don't we just modulo with the Galois Field size? Because we will end up with
 
 Multiplication and Division
 - when multiplying or dividing gives a power greater than $n$, we take the remainder from dividing by the primitive poly
+- logarithm algorithm:
+```
+def gf_mul(x, y):
+    if x == 0 or y == 0:
+        return 0
+    return gf_exp[(gf_log[x] + gf_log[y]) % 255]
+```
+>[!note]
+>mod 255 because 0 cannot be represented as $2^{n}$
 
 Generator Polynomial: $$\begin{align*}
 g_{n}(x)&= \prod_{i=0}^{n-1}(x-\alpha^{i})\\
