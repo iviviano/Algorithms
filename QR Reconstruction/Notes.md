@@ -90,3 +90,4 @@ Idea:
 
 
 TODO:
+1. Given encoded $$
