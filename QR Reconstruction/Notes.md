@@ -92,3 +92,4 @@ Idea:
 TODO:
 1. Given encoded polynomial $E(X)$ and $k$, form a linear system representing the syndromes
 2. Code that takes in a (underdetermined) linear system in $\text{GF}(256)$
+	1. think about whether we want this in bytes or bits
