@@ -87,3 +87,6 @@ Explain $\text{GF}(4)$
 Idea:
 1. Preprocess the normal number data using cutting planes, remove large sections of the solution space
 2. Put this into the Galois Field solver
+
+
+TODO:
