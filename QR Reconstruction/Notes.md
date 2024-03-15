@@ -90,4 +90,5 @@ Idea:
 
 
 TODO:
-1. Given encoded polynomial $E(X)$ and $k$, can we form a linear system representing the syndromes
+1. Given encoded polynomial $E(X)$ and $k$, form a linear system representing the syndromes
+2. 
