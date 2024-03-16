@@ -11,12 +11,13 @@ Implementation notes:
 
 Testing notes:
 - You only tested `vec-add` on lists of length 0 and 3. (**-1 points)
-- You only tested `dot-product` on lists of lenght 0 and 
+- You only tested `dot-product` on lists of length 0 and 3. (**-1 points**)
+- 
 
 ```
-Homework Attempted:     /10
-Problem  1:             /10
-Problem  2:             /10
+Homework Attempted:     10/10
+Problem  1:             10/10
+Problem  2:             8/10
 Problem  3:             /10
 Problem  4:             /10
 Problem  5:             /10
