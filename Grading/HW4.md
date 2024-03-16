@@ -187,7 +187,7 @@ TOTAL:              /100
 
 Daniel
 
-Honor Code:
+Honor Code: yes
 
 Implementation Notes:
 
