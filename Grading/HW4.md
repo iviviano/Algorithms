@@ -124,7 +124,7 @@ TOTAL:              /100
 
 Atticus and Shane
 
-Honor Code:
+Honor Code: yes
 
 Implementation Notes:
 
