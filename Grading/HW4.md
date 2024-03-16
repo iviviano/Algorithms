@@ -63,7 +63,7 @@ Great job and nice, thoughtful tests!
 
 Alec
 
-Honor Code:
+Honor Code: yes
 
 Implementation Notes:
 
