@@ -18,13 +18,13 @@ Testing notes:
 Homework Attempted:     10/10
 Problem  1:             10/10
 Problem  2:             8/10
-Problem  3:             /10
-Problem  4:             /10
-Problem  5:             /10
+Problem  3:             8/10
+Problem  4:             10/10
+Problem  5:             10/10
 Problem  6:             /10
 Problem  7:             /10
 Problem  8:             /10
-Problem  9:             /10
+Problem  9:             9/10
 TOTAL:                  /100
 ```
 
