@@ -12,7 +12,7 @@ Implementation notes:
 Testing notes:
 - You only tested `vec-add` on lists of length 0 and 3. (**-1 points)
 - You only tested `dot-product` on lists of length 0 and 3. (**-1 points**)
-- 
+- You only have one unique test for `gen-map`. (**-2 points**)
 
 ```
 Homework Attempted:     10/10
@@ -21,8 +21,8 @@ Problem  2:             8/10
 Problem  3:             8/10
 Problem  4:             10/10
 Problem  5:             10/10
-Problem  6:             /10
-Problem  7:             /10
+Problem  6:             10/10
+Problem  7:             10/10
 Problem  8:             /10
 Problem  9:             9/10
 TOTAL:                  /100
