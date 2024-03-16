@@ -32,35 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a1cff51e90f4835d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e0c3d83ef9b4279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grading/HW3 Rubric.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW3.md",
+                "file": "Grading/HW4.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -144,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW3.md",
+                "file": "Grading/HW4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW3.md"
+                "file": "Grading/HW4.md"
               }
             }
           },
@@ -199,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1cff51e90f4835d",
+  "active": "9d3eb819aaef04f0",
   "lastOpenFiles": [
-    "Grading/HW3 Rubric.md",
     "Grading/HW3.md",
+    "Grading/HW3 Rubric.md",
     "Grading/HW4.md",
     "Grading/HW4 Rubric.md",
     "Pushdown Automaton.md",

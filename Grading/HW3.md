@@ -28,7 +28,13 @@ Problem  9:             7/10
 TOTAL:                  93/100
 ```
 
-Great job!
+Great job! For future, please follow this format for tests:
+```
+(test-equal? "label"
+              test
+              expected)
+```
+It helps with readability.
 
 Al
 
