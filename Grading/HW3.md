@@ -1,9 +1,9 @@
 Becca (extension)
 
-Honor Code:
+Honor Code: yes
 
 Implementation notes:
-
+- Your procedure `sum` was named incorrectly. Please nam
 
 Testing notes:
 
