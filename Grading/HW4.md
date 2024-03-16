@@ -70,9 +70,6 @@ Implementation Notes:
 - Your implementation of `pre-order` fails on leaves, since you don't wrap the `(tree-value t)` in a `list`. (**-1 point**)
 - All of your `leaf?` cases are unnecessary. The base cases of `map` and `apply` correctly handle the case where `(tree-children t)` is `null`. Removing the `leaf?` case in `preorder` fixes the issue above.
 
-Testing Notes:
-
-
 ```
 Homework Base:      9/9
 
@@ -87,10 +84,12 @@ Problem  4:         10/10
 Problem  5:         10/10
 Problem  6:         11/11
 Problem  7:         10/10
-Problem  8:         /10
-Problem  9:         -1/10
-TOTAL:              /100
+Problem  8:         10/10
+Problem  9:         9/10
+TOTAL:              98/100
 ```
+
+Great job!
 
 
 Amanda (EXTENSION to Saturday)
