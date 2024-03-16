@@ -129,7 +129,7 @@ Honor Code: yes
 Implementation Notes:
 - You used the wrong `fold` for `heaviest`. It fails when there are multiple bags of the maximal weight, returning the name of the last bag, instead of the first. (**-1 point**)
 - The `cond` in your `fold` lambda of `child-sum` is unnecessary, since we don't create trees with empty children.
-- 
+- All of your `leaf?` cases are unnecessary. The base cases of `map` and `apply` correctly handle the case where `(tree-children t)` is `null`. 
 
 Testing Notes:
 
