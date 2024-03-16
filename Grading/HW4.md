@@ -194,6 +194,13 @@ Implementation Notes:
 
 Testing Notes:
 
+For future, please follow this format for tests:
+```
+(test-equal? "label"
+              test
+              expected)
+```
+It helps with readability.
 
 ```
 Homework Base:      /9
