@@ -207,7 +207,7 @@ Problem  3:         /10
 Part 2
 Problem  4:         /10
 Problem  5:         /10
-Problem  6:         /11
+Problem  6:         -3/11
 Problem  7:         /10
 Problem  8:         /10
 Problem  9:         /10
