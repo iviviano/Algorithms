@@ -4,6 +4,7 @@ Honor Code: yes
 
 Implementation notes:
 - Your procedure `sum` was named incorrectly. Please name your procedures as instructed in the homework.
+- `vec-add` is recursive and does not use any higher order functions. (**-1 points**)
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. 
 
 Testing notes:
