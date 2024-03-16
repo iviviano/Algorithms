@@ -128,6 +128,7 @@ Honor Code: yes
 
 Implementation Notes:
 - You used the wrong `fold` for `heaviest`. It fails when there are multiple bags of the maximal weight, returning the name of the last bag, instead of the first. (**-1 point**)
+- The `cond` in your `fold` lambda of `child-sum` is unn
 
 Testing Notes:
 
