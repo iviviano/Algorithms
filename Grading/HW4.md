@@ -190,7 +190,7 @@ Daniel
 Honor Code: yes
 
 Implementation Notes:
-
+- Your implementation of `visit-tree` was almo
 
 Testing Notes:
 
