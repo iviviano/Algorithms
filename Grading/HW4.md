@@ -190,7 +190,7 @@ Daniel
 Honor Code: yes
 
 Implementation Notes:
-- Your implementation of `visit-tree` was almo
+- Your implementation of `visit-tree` was almost correct. You just used the wrong tree constructor. `(make-tree x ...)` makes a tree with value `x` and the r
 
 Testing Notes:
 
