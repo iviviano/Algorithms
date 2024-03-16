@@ -132,7 +132,7 @@ Implementation Notes:
 - All of your `leaf?` cases are unnecessary. The base cases of `map` and `apply` correctly handle the case where `(tree-children t)` is `null`. 
 
 Testing Notes:
-- Your tests for `visit-tree` do not show that `visit-tree` correctly rebuilds the 
+- Your tests for `visit-tree` do not show that `visit-tree` correctly rebuilds the structure of `t`. The only meaningful test is the `empty-tree` test. (**-3 points**)
 
 ```
 Homework Base:      9/9
@@ -146,7 +146,7 @@ Problem  3:         9/10
 Part 2
 Problem  4:         10/10
 Problem  5:         10/10
-Problem  6:         /11
+Problem  6:         8/11
 Problem  7:         /10
 Problem  8:         /10
 Problem  9:         /10
