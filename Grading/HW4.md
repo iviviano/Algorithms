@@ -66,7 +66,7 @@ Alec
 Honor Code: yes
 
 Implementation Notes:
-- You used the wrong `fold` for `heaviest`, so it fails returns the last instance 
+- You used the wrong `fold` for `heaviest`. It fails when there are multiple bags of the maxima
 
 Testing Notes:
 
