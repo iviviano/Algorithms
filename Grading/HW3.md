@@ -10,6 +10,8 @@ Implementation notes:
 - `map` handles the the empty list input by returning the `'()`: for any procedure `proc`, `(map proc '())` evaluates to `'()`. This means that you have unnecessary base cases for several problems. 
 
 Testing notes:
+- You only tested `vec-add` on lists of length 0 and 3. (**-1 points)
+- You only tested `dot-product` on lists of lenght 0 and 
 
 ```
 Homework Attempted:     /10
