@@ -86,7 +86,7 @@ Part 2
 Problem  4:         10/10
 Problem  5:         10/10
 Problem  6:         11/11
-Problem  7:         /10
+Problem  7:         10/10
 Problem  8:         /10
 Problem  9:         -1/10
 TOTAL:              /100
