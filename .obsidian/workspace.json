@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW3.md",
+                "file": "Grading/HW3 Rubric.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW3.md",
+                "file": "Grading/HW3 Rubric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW3.md"
+                "file": "Grading/HW3 Rubric.md"
               }
             }
           },
@@ -199,10 +199,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1cff51e90f4835d",
+  "active": "7e0c3d83ef9b4279",
   "lastOpenFiles": [
-    "Grading/HW3 Rubric.md",
     "Grading/HW3.md",
+    "Grading/HW3 Rubric.md",
     "Grading/HW4.md",
     "Grading/HW4 Rubric.md",
     "Pushdown Automaton.md",
