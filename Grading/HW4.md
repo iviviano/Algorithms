@@ -138,14 +138,14 @@ Testing Notes:
 Homework Base:      9/9
 
 Part 1
-Problem  1:         1-/10
-Problem  2:         /10
-Problem  3:         -1/10
+Problem  1:         10/10
+Problem  2:         10/10
+Problem  3:         9/10
 
 
 Part 2
-Problem  4:         /10
-Problem  5:         /10
+Problem  4:         10/10
+Problem  5:         10/10
 Problem  6:         /11
 Problem  7:         /10
 Problem  8:         /10
