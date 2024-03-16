@@ -203,12 +203,12 @@ For future, please follow this format for tests:
 It helps with readability.
 
 ```
-Homework Base:      /9
+Homework Base:      9/9
 
 Part 1
-Problem  1:         /10
-Problem  2:         /10
-Problem  3:         /10
+Problem  1:         10/10
+Problem  2:         10/10
+Problem  3:         10/10
 
 
 Part 2
