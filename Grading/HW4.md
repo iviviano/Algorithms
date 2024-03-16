@@ -68,7 +68,7 @@ Honor Code: yes
 Implementation Notes:
 - You used the wrong `fold` for `heaviest`. It fails when there are multiple bags of the maximal weight, returning the name of the last bag, instead of the first. (**-1 point**)
 - Your implementation of `pre-order` fails on leaves, since you don't wrap the `(tree-value t)` in a `list`. (**-1 point**)
-- All of your `leaf?` cases are unnecessary. The base cases of 
+- All of your `leaf?` cases are unnecessary. The base cases of `map` and `apply` correctly handle the case where `(tree-children t)` is `null`. If you didn't have the `leaf?` case in `preorder`, it would have worked correctly.
 
 Testing Notes:
 
