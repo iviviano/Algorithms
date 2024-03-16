@@ -190,7 +190,7 @@ Daniel
 Honor Code: yes
 
 Implementation Notes:
-- Your implementation of `visit-tree` was almost correct. You just used the wrong tree constructor. `(make-tree x ...)` makes a tree with value `x` and the rest of the arguments are wrapped in a list as the children. The other constructor, `(tree x children)` makes a  tree with value `x` and children the list `children`. Since your `map` returns the list of updated children, the `tree` constructor 
+- Your implementation of `visit-tree` was almost correct. You just used the wrong tree constructor. `(make-tree x ...)` makes a tree with value `x` and the rest of the arguments are wrapped in a list as the children. The other constructor, `(tree x children)` makes a  tree with value `x` and children the list `children`. Since your `map` returns the list of updated children, the `tree` constructor would have worked. (**-3 points**)
 
 Testing Notes:
 
