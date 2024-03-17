@@ -249,9 +249,8 @@ Implementation Notes:
 - Again, you have the right idea for `height`: add 1 to the maximum height of the children subtrees. However, you `get-to-leaf` helper throws an error, since it is recursively called on `(tree-children t)`, which is a list instead of a tree (**-3 points**)
 - In `pre-order`, you call `foldl` over a tree, but `foldl` is only defined over lists. This causes a contract violation on non-empty inputs. You should take a look at the `leåves` procedure in tree.rkt, which might help you write `pre-order`. (**-3 points**)
 
-
 Testing Notes:
-- You did not test a custom tree 
+- You did not test `pre-order` on a custom tree (**-1 points**)
 
 ```
 Homework Base:      9/9
@@ -269,5 +268,5 @@ Problem  6:         8/11
 Problem  7:         7/10
 Problem  8:         7/10
 Problem  9:         9/10
-TOTAL:              /100
+TOTAL:              84/100
 ```
