@@ -240,7 +240,7 @@ Erika (EXTENSION to Saturday)
 Honor Code: yes
 
 Implementation Notes: 
-- Your implementation of `heaviest` is incorrect and does not use a `fold` (**-5 points**)
+- Your implementation of `heaviest` is incorrect, since it returns `#<void>` on all inputs. This is because you return the result of `(se(**-3 points**)
 - `set!` is not allowed for any homework (talk to @mollyfeldman if you are confused about whether something is in domain)
 - 
 
