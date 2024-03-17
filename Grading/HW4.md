@@ -247,7 +247,7 @@ Implementation Notes:
 - The same base case issue applies to `visit-tree`. You also forgot to give the list argument to `map`, causing an arity mismatch on all inputs. You cannot use `append` on homework unless told otherwise by the instructions. Here, `append` would throw an error, and `cons` would work (**-3 points**)
 - You have the right idea for `size-of`, you just didn't do things in the right order. You should find the sum of the recursively determined sizes of the children subtrees. This can be done by `(apply + 1 (map size-of (tree-children t))`. (**-3 points**)
 - Again, you have the right idea for `height`: add 1 to the maximum height of the children subtrees. However, you `get-to-leaf` helper throws an error, since it is recursively called on `(tree-children t)`, which is a list instead of a tree (**-3 points**)
-- 
+- In `pre-order`, you call `foldl` over a tree, but `foldl` is only defined over lists. This causes a contract violation on non-empty inputs. You should take a look at 
 
 
 Testing Notes:
