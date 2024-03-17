@@ -99,7 +99,7 @@ Honor Code: yes
 Implementation Notes:
 - An association list is a list of 2-element lists. So, `weigh` and `heaviest` did not need to check if elements of `bags` were empty. 
 - The `cond` in your `fold` lambda of `child-sum` is unnecessary, since we don't create trees with empty children. Similarly, all of the `empty-tree?` cases in your `fold` lambdas will never run.
-- It looks like you were trying to handle multiple tree layers at once. For example, in `all-sum`, you fold over the children nodes of the current tree `t`. Instead of adding up the sums of the subtree rooted at each node, you look explicitly at its children. A simple correct solution for this case is `(apply + (tree-value t) (map all-sum (tree-children t))` using `map` (using your `sum-helper`, this would be `(+ (tree-value t)))
+- It looks like you were trying to handle multiple tree layers at once. For example, in `all-sum`, you fold over the children nodes of the current tree `t`. Instead of adding up the sums of the subtree rooted at each node, you look explicitly at its children. A simple correct solution for this case is `(apply + (tree-value t) (map all-sum (tree-children t))` using `map` and `apply` (using your `helper-sum`, this would be `(+ (tree-value t) (helper-sum (map all-sum (tree-children t))))`). With a `fold`
 
 
 Testing Notes:
