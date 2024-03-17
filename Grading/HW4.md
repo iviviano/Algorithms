@@ -104,6 +104,7 @@ Implementation Notes:
 - `visit-tree` returns a list instead of tree, since you didn't call `make-tree` on the updated `tree-value` and children (**-3 points**)
 - `size-of` fails for trees with height larger than 1, since you don't always recurse on the children (**-1 points**)
 - no recursion makes `height` not work generally (**-1 points**)
+- Your `fold` lambda of `pre-order` has onl
 
 
 Testing Notes:
