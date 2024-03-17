@@ -254,12 +254,12 @@ Testing Notes:
 
 
 ```
-Homework Base:      /9
+Homework Base:      9/9
 
 Part 1
-Problem  1:         /10
-Problem  2:         /10
-Problem  3:         -3/10
+Problem  1:         10/10
+Problem  2:         10/10
+Problem  3:         7/10
 
 
 Part 2
