@@ -102,6 +102,7 @@ Implementation Notes:
 - It looks like you were trying to handle multiple tree layers at once. For example, in `all-sum`, you fold over the children nodes of the current tree `t`. Instead of adding up the sums of the subtree rooted at each node, you look explicitly at its children. A simple correct solution for this case is `(apply + (tree-value t) (map all-sum (tree-children t))` using `map` and `apply` (using your `helper-sum`, this would be `(+ (tree-value t) (helper-sum (map all-sum (tree-children t))))`). With a `fold`, this case would be `(foldl (lambda (node sum) (+ (all-sum node) sum)) (tree-value t) (tree-children t))`. You had the right ideas, but just ended up overcomplicating it. I think you made similar mistakes on the other tree procedures. It would be a good exercise to try to adapt this code to fix each of the tree procedures.
 - `all-sum` fails for trees with height larger than 1 (**-1 points**)
 - `visit-tree` returns a list instead of tree, since you didn't call `make-tree` on the updated `tree-value` and children (**-3 points**)
+- `size-of` fails for trees with height larger than 1, since you don't always recurse on the children (**-1 points**)
 - 
 
 
