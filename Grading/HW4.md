@@ -245,7 +245,7 @@ Implementation Notes:
 - The `cond` in your `map` lambda of `child-sum` is unnecessary, since we don't create trees with empty children. This case could be shortened to `(apply + (map tree-value (tree-children t)))`
 - Your base cases for `all-sum` should be outside the `map`. As is, it throws an error on the empty tree input and runs forever on larger trees (**-3 points**)
 - The same base case issue applies to `visit-tree`. You also forgot to give the list argument to `map`, causing an arity mismatch on all inputs. You cannot use `append` on homework unless told otherwise by the instructions. Here, `append` would throw an error, and `cons` would work (**-3 points**)
-- 
+- You have the right idea for `size-of`, you just didn't do things in the right order. You should 
 
 
 Testing Notes:
