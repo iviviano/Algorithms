@@ -240,7 +240,8 @@ Erika (EXTENSION to Saturday)
 Honor Code: yes
 
 Implementation Notes: 
-- 
+- Your implementation of `heaviest` is incorrect and does not use a `fold` (**-5 points**)
+- `set!` is not allowed
 
 
 Testing Notes:
