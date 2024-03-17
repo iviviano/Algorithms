@@ -267,6 +267,7 @@ Problem  5:         7/10
 Problem  6:         8/11
 Problem  7:         7/10
 Problem  8:         7/10
-Problem  9:         9/10
-TOTAL:              84/100
+Problem  9:         6/10
+TOTAL:              81/100
 ```
+
