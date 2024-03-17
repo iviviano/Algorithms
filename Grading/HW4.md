@@ -237,9 +237,10 @@ Great job!
 
 Erika (EXTENSION to Saturday)
 
-Honor Code:
+Honor Code: yes
 
-Implementation Notes:
+Implementation Notes: 
+- 
 
 
 Testing Notes:
