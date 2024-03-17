@@ -98,7 +98,7 @@ Honor Code: yes
 
 Implementation Notes:
 - An association list is a list of 2-element lists. So, `weigh` and `heaviest` did not need to check if elements of `bags` were empty. 
-- You don't need to check if a child is an `empty-tree?` in `child-sum`, si
+- The `cond` in your `fold` lambda of `child-sum` is unnecessary, since we don't create trees with empty children.
 
 
 Testing Notes:
