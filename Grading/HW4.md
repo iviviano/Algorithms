@@ -109,7 +109,7 @@ Implementation Notes:
 
 
 Testing Notes:
-
+- Your tests for 
 
 ```
 Homework Base:      9/9
@@ -122,8 +122,8 @@ Problem  3:         10/10
 
 Part 2
 Problem  4:         10/10
-Problem  5:         -1/10
-Problem  6:         -3/11
+Problem  5:         9/10
+Problem  6:         8/11
 Problem  7:         -1/10
 Problem  8:         -1/10
 Problem  9:         -3/10
