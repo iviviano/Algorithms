@@ -242,7 +242,7 @@ Honor Code: yes
 Implementation Notes: 
 - Your implementation of `heaviest` is incorrect, since it returns `#<void>` on all inputs. This is because you return the result of `(set! heavy ...)` as your accumulator each call to the `fold` lambda (**-3 points**)
 - `set!` is not allowed for any homework (talk to @mollyfeldman if you are confused about whether something is in domain)
-- 
+- The `cond` in your `map` lambda of `child-sum` is unnecessary, since we don't create trees with empty children. 
 
 
 Testing Notes:
