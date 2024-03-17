@@ -127,10 +127,10 @@ Problem  6:         8/11
 Problem  7:         9/10
 Problem  8:         9/10
 Problem  9:         7/10
-TOTAL:              /100
+TOTAL:              91/100
 ```
 
-Meet with Molly
+Nice job! It seems like you have a go
 
 
 Atticus and Shane
