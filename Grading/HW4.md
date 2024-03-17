@@ -241,7 +241,8 @@ Honor Code: yes
 
 Implementation Notes: 
 - Your implementation of `heaviest` is incorrect and does not use a `fold` (**-5 points**)
-- `set!` is not allowed
+- `set!` is not allowed for any homework (talk to @mollyfeldman if you are confused about whether something is in domain)
+- 
 
 
 Testing Notes:
