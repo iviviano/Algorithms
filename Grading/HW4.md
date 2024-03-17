@@ -109,7 +109,7 @@ Implementation Notes:
 
 
 Testing Notes:
-- Your tests for 
+- Your tests for `visit-tree` are incorrect. `visit-tree` should return a `tree?`, not a `list?`
 
 ```
 Homework Base:      9/9
@@ -124,9 +124,9 @@ Part 2
 Problem  4:         10/10
 Problem  5:         9/10
 Problem  6:         8/11
-Problem  7:         -1/10
-Problem  8:         -1/10
-Problem  9:         -3/10
+Problem  7:         9/10
+Problem  8:         9/10
+Problem  9:         7/10
 TOTAL:              /100
 ```
 
