@@ -130,7 +130,7 @@ Problem  9:         7/10
 TOTAL:              91/100
 ```
 
-Nice job! It seems like you have a good handle on folds and higher-order functions. Since you struggled a little with recursion on trees, you might want to talk to @mollyfeldman or come to office hours. 
+Nice job! It seems like you have a good handle on folds and higher-order functions. Since you struggled a little with recursion on trees, you should come see me or @mollyfeldman in office hours. 
 
 
 Atticus and Shane
