@@ -97,7 +97,7 @@ Amanda (EXTENSION to Saturday)
 Honor Code: yes
 
 Implementation Notes:
-- 
+- Your implementations of `weigh` and `heaviest` did not need to check if elements of `bags` were empty. An association list is a list of 2-element lists.
 
 
 Testing Notes:
