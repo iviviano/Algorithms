@@ -117,7 +117,7 @@ Problem  5:         -1/10
 Problem  6:         -3/11
 Problem  7:         -1/10
 Problem  8:         -1/10
-Problem  9:         /10
+Problem  9:         -3/10
 TOTAL:              /100
 ```
 
