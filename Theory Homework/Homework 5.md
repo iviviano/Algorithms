@@ -20,5 +20,6 @@ V&\rightarrow \texttt{a}V\ |\ \texttt{b}V\ |\ \varepsilon
 $C=\{\texttt{a}^{m}\texttt{b}^{n}\texttt{c}^{k}|m,n>0\text{ and }k=m+n\}$. 
 
 $$\begin{align*}
-S&\rightarrow \texttt{a}S
+S&\rightarrow \texttt{a}S \texttt{c}\ |\ \texttt{a}U \texttt{c}\\
+U&\rightarrow \
 \end{align*}$$
