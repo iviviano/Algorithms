@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grading/HW4.md",
+                "file": "Theory Homework/Homework 5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d7889007005445fc",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW4.md",
+                "file": "Theory Homework/Homework 5.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW4.md",
+                "file": "Theory Homework/Homework 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW4.md"
+                "file": "Theory Homework/Homework 5.md"
               }
             }
           },
@@ -157,7 +156,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,8 +175,9 @@
   },
   "active": "9d3eb819aaef04f0",
   "lastOpenFiles": [
-    "Grading/HW4 Rubric.md",
     "Grading/HW4.md",
+    "Theory Homework/Homework 5.md",
+    "Grading/HW4 Rubric.md",
     "Grading/HW3.md",
     "Grading/HW3 Rubric.md",
     "Pushdown Automaton.md",
@@ -201,7 +202,6 @@
     "Ambiguous Grammar.md",
     "Ambiguously.md",
     "Grading/HW1.md",
-    "Pumping Lemma.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
