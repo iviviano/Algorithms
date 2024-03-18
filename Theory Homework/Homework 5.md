@@ -12,5 +12,9 @@ $B=\{w\#x|w,x\in\{\texttt{a,b}\}^{*}\text{ and }w^{\mathcal{R}}\text{ is a subst
 
 $$\begin{align*}
 S&\rightarrow UV\\
-U&\rightarrow \#V\ |\ \texttt{a}U \texttt{a}\ |\ \texttt{b}U \texttt{b}
+U&\rightarrow \#V\ |\ \texttt{a}U \texttt{a}\ |\ \texttt{b}U \texttt{b}\\
+V&\rightarrow \texttt{a}V\ |\ \texttt{b}V\ |\ \varepsilon
 \end{align*}$$
+>[!3]
+
+$C$
