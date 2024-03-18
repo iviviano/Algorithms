@@ -23,3 +23,14 @@ $$\begin{align*}
 S&\rightarrow \texttt{a}S \texttt{c}\ |\ \texttt{a}U \texttt{c}\\
 U&\rightarrow \texttt{b}U \texttt{c}\ |\ \texttt{bc}
 \end{align*}$$
+>[!4]
+
+[[Pushdown Automaton]] for $A$
+
+>[!5]
+
+[[Pushdown Automaton]] for $B$
+
+>[!6]
+
+[[Pushdown Automaton]] for $C$
