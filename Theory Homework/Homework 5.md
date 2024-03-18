@@ -21,5 +21,5 @@ $C=\{\texttt{a}^{m}\texttt{b}^{n}\texttt{c}^{k}|m,n>0\text{ and }k=m+n\}$.
 
 $$\begin{align*}
 S&\rightarrow \texttt{a}S \texttt{c}\ |\ \texttt{a}U \texttt{c}\\
-U&\rightarrow \
+U&\rightarrow \texttt{b}U \texttt{c}\ |\ \texttt{bc}
 \end{align*}$$
