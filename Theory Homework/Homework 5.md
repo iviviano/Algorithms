@@ -11,5 +11,5 @@ S&\rightarrow \texttt{a}S\ |\ S \texttt{a}\ |\ \texttt{b}S \texttt{a}\ |\ \textt
 $B=\{w\#x|w,x\in\{\texttt{a,b}\}^{*}\text{ and }w^{\mathcal{R}}\text{ is a substring of }x\}$
 
 $$\begin{align*}
-S&\rightarrow
+S&\rightarrow 
 \end{align*}$$
