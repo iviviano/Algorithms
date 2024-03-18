@@ -32,6 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bedcf1125fcf75d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Substring.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -175,8 +188,9 @@
   },
   "active": "9d3eb819aaef04f0",
   "lastOpenFiles": [
-    "Grading/HW4.md",
+    "Substring.md",
     "Theory Homework/Homework 5.md",
+    "Grading/HW4.md",
     "Grading/HW4 Rubric.md",
     "Grading/HW3.md",
     "Grading/HW3 Rubric.md",
@@ -201,7 +215,6 @@
     "Inherently Ambiguous.md",
     "Ambiguous Grammar.md",
     "Ambiguously.md",
-    "Grading/HW1.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
