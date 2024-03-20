@@ -16,7 +16,9 @@ A&\rightarrow \texttt{a}\ |\ \texttt{a}A
 \end{align*}$$
 
 Same number of $\texttt{a}$'s and $\texttt{b}$'s: $$S \rightarrow \texttt{a}S \texttt{b}S\ |\ \texttt{b}S \texttt{a}S\ |\ \varepsilon$$
-
+Adapt: $$\begin{align*}
+S&\rightarrow \texttt{}
+\end{align*}$$
 
 >[!2]
 
