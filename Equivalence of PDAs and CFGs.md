@@ -26,4 +26,4 @@ We want to start by pushing $S$ on the stack, then performing the derivation ste
 
 Issues:
 1. First step involves popping one symbol and pushing 3
-2. 
+2. We can only replace symbols at the top of the stack
