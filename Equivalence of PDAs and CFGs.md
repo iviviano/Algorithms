@@ -29,7 +29,6 @@ Issues:
 2. We can only replace symbols at the top of the stack
 
 Handle 1. by multiple transitions the transition $\varepsilon,S \rightarrow aTb$ is handled by three transitions: $$\varepsilon,S \rightarrow b; \varepsilon,\varepsilon \rightarrow T; \varepsilon,\varepsilon \rightarrow a$$
-We form a [[Pushdown Automaton]] with 4 main states. State $q_{0}$ is the start, pushes \$ onto the stack. $q_1$ pushes $S$ onto the stack and transitions to $
+We form a [[Pushdown Automaton]] with 4 main states. State $q_{0}$ is the start, pushes \$ onto the stack. $q_1$ pushes $S$ onto the stack and transitions to $q_\text{loop}$.
 
-
-For each $t\in \Sigma$, add a transition $t,t \rightarrow \varepsilon$ from $q_\text{loop}$ to $q_\text{loop}$. 
+For each $t\in \Sigma$, add a transition $t,t \rightarrow \varepsilon$ from $q_\text{loop}$ to $q_\text{loop}$. For each rule $A \rightarrow u_{1}\cdots u_{n}$, add $n-1$ new states and transitions to pop $A$ push $u_{n},\ldots,u_{1}$
