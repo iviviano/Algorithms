@@ -18,5 +18,6 @@ mathLink: a language is context free $\iff$ some pushdown automaton recognizes i
 >[!example]
 
 Consider the [[Language]] $A=\{w|w\in\{\texttt{a,b}\}^{*}\text{ and }w \text{ is not a palindrome}\}$. [[Context-Free Grammar]] recognizing $A$: $$\begin{align*}
-S&\rightarrow \texttt{a}S \texttt{b}
+S&\rightarrow \texttt{a}T \texttt{b}\\
+T&\rightarrow \texttt{a}T \texttt{a}\ |\ \texttt{b}T \texttt{b}\ |\ \texttt{a}\ |\ \texttt{b}\ |\ \varepsilon
 \end{align*}$$
