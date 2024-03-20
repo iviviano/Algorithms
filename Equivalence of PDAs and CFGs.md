@@ -18,6 +18,7 @@ Start with the transitions: $$\begin{align*}
 
 \end{align*}$$
 
+
 >[!example]
 
 Consider the [[Language]] $A=\{w|w\in\{\texttt{a,b}\}^{*}\text{ and }w \text{ is not a palindrome}\}$. [[Context-Free Grammar]] recognizing $A$: $$\begin{align*}
