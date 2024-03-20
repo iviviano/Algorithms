@@ -179,7 +179,7 @@ Implementation Notes:
 - Nice implementation of `pre-order`. However, you should use `letrec` to define your helper functions. 
 
 Testing Notes:
-- Note that your tests for `heaviest` are also incorrect. For example, `(heaviest bags)` should return ``
+- Note that your tests for `heaviest` are also incorrect. For example, `(heaviest bags)` should return `'steamer-trunk`.
 
 ```
 Homework Base:      9/9
