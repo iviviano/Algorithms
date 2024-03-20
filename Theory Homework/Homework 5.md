@@ -7,7 +7,7 @@ S&\rightarrow \texttt{a}S\ |\ S \texttt{a}\ |\ \texttt{b}S \texttt{a}\ |\ \textt
 \end{align*}$$
 
 $$\begin{align*}
-S&\rightarrow \texttt{ab}S\ |\ \texttt{ba}S\ |\ 
+S&\rightarrow \texttt{ab}S\ |\ \texttt{ba}S\ |\ \texttt{a}S \texttt{b}
 
 \end{align*}$$
 
