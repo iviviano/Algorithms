@@ -180,7 +180,7 @@ Implementation Notes:
 
 Testing Notes:
 - Note that your tests for `heaviest` are also incorrect. For example, `(heaviest bags)` should return `'steamer-trunk`.
-- You should test every tree procedure on the `empty-tree`. There are lots of tests, but your test suites don't demonstrate the accuracy of the implementations if you don't 
+- You should test every tree procedure on the `empty-tree`. There are lots of tests, but your test suites don't demonstrate the accuracy of the implementations if you don't test the appropriate edge cases.
 
 ```
 Homework Base:      9/9
