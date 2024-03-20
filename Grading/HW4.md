@@ -172,7 +172,7 @@ Becca (LATE?)
 Honor Code: yes
 
 Implementation Notes:
-
+- You `heaviest` returns the pair `(bag weight)` in `b`
 
 Testing Notes:
 
