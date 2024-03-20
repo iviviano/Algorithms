@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence of PDAs and CFGs.md",
+                "file": "Theory Homework/Homework 5.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence of PDAs and CFGs.md",
+                "file": "Theory Homework/Homework 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence of PDAs and CFGs.md"
+                "file": "Theory Homework/Homework 5.md"
               }
             }
           },
@@ -212,10 +212,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d02af48988329d05",
+  "active": "9d3eb819aaef04f0",
   "lastOpenFiles": [
-    "Context-Free Grammar.md",
     "Equivalence of PDAs and CFGs.md",
+    "Context-Free Grammar.md",
     "Theory Homework/Homework 5.md",
     "Grading/HW4.md",
     "Grading/HW4 Rubric.md",
