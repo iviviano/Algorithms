@@ -9,5 +9,4 @@ mathLink: a language is context free $\iff$ some pushdown automaton recognizes i
 
 >[!proof]
 
-($\i$)
-Let $A$ be a [[Context-Free Languages]] recognized by the [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$. 
+($\implies$) Let $A$ be a [[Context-Free Languages]] recognized by the [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$. 
