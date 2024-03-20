@@ -179,15 +179,15 @@ Implementation Notes:
 - Nice implementation of `pre-order`. However, you should use `letrec` to define your helper functions. 
 
 Testing Notes:
-
+- Note that your tests for `heaviest` are also incorrect. For example, `(heaviest bags)` should return ``
 
 ```
 Homework Base:      9/9
 
 Part 1
-Problem  1:         1/10
-Problem  2:         /10
-Problem  3:         /10
+Problem  1:         10/10
+Problem  2:         10/10
+Problem  3:         7/10
 
 
 Part 2
