@@ -8,7 +8,7 @@ S&\rightarrow \texttt{a}S\ |\ S \texttt{a}\ |\ \texttt{b}S \texttt{a}\ |\ \textt
 
 $$\begin{align*}
 S&\rightarrow \texttt{a}T\ |\ T \texttt{a}\\
-T&\rightarrow 
+T&\rightarrow A \texttt{b}T\ |\ AT \texttt{b}\ |
 \end{align*}$$
 
 
