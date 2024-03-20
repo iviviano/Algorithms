@@ -172,7 +172,7 @@ Becca (LATE?)
 Honor Code: yes
 
 Implementation Notes:
-- Your `empty?` cases in `replace` and 
+- Your `empty?` cases in `replace` and `weigh` are unecessary, si
 - You `heaviest` returns the first pair `(bag weight)` in `bags` with maximal weight. However, you were supposed to return the name (ie the `first`) of this pair (**-3 points**)
 - Your `child-sum` is missing a base case to test for the `empty-tree` input (**-1 points**)
 - Your `visit-tree` is also missing a base case to test for the `empty-tree` input. There is a mistake in the `leaf?` case, since it does not return a tree. Your `else` case only works for trees of height 2, since it does not recurse. One way to fix these problems is to remove the `leaf?` case and change the `else` case to `(tree (f (tree-value t)) (map (lambda (child) (visit-tree f child)) (tree-children t))` (**-3 points**)
