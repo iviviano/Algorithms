@@ -10,6 +10,10 @@ $$\begin{align*}
 S&\rightarrow \texttt{ab}S\ |\ \texttt{ba}S\ |\ \texttt{a}S \texttt{b}\ |\ \texttt{b}S \texttt{a}\ |\ A\\
 A&\rightarrow \texttt{a}\ |\ \texttt{a}A
 \end{align*}$$
+$$\begin{align*}
+S&\rightarrow A\texttt{b}S\ |\ \texttt{b}AS\ |\ AS \texttt{b}\ |\ \texttt{b}S A\ |\ A\\
+A&\rightarrow \texttt{a}\ |\ \texttt{a}A
+\end{align*}$$
 
 
 >[!2]
