@@ -169,7 +169,7 @@ Nice job!
 
 Becca (LATE?)
 
-Honor Code:
+Honor Code: yes
 
 Implementation Notes:
 
