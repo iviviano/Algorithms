@@ -174,7 +174,7 @@ Honor Code: yes
 Implementation Notes:
 - You `heaviest` returns the first pair `(bag weight)` in `bags` with maximal weight. However, you were supposed to return the name (ie the `first`) of this pair (**-3 points**)
 - Your `child-sum` is missing a base case to test for the `empty-tree` input (**-1 points**)
-- Your `visit-tree` is also missing a base case to test for the `empty-tree` input. Also, there is a mistake in the `leaf?` case, since it does not return a tree. Your recur
+- Your `visit-tree` is also missing a base case to test for the `empty-tree` input. There is a mistake in the `leaf?` case, since it does not return a tree. Your `else` case only works for trees of height 2, since it does not recurse. One way to fix these problems is to remove the `leaf?` case and change the `els`
 
 Testing Notes:
 
