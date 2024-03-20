@@ -172,8 +172,9 @@ Becca (LATE?)
 Honor Code: yes
 
 Implementation Notes:
-- You `heaviest` returns the first pair `(bag weight)` in `bags` with maximal weight. However, you were supposed to return the name (ie the `first`) of this pair **-3 points**
-- Your `child-sum` 
+- You `heaviest` returns the first pair `(bag weight)` in `bags` with maximal weight. However, you were supposed to return the name (ie the `first`) of this pair (**-3 points**)
+- Your `child-sum` is missing a base case to test for the `empty-tree` input (**-1 points**)
+- 
 
 Testing Notes:
 
