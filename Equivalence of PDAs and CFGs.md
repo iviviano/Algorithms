@@ -14,7 +14,8 @@ mathLink: a language is context free $\iff$ some pushdown automaton recognizes i
 Construct a [[Pushdown Automaton]] $M=(Q,\Sigma,\Gamma,\delta,q_{0},\{q_{a}\})$ with states $Q=\{q_{0},q_{1},q_\text{loop},q_{a}\}\cup E$ where $E$ is the set of extra states used to push multiple symbols onto the stack at once. We take $\Gamma= V\cup \Sigma\cup\{\$\}$. 
 
 Start with the transitions: $$\begin{align*}
-\varepsilon,\varepsilon&\rightarrow
+\varepsilon,\varepsilon&\rightarrow\$\\
+
 \end{align*}$$
 
 >[!example]
