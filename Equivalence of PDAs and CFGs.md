@@ -28,4 +28,5 @@ Issues:
 1. First step involves popping one symbol and pushing 3
 2. We can only replace symbols at the top of the stack
 
-Handle 1. by multiple transitions the transition $\varepsilon,S \rightarrow aTb$ is handled by three transitions: $$\varepsilon,S \rightarrow b; \varepsilon,\varepsilon$$
+Handle 1. by multiple transitions the transition $\varepsilon,S \rightarrow aTb$ is handled by three transitions: $$\varepsilon,S \rightarrow b; \varepsilon,\varepsilon \rightarrow T; \varepsilon,\varepsilon \rightarrow a$$
+We form a [[Pushdown Automaton]] wi
