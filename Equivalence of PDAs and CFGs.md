@@ -38,3 +38,4 @@ We form a [[Pushdown Automaton]] with 4 main states. State $q_{0}$ is the start,
 For each $t\in \Sigma$, add a transition $t,t \rightarrow \varepsilon$ from $q_\text{loop}$ to $q_\text{loop}$ (this makes sure that the derived string matches the input in order, gets rid of the terminals at the start of the derived string as they appear). For each rule $A \rightarrow u_{1}\cdots u_{n}$, add $n-1$ new states and transitions to read input $\varepsilon$, pop $A$, and push $u_{n},\ldots,u_{1}$ to the stack (this derives the string by substituting when it reaches the top of the stack).
 
 $q_\text{loop}$ transitions to $q_{a}$ with transition $\varepsilon,\$\to\varepsilon$.
+
