@@ -29,4 +29,4 @@ Issues:
 2. We can only replace symbols at the top of the stack
 
 Handle 1. by multiple transitions the transition $\varepsilon,S \rightarrow aTb$ is handled by three transitions: $$\varepsilon,S \rightarrow b; \varepsilon,\varepsilon \rightarrow T; \varepsilon,\varepsilon \rightarrow a$$
-We form a [[Pushdown Automaton]] wi
+We form a [[Pushdown Automaton]] with 4 main states. State $q_{0}$ is the start, pushes \$ onto the stack. $q_1$ pushes $\varepsilon$ onto the stack.
