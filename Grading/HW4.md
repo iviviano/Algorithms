@@ -180,6 +180,7 @@ Implementation Notes:
 
 Testing Notes:
 - Note that your tests for `heaviest` are also incorrect. For example, `(heaviest bags)` should return `'steamer-trunk`.
+- You should test every tree procedure on the `empty-tree`. There are lots of 
 
 ```
 Homework Base:      9/9
@@ -191,8 +192,8 @@ Problem  3:         7/10
 
 
 Part 2
-Problem  4:         /10
-Problem  5:         /10
+Problem  4:         9/10
+Problem  5:         10/10
 Problem  6:         /11
 Problem  7:         /10
 Problem  8:         /10
