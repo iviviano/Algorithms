@@ -22,3 +22,8 @@ S&\rightarrow \texttt{a}T \texttt{b}\ |\ \texttt{b}T \texttt{a}\ |\ \texttt{a}S 
 T&\rightarrow \texttt{a}T \ |\ \texttt{b}T\ |\ \texttt{b}\ |\ \varepsilon
 \end{align*}$$
 [[Leftmost Derivation]] of $\texttt{abaaa}$: $$S\implies \texttt{a}S \texttt{a}\implies \texttt{ab}T \texttt{aa}\implies \texttt{aba}T \texttt{aa}\implies \texttt{abaaa}$$
+We want to start by pushing $S$ on the stack, then performing the derivation step so that $\texttt{abaaa}$ ends on the stack, and then match the input.
+
+Issues:
+1. First step involves popping one symbol and pushing 3
+2. 
