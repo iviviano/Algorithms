@@ -7,8 +7,8 @@ S&\rightarrow \texttt{a}S\ |\ S \texttt{a}\ |\ \texttt{b}S \texttt{a}\ |\ \textt
 \end{align*}$$
 
 $$\begin{align*}
-S&\rightarrow \texttt{a}T\ |\ T \texttt{a}\\
-T&\rightarrow A \texttt{b}T\ |\ AT \texttt{b}\ |
+S&\rightarrow \texttt{ab}S\ |\ \texttt{ba}S\ |\ 
+
 \end{align*}$$
 
 
