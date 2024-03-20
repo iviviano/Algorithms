@@ -58,6 +58,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d5575e3fbf23630",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context-Free Grammar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -201,6 +214,8 @@
   },
   "active": "d02af48988329d05",
   "lastOpenFiles": [
+    "Context-Free Grammar.md",
+    "Equivalence of PDAs and CFGs.md",
     "Theory Homework/Homework 5.md",
     "Grading/HW4.md",
     "Grading/HW4 Rubric.md",
@@ -226,8 +241,6 @@
     "Equivalence of NFAs and Regular Expressions.md",
     "Grading/Grading Notes.md",
     "Inherently Ambiguous.md",
-    "Ambiguous Grammar.md",
-    "Ambiguously.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
