@@ -10,3 +10,11 @@ mathLink: a language is context free $\iff$ some pushdown automaton recognizes i
 >[!proof]
 
 ($\implies$) Let $A$ be a [[Context-Free Languages]] recognized by the [[Context-Free Grammar]] $G=(V,\Sigma,R,S)$. 
+
+
+
+
+
+>[!example]
+
+Consider the [[Language]] $A=\{w|w\in\{\texttt{a,b}\}^{*}\text{ and }w \text{ is not a palindrome}\}$. 
