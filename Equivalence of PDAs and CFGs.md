@@ -7,3 +7,6 @@ mathLink: a language is context free $\iff$ some pushdown automaton recognizes i
 >[!prop] Corollary
 >Every [[Regular Language]] [[Language]] is a [[Context-Free Languages]]
 
+>[!proof]
+
+Let $A$ be a [[Context-Free Languages]] recognized by the [[Context-Free Grammar]] $G=()$
