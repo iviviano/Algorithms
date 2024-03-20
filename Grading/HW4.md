@@ -172,7 +172,7 @@ Becca (LATE?)
 Honor Code: yes
 
 Implementation Notes:
-- You `heaviest` returns the pair `(bag weight)` in `b`
+- You `heaviest` returns the first pair `(bag weight)` in `bags` with maximal weight. However, you were supposed to return the name (ie the `first`) of this pair **
 
 Testing Notes:
 
