@@ -21,3 +21,4 @@ Consider the [[Language]] $A=\{w|w\in\{\texttt{a,b}\}^{*}\text{ and }w \text{ is
 S&\rightarrow \texttt{a}T \texttt{b}\ |\ \texttt{b}T \texttt{a}\ |\ \texttt{a}S \texttt{a}\ |\ \texttt{b}S \texttt{b}\\
 T&\rightarrow \texttt{a}T \ |\ \texttt{b}T\ |\ \texttt{b}\ |\ \varepsilon
 \end{align*}$$
+[[Leftmost Derivation]] of $\texttt{abaaa}$: $$S\implies \texttt{a}S \texttt{a}\implies \texttt{ab}T \texttt{aa}\implies \texttt{aba}T \texttt{aa}\implies \texttt{abaaa}$$
