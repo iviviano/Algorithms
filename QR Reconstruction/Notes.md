@@ -96,5 +96,5 @@ TODO:
 	2. Then rewrite the system where only unknowns are the free variables (an able to solve back for the pivots)
 
 >[!question]
->Can we frame the directional sums part as a linear equation in $GF(256)$?
+>Can we frame the directional sums as a linear equation in $GF(256)$?
 
