@@ -17,8 +17,9 @@ A&\rightarrow \texttt{a}\ |\ \texttt{a}A
 
 Same number of $\texttt{a}$'s and $\texttt{b}$'s: $$S \rightarrow \texttt{a}S \texttt{b}S\ |\ \texttt{b}S \texttt{a}S\ |\ \varepsilon$$
 Adapt: $$\begin{align*}
-T&\rightarrow \texttt{a}T\ |\ T \texttt{a}\ |\ \texttt{a}S\ |\ S\texttt{a}\\
-S&\rightarrow \texttt{a}S \texttt{b}S\ |\ \texttt{b}S\texttt{a}S\ |\ \varepsilon
+S&\rightarrow SAS\\
+T&\rightarrow AT \texttt{b}T\ |\ \texttt{b}SAS\ |\ \varepsilon
+A
 \end{align*}$$
 
 >[!2]
