@@ -18,8 +18,8 @@ A&\rightarrow \texttt{a}\ |\ \texttt{a}A
 Same number of $\texttt{a}$'s and $\texttt{b}$'s: $$S \rightarrow \texttt{a}S \texttt{b}S\ |\ \texttt{b}S \texttt{a}S\ |\ \varepsilon$$
 Adapt: $$\begin{align*}
 S&\rightarrow SAS\\
-T&\rightarrow AT \texttt{b}T\ |\ \texttt{b}SAS\ |\ \varepsilon
-A
+T&\rightarrow AT \texttt{b}T\ |\ \texttt{b}TAT\ |\ \varepsilon\\
+A&\rightarrow \texttt{a}A\ |\ \texttt{a}
 \end{align*}$$
 
 >[!2]
