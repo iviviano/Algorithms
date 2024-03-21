@@ -94,4 +94,6 @@ TODO:
 2. Code that takes in a (underdetermined) linear system in $\text{GF}(256)$ (think about whether we want this in bytes or bits)
 	1. Gaussian elimination -> locate pivots and free variables
 	2. Then rewrite the system where only unknowns are the free variables (an able to solve back for the pivots)
-	
+
+>[!question]
+>Can we frame the directional sums part as a 
