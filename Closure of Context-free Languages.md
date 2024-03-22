@@ -45,3 +45,4 @@ To prove $L(G')=B^\mathcal{R}$, we show that for each variable $A\in V$ and $u\i
 
 Suffix:
 Since $A$ is [[Closed Under an Operation]] under reversal and prefix, and $$\text{Suffix}(A)=\text{Prefix}(A^\mathcal{R})^\mathcal{R}$$ 
+Intersection with a Regular Language:
