@@ -11,4 +11,5 @@ mathLink: pumping lemma for context-free languages
 
 Let $G=(V,\Sigma,R,S)$ be a [[Context-Free Grammar]] in [[Chomsky Normal Form]] that generates a [[Language]] $A$. 
 
-Set $p$ large enough that any [[String]] of [[Length]] at least 
+Set $p$ large enough that any [[String]] of [[Length]] at least $p$ repeats some [[Variable]] in its derivation (Using $p=2^{|V|}+1$ works)
+
