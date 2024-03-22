@@ -6,7 +6,9 @@ mathLink: closure of context-free languages
 >- [[Prefix (language)]]
 >- [[Sufix]]
 >- [[Reverse]]
->- [[interse]]
+>- [[Intersection]] with a [[Regular Language]] [[Language]]
+>- quotient by a [[String]]
+>- quotient by a [[Regular Language]] [[Language]]
 
 >[!proof]
 
