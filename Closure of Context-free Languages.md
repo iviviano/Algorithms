@@ -2,7 +2,11 @@
 mathLink: closure of context-free languages
 ---
 >[!thm]
->The class of [[Context-Free Languages]]s are [[Closed Under an Operation]] under the [[Regular Operation]]s [[Union]], [[Language Concatenation]]ion, and [[Star]]. It is also [[Closed Under an Operation]] under [[Prefix (language)]].
+>The class of [[Context-Free Languages]]s are [[Closed Under an Operation]] under the [[Regular Operation]]s [[Union]], [[Language Concatenation]]ion, and [[Star]]. It is also [[Closed Under an Operation]] under 
+>- [[Prefix (language)]]
+>- [[Sufix]]
+>- [[Reverse]]
+>- [[interse]]
 
 >[!proof]
 
