@@ -17,4 +17,7 @@ Let $w$ be a [[String]] in $A$ with length at least $p$. Let $R$ be a repeated s
 
 To see that at least of of $v$ or $y$ is not $\varepsilon$, look at $$R\xRightarrow{*} vRy$$Since $G$ is in [[Chomsky Normal Form]], we must have $R\implies AB\xRightarrow{*} vRy$ for some variables $A$ and $B$
 
-There are to
+There are two cases to consider: 
+- $A\xRightarrow{*}vRs$ and $B\xRightarrow{*} t$ where $st=y$. $t$ cannot be $\varepsilon$ since $G$ is in [[Chomsky Normal Form]]
+- $A\xRightarrow{*} s$ and $B\xRightarrow{*}$
+This satis
