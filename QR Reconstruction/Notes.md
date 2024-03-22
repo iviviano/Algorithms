@@ -102,4 +102,4 @@ TODO:
 2. Logic in ILP (Big M)
 3. Reed-Solomon on the identifier strip
 4. Relationship between the error correction bits and $n$ and $k$
-5. 
+5. Use the encoding type bits for the mask in addition to the padding ones
