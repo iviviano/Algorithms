@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nondeterministic Turing Machine.md",
+                "file": "CF-pumpable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pumping Lemma for Context-Free Languages.md",
+                "file": "CF-pumpable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pumping Lemma for Context-Free Languages.md",
+                "file": "CF-pumpable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pumping Lemma for Context-Free Languages.md"
+                "file": "CF-pumpable.md"
               }
             }
           },
@@ -251,10 +251,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "059e15774c09d076",
+  "active": "940a8735814782de",
   "lastOpenFiles": [
-    "Nondeterministic Turing Machine.md",
     "Pumping Lemma for Context-Free Languages.md",
+    "CF-pumpable.md",
+    "Nondeterministic Turing Machine.md",
     "Prefix-free.md",
     "Closure of Context-free Languages.md",
     "Prefix (language).md",
@@ -279,7 +280,6 @@
     "Isaac Homework Algorithms/Homework 1.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "Grading/HW2.md",
-    "Grading/HW2 Rubric.md",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
     "Grading",
