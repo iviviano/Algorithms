@@ -100,4 +100,5 @@ TODO:
 
 1. Add parity of directional sums to linear system
 2. Logic in ILP (Big M)
-3. 
+3. Reed-Solomon on the identifier strip
+4. 
