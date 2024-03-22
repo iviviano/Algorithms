@@ -52,5 +52,5 @@ Construct the [[Pushdown Automaton]] $M=(Q,\Sigma,\Gamma,\delta,q_{0},F)$ where 
 Q&= Q_{1}\times Q_{2}\\
 q_{0}&= (q_{1},q_{2})\\
 F&= F_{1}\times F_{2}\\
-\delta((q,r),a,b)=\{((s,t),c)\ |\ (s,c)\in \delta_{1}(q,a,b)\text{ and }t\in\}
+\delta((q,r),a,b)&= \{((s,t),c)\ |\ (s,c)\in \delta_{1}(q,a,b)\text{ and }t\in \delta_{2}(r,a)\}\text{ for }a\in \Sigma_{\varepsilon},b,c\in \Gamma_\varepsilon
 \end{align*}$$
