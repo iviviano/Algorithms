@@ -46,4 +46,10 @@ To prove $L(G')=B^\mathcal{R}$, we show that for each variable $A\in V$ and $u\i
 Suffix:
 Since $A$ is [[Closed Under an Operation]] under reversal and prefix, and $$\text{Suffix}(A)=\text{Prefix}(A^\mathcal{R})^\mathcal{R}$$ 
 Intersection with a Regular Language:
-Let $A$ be a [[Context-Free Languages]] recognized by the [[Pushdown Automaton]] $M_{1}=(Q_{1},\Sigma,\Gamma,\delta_{1},q_{1},F_{1})$ and $B$ be a [[Regular Language]] [[Language]] recognized by the [[Nondeterministic Finite Automaton]] 
+Let $A$ be a [[Context-Free Languages]] recognized by the [[Pushdown Automaton]] $M_{1}=(Q_{1},\Sigma,\Gamma,\delta_{1},q_{1},F_{1})$ and $B$ be a [[Regular Language]] [[Language]] recognized by the [[Nondeterministic Finite Automaton]] $M_{2}=Q_{2},\Sigma,\delta_{2},q_{2},F_{2}$ 
+
+Construct the [[Pushdown Automaton]] $M=(Q,\Sigma,\Gamma,\delta,q_{0},F)$ where $$\begin{align*}
+Q&= Q_{1}\times Q_{2}\\
+q_{0}=(q_{1},q_{2})\\
+F&= F_{1}\tim
+\end{align*}$$
