@@ -7,3 +7,8 @@ mathLink: pumping lemma for context-free languages
 >2. $|vy|>0$, and
 >3. $|vxy|≤p$
 
+>[!proof]
+
+Let $G=(V,\Sigma,R,S)$ be a [[Context-Free Grammar]] in [[Chomsky Normal Form]] that generates a [[Language]] $A$. 
+
+Set $p$ large enough that any [[String]] of [[Length]] at least 
