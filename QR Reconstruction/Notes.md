@@ -98,4 +98,4 @@ TODO:
 >[!question]
 >Can we frame the directional sums as a linear equation in $GF(256)$?
 
-1. Add parity of directional sums to 
+1. Add parity of directional sums to linear system
