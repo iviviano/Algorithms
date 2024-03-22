@@ -20,4 +20,4 @@ To see that at least of of $v$ or $y$ is not $\varepsilon$, look at $$R\xRightar
 There are two cases to consider: 
 - $A\xRightarrow{*}vRs$ and $B\xRightarrow{*} t$ where $st=y$. $t$ cannot be $\varepsilon$ since $G$ is in [[Chomsky Normal Form]]
 - $A\xRightarrow{*} s$ and $B\xRightarrow{*}$
-This satis
+This satisfies the second condition
