@@ -101,4 +101,5 @@ TODO:
 1. Add parity of directional sums to linear system
 2. Logic in ILP (Big M)
 3. Reed-Solomon on the identifier strip
-4. 
+4. Relationship between the error correction bits and $n$ and $k$
+5. 
