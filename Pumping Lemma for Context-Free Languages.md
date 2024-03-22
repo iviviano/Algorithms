@@ -15,6 +15,8 @@ Set $p$ large enough that any [[String]] of [[Length]] at least $p$ repeats some
 
 Let $w$ be a [[String]] in $A$ with length at least $p$. Let $R$ be a repeated symbol in the derivation of $w$. 
 
+...
+
 To see that at least of of $v$ or $y$ is not $\varepsilon$, look at $$R\xRightarrow{*} vRy$$Since $G$ is in [[Chomsky Normal Form]], we must have $R\implies AB\xRightarrow{*} vRy$ for some variables $A$ and $B$
 
 There are two cases to consider: 
