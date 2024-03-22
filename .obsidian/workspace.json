@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CF-pumpable.md",
+                "file": "Pumping Lemma for Context-Free Languages.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CF-pumpable.md",
+                "file": "Pumping Lemma for Context-Free Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CF-pumpable.md"
+                "file": "Pumping Lemma for Context-Free Languages.md"
               }
             }
           },
@@ -251,10 +251,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "940a8735814782de",
+  "active": "059e15774c09d076",
   "lastOpenFiles": [
-    "Pumping Lemma for Context-Free Languages.md",
     "CF-pumpable.md",
+    "Pumping Lemma for Context-Free Languages.md",
     "Nondeterministic Turing Machine.md",
     "Prefix-free.md",
     "Closure of Context-free Languages.md",
