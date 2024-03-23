@@ -42,7 +42,7 @@ TOTAL                                              /100
 
 Honor Code: 
 
-Submission & Language Preference                   /12
+Submission & Language Preference                   7/12 (**-5 points** for not submitting the preference survey)
 Section A (Overview)                               /18
 Section B (Language)                               /30
 Section C (5 Steps)                                /25
