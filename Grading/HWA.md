@@ -88,15 +88,15 @@ Great job! I love the quick tips section, very helpful.
 
 Honor Code: yes
 
-You got **-3 points** on each question of section A and B for not 
+You got **-3 points** on each question of section A and B for not providing citations.
 
 Submission & Language Preference                   12/12
-Section A (Overview)                               /18
-Section B (Language)                               /30
+Section A (Overview)                               9/18
+Section B (Language)                               15/30
 Section C (5 Steps)                                25/25
 Section D exists                                   15/15
 
-TOTAL                                              /100
+TOTAL                                              76/100
 
 
 ## Al
