@@ -86,7 +86,7 @@ Great job! I love the quick tips section, very helpful.
 
 ## Jason
 
-Honor Code: 
+Honor Code: yes
 
 Submission & Language Preference                   /12
 Section A (Overview)                               /18
