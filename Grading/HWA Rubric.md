@@ -7,6 +7,11 @@ Each question in Sections A & B (Overview and Language Properties) is worth 6 po
 + 3 points for answering the question at all
 + 3 points for citing a source for the question's answer (this can be in Section D or otherwise)
 
+Questions
+- What are the strengths and weaknesses of your language?
+- For what type(s) of problems/domains is it particularly well suited?
+- What paradigm(s) would the language fall under?
+
 General guidelines:
 - Be relatively ruthless about citations: that is part of the assignment requirements. If it's not clear, take off 1 point. Take off 3 if citations are missing.
 - Hyperlinks are an OK citation method, but please leave a note that this is not acceptable for HWB (it needs to be both the source and _what_ or _how_ it was adapted!)
