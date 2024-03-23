@@ -109,4 +109,6 @@ Section B (Language)                               24/30 (**-3 points** each for
 Section C (5 Steps)                                25/25
 Section D exists                                   15/15
 
-TOTAL                                              /100
+TOTAL                                              89/100
+
+Nice job!
