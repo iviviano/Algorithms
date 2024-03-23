@@ -42,6 +42,9 @@ TOTAL                                              /100
 
 Honor Code: 
 
+Notes:
+- Your are correct that OCaml implements if-then conditions, but the syntax you gave is wrong. 
+
 Submission & Language Preference                   7/12 (**-5 points** for not submitting the preference survey)
 Section A (Overview)                               18/18
 Section B (Language)                               /30
