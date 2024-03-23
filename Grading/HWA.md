@@ -77,6 +77,8 @@ TOTAL                                              /100
 
 ## Jason
 
+Honor Code: 
+
 Submission & Language Preference                   /12
 Section A (Overview)                               /18
 Section B (Language)                               /30
@@ -87,6 +89,8 @@ TOTAL                                              /100
 
 
 ## Al
+
+Honor Code: 
 
 Submission & Language Preference                   /12
 Section A (Overview)                               /18
