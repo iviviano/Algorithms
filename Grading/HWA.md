@@ -40,7 +40,7 @@ TOTAL                                              /100
 
 ## Daniel
 
-Honor Code: 
+Honor Code: yes
 
 Notes:
 - Your are correct that OCaml implements if-then conditions, but the syntax you gave is wrong. The OCaml syntax is `if _ then _` or `if _ then _ else _`.
