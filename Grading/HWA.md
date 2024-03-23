@@ -1,6 +1,6 @@
 # OCaml
 
-Maxann
+Maxann (Extension, due Sunday 24)
 
 
 
@@ -8,7 +8,7 @@ Abby
 
 
 
-Kenean
+Kenean (Extension, due Tuesday 26)
 
 
 
@@ -16,7 +16,7 @@ Daniel
 
 
 
-Janny
+Janny 
 
 
 
