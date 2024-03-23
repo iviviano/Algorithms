@@ -14,7 +14,7 @@ TOTAL                                              /100
 
 ## Abby
 
-Honor Code: 
+Honor Code: yes
 
 Submission & Language Preference                   /12
 Section A (Overview)                               /18
