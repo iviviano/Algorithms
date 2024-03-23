@@ -88,6 +88,8 @@ Great job! I love the quick tips section, very helpful.
 
 Honor Code: yes
 
+You got **-3 points** on each question of section A and B for not 
+
 Submission & Language Preference                   12/12
 Section A (Overview)                               /18
 Section B (Language)                               /30
