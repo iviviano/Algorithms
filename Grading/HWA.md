@@ -101,7 +101,7 @@ TOTAL                                              76/100
 
 ## Al
 
-Honor Code: 
+Honor Code: yes
 
 Submission & Language Preference                   /12
 Section A (Overview)                               /18
