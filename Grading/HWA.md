@@ -24,7 +24,7 @@ Section D exists                                   15/15
 
 TOTAL                                              100/100
 
-Great job! 
+Great job! Good examples and detailed descriptions. Your citations were fine, but for HWB, you must 
 
 ## Kenean (Extension, due Tuesday 26)
 
