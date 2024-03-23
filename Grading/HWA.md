@@ -88,7 +88,7 @@ Great job! I love the quick tips section, very helpful.
 
 Honor Code: yes
 
-Submission & Language Preference                   /12
+Submission & Language Preference                   12/12
 Section A (Overview)                               /18
 Section B (Language)                               /30
 Section C (5 Steps)                                /25
