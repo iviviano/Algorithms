@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HWA.md",
+                "file": "Grading/HWA Rubric.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HWA.md",
+                "file": "Grading/HWA Rubric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HWA.md"
+                "file": "Grading/HWA Rubric.md"
               }
             }
           },
@@ -172,11 +173,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ed51572ee5daff0",
+  "active": "bedcf1125fcf75d2",
   "lastOpenFiles": [
+    "Grading/HWA.md",
     "Grading/HW4 Rubric.md",
     "Grading/HWA Rubric.md",
-    "Grading/HWA.md",
     "Grading/HW4.md",
     "QR Reconstruction/Notes.md",
     "Pumping Lemma for Context-Free Languages.md",
