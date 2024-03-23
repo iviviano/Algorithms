@@ -75,7 +75,7 @@ TOTAL                                              /100
 Honor Code: 
 
 Submission & Language Preference                   /12
-Section A (Overview)                               /18
+Section A (Overview)                               18/18
 Section B (Language)                               /30
 Section C (5 Steps)                                /25
 Section D exists                                   /15
