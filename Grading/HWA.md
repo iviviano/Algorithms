@@ -24,7 +24,7 @@ Section D exists                                   15/15
 
 TOTAL                                              100/100
 
-Great job! Good examples and detailed descriptions. Your citations were fine, but for HWB, you must 
+Great job! Good examples and detailed descriptions. Your citations were fine, but for HWB, you must describe how you used/adapted the source as well as provide the link. 
 
 ## Kenean (Extension, due Tuesday 26)
 
