@@ -7,10 +7,17 @@ Each question in Sections A & B (Overview and Language Properties) is worth 6 po
 + 3 points for answering the question at all
 + 3 points for citing a source for the question's answer (this can be in Section D or otherwise)
 
-Questions
+Part A Questions
 - What are the strengths and weaknesses of your language?
 - For what type(s) of problems/domains is it particularly well suited?
 - What paradigm(s) would the language fall under?
+
+Part B Questions
+- Are functions first class (i.e. can you pass them around as values)?
+- What sort of control flow constructs (think if, cond, etc.) does the language have?
+- Is the language statically or dynamically typed?
+- What is difficult about learning to use this language?
+- What form does the programmer interaction take (compiled/interpreter, virtual machine, interaction shell, work from files, etc.)?
 
 General guidelines:
 - Be relatively ruthless about citations: that is part of the assignment requirements. If it's not clear, take off 1 point. Take off 3 if citations are missing.
