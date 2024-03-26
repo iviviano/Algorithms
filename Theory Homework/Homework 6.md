@@ -82,9 +82,9 @@ By the strong [[Principle of Mathematical Induction]], $P(n)$ for all $n\in \mat
 
 >[!prop]
 >Let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]]. The following procedure generates a [[Context-Free Grammar]] $G$ which recognizes $\text{Sort}(L(M))$. 
-
 >1. Make a [[Variable]] $R_{i}$ for each [[States]] $q_{i}\in Q$.
->2. Add the [[Substitution Rule]] $R_{i}\rightarrow a R_{j}$ to the [[Context-Free Grammar]] if $\delta(q_{i},a)=q_{j}$ is a transition in the [[Deterministic Finite Automaton]]
->3. Add the [[Substitution Rule]] $R_{i}\rightarrow \epsilon$ if $q_i$ is an [[Accept]]ed [[States]]. 
->4. Make $R_0$ the [[Start Variable]] of $G$
+>2. Add the [[Substitution Rule]] $R_{i}\rightarrow \texttt{a} R_{j}$ to the [[Context-Free Grammar]] if $\delta(q_{i},\texttt{a})=q_{j}$ is a transition in the [[Deterministic Finite Automaton]]
+>3. Add the [[Substitution Rule]] $R_{i}\rightarrow R_{j}\texttt{b}$ to the [[Context-Free Grammar]] if $\delta(q_{i},\texttt{b})=q_{j}$ is a transition in the [[Deterministic Finite Automaton]]
+>4. Add the [[Substitution Rule]] $R_{i}\rightarrow \epsilon$ if $q_i$ is an [[Accept]]ed [[States]]. 
+>5. Make $R_0$ the [[Start Variable]] of $G$
 
