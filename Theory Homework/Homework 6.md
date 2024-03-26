@@ -11,7 +11,13 @@ T&\rightarrow \texttt{aa}T \texttt{b}\ |\ U\ |\ \varepsilon\\
 U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
 \end{align*}$$
 BIN:
-$$$$
+$$\begin{align*}
+S&\rightarrow T\\
+T&\rightarrow \texttt{aa}T \texttt{b}\ |\ U\ |\ \varepsilon\\
+A& \rightarrow \texttt{a}T\\
+
+U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
+\end{align*}$$
 
 
 >[!2]
