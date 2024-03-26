@@ -16,8 +16,18 @@ S&\rightarrow T\\
 T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
 A& \rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\\
-U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon\\
-C
+U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
+C&\rightarrow \texttt{b}D\\
+D&\rightarrow U \texttt{a}
+\end{align*}$$
+DEL-$\varepsilon$: $$\begin{align*}
+S&\rightarrow T\\
+T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
+A& \rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\\
+U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
+C&\rightarrow \texttt{b}D\\
+D&\rightarrow U \texttt{a}
 \end{align*}$$
 
 
