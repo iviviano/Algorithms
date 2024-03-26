@@ -81,7 +81,8 @@ By the strong [[Principle of Mathematical Induction]], $P(n)$ for all $n\in \mat
 >[!3]
 
 >[!prop]
->Let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]]. The following procedure generates a [[Context-Free Grammar]] $G$ a Grammar]] is [[Equivalent Machines]] to $\text{Sort}(L(M))$. 
+>Let $M=(Q,\Sigma,\delta,q_{0},F)$ be a [[Deterministic Finite Automaton]]. The following procedure generates a [[Context-Free Grammar]] $G$ which recognizes $\text{Sort}(L(M))$. 
+
 >1. Make a [[Variable]] $R_{i}$ for each [[States]] $q_{i}\in Q$.
 >2. Add the [[Substitution Rule]] $R_{i}\rightarrow a R_{j}$ to the [[Context-Free Grammar]] if $\delta(q_{i},a)=q_{j}$ is a transition in the [[Deterministic Finite Automaton]]
 >3. Add the [[Substitution Rule]] $R_{i}\rightarrow \epsilon$ if $q_i$ is an [[Accept]]ed [[States]]. 
