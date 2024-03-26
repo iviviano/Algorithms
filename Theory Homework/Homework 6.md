@@ -73,5 +73,5 @@ Let $P(n)$ be that all [[String]]s $w\in L(G)$ with [[Length]] $|w|=n$ are deriv
 Base Case: $n=1$. 
 If the length of $w$ is $1$, then the only possible derivation of $w$ is $$S\implies w=t\in \Sigma$$If the first step of a derivation of $w$ was $S \rightarrow TV$, then $|w|\ge 2$, since neither $T \xRightarrow{*} \varepsilon$ nor $V \xRightarrow{*} \varepsilon$. Since the only possible derivation of $w$ are one step, $P(1)$ holds.
 
-Inductive Step: Suppose $P(n)$ holds for some $n\ge1$ and let $w\in L(G)$ with $|w|=n+1$. Clearly
+Inductive Step: Suppose $P(n)$ holds for some $n\ge1$ and let $w\in L(G)$ with $|w|=n+1$. Choose $T\in V$ such that $$T\implies w$$
 
