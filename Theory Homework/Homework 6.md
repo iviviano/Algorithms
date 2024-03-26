@@ -64,8 +64,7 @@ E&\rightarrow \texttt{a}\\
 F&\rightarrow \texttt{b}
 \end{align*}$$
 
-
 >[!2]
 
-
+Let $P(n)$ be that all [[String]]s $w\in L(G)$ with 
 
