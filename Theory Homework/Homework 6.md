@@ -20,12 +20,14 @@ U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
-DEL-$\varepsilon$: $$\begin{align*}
+DEL-$\varepsilon$: 
+After deleting $T \rightarrow$
+$$\begin{align*}
 S&\rightarrow T\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ U\\
 A& \rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\\
-U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
+U&\rightarrow \texttt{b}C \ |\ \varepsilon\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
