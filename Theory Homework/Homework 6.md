@@ -74,5 +74,5 @@ Base Case: $n=1$.
 If the length of $w$ is $1$, then the only possible derivation of $w$ is $$S\implies w=t\in \Sigma$$If the first step of a derivation of $w$ was $S \rightarrow TV$, then $|w|\ge 2$, since neither $T \xRightarrow{*} \varepsilon$ nor $V \xRightarrow{*} \varepsilon$. Since the only possible derivation of $w$ are one step, $P(1)$ holds.
 
 Inductive Step: Let $n\ge1$ be given and suppose $P(k)$ holds for all $1\le k\le n$.
-Let $w\in L(G)$ with $|w|=n+1$. We may write $$S\implies TU$$for some [[Variable]]s $T,U\in V-\{S\}$. Since neither $T\xRightarrow{*}\varepsilon$ nor $U\xRightarrow{*}\varepsilon$, let $$T\xRightarrow{*} x$$and $$U\xRightarrow{*} y$$such that $$w=xy$$Since $|y|<|w|$
+Let $w\in L(G)$ with $|w|=n+1$. We may write $$S\implies TU$$for some [[Variable]]s $T,U\in V-\{S\}$. Since neither $T\xRightarrow{*}\varepsilon$ nor $U\xRightarrow{*}\varepsilon$, let $$T\xRightarrow{*} x$$and $$U\xRightarrow{*} y$$such that $$w=xy$$Since $|y|\le n$ and $|x|\le n$, the inductive hypothesis lets us count the total number of steps in this derivation: $$S\implies TU\xRightarrow{*} xU\der$$
 
