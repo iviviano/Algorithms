@@ -37,9 +37,9 @@ S&\rightarrow T\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ U\\
 A& \rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\ |\ \texttt{b}\\
-U&\rightarrow \texttt{b}C \ |\ \varepsilon\\
+U&\rightarrow \texttt{b}C\\
 C&\rightarrow \texttt{b}D\\
-D&\rightarrow U \texttt{a}
+D&\rightarrow U \texttt{a}\ |\ \texttt{a}
 \end{align*}$$
 
 
