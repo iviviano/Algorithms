@@ -66,5 +66,7 @@ F&\rightarrow \texttt{b}
 
 >[!2]
 
-Let $P(n)$ be that all [[String]]s $w\in L(G)$ with 
+Let $P(n)$ be that all [[String]]s $w\in L(G)$ with [[Length]] $|w|=n$ are derived in exactly $2n-1$ steps.
+
+Base Case: $n=1$. 
 
