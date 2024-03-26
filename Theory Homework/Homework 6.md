@@ -21,8 +21,8 @@ C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
 DEL-$\varepsilon$: $$\begin{align*}
-S&\rightarrow T\\
-T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
+S&\rightarrow T\ |\ \varepsilon\\
+T&\rightarrow \texttt{a}A \ |\ U\\
 A& \rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\\
 U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
