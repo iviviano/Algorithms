@@ -51,6 +51,18 @@ U&\rightarrow \texttt{b}C\ |\ \texttt{a}A\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}\ |\ \texttt{a}
 \end{align*}$$
+TERM:
+$$\begin{align*}
+S&\rightarrow EA\ |\ FC\ |\ \varepsilon\\
+T&\rightarrow EA \ |\ FC\\
+A& \rightarrow EB\\
+B&\rightarrow T ttt{b}\ |\ \texttt{b}\\
+U&\rightarrow \texttt{b}C\ |\ \texttt{a}A\\
+C&\rightarrow \texttt{b}D\\
+D&\rightarrow U \texttt{a}\ |\ \texttt{a}\\
+E&\rightarrow \texttt{a}\\
+F&\rightarrow \texttt{b}
+\end{align*}$$
 
 >[!2]
 
