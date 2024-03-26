@@ -21,12 +21,22 @@ C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
 DEL-$\varepsilon$: 
-After deleting $T \rightarrow$
+After deleting $T \rightarrow \varepsilon$:
 $$\begin{align*}
 S&\rightarrow T\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ U\\
 A& \rightarrow \texttt{a}B\\
-B&\rightarrow T \texttt{b}\\
+B&\rightarrow T \texttt{b}\ |\ \texttt{b}\\
+U&\rightarrow \texttt{b}C \ |\ \varepsilon\\
+C&\rightarrow \texttt{b}D\\
+D&\rightarrow U \texttt{a}
+\end{align*}$$
+After deleting $U \rightarrow \varepsilon$:
+$$\begin{align*}
+S&\rightarrow T\ |\ \varepsilon\\
+T&\rightarrow \texttt{a}A \ |\ U\\
+A& \rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\ |\ \texttt{b}\\
 U&\rightarrow \texttt{b}C \ |\ \varepsilon\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
