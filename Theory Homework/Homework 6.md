@@ -44,7 +44,7 @@ D&\rightarrow U \texttt{a}\ |\ \texttt{a}
 UNIT:
 $$\begin{align*}
 S&\rightarrow T\ |\ \varepsilon\\
-T&\rightarrow \texttt{a}A \ |\ \texttt{b}C\\
+T&\rightarrow \texttt{a}A \ |\ \texttt{b}C\ |\ T\\
 A& \rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\ |\ \texttt{b}\\
 U&\rightarrow \texttt{b}C\ |\ T\\
