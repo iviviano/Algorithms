@@ -13,10 +13,11 @@ U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
 BIN:
 $$\begin{align*}
 S&\rightarrow T\\
-T&\rightarrow \texttt{aa}T \texttt{b}\ |\ U\ |\ \varepsilon\\
-A& \rightarrow \texttt{a}T\\
-
-U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
+T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
+A& \rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\\
+U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon\\
+C
 \end{align*}$$
 
 
