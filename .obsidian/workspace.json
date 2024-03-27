@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HWA Rubric.md",
+                "file": "Grading/HWA.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HWA Rubric.md",
+                "file": "Grading/HWA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HWA Rubric.md"
+                "file": "Grading/HWA.md"
               }
             }
           },
@@ -212,10 +211,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bedcf1125fcf75d2",
+  "active": "1ed51572ee5daff0",
   "lastOpenFiles": [
-    "Grading/HWA.md",
     "Grading/HWA Rubric.md",
+    "Grading/HWA.md",
     "Theory Homework/Homework 6.md",
     "CFG From DFA.md",
     "Context-Free Grammar.md",
