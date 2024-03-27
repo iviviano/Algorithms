@@ -12,7 +12,7 @@ Section D exists                                   15/15
 
 TOTAL                                              100/100
 
-G
+Great job! You didn't sign the Honor Code, so your grade will not be input to campuswire until you do so.
 
 ## Abby
 
