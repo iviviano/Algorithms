@@ -72,6 +72,8 @@ Section D exists                                   /15
 
 TOTAL                                              /100
 
+The detailed installation guide is very helpful!
+
 # Pyrate
 
 ## Leah and Robert
