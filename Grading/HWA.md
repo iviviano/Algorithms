@@ -2,7 +2,7 @@
 
 ## Maxann (Extension, due Sunday 24)
 
-Honor Code: 
+Honor Code: NO!!
 
 Submission & Language Preference                   /12
 Section A (Overview)                               /18
