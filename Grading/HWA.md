@@ -62,7 +62,10 @@ Nice job!
 
 ## Janny (Extension, due Sunday 24)
 
-Honor Code: 
+Honor Code: yes
+
+Notes:
+- You do not need to asterisks at the start of a comment. `(* ... *)` is also correct. The `(** ... *)` is used for documentation
 
 Submission & Language Preference                   7/12 (**-5 points** for not submitting the preference survey)
 Section A (Overview)                               12/18 (**-3 points** each for no citations for questions (b) and (d))
