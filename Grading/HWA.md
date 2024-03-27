@@ -34,11 +34,13 @@ Honor Code: yes
 
 Submission & Language Preference                   12/12
 Section A (Overview)                               18/18
-Section B (Language)                               /30
-Section C (5 Steps)                                /25
-Section D exists                                   /15
+Section B (Language)                               30/30
+Section C (5 Steps)                                25/25
+Section D exists                                   15/15
 
-TOTAL                                              /100
+TOTAL                                              100/100
+
+Excellent work!
 
 ## Daniel
 
