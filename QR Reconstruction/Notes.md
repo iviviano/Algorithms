@@ -104,4 +104,4 @@ TODO:
 4. Relationship between the error correction bits and $n$ and $k$
 5. Use the encoding type bits for the mask in addition to the padding ones
 6. Can we 
-7. Is there a linear equation in $\text{GF}(256)$ that restricts $$
+7. Is there a linear equation in $\text{GF}(256)$ that restricts $x_i$ to $0$ or $1$?
