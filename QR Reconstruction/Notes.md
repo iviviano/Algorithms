@@ -110,6 +110,8 @@ TODO:
 If the encoded data still is less than the maximum capacity, add 236 (_11101100_) and 17 (_00010001_) as bytes to the end of the string, repeating as necessary until the data has reached the maximum length.
 
 Format information error correction:
-Now we generate 10 error correction bits for the first 5 bits using the same process as the [Version Error Correction Bits](https://observablehq.com/@zavierhenry/encoding-qr-codes#versionErrorCorrectionBits) section. In this case, the message polynomial is the 5 bits described in the previous section and the generator polynomial is $x^10+x^8+x^5+x^4+x^2+x+1x^10+x^8+x^5+x^4+x^2+x+1$ or 10100110111.
+Now we generate 10 error correction bits for the first 5 bits using the same process as the [Version Error Correction Bits](https://observablehq.com/@zavierhenry/encoding-qr-codes#versionErrorCorrectionBits) section. In this case, the message polynomial is the 5 bits described in the previous section and the generator polynomial is $x^{10}+x^8+x^5+x^4+x^2+x+1$ or $10100110111$.
 
-Afterwards, we XOR the 15 bits with the pattern 101010000010010 to get the final format information string.
+Afterwards, we XOR the 15 bits with the pattern $101010000010010$ to get the final format information string.
+
+This is p
