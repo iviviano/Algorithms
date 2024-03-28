@@ -100,6 +100,7 @@ TODO:
 
 1. Add parity of directional sums to linear system
 2. Logic in ILP (Big M)
+	1. solution using boolean arithmetic
 3. Reed-Solomon on the identifier strip
 4. Relationship between the error correction bits and $n$ and $k$
 5. Use the encoding type bits for the mask in addition to the padding ones
