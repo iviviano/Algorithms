@@ -106,3 +106,5 @@ TODO:
 5. Use the encoding type bits for the mask in addition to the padding ones
 6. Can we 
 7. Is there a linear equation in $\text{GF}(256)$ that restricts $x_i$ to $0$ or $1$?
+
+If the encoded data still is less than the maximum capacity, add 236 (_11101100_) and 17 (_00010001_) as bytes to the end of the string, repeating as necessary until the data has reached the maximum length.
