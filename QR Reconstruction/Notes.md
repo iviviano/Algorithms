@@ -114,4 +114,4 @@ Now we generate 10 error correction bits for the first 5 bits using the same pro
 
 Afterwards, we XOR the 15 bits with the pattern $101010000010010$ to get the final format information string.
 
-This is p
+This is placed left to right and bottom to top
