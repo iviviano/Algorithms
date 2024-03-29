@@ -67,13 +67,13 @@ Honor Code: yes
 Notes:
 - You do not need to asterisks at the start of a comment. `(* ... *)` is also correct. The `(** ... *)` is used for documentation, like javadoc
 
-Submission & Language Preference                   7/12 (**-5 points** for not submitting the preference survey)
+Submission & Language Preference                   12/12 
 Section A (Overview)                               12/18 (**-3 points** each for no citations for questions (b) and (d))
 Section B (Language)                               30/30
 Section C (5 Steps)                                25/25
 Section D exists                                   15/15
 
-TOTAL                                              89/100
+TOTAL                                              94/100
 
 The detailed installation guide is very helpful!
 
