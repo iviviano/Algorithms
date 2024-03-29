@@ -113,5 +113,6 @@ Format information error correction:
 Now we generate 10 error correction bits for the first 5 bits using the same process as the [Version Error Correction Bits](https://observablehq.com/@zavierhenry/encoding-qr-codes#versionErrorCorrectionBits) section. In this case, the message polynomial is the 5 bits described in the previous section and the generator polynomial is $x^{10}+x^8+x^5+x^4+x^2+x+1$ or $10100110111$.
 
 Afterwards, we XOR the 15 bits with the pattern $101010000010010$ to get the final format information string.
+- this has 5 zeros
 
 This is placed left to right and bottom to top
