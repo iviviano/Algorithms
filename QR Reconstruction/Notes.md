@@ -114,5 +114,6 @@ Now we generate 10 error correction bits for the first 5 bits using the same pro
 
 Afterwards, we XOR the 15 bits with the pattern $101010000010010$ to get the final format information string.
 - this has 5 zeros
+- since the format error correction is done bitwise, it gives us 10 equations!
 
 This is placed left to right and bottom to top
