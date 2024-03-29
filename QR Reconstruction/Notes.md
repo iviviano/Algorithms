@@ -102,7 +102,7 @@ TODO:
 2. Logic in ILP (Big M)
 	1. solution using boolean arithmetic: https://cs.stackexchange.com/questions/12102/express-boolean-logic-operations-in-zero-one-integer-linear-programming-ilp
 3. Reed-Solomon on the identifier strip
-	1. It seems like we can't use $\text{GF}(2)$, since the length of the format strip is longer than $2$
+	1. It seems like we can't use $\text{GF}(2)$ *because* the length of the format strip is longer than $2$
 4. Relationship between the error correction bits and $n$ and $k$
 5. Use the encoding type bits for the mask in addition to the padding ones
 6. Can we 
