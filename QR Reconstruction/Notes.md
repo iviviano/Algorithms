@@ -104,6 +104,7 @@ TODO:
 3. Reed-Solomon on the identifier strip
 	1. It seems like we can't use $\text{GF}(2)$ *because* the length of the format strip is longer than $2$
 	2. why don't the format strings need to have an even number of 1s?
+	3. Not RS - BCH https://en.wikiversity.org/wiki/Reed–Solomon_codes_for_coders#BCH_codes
 4. Relationship between the error correction bits and $n$ and $k$
 5. Use the encoding type bits for the mask in addition to the padding ones
 6. Can we 
