@@ -123,6 +123,6 @@ This is placed left to right and bottom to top
 
 From wikiversity:
 The process for checking the encoded information is similar to long division, but uses exclusive-or instead of subtraction. The format code should produce a remainder of zero when it is "divided" by the so-called generator of the code. QR format codes use the generator $10100110111$.
-- Need to figure out zeros of this generator
+- Need to figure out zeros (in $\text{GF}(256)$of this generator
 	- this will give us the analogy of the syndromes equations in RS
 
