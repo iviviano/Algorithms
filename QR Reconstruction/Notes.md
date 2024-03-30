@@ -119,3 +119,8 @@ Afterwards, we XOR the 15 bits with the pattern $101010000010010$ to get the fin
 - since the format error correction is done bitwise, it gives us 10 equations!
 
 This is placed left to right and bottom to top
+
+
+From wikiversity:
+The process for checking the encoded information is similar to long division, but uses exclusive-or instead of subtraction. The format code should produce a remainder of zero when it is "divided" by the so-called generator of the code. QR format codes use the generator $10100110111$.
+- Need to figure out zeros of this generator
