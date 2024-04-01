@@ -14,9 +14,12 @@ BIN:
 Remove $T \rightarrow \texttt{aa}T \texttt{b}$:
 $$\begin{align*}
 S&\rightarrow T\\
-T&\rightarrow \texttt{aa}T \texttt{b}\ |\ U\ |\ \varepsilon\\
+T&\rightarrow \texttt{a}A\ |\ U\ |\ \varepsilon\\
+A&\rightarrow \texttt{a}T \texttt{b}\\
 U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
 \end{align*}$$
+Remove $A \rightarrow \texttt{a}T \texttt{b}$:
+$$$$
 $$\begin{align*}
 S&\rightarrow T\\
 T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
