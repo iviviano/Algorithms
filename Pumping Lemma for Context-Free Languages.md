@@ -35,3 +35,4 @@ Let $B=\{\texttt{a}^{n}\texttt{b}^{n}\texttt{c}^{n}|n\le0\}$. Assume $B$ is [[Pu
 Now consider all possible $uvxyz=w$ with $|vy|>0$ and $|vxy|\le p$
 - at least one of $v$ of $y$ contains two distinct symbols. Then, $uv^{2}xy^{2}z$ contains symbols out of order, so ...
 - both $v$ and $y$ contain the same symbol. Then, $uxz$ doesn't have the same number of $a$'s, $b$'s, and $c's$. 
+- $v$ and $y$ contain different symbols but only a single type of each. Then, $uxz\notin B$, since we remov 
