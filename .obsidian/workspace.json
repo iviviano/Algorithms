@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fd684ba028adb6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pumping Lemma for Context-Free Languages.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turing Machine.md",
+                "file": "Pumping Lemma for Context-Free Languages.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turing Machine.md",
+                "file": "Pumping Lemma for Context-Free Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turing Machine.md"
+                "file": "Pumping Lemma for Context-Free Languages.md"
               }
             }
           },
@@ -199,8 +212,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75d1baa1ff2eacdf",
+  "active": "fd684ba028adb6a6",
   "lastOpenFiles": [
+    "Turing Machine.md",
     "Theory Homework/Homework 6.md",
     "Yield.md",
     "QR Reconstruction/Notes.md",
@@ -226,7 +240,6 @@
     "Grading/HW3.md",
     "Grading/HW3 Rubric.md",
     "Pushdown Automaton.md",
-    "QR Reconstruction/QR Reed-Solomon.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
