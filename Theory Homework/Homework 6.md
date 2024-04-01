@@ -32,7 +32,7 @@ S&\rightarrow T\\
 T&\rightarrow \texttt{a}A\ |\ U\ |\ \varepsilon\\
 A&\rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\\
-U&\rightarrow \texttt{b}C\\
+U&\rightarrow \texttt{b}C\ |\ T\ |\ \varepsilon\\
 C&\rightarrow \texttt{b}U \texttt{a}
 \end{align*}$$
 Remove $C \rightarrow \texttt{b}U \texttt{a}$:
@@ -68,6 +68,15 @@ D&\rightarrow U \texttt{a}\ |\ \texttt{a}
 \end{align*}$$
 UNIT:
 Remove $T \rightarrow U$:
+$$\begin{align*}
+S&\rightarrow T\ |\ \varepsilon\\
+T&\rightarrow \texttt{a}A \ |\ \texttt{b}C\\
+A& \rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\ |\ \texttt{b}\\
+U&\rightarrow \texttt{b}C\ |\ T\\
+C&\rightarrow \texttt{b}D\\
+D&\rightarrow U \texttt{a}\ |\ \texttt{a}
+\end{align*}$$
 Remove $U \rightarrow T$:
 Remove $S \rightarrow T$:
 $$\begin{align*}
