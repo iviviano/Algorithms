@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Halting Configuration.md",
+                "file": "Nondeterministic Turing Machine.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Halting Configuration.md",
+                "file": "Nondeterministic Turing Machine.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Halting Configuration.md",
+                "file": "Nondeterministic Turing Machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Halting Configuration.md"
+                "file": "Nondeterministic Turing Machine.md"
               }
             }
           },
@@ -266,9 +266,9 @@
   },
   "active": "b475e7d731a9e360",
   "lastOpenFiles": [
+    "Halting Configuration.md",
     "Halt.md",
     "Loop.md",
-    "Halting Configuration.md",
     "Accept.md",
     "Configuration.md",
     "Turing Machine.md",
