@@ -41,4 +41,6 @@ Let $D=\{a^{n}ba^{2n}ba^{3n}\}$. Assume $D$ is [[Pumpable]] with [[Pumping Lengt
 Select $w=a^{p}ba^{2p}ba^{3p}$.
 
 Now consider all possible $uvxyz=w$ with $|vy|>0$ and $|vxy|≤p$.
-- If $v$ or $y$ contains a $b$, then pumping down gives too many 
+- If $v$ or $y$ contains a $b$, then pumping down gives too few $b$'s 
+- If $x$ doesn't contain a $b$, then $vxy=a^{m}$ is in the first, second, or third run of $a$'s, for some $m$. Pumping down gives the wrong ratio
+- If $x$ constains
