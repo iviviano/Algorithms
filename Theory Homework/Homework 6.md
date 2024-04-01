@@ -14,6 +14,11 @@ BIN:
 Remove $T \rightarrow \texttt{aa}T \texttt{b}$:
 $$\begin{align*}
 S&\rightarrow T\\
+T&\rightarrow \texttt{aa}T \texttt{b}\ |\ U\ |\ \varepsilon\\
+U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
+\end{align*}$$
+$$\begin{align*}
+S&\rightarrow T\\
 T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
 A& \rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\\
@@ -45,7 +50,9 @@ C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}\ |\ \texttt{a}
 \end{align*}$$
 UNIT:
-Remove 
+Remove $T \rightarrow U$:
+Remove $U \rightarrow T$:
+Remove $S \rightarrow T$:
 $$\begin{align*}
 S&\rightarrow \texttt{a}A\ |\ \texttt{b}C\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ \texttt{b}C\\
