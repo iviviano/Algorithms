@@ -25,3 +25,9 @@ There are two cases to consider:
 - $A\xRightarrow{*}vRs$ and $B\xRightarrow{*} t$ where $st=y$. $t$ cannot be $\varepsilon$ since $G$ is in [[Chomsky Normal Form]]
 - $A\xRightarrow{*} s$ and $B\xRightarrow{*}$
 This satisfies the second condition
+
+
+
+>[!example]
+
+Let $B=\{\texttt{a}^{n}\texttt{b}^{n}\texttt{c}^{n}|n\le0\}$. Assume $B$ is [[Pumpable]] with [[Pumping Length]] $$

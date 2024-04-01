@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Context-Free Languages.md",
+                "file": "Pumping Lemma for Context-Free Languages.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Context-Free Languages.md",
+                "file": "Pumping Lemma for Context-Free Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Context-Free Languages.md"
+                "file": "Pumping Lemma for Context-Free Languages.md"
               }
             }
           },
@@ -225,8 +225,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5229ea0ef1a50d6a",
+  "active": "fd684ba028adb6a6",
   "lastOpenFiles": [
+    "Context-Free Languages.md",
     "Pumping Lemma for Context-Free Languages.md",
     "Turing Machine.md",
     "Theory Homework/Homework 6.md",
@@ -252,7 +253,6 @@
     "Substring.md",
     "Grading/HW3.md",
     "Grading/HW3 Rubric.md",
-    "Pushdown Automaton.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
