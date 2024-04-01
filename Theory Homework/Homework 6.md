@@ -10,7 +10,8 @@ S&\rightarrow T\\
 T&\rightarrow \texttt{aa}T \texttt{b}\ |\ U\ |\ \varepsilon\\
 U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
 \end{align*}$$
-BIN:
+BIN: 
+Remove $T \rightarrow \texttt{aa}T \texttt{b}$:
 $$\begin{align*}
 S&\rightarrow T\\
 T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
@@ -20,6 +21,7 @@ U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
+Remove $U \rightarrow \texttt{bb}U \texttt{a}$
 DEL-$\varepsilon$: 
 After deleting $T \rightarrow \varepsilon$:
 $$\begin{align*}
