@@ -19,7 +19,21 @@ A&\rightarrow \texttt{a}T \texttt{b}\\
 U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
 \end{align*}$$
 Remove $A \rightarrow \texttt{a}T \texttt{b}$:
-$$$$
+$$\begin{align*}
+S&\rightarrow T\\
+T&\rightarrow \texttt{a}A\ |\ U\ |\ \varepsilon\\
+A&\rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\\
+U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
+\end{align*}$$
+Remove $U \rightarrow \texttt{bb}U \texttt{a}$:
+$$\begin{align*}
+S&\rightarrow T\\
+T&\rightarrow \texttt{a}A\ |\ U\ |\ \varepsilon\\
+A&\rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\\
+U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
+\end{align*}$$
 $$\begin{align*}
 S&\rightarrow T\\
 T&\rightarrow \texttt{a}A \ |\ U\ |\ \varepsilon\\
@@ -29,7 +43,6 @@ U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
-Remove $U \rightarrow \texttt{bb}U \texttt{a}$
 
 DEL-$\varepsilon$: 
 Delete $T \rightarrow \varepsilon$:
