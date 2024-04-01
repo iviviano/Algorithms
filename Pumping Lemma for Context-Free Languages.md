@@ -38,4 +38,7 @@ Now consider all possible $uvxyz=w$ with $|vy|>0$ and $|vxy|\le p$
 - $v$ and $y$ contain different symbols but only a single type of each. Then, $uxz\notin B$, since we removed some of two types of symbols but not the third. 
 
 Let $D=\{a^{n}ba^{2n}ba^{3n}\}$. Assume $D$ is [[Pumpable]] with [[Pumping Length]] $p$.
-Select $w=$
+Select $w=a^{p}ba^{2p}ba^{3p}$.
+
+Now consider all possible $uvxyz=w$ with $|vy|>0$ and $|vxy|≤p$.
+- If $v$ or $y$ contains a $b$, then pumping down gives too many 
