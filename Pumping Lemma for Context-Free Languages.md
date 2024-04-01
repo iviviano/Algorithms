@@ -32,4 +32,5 @@ This satisfies the second condition
 
 Let $B=\{\texttt{a}^{n}\texttt{b}^{n}\texttt{c}^{n}|n\le0\}$. Assume $B$ is [[Pumpable]] with [[Pumping Length]] $p$. Select $w=a^{p}b^{p}c^{p}$ which is in $B$ and has [[Length]] $3p>p$. 
 
-Now consider all possible $uvxyz=w$ with $|vy|>0$ and $$
+Now consider all possible $uvxyz=w$ with $|vy|>0$ and $|vxy|\le p$
+- at least one of $v$ of $y$ contains two distint symbols. Then, $uv^{2}xy^{2}z$ contains symbols out of order, so ...
