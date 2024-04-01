@@ -84,9 +84,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4a079a4efb91c14e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -152,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turing Machine.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -169,7 +176,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turing Machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Turing Machine.md"
-              }
+              "state": {}
             }
           },
           {
@@ -225,14 +229,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5229ea0ef1a50d6a",
+  "active": "4a079a4efb91c14e",
   "lastOpenFiles": [
+    "Turing Machine.md",
     "Closure of Context-free Languages.md",
     "Nondeterministic Turing Machine.md",
     "Equivalence of NTMs and DTMs.md",
     "Pumping Lemma for Context-Free Languages.md",
     "Context-Free Languages.md",
-    "Turing Machine.md",
     "Theory Homework/Homework 6.md",
     "Yield.md",
     "QR Reconstruction/Notes.md",
