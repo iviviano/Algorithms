@@ -110,9 +110,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b475e7d731a9e360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Halting Configuration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accept.md",
+                "file": "Halting Configuration.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Accept.md",
+                "file": "Halting Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accept.md"
+                "file": "Halting Configuration.md"
               }
             }
           },
@@ -251,10 +264,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a079a4efb91c14e",
+  "active": "b475e7d731a9e360",
   "lastOpenFiles": [
-    "Configuration.md",
+    "Halt.md",
+    "Loop.md",
+    "Halting Configuration.md",
     "Accept.md",
+    "Configuration.md",
     "Turing Machine.md",
     "Closure of Context-free Languages.md",
     "Nondeterministic Turing Machine.md",
@@ -276,9 +292,6 @@
     "CF-pumpable.md",
     "Prefix-free.md",
     "Prefix (language).md",
-    "Equivalence of PDAs and CFGs.md",
-    "Theory Homework/Homework 5.md",
-    "Substring.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
