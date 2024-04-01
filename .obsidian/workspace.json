@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Configuration.md",
+                "file": "Accept.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Configuration.md",
+                "file": "Accept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Configuration.md"
+                "file": "Accept.md"
               }
             }
           },
@@ -251,8 +251,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4a0d59358b92e83",
+  "active": "4a079a4efb91c14e",
   "lastOpenFiles": [
+    "Configuration.md",
     "Accept.md",
     "Turing Machine.md",
     "Closure of Context-free Languages.md",
@@ -278,7 +279,6 @@
     "Equivalence of PDAs and CFGs.md",
     "Theory Homework/Homework 5.md",
     "Substring.md",
-    "Grading/HW3.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
