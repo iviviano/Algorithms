@@ -44,3 +44,6 @@ T&\rightarrow \texttt{0}F\ |\ \texttt{1}Z\ |\ \varepsilon\\
 H&\rightarrow \texttt{0}T\ |\ \texttt{1}T\ |\ \varepsilon\\
 F&\rightarrow \texttt{0}\\
 \end{align*}$$This can also be done by converting the DFA that [[Recognize]]s $E$ into a [[Context-Free Grammar]]
+
+
+None 

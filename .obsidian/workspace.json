@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5229ea0ef1a50d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context-Free Languages.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pumping Lemma for Context-Free Languages.md",
+                "file": "Context-Free Languages.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pumping Lemma for Context-Free Languages.md",
+                "file": "Context-Free Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pumping Lemma for Context-Free Languages.md"
+                "file": "Context-Free Languages.md"
               }
             }
           },
@@ -212,8 +225,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd684ba028adb6a6",
+  "active": "5229ea0ef1a50d6a",
   "lastOpenFiles": [
+    "Pumping Lemma for Context-Free Languages.md",
     "Turing Machine.md",
     "Theory Homework/Homework 6.md",
     "Yield.md",
@@ -228,7 +242,6 @@
     "Accept.md",
     "Grading/HW4 Rubric.md",
     "Grading/HW4.md",
-    "Pumping Lemma for Context-Free Languages.md",
     "CF-pumpable.md",
     "Nondeterministic Turing Machine.md",
     "Prefix-free.md",
