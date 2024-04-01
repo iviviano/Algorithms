@@ -32,7 +32,18 @@ S&\rightarrow T\\
 T&\rightarrow \texttt{a}A\ |\ U\ |\ \varepsilon\\
 A&\rightarrow \texttt{a}B\\
 B&\rightarrow T \texttt{b}\\
-U&\rightarrow \texttt{bb}U \texttt{a}\ |\ T\ |\ \varepsilon
+U&\rightarrow \texttt{b}C\\
+C&\rightarrow \texttt{b}U \texttt{a}\ |\ T\ |\ \varepsilon
+\end{align*}$$
+Remove $C \rightarrow \texttt{b}U \texttt{a}$:
+$$\begin{align*}
+S&\rightarrow T\\
+T&\rightarrow \texttt{a}A\ |\ U\ |\ \varepsilon\\
+A&\rightarrow \texttt{a}B\\
+B&\rightarrow T \texttt{b}\\
+U&\rightarrow \texttt{b}C\\
+C&\rightarrow \texttt{b}\\
+D&\rightarrowU \texttt{a}\ |\ T\ |\ \varepsilon
 \end{align*}$$
 $$\begin{align*}
 S&\rightarrow T\\
