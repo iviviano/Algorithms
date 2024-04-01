@@ -37,6 +37,7 @@ Now consider all possible $uvxyz=w$ with $|vy|>0$ and $|vxy|\le p$
 - both $v$ and $y$ contain the same symbol. Then, $uxz\notin B$, since we removed some of one type of symbol but none of the other types.
 - $v$ and $y$ contain different symbols but only a single type of each. Then, $uxz\notin B$, since we removed some of two types of symbols but not the third. 
 
+
 Let $D=\{a^{n}ba^{2n}ba^{3n}\}$. Assume $D$ is [[Pumpable]] with [[Pumping Length]] $p$.
 Select $w=a^{p}ba^{2p}ba^{3p}$.
 
