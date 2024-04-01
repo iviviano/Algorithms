@@ -22,8 +22,9 @@ C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
 Remove $U \rightarrow \texttt{bb}U \texttt{a}$
+
 DEL-$\varepsilon$: 
-After deleting $T \rightarrow \varepsilon$:
+Delete $T \rightarrow \varepsilon$:
 $$\begin{align*}
 S&\rightarrow T\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ U\\
@@ -33,7 +34,7 @@ U&\rightarrow \texttt{b}C \ |\ T\ |\ \varepsilon\\
 C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}
 \end{align*}$$
-After deleting $U \rightarrow \varepsilon$:
+Delete $U \rightarrow \varepsilon$:
 $$\begin{align*}
 S&\rightarrow T\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ U\\
@@ -44,6 +45,7 @@ C&\rightarrow \texttt{b}D\\
 D&\rightarrow U \texttt{a}\ |\ \texttt{a}
 \end{align*}$$
 UNIT:
+Remove 
 $$\begin{align*}
 S&\rightarrow \texttt{a}A\ |\ \texttt{b}C\ |\ \varepsilon\\
 T&\rightarrow \texttt{a}A \ |\ \texttt{b}C\\
