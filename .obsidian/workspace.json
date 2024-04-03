@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turing-Decidable.md",
+                "file": "Turing-Recognizable.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turing-Decidable.md",
+                "file": "Turing-Recognizable.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turing-Decidable.md",
+                "file": "Turing-Recognizable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turing-Decidable.md"
+                "file": "Turing-Recognizable.md"
               }
             }
           },
@@ -188,6 +188,7 @@
   },
   "active": "921166a632b88f45",
   "lastOpenFiles": [
+    "Turing-Decidable.md",
     "Decide.md",
     "Decider.md",
     "Loop.md",
@@ -213,7 +214,6 @@
     "Language of a Grammar.md",
     "Grading/HW4 Rubric.md",
     "Grading/HW4.md",
-    "CF-pumpable.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
