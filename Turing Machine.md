@@ -10,5 +10,3 @@ mathLink: Turing machine
 >5. $q_{0}\in Q$ is the [[Start State]]
 >6. $q_{accept}\in Q$ is the [[Accept]] [[States]]
 >7. $q_{reject}\in Q$ is the [[Reject State]], where $q_{reject}≠q_{accept}$
-
-$\texttt{\visiblespace}$
