@@ -126,4 +126,4 @@ The process for checking the encoded information is similar to long division, bu
 - Need to figure out zeros (in $\text{GF}(256)$?) of this generator
 	- this will give us the analogy of the syndromes equations in RS
 
-Except, this isn't quite right, because we XOR after
+Except, this isn't quite right, because we XOR after...
