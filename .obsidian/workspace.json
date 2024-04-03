@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QR Reconstruction/Masking ILP Conditions.md",
+                "file": "QR Reconstruction/Masking ILP Constraints.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Masking ILP Conditions.md",
+                "file": "QR Reconstruction/Masking ILP Constraints.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Masking ILP Conditions.md",
+                "file": "QR Reconstruction/Masking ILP Constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Masking ILP Conditions.md"
+                "file": "QR Reconstruction/Masking ILP Constraints.md"
               }
             }
           },
@@ -162,7 +162,7 @@
   "active": "bedcf1125fcf75d2",
   "lastOpenFiles": [
     "QR Reconstruction/Notes.md",
-    "QR Reconstruction/Masking ILP Conditions.md",
+    "QR Reconstruction/Masking ILP Constraints.md",
     "Theory Homework/Homework 6.md",
     "Turing-Recognizable.md",
     "Turing-Decidable.md",
