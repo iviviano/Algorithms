@@ -19,35 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4e9e640df6f8a82b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Theory Homework/Homework 6.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "921166a632b88f45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Turing-Recognizable.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turing-Recognizable.md",
+                "file": "QR Reconstruction/Notes.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turing-Recognizable.md",
+                "file": "QR Reconstruction/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turing-Recognizable.md"
+                "file": "QR Reconstruction/Notes.md"
               }
             }
           },
@@ -186,15 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "921166a632b88f45",
+  "active": "bedcf1125fcf75d2",
   "lastOpenFiles": [
+    "Theory Homework/Homework 6.md",
+    "Turing-Recognizable.md",
     "Turing-Decidable.md",
     "Decide.md",
     "Decider.md",
     "Loop.md",
     "Accept.md",
     "Turing Machine.md",
-    "Theory Homework/Homework 6.md",
     "QR Reconstruction/Notes.md",
     "Nondeterministic Turing Machine.md",
     "Halting Configuration.md",
@@ -213,7 +187,6 @@
     "Derive.md",
     "Language of a Grammar.md",
     "Grading/HW4 Rubric.md",
-    "Grading/HW4.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
