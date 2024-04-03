@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/Masking ILP Conditions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/Masking ILP Conditions.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
+                "file": "QR Reconstruction/Masking ILP Conditions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QR Reconstruction/Notes.md"
+                "file": "QR Reconstruction/Masking ILP Conditions.md"
               }
             }
           },
@@ -161,6 +161,8 @@
   },
   "active": "bedcf1125fcf75d2",
   "lastOpenFiles": [
+    "QR Reconstruction/Notes.md",
+    "QR Reconstruction/Masking ILP Conditions.md",
     "Theory Homework/Homework 6.md",
     "Turing-Recognizable.md",
     "Turing-Decidable.md",
@@ -169,7 +171,6 @@
     "Loop.md",
     "Accept.md",
     "Turing Machine.md",
-    "QR Reconstruction/Notes.md",
     "Nondeterministic Turing Machine.md",
     "Halting Configuration.md",
     "Halt.md",
@@ -186,7 +187,6 @@
     "Context-Free Grammar.md",
     "Derive.md",
     "Language of a Grammar.md",
-    "Grading/HW4 Rubric.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
