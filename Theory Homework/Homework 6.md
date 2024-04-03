@@ -114,15 +114,17 @@ F&\rightarrow \texttt{b}
 
 Let $G=(V,\Sigma,S,R)$ be a [[Context-Free Grammar]] in [[Chomsky Normal Form]].
 
-Let $P(n)$ be that all [[String]]s $w\in L(G)$ with [[Length]] $|w|=n$ are derived in exactly $2n-1$ steps.
+Let $P(n)$ be that if a variable $A\in V$ derives a string $w$ with $|w|=n$, then this derivation takes exactly $2n-1$ steps.
 
 Base Case: $n=1$. 
-If the length of $w$ is $1$, then the only possible derivation of $w$ is $$S\implies w=t\in \Sigma$$If the first step of a derivation of $w$ was $S \rightarrow TV$, then $|w|\ge 2$, since neither $T \xRightarrow{*} \varepsilon$ nor $V \xRightarrow{*} \varepsilon$. Since the only possible derivation of $w$ are one step, $P(1)$ holds.
+Let $w\in \Sigma$ and $A\in V$ with $A\xRightarrow{*} w$. The only possible derivation of $w$ is $$A\implies w=t\in \Sigma$$If the first step of a derivation of $w$ was $A \Rightarrow TU$ for $T,U\in V-\{S\}$, then $|w|\ge 2$, since neither $T \xRightarrow{*} \varepsilon$ nor $V \xRightarrow{*} \varepsilon$. Since the only possible derivation of $w$ by $A$ is one step, $P(1)$ holds.
 
 Inductive Step: Let $n\ge1$ be given and suppose $P(k)$ holds for all $1\le k\le n$.
-Let $w\in L(G)$ with $|w|=n+1$. We may write $$S\implies TU$$for some [[Variable]]s $T,U\in V-\{S\}$. Since neither $T\xRightarrow{*}\varepsilon$ nor $U\xRightarrow{*}\varepsilon$, let $$T\xRightarrow{*} x$$and $$U\xRightarrow{*} y$$such that $$w=xy$$Since $1\le|y|\le n$ and $1\le|x|\le n$, the inductive hypothesis lets us count the total number of steps in this derivation: $$S\implies TU\xRightarrow{*} xU\xRightarrow{*}xy=w$$The first [[Yield]] is one step. The derivation of $x$ is $2|x|-1$ steps, and the derivation of $y$ is $2|y|-1$ steps. In total, we have $$1+2|x|-1+2|y|-1=2(|x|+|y|)-1=2(|w|)-1=2(n+1)-1$$showing $P(n+1)$.
+Let $w\in\Sigma^{*}$ and $A\in V$ with $A\xRightarrow{*}w$ and $|w|=n+1$. We may write $$A\implies TU$$for some [[Variable]]s $T,U\in V-\{S\}$. Since neither $T\xRightarrow{*}\varepsilon$ nor $U\xRightarrow{*}\varepsilon$, let $$T\xRightarrow{*} x$$and $$U\xRightarrow{*} y$$such that $$w=xy$$Since $1\le|y|\le n$ and $1\le|x|\le n$, the inductive hypothesis lets us count the total number of steps in this derivation: $$A\implies TU\xRightarrow{*} xU\xRightarrow{*}xy=w$$The first [[Yield]] is one step. The derivation of $x$ is $2|x|-1$ steps, and the derivation of $y$ is $2|y|-1$ steps. In total, we have $$1+2|x|-1+2|y|-1=2(|x|+|y|)-1=2(|w|)-1=2(n+1)-1$$showing $P(n+1)$.
 
 By the strong [[Principle of Mathematical Induction]], $P(n)$ for all $n\in \mathbb{N}$.
+
+Applying $P$ for the case where $A=S$ gives the desired claim.
 
 >[!3]
 
