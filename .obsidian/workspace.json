@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turing Machine.md",
+                "file": "Accept.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turing Machine.md",
+                "file": "Accept.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turing Machine.md",
+                "file": "Accept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turing Machine.md"
+                "file": "Accept.md"
               }
             }
           },
@@ -188,6 +188,7 @@
   },
   "active": "921166a632b88f45",
   "lastOpenFiles": [
+    "Turing Machine.md",
     "Theory Homework/Homework 6.md",
     "QR Reconstruction/Notes.md",
     "Nondeterministic Turing Machine.md",
@@ -196,7 +197,6 @@
     "Loop.md",
     "Accept.md",
     "Configuration.md",
-    "Turing Machine.md",
     "Closure of Context-free Languages.md",
     "Equivalence of NTMs and DTMs.md",
     "Pumping Lemma for Context-Free Languages.md",
