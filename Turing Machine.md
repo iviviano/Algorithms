@@ -6,7 +6,7 @@ mathLink: Turing machine
 >1. $Q$ is the [[Set]] of [[States]]
 >2. $\Sigma$ is the input [[Alphabet]] not containing the [[Blank Symbol]]
 >3. $\Gamma$ is the tape [[Alphabet]], where $\textvisiblespace\in \Gamma$ and $\Sigma\subseteq \Gamma$
->4. $\delta:Q\times \Gamma\rightarrow Q\times \Gamma\times\{L,R\}$ is the [[Transition Function]]
+>4. $\delta:Q-\{q_\text{accept},q_\text{reject}\}\times \Gamma\rightarrow Q\times \Gamma\times\{L,R\}$ is the [[Transition Function]]
 >5. $q_{0}\in Q$ is the [[Start State]]
 >6. $q_{accept}\in Q$ is the [[Accept]] [[States]]
 >7. $q_{reject}\in Q$ is the [[Reject State]], where $q_{reject}≠q_{accept}$
