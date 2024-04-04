@@ -128,4 +128,5 @@ The process for checking the encoded information is similar to long division, bu
 
 Except, this isn't quite right, because we XOR after...
 
-RAP: 
+RAP: 695972
+7:30 on April 16
