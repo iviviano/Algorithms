@@ -127,3 +127,5 @@ The process for checking the encoded information is similar to long division, bu
 	- this will give us the analogy of the syndromes equations in RS
 
 Except, this isn't quite right, because we XOR after...
+
+RAP: 
