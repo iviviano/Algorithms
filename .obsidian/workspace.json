@@ -202,6 +202,7 @@
   "active": "27d82e90b673b839",
   "lastOpenFiles": [
     "Configuration.md",
+    "Accept.md",
     "QR Reconstruction/Notes.md",
     "QR Reconstruction/Masking ILP Constraints.md",
     "Theory Homework/Homework 6.md",
@@ -210,7 +211,6 @@
     "Decide.md",
     "Decider.md",
     "Loop.md",
-    "Accept.md",
     "Turing Machine.md",
     "Nondeterministic Turing Machine.md",
     "Halting Configuration.md",

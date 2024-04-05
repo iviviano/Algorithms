@@ -11,3 +11,6 @@ mathLink: configuration
 >$u\in \Gamma^*$ is the tape to the left of the [[Head]]
 >$q\in Q$ is the current state
 >$v\in \Gamma^*$ is the portion of the tape under the [[Head]] and to the left.
+
+>[!note]
+>On the [[Tape]], the [[String]] $v$ is followed by infinitely many [[Blank Symbol]]s $\textvisiblespace$
