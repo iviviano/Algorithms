@@ -132,7 +132,7 @@ Except, this isn't quite right, because we XOR after...
 >Instead of removing $x_{i}$ from the system if it is known, we can add an equation.
 
 TODO:
-
+- Once we have a possible solution, can we find another solution quickly?
 
 RAP: 695972
 7:30 on April 16
