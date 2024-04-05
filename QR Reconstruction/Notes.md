@@ -134,7 +134,8 @@ Except, this isn't quite right, because we XOR after...
 TODO:
 - Once we have a possible solution, can we find another solution quickly?
 - Add the inequalities from masking-padding
-- 
+- what's the situation for the other encoding types
+
 
 RAP: 695972
 7:30 on April 16
