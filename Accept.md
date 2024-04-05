@@ -39,3 +39,5 @@ Let $G=(Q, \Sigma,\delta,q_{start},q_{accept})$ be a [[Generalized Nondeterminis
 >1. $C_{1}$ is the [[Start Configuration]] of $M$ on $w$
 >2. each $C_{i}$ [[Yield]]s $C_{i+1}$
 >3. $C_n$ is an [[Accepting Configuration]]
+
+$\textvisiblespace$
