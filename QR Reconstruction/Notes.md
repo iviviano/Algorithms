@@ -131,6 +131,8 @@ Except, this isn't quite right, because we XOR after...
 >[!note]
 >Instead of removing $x_{i}$ from the system if it is known, we can add an equation.
 
+TODO:
+
 
 RAP: 695972
 7:30 on April 16
