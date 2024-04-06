@@ -142,7 +142,7 @@ TOTAL:          99/100
 
 ## Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
 
-Honor Code: 
+Honor Code: yes
 
 Environment notes:
 - 
