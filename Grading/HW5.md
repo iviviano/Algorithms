@@ -171,7 +171,7 @@ Honor Code: yes
 
 Environment notes:
 - For every struct you build, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
-- Your `env-lookup` function does not throw the correct error for looking up a symbol in the `empty-env`. Maybe consider changing the cases of your `cond` or the placement of your `let` expression. (**-7 points**)
+- Your `env-lookup` function does not throw the correct error for looking up a symbol in the `empty-env`. Maybe consider changing the cases of your `cond` or the placement of your `let` expression. This didn't show up in your testing, because it still threw an error. (**-7 points**)
 
 Parsing notes:
 - 
