@@ -258,7 +258,7 @@ Nice job!
 Honor Code: 
 
 Environment notes:
-- Your implementation of `env-lookup` works 
+- Your implementation of `env-lookup` works but is bad Racket style. It would be preferred to use recursion or a higher order function to iterate over both the list of symbols and values at the same time.
 
 Parsing notes:
 - 
