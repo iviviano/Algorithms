@@ -355,7 +355,7 @@ TOTAL:          98/100
 Honor Code: yes
 
 Environment notes:
-- Your `env-lookup` function could be simplified greatly with a `letrec`.
+- Your `env-lookup` function could be simplified greatly by using `letrec` to define the helper.
 
 Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
