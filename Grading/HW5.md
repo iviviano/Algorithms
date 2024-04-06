@@ -193,6 +193,8 @@ Very nice comments, and great job!
 
 # My People
 
+(define (env-lookup-t s e) (env-lookup e s))
+
 ## Alec [alec5](https://github.com/orgs/24sp-oberlin-csci275/teams/alec5)   
 
 Honor Code:

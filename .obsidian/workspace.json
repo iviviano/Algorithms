@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grading/HW5 Elinor.md",
+                "file": "Grading/HW5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW5 Elinor.md",
+                "file": "Grading/HW5.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW5 Elinor.md",
+                "file": "Grading/HW5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW5 Elinor.md"
+                "file": "Grading/HW5.md"
               }
             }
           },
@@ -174,9 +174,9 @@
   },
   "active": "2fd86b6c17c21c8b",
   "lastOpenFiles": [
+    "Grading/HW5 Elinor.md",
     "Grading/HW5.md",
     "Grading/HW5 Rubric.md",
-    "Grading/HW5 Elinor.md",
     "Accept.md",
     "Configuration.md",
     "QR Reconstruction/Notes.md",
