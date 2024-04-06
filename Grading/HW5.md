@@ -35,10 +35,10 @@ Danny [danny-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/danny-hw5)�
 
 Janny [Janny5](https://github.com/orgs/24sp-oberlin-csci275/teams/janny5)  
 
-[KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
+Kenean [KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
 
-[robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/teams/robert-leah-5) [Note: group!]  
+Robert and Leah [robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/teams/robert-leah-5) 
 
-[the-bayan-players-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/the-bayan-players-hw5) [Note group! Ben/Anya)   
+Ben and Anya [the-bayan-players-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/the-bayan-players-hw5) 
 
-Erika (not cloned yet)
+Erika (not cloned yet) - Extension 
