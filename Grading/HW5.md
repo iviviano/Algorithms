@@ -258,12 +258,9 @@ Nice job!
 Honor Code: 
 
 Environment notes:
-- Your implementation of `env-lookup` works but is bad Racket style. It would be preferred to use recursion or a higher order function to iterate over both the list of symbols and values at the same time.
-- When testing `predicates`, use `test-true`, `test-false`, or `test-pred` instead of `(test-equal? ... #t)` or `(test-equal? ... #f)`. Again, this is better style.
-- You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
+- 
 
 Parsing notes:
-- Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 - 
 
 Interpreting notes:
@@ -286,10 +283,13 @@ It looks like you had some github issues or missed a commit. Recommit your files
 Honor Code: NO! 
 
 Environment notes:
-- 
+- Your implementation of `env-lookup` works but is bad Racket style. It would be preferred to use recursion or a higher order function to iterate over both the list of symbols and values at the same time.
+- When testing `predicates`, use `test-true`, `test-false`, or `test-pred` instead of `(test-equal? ... #t)` or `(test-equal? ... #f)`. Again, this is better style.
+- You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
 
 Parsing notes:
-- 
+- Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
+- When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
 - 
