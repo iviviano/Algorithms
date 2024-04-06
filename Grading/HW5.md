@@ -52,7 +52,7 @@ Nice job!
 
 ## Daniel [daniel-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/daniel-minischeme)  
 
-Honor Code:
+Honor Code: yes 
 
 Environment notes:
 - You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
@@ -65,13 +65,13 @@ Interpreting notes:
 
 ```
 Part 1:         10/10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 2:         47/50
+Part A:         20/20
+Part B:         20/20
+TOTAL:          97/100
 ```
 
-Nice comments! 
+Nice job! 
 
 ## Henry [henryscheme](https://github.com/orgs/24sp-oberlin-csci275/teams/henryscheme)  
 
