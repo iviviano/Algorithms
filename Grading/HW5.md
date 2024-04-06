@@ -258,7 +258,7 @@ Nice job!
 Honor Code: 
 
 Environment notes:
-- 
+- Your implementation of `env-lookup` works 
 
 Parsing notes:
 - 
