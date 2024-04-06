@@ -210,6 +210,7 @@ Parsing notes:
 
 Interpreting notes:
 - You are missing a test for when a `var-exp`'s symbol is not bound in the current environment. Your test that is labeled this way fails because `'()` is not a `lit-exp?` or a `var-exp?`, so `eval-exp` throws your "data type not supported. you provided " error. (**-2 points**)
+- Nice job constructing the parse tree without using `parse`.
 
 ```
 Part 1:         9/10
@@ -240,6 +241,7 @@ Parsing notes:
 
 Interpreting notes:
 - You are missing an important test case for `eval-exp`. If we run `(eval-exp (var-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
+- Nice job constructing the parse tree without using `parse`.
 
 ```
 Part 1:         9/10
