@@ -129,20 +129,20 @@ Parsing notes:
 - When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
-- 
+- Nice job constructing the parse tree without using `parse`.
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 1:         9/10
+Part 2:         50/50
+Part A:         20/20
+Part B:         20/20
+TOTAL:          99/100
 ```
 
 
 ## Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
 
-Honor Code:
+Honor Code: 
 
 Environment notes:
 - 
