@@ -184,12 +184,12 @@ Interpreting notes:
 ```
 Part 1:         9/10
 Part 2:         43/50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part A:         20/20
+Part B:         20/20
+TOTAL:          92/100
 ```
 
-Very nice comments
+Very nice comments, and great job!
 
 # My People
 
