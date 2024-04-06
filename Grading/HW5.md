@@ -77,6 +77,8 @@ Nice job!
 
 Honor Code: NO!
 
+You did not sign the Honor Code. Your grade will not be updated on Campuswire until you do so.
+
 Environment notes:
 - You didn't follow the convention for parenthesis types in `letrec` in `env-lookup`. Instead of 
 ```
@@ -95,7 +97,7 @@ you did
 I would recommend switching to the first type for several reasons. (1) it is better style and follows Racket/Scheme conventions (using brackets for a procedure call is especially unusual). (2) It is consistent with how you write your `cond`. (3) it is more readable and easier to understand what is going on.
 
 Parsing notes:
-- When testing `parse`, make sure to check the actual values of the the parse tree instead of just the strucut
+- When testing `parse`, make sure to check the actual values of the the parse tree instead of just the structure. (ie `(parse 5)` returns `(lit-exp 5)`)
 
 Interpreting notes:
 - Nice job constructing the parse tree without using `parse`.
@@ -103,10 +105,12 @@ Interpreting notes:
 ```
 Part 1:         10/10
 Part 2:         50/50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part A:         20/20
+Part B:         20/20
+TOTAL:          100/100
 ```
+
+Nice job!
 
 
 ## Kai [kai_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/kai_hw5)  
