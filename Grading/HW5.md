@@ -118,7 +118,7 @@ Nice job!
 Honor Code: yes
 
 Environment notes:
-- For every struct you build, you should add the
+- For every struct you build, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env `
 
 Parsing notes:
 - 
