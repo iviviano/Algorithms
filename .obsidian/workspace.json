@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grading/HW5.md",
+                "file": "Grading/HW5 Rubric.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Grading/HW5.md",
+                "file": "Grading/HW5 Rubric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grading/HW5.md"
+                "file": "Grading/HW5 Rubric.md"
               }
             }
           },
@@ -172,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd86b6c17c21c8b",
+  "active": "bc9d1a0b072d07b2",
   "lastOpenFiles": [
-    "Grading/HW5 Rubric.md",
     "Grading/HW5.md",
+    "Grading/HW5 Rubric.md",
     "Accept.md",
     "Configuration.md",
     "QR Reconstruction/Notes.md",
