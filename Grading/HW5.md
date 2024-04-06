@@ -152,7 +152,7 @@ Parsing notes:
 - Other than the issues with error testing, your `parse` tests are excellent! I love that you tested the identity, structure, and accessed the value of the parse tree. This is a good practice for the rest of Minischeme and will help with debugging in the future :)
 
 Interpreting notes:
-- 
+- You are missing an important test case for `interp` where 
 
 ```
 Part 1:         10/10
