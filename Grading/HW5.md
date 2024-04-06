@@ -167,7 +167,7 @@ Nice job! If you are confused about the issue with you error testing, feel free 
 
 ## Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
-Honor Code: 
+Honor Code: yes
 
 Environment notes:
 - 
