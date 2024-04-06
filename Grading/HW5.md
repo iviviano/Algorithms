@@ -163,7 +163,7 @@ Part B:         18/20
 TOTAL:          98/100
 ```
 
-Nice job! If you are confused about the issue with you error testing, feel free to talk to @
+Nice job! If you are confused about the issue with you error testing, feel free to talk to @mollyfeldman or @iviviano or me 
 
 ## Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
