@@ -179,7 +179,7 @@ Parsing notes:
 
 Interpreting notes:
 - Nice test suite for `interp`
-- One note on your test for evaluating a boolean literal expression. While it correctly demonstrates the fu
+- One note on your test for evaluating a boolean literal expression. While it correctly demonstrates the functionality of `interp`, `(parse #t)` will throw an error, not return a `lit-exp`. 
 
 ```
 Part 1:         9/10
