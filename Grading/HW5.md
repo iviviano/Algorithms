@@ -170,7 +170,7 @@ Nice job! If you are confused about the issue with you error testing, feel free 
 Honor Code: yes
 
 Environment notes:
-- Your `env-lookup` function does not throw the correct error for looking up a symbol in the `empty-env`. Maybe consider changing the cases of your ``
+- Your `env-lookup` function does not throw the correct error for looking up a symbol in the `empty-env`. Maybe consider changing the cases of your `cond` or the placement of your `let` expression. (**-7 points**)
 
 Parsing notes:
 - 
