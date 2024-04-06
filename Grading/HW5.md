@@ -98,7 +98,7 @@ Parsing notes:
 - 
 
 Interpreting notes:
-- 
+- Nice job constructing the parse tree without using `parse`.
 
 ```
 Part 1:         10/10
