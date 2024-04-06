@@ -126,7 +126,7 @@ Environment notes:
 ```
 
 Parsing notes:
-- 
+- When testing `parse`, instead of looking at the fields of the constructed parse tree, it is better to ensure that its structure is what you expect. (ie that `(parse 5)` returns `(lit-exp 5)`)
 
 Interpreting notes:
 - 
