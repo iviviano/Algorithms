@@ -236,7 +236,7 @@ Environment notes:
 This will make your code more readable.
 
 Parsing notes:
-- Note that you can provide everything at once: `(provide parse lit-exp? ...)` or eve
+- Note that you can provide everything at once: `(provide parse lit-exp? ...)` or even better use `(provide (all-defined-out))` to do everything in the file and save yourself some typing :)
 
 Interpreting notes:
 - 
