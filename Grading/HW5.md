@@ -222,7 +222,8 @@ TOTAL:          94/100
 Nice comments and great job!
 
 ## Ben and Ezra [benezra](https://github.com/orgs/24sp-oberlin-csci275/teams/benezra)  
-Honor Code: 
+
+Honor Code: yes
 
 Environment notes:
 - 
