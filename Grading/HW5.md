@@ -260,9 +260,10 @@ Honor Code:
 Environment notes:
 - Your implementation of `env-lookup` works but is bad Racket style. It would be preferred to use recursion or a higher order function to iterate over both the list of symbols and values at the same time.
 - When testing `predicates`, use `test-true`, `test-false`, or `test-pred` instead of `(test-equal? ... #t)` or `(test-equal? ... #f)`. Again, this is better style.
+- You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
 
 Parsing notes:
-- 
+- Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 
 Interpreting notes:
 - 
