@@ -86,6 +86,13 @@ Environment notes:
   body)
 ```
 you did 
+```
+(letrec
+    [(...)
+     (...)]
+  [proc...])
+```
+I would recommend switching to the first type for several reasons. (1) it is good style and 
 
 Parsing notes:
 - 
