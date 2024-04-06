@@ -292,13 +292,14 @@ Parsing notes:
 - When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
-- Your evaluation of variables is not correct. Think about how the expression `(let ([x 5]) x)` is evaluated in racket. We extend the current environment by binding `x` to `5`. To evaluate the body, we see that it is a variable, so we look up its value in the extended environment and return that. If we were to just evaluate `x`, we use the same process. We look up its value in the current environment, returning the value if it exists and throwing an error otherwise. So, evaluating `var-exp`'s requires looking up the symbol in the evironment
+- Your evaluation of variables is not correct. Think about how the expression `(let ([x 5]) x)` is evaluated in racket. We extend the current environment by binding `x` to `5`. To evaluate the body, we see that it is a variable, so we look up its value in the extended environment and return that. If we were to just evaluate `x`, we use the same process. We look up its value in the current environment, returning the value if it exists and throwing an error otherwise. So, evaluating `var-exp`'s requires looking up the symbol in the environment, not just returning the symbol. (**-5 points**)
+- You are missing tests for evaluating a `var-exp` (**-5 points**)
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
+Part 1:         10/10
+Part 2:         47/50
+Part A:         20/20
+Part B:         10/20
 TOTAL:          /100
 ```
 
