@@ -33,8 +33,7 @@ There are five cases they should handle, both implementation and testing wise. E
 1. Looking up a symbol that's not bound in an environment throws an error (7 points for implementaiton, 3 points for a test)
 2.  Looking up a symbol in an empty environment throws an error. (7 points for implementaiton, 3 points for a test)
 3. Looking up a symbol that's bound in an environment returns its value (7 points for implementaiton, 3 points for a test)
-4. Looking up a symbol that's not bound in an environment but is bound in the
-  environment's previous environment returns the correct value (7 points for implementaiton, 3 points for a test)
+4. Looking up a symbol that's not bound in an environment but is bound in the  environment's previous environment returns the correct value (7 points for implementaiton, 3 points for a test)
 5. Looking up a symbol that's bound in an environment and also in the
   environment's previous environment returns the value from the current
   environment (7 points for implementaiton, 3 points for a test)
