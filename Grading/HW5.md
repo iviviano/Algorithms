@@ -337,7 +337,7 @@ Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 
 Interpreting notes:
-- 
+- When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). You did this for `var-exp`'s, I just want to make sure you understand the importance, since it wi be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 ```
 Part 1:         /10
