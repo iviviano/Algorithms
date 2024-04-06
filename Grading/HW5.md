@@ -209,20 +209,20 @@ Parsing notes:
 - Nice job with `parse` tests. For future, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
-- You are missing a test for when a `var-exp`'s symbol is not bound in the current environment. Your test that is labeled this way fails because `'()` is not a `lit-exp?` or a `var-exp?`, so `eval-exp` throws your 
+- You are missing a test for when a `var-exp`'s symbol is not bound in the current environment. Your test that is labeled this way fails because `'()` is not a `lit-exp?` or a `var-exp?`, so `eval-exp` throws your "data type not supported. you provided " error. (**-2 points**)
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 1:         9/10
+Part 2:         47/50
+Part A:         20/20
+Part B:         18/20
+TOTAL:          94/100
 ```
 
-Nice comments
+Nice comments and great job!
 
 ## Ben and Ezra [benezra](https://github.com/orgs/24sp-oberlin-csci275/teams/benezra)  
-Honor Code:
+Honor Code: 
 
 Environment notes:
 - 
