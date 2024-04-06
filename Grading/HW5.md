@@ -152,16 +152,18 @@ Parsing notes:
 - Other than the issues with error testing, your `parse` tests are excellent! I love that you tested the identity, structure, and accessed the value of the parse tree. This is a good practice for the rest of Minischeme and will help with debugging in the future :)
 
 Interpreting notes:
-- You are missing an important test case for `eval-exp`. If we run `(eval-exp (lit-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Your implementation of `eval-exp` does this correctly (through `env-lookup`)
+- You are missing an important test case for `eval-exp`. If we run `(eval-exp (lit-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
+- Again, your error tests are producing exceptions because of the 
 
 ```
 Part 1:         10/10
 Part 2:         50/50
 Part A:         20/20
-Part B:         /20
-TOTAL:          /100
+Part B:         18/20
+TOTAL:          98/100
 ```
 
+Nice job!
 
 ## Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
