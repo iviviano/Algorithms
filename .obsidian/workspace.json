@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "06b35c20f25fec9f",
+        "id": "9eafcb32d8204b35",
         "type": "tabs",
         "children": [
           {
-            "id": "bedcf1125fcf75d2",
+            "id": "2fd86b6c17c21c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QR Reconstruction/Masking ILP Constraints.md",
+                "file": "Grading/HW5.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "84864b1563d74698",
+            "id": "bc9d1a0b072d07b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QR Reconstruction/Notes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "767e3a32dffc26f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Configuration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27d82e90b673b839",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Accept.md",
+                "file": "Grading/HW5 Rubric.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Accept.md",
+                "file": "Grading/HW5 Rubric.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -143,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Accept.md",
+                "file": "Grading/HW5 Rubric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Accept.md"
+                "file": "Grading/HW5 Rubric.md"
               }
             }
           },
@@ -199,10 +173,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27d82e90b673b839",
+  "active": "bc9d1a0b072d07b2",
   "lastOpenFiles": [
-    "Configuration.md",
+    "Grading/HW5 Rubric.md",
+    "Grading/HW5.md",
     "Accept.md",
+    "Configuration.md",
     "QR Reconstruction/Notes.md",
     "QR Reconstruction/Masking ILP Constraints.md",
     "Theory Homework/Homework 6.md",
@@ -225,8 +201,6 @@
     "Grading/HWA Rubric.md",
     "CFG From DFA.md",
     "Context-Free Grammar.md",
-    "Derive.md",
-    "Language of a Grammar.md",
     "Pictures/Long image 2024-03-11 15.22.04.jpg",
     "1056px-QR_Code_Unmasked.svg.png",
     "QR Reconstruction",
