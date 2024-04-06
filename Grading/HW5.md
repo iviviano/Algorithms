@@ -4,7 +4,7 @@
 
 ## Al [al-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/al-minischeme)
 
-Honor Code:
+Honor Code: yes
 
 Environment notes:
 - Excellent tests for `env-lookup`!
