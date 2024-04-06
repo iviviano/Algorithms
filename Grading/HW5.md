@@ -303,7 +303,7 @@ Part B:         10/20
 TOTAL:          87/100
 ```
 
-If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you 
+If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you get variable evaluation working for the rest of Minischeme to work, so **don't wait to sort this out**. Also, you did not submit the Honor C
 
 
 ## Kenean [KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
