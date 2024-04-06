@@ -1,12 +1,72 @@
 # Elinor People
 
-Al [al-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/al-minischeme)
+## Al [al-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/al-minischeme)
 
-Atticus and Shane [atticus-shane-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/atticus-shane-minischeme) 
+Honor Code:
 
-Daniel [daniel-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/daniel-minischeme)  
+Environment notes:
+- 
 
-Henry [henryscheme](https://github.com/orgs/24sp-oberlin-csci275/teams/henryscheme)  
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+## Atticus and Shane [atticus-shane-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/atticus-shane-minischeme) 
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+## Daniel [daniel-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/daniel-minischeme)  
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+## Henry [henryscheme](https://github.com/orgs/24sp-oberlin-csci275/teams/henryscheme)  
 
 Honor Code:
 
@@ -50,7 +110,7 @@ TOTAL:          /100
 ```
 
 
-### Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
+## Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
 
 Honor Code:
 
@@ -72,7 +132,7 @@ TOTAL:          /100
 ```
 
 
-Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
+## Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
 Honor Code:
 
@@ -96,11 +156,73 @@ TOTAL:          /100
 
 # My People
 
-Alec [alec5](https://github.com/orgs/24sp-oberlin-csci275/teams/alec5)   
+## Alec [alec5](https://github.com/orgs/24sp-oberlin-csci275/teams/alec5)   
 
-Ben and Ezra [benezra](https://github.com/orgs/24sp-oberlin-csci275/teams/benezra)  
+Honor Code:
 
-Danny [danny-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/danny-hw5)   
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+
+## Ben and Ezra [benezra](https://github.com/orgs/24sp-oberlin-csci275/teams/benezra)  
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+
+## Danny [danny-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/danny-hw5)   
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
 
 Janny [Janny5](https://github.com/orgs/24sp-oberlin-csci275/teams/janny5)  
 
