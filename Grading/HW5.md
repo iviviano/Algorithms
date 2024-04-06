@@ -145,7 +145,7 @@ TOTAL:          99/100
 Honor Code: yes
 
 Environment notes:
-- A couple of your tests are not quite right. For your 
+- A couple of your tests are not quite right. For your "symbol in an empty environment" and "Symbol not present" tests, you forgot to call `env-lookup` on the environment and symbol. This still rai
 
 Parsing notes:
 - 
