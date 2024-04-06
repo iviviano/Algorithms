@@ -5,10 +5,10 @@
 Honor Code:
 
 Environment notes:
-- Excellent tests for `env-lookup`
+- Excellent tests for `env-lookup`!
 
 Parsing notes:
-- Nice tests for `parse`. Note that it's no
+- Nice tests for `parse`. Note that it's not really necessary to look at the fields of the constructed parse tree, if you ensure that the parse tree structure is correct.
 
 Interpreting notes:
 - Nice job on your tests for `interp` constructing the parse tree without `parse`.
@@ -16,9 +16,9 @@ Interpreting notes:
 ```
 Part 1:         10/10
 Part 2:         50/50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part A:         20/20
+Part B:         20/20
+TOTAL:          100/100
 ```
 
 
