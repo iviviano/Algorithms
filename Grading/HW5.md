@@ -308,7 +308,7 @@ If you are confused about any of this feedback, reach out to @mollyfeldman or co
 
 ## Kenean [KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
 
-Honor Code:
+Honor Code: yes
 
 Environment notes:
 - 
