@@ -315,17 +315,17 @@ Parsing notes:
 - Your `parse` tests are excellent! I love that you tested the identity, structure, and accessed the value of the parse tree. This is a good practice for the rest of Minischeme and will help with debugging in the future.
 
 Interpreting notes:
-- 
+- You are missing an important test case for `eval-exp`. If we run `(eval-exp (var-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 1:         10/10
+Part 2:         50/50
+Part A:         20/20
+Part B:         18/20
+TOTAL:          98/100
 ```
 
-
+Nice comments and great job!
 
 ## Robert and Leah [robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/teams/robert-leah-5) 
 
