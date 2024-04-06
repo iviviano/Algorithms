@@ -71,6 +71,7 @@ Part B:         /20
 TOTAL:          /100
 ```
 
+Nice comments! 
 
 ## Henry [henryscheme](https://github.com/orgs/24sp-oberlin-csci275/teams/henryscheme)  
 
