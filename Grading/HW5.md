@@ -153,7 +153,7 @@ Parsing notes:
 
 Interpreting notes:
 - You are missing an important test case for `eval-exp`. If we run `(eval-exp (lit-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
-- Again, your error tests are producing exceptions because of the 
+- Again, your error tests are producing exceptions because of the missing procedure call...
 
 ```
 Part 1:         10/10
@@ -163,7 +163,7 @@ Part B:         18/20
 TOTAL:          98/100
 ```
 
-Nice job!
+Nice job! If you are confused about the issue with you error testing, feel free to talk to @
 
 ## Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
