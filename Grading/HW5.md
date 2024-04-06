@@ -1,3 +1,5 @@
+`(define (env-lookup-t s e) (env-lookup e s))`
+
 # Elinor People
 
 ## Al [al-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/al-minischeme)
