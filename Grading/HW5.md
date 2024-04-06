@@ -339,6 +339,7 @@ Parsing notes:
 
 Interpreting notes:
 - You are missing an important test case for `eval-exp`. If we run `(eval-exp (var-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
+- Nice job constructing the parse tree without using `parse` in your tests of `eval-exp`.
 
 ```
 Part 1:         10/10
@@ -361,16 +362,17 @@ Parsing notes:
 - When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
-- 
+- Nice job constructing the parse tree without using `parse` in your tests of `eval-exp`.
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 1:         10/10
+Part 2:         50/50
+Part A:         20/20
+Part B:         20/20
+TOTAL:          100/100
 ```
 
+Nice job!
 
 
 ## Erika (not cloned yet) - Extension until Saturday
