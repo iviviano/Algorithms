@@ -148,7 +148,7 @@ Environment notes:
 - A couple of your tests are not quite right. For your "symbol in an empty environment" and "Symbol not present" tests, you forgot to call `env-lookup` on the environment and symbol. However, this still raises an exception since `test-env` and `empty-env` are not procedures. This causes your tests to pass even though they are not right. You should correct these tests and ensure that they still pass when formulated appropriately.
 
 Parsing notes:
-- 
+- You did the same thing in testing errors for `parse`. Again, since you were
 
 Interpreting notes:
 - 
