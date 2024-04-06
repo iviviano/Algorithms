@@ -58,13 +58,13 @@ Environment notes:
 - You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
 
 Parsing notes:
-- 
+- When testing `parse`, instead of looking at the fields of the constructed parse tree, it is better to ensure that its structure is what you expect. (ie that `(parse 5)` returns `(lit-exp 5)`)
 
 Interpreting notes:
 - Excellent tests for `interp`! In particular, nice job constructing the parse tree without using `parse`.
 
 ```
-Part 1:         /10
+Part 1:         10/10
 Part 2:         /50
 Part A:         /20
 Part B:         /20
