@@ -200,7 +200,8 @@ Very nice comments, and great job!
 Honor Code: yes
 
 Environment notes:
-- 
+- For every struct you build, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
+- Cool use of a `fold` for `env-lookup`
 
 Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
