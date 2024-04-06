@@ -312,6 +312,7 @@ Honor Code: yes
 
 Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
+- Your `parse` tests are excellent! I love that you tested the identity, structure, and accessed the value of the parse tree. This is a good practice for the rest of Minischeme and will help with debugging in the future.
 
 Interpreting notes:
 - 
