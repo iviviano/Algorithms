@@ -115,7 +115,7 @@ Nice job!
 
 ## Kai [kai_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/kai_hw5)  
 
-Honor Code:
+Honor Code: yes
 
 Environment notes:
 - 
