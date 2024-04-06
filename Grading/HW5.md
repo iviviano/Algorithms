@@ -209,7 +209,7 @@ Parsing notes:
 - Nice job with `parse` tests. For future, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
-- You are missing a test for when a `var-exp`'s symbol is not bound in the current environment. Your test that is labeled this way fails because 
+- You are missing a test for when a `var-exp`'s symbol is not bound in the current environment. Your test that is labeled this way fails because `'()` is not a `lit-exp?` or a `var-exp?`, so `eval-exp` throws your 
 
 ```
 Part 1:         /10
