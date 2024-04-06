@@ -16,6 +16,12 @@ Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberli
 
 Honor Code:
 
+Environment Notes:
+
+Parsing Notes:
+
+
+
 ```
 Part 1:         /10
 Part 2:         /50
@@ -41,4 +47,4 @@ Robert and Leah [robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/tea
 
 Ben and Anya [the-bayan-players-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/the-bayan-players-hw5) 
 
-Erika (not cloned yet) - Extension 
+Erika (not cloned yet) - Extension until Saturday
