@@ -267,12 +267,14 @@ Interpreting notes:
 - 
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 1:         0/10
+Part 2:         0/50
+Part A:         20/20
+Part B:         20/20
+TOTAL:          100/100
 ```
+
+It looks like you had some github issues or missed a commit. Recommit your files and talk to @mollyfeldman. A
 
 
 
