@@ -78,9 +78,14 @@ Nice job!
 Honor Code: NO!
 
 Environment notes:
-- You didn't follow the convention for parenthesis types in `letrec` in `env-lookup`. Instead of ```
-
+- You didn't follow the convention for parenthesis types in `letrec` in `env-lookup`. Instead of 
 ```
+(letrec
+    ([...]
+     [...])
+  body)
+```
+you did 
 
 Parsing notes:
 - 
