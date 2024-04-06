@@ -210,7 +210,7 @@ Parsing notes:
 
 Interpreting notes:
 - You are missing a test for when a `var-exp`'s symbol is not bound in the current environment. Your test that is labeled this way fails because `'()` is not a `lit-exp?` or a `var-exp?`, so `eval-exp` throws your "data type not supported. you provided " error. (**-2 points**)
-- Nice job constructing the parse tree without using `parse`.
+- Nice job constructing the parse tree without using `parse` in your tests of `eval-exp`.
 
 ```
 Part 1:         9/10
@@ -241,7 +241,7 @@ Parsing notes:
 
 Interpreting notes:
 - You are missing an important test case for `eval-exp`. If we run `(eval-exp (var-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
-- Nice job constructing the parse tree without using `parse`.
+- Nice job constructing the parse tree without using `parse` in your tests of `eval-exp`.
 
 ```
 Part 1:         9/10
@@ -294,6 +294,7 @@ Parsing notes:
 Interpreting notes:
 - Your evaluation of variables is not correct. Think about how the expression `(let ([x 5]) x)` is evaluated in racket. We extend the current environment by binding `x` to `5`. To evaluate the body, we see that it is a variable, so we look up its value in the extended environment and return that. If we were to just evaluate `x`, we use the same process. We look up its value in the current environment, returning the value if it exists and throwing an error otherwise. So, evaluating `var-exp`'s requires looking up the symbol in the environment, not just returning the symbol. (**-5 points**)
 - You are missing tests for evaluating a `var-exp` (**-5 points**)
+- Nice job constructing the parse tree without using `parse` in your tests of `eval-exp`.
 
 ```
 Part 1:         10/10
