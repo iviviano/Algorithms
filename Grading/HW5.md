@@ -35,7 +35,7 @@ Environment notes:
 - Excellent tests for `env-lookup`!
 
 Parsing notes:
-- Nice tests for `parse`. Instead of looking at the fields of the constructed parse tree, it is better to ensure that its structure is what you expect. (ie that `(parse 5)` returns `(lit-exp 5)`)
+- Nice tests for `parse`. When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
 - Nice job on your tests for `interp` constructing the parse tree without `parse`.
@@ -58,7 +58,7 @@ Environment notes:
 - You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
 
 Parsing notes:
-- When testing `parse`, instead of looking at the fields of the constructed parse tree, it is better to ensure that its structure is what you expect. (ie that `(parse 5)` returns `(lit-exp 5)`)
+- When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
 - Excellent tests for `interp`! In particular, nice job constructing the parse tree without using `parse`.
@@ -97,7 +97,7 @@ you did
 I would recommend switching to the first type for several reasons. (1) it is better style and follows Racket/Scheme conventions (using brackets for a procedure call is especially unusual). (2) It is consistent with how you write your `cond`. (3) it is more readable and easier to understand what is going on.
 
 Parsing notes:
-- When testing `parse`, make sure to check the actual values of the the parse tree instead of just the structure. (ie `(parse 5)` returns `(lit-exp 5)`)
+- When testing `parse`, make sure to check the actual values of the the parse tree instead of just the structure (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
 - Nice job constructing the parse tree without using `parse`.
@@ -126,7 +126,7 @@ Environment notes:
 ```
 
 Parsing notes:
-- When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpfull when the 
+- When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
 - 
