@@ -178,7 +178,8 @@ Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 
 Interpreting notes:
-- 
+- Nice test suite for `interp`
+- One note on your test for evaluating a boolean literal expression. While it correctly demonstrates the fu
 
 ```
 Part 1:         9/10
