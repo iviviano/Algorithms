@@ -226,7 +226,7 @@ Nice comments and great job!
 Honor Code: yes
 
 Environment notes:
-- 
+- Everything looks good, but please use this format for testing: 
 
 Parsing notes:
 - 
