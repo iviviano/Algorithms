@@ -242,18 +242,18 @@ Interpreting notes:
 - You are missing an important test case for `eval-exp`. If we run `(eval-exp (var-exp 'sym) environment)` and `'sym` is not bound in `environment`, `eval-exp` should throw an error. Note that your implementation of `eval-exp` does this correctly (through `env-lookup`). (**-2 points**)
 
 ```
-Part 1:         /10
-Part 2:         /50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part 1:         9/10
+Part 2:         50/50
+Part A:         20/20
+Part B:         28/20
+TOTAL:          97/100
 ```
 
-
+Nice job!
 
 ## Danny [danny-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/danny-hw5)   
 
-Honor Code:
+Honor Code: 
 
 Environment notes:
 - 
