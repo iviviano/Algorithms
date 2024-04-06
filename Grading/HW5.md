@@ -280,7 +280,7 @@ It looks like you had some github issues or missed a commit. Recommit your files
 
 ## Janny [Janny5](https://github.com/orgs/24sp-oberlin-csci275/teams/janny5)  
 
-Honor Code: 
+Honor Code: NO! 
 
 Environment notes:
 - 
