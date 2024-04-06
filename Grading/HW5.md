@@ -118,7 +118,7 @@ Nice job!
 Honor Code: yes
 
 Environment notes:
-- 
+- For every struct you build, you should add the
 
 Parsing notes:
 - 
