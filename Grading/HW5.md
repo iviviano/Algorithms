@@ -78,7 +78,7 @@ Nice job!
 Honor Code: NO!
 
 Environment notes:
-- 
+- You didn't follow the convention for parenthesis types in `letrec` in `env-`
 
 Parsing notes:
 - 
