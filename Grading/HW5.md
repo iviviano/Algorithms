@@ -55,7 +55,7 @@ Nice job!
 Honor Code:
 
 Environment notes:
-- You forgot to test the case of looking up a symbol in the `empty-env`
+- You forgot to test the case of looking up a symbol in the `empty-env` (**-3 points**)
 
 Parsing notes:
 - 
