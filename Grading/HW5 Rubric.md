@@ -80,8 +80,7 @@ equivalent).
 
 ## Grading MiniScheme B (20 points)
 
-Test that running `(parse 'x)` produces something like `(var-exp 'x)`. 5
-points.
+Test that running `(parse 'x)` produces something like `(var-exp 'x)`. 5 points.
 
 Test that running `(eval-exp (parse 'x) init-env)` returns 23 (or whatever
 value they bound `x` to in `init-env`). 5 points.
