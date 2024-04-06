@@ -66,8 +66,7 @@ Make sure you read through their code and tests and give comments! **Comments on
 
 ## Grading MiniScheme A (20 points)
 
-Test that running `(parse 275)` produces something like `(lit-exp 275)`. That
-is, the result should be a struct (here, `lit-exp`) containing the number. 5
+Test that running `(parse 275)` produces something like `(lit-exp 275)`. That is, the result should be a struct (here, `lit-exp`) containing the number. 5
 points.
 
 Test that running `(eval-exp (parse 275) empty-env)` returns 275. (If their
