@@ -12,7 +12,7 @@ Kai [kai_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/kai_hw5)
 
 Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
 
-Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) [Note: group!]
+Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
 Honor Code:
 
@@ -26,3 +26,19 @@ TOTAL:          /100
 
 
 # My People
+
+Alec [alec5](https://github.com/orgs/24sp-oberlin-csci275/teams/alec5)   
+
+Ben and Ezra [benezra](https://github.com/orgs/24sp-oberlin-csci275/teams/benezra)  
+
+Danny [danny-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/danny-hw5)   
+
+Janny [Janny5](https://github.com/orgs/24sp-oberlin-csci275/teams/janny5)  
+
+[KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
+
+[robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/teams/robert-leah-5) [Note: group!]  
+
+[the-bayan-players-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/the-bayan-players-hw5) [Note group! Ben/Anya)   
+
+Erika (not cloned yet)
