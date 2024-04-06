@@ -30,7 +30,7 @@ Nice job!
 Honor Code: NO!!
 
 Environment notes:
-- 
+- Excellent tests for `env-lookup`!
 
 Parsing notes:
 - 
