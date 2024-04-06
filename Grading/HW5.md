@@ -224,12 +224,115 @@ TOTAL:          /100
 
 
 
-Janny [Janny5](https://github.com/orgs/24sp-oberlin-csci275/teams/janny5)  
+## Janny [Janny5](https://github.com/orgs/24sp-oberlin-csci275/teams/janny5)  
 
-Kenean [KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
+Honor Code:
 
-Robert and Leah [robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/teams/robert-leah-5) 
+Environment notes:
+- 
 
-Ben and Anya [the-bayan-players-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/the-bayan-players-hw5) 
+Parsing notes:
+- 
 
-Erika (not cloned yet) - Extension until Saturday
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+
+## Kenean [KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+
+## Robert and Leah [robert-leah-5](https://github.com/orgs/24sp-oberlin-csci275/teams/robert-leah-5) 
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+## Ben and Anya [the-bayan-players-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/the-bayan-players-hw5) 
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+
+## Erika (not cloned yet) - Extension until Saturday
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
