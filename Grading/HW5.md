@@ -197,7 +197,7 @@ Very nice comments, and great job!
 
 ## Alec [alec5](https://github.com/orgs/24sp-oberlin-csci275/teams/alec5)   
 
-Honor Code: 
+Honor Code: yes
 
 Environment notes:
 - 
