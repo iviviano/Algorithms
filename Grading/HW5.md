@@ -300,9 +300,10 @@ Part 1:         10/10
 Part 2:         47/50
 Part A:         20/20
 Part B:         10/20
-TOTAL:          /100
+TOTAL:          87/100
 ```
 
+If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you 
 
 
 ## Kenean [KeneanKejela_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/keneankejela_minischeme)  
