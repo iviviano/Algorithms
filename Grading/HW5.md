@@ -92,7 +92,7 @@ you did
      (...)]
   [proc...])
 ```
-I would recommend switching to the first type for several reasons. (1) it is better style and follows Racket/Scheme conventions (using brackets for a procedure call is especially . (2) It is consistent
+I would recommend switching to the first type for several reasons. (1) it is better style and follows Racket/Scheme conventions (using brackets for a procedure call is especially unusual). (2) It is consistent with how you write your `cond`. (3) it is more readable and easier to understand what is going on.
 
 Parsing notes:
 - 
