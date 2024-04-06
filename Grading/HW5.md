@@ -33,7 +33,7 @@ Environment notes:
 - Excellent tests for `env-lookup`!
 
 Parsing notes:
-- Nice tests for `parse`. Note that it's not really necessary to look at the fields of the constructed parse tree, if you ensure that the parse tree structure is correct.
+- Nice tests for `parse`. Instead of looking at the fields of the constructed parse tree, it is better to ensure that its structure is what you expect. (ie that `())
 
 Interpreting notes:
 - 
