@@ -118,10 +118,9 @@ Nice job!
 Honor Code: yes
 
 Environment notes:
-- For every struct you build, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
+- For every struct you build (including parse tree `lit-exp` and `var-exp`, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
 - Nice tests for `env-lookup`!
 - Your implementation of `env-lookup` works fine for Minischeme A and B. However, you may want to modify it for the future assignments. Here is a case to consider: 
-
 ```
 (env-lookup (env '(a) (list null) empty-env) 'a)
 ```
