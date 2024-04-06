@@ -226,7 +226,13 @@ Nice comments and great job!
 Honor Code: yes
 
 Environment notes:
-- Everything looks good, but please use this format for testing: 
+- Please use this format for testing: 
+```
+(test-equal? "label"
+              test
+              expected)
+```
+This will make your code more readable.
 
 Parsing notes:
 - 
