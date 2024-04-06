@@ -75,7 +75,7 @@ Nice job!
 
 ## Henry [henryscheme](https://github.com/orgs/24sp-oberlin-csci275/teams/henryscheme)  
 
-Honor Code:
+Honor Code: NO!
 
 Environment notes:
 - 
