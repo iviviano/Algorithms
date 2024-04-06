@@ -8,19 +8,82 @@ Daniel [daniel-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/da
 
 Henry [henryscheme](https://github.com/orgs/24sp-oberlin-csci275/teams/henryscheme)  
 
-Kai [kai_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/kai_hw5)  
+Honor Code:
 
-Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+## Kai [kai_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/kai_hw5)  
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
+
+### Maxann [Maxann_hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/maxann_hw5)  
+
+Honor Code:
+
+Environment notes:
+- 
+
+Parsing notes:
+- 
+
+Interpreting notes:
+- 
+
+```
+Part 1:         /10
+Part 2:         /50
+Part A:         /20
+Part B:         /20
+TOTAL:          /100
+```
+
 
 Sampad and Khalid [Sampad_Khalid_Minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/sampad_khalid_minischeme) 
 
 Honor Code:
 
-Environment Notes:
+Environment notes:
+- 
 
-Parsing Notes:
+Parsing notes:
+- 
 
-
+Interpreting notes:
+- 
 
 ```
 Part 1:         /10
