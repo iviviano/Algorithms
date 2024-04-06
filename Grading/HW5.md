@@ -206,6 +206,7 @@ Environment notes:
 
 Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
+- Nice job with `parse` tests. 
 
 Interpreting notes:
 - 
