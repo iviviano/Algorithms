@@ -10,7 +10,7 @@ Environment notes:
 - Excellent tests for `env-lookup`!
 
 Parsing notes:
-- Nice tests for `parse`. Note that it's not really necessary to look at the fields of the constructed parse tree, if you ensure that the parse tree structure is correct.
+- Nice tests for `parse`.
 
 Interpreting notes:
 - Nice job on your tests for `interp` constructing the parse tree without `parse`.
@@ -35,7 +35,7 @@ Environment notes:
 - Excellent tests for `env-lookup`!
 
 Parsing notes:
-- Nice tests for `parse`. When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
+- Nice tests for `parse`. In addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
 - Nice job on your tests for `interp` constructing the parse tree without `parse`.
