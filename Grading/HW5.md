@@ -226,6 +226,7 @@ Nice comments and great job!
 Honor Code: yes
 
 Environment notes:
+- For every struct you build, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
 - Please use this format for testing: 
 ```
 (test-equal? "label"
@@ -235,7 +236,7 @@ Environment notes:
 This will make your code more readable.
 
 Parsing notes:
-- 
+- Note that you can provide everything at once: `(provide parse lit-exp? ...)` or eve
 
 Interpreting notes:
 - 
