@@ -8,10 +8,10 @@ Environment notes:
 - Excellent tests for `env-lookup`
 
 Parsing notes:
-- 
+- Nice tests for `parse`. Note that it's no
 
 Interpreting notes:
-- Nice job on your tests for `interp` constructing the parse 
+- Nice job on your tests for `interp` constructing the parse tree without `parse`.
 
 ```
 Part 1:         10/10
