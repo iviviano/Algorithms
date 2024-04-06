@@ -5,13 +5,13 @@
 Honor Code:
 
 Environment notes:
-- 
+- Excellent tests for `env-lookup`
 
 Parsing notes:
 - 
 
 Interpreting notes:
-- 
+- Nice job on your tests for `interp` constructing the parse 
 
 ```
 Part 1:         10/10
