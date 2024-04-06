@@ -61,7 +61,7 @@ Parsing notes:
 - 
 
 Interpreting notes:
-- 
+- Excellent tests for `interp`! In particular, nice job constructing the parse tree without using `parse`.
 
 ```
 Part 1:         /10
