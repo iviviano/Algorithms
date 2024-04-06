@@ -92,7 +92,7 @@ you did
      (...)]
   [proc...])
 ```
-I would recommend switching to the first type for several reasons. (1) it is good style and 
+I would recommend switching to the first type for several reasons. (1) it is better style and follows Racket/Scheme conventions (using brackets for a procedure call is especially . (2) It is consistent
 
 Parsing notes:
 - 
