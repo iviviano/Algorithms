@@ -29,6 +29,8 @@ Nice job!
 
 Honor Code: NO!!
 
+Neither of you signed the Honor Code, your grades will not be updated on Campuswire until you do so.
+
 Environment notes:
 - Excellent tests for `env-lookup`!
 
@@ -41,11 +43,12 @@ Interpreting notes:
 ```
 Part 1:         10/10
 Part 2:         50/50
-Part A:         /20
-Part B:         /20
-TOTAL:          /100
+Part A:         20/20
+Part B:         20/20
+TOTAL:          100/100
 ```
 
+Nice job!
 
 ## Daniel [daniel-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/daniel-minischeme)  
 
