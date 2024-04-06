@@ -21,10 +21,11 @@ Part B:         20/20
 TOTAL:          100/100
 ```
 
+Nice job!
 
 ## Atticus and Shane [atticus-shane-minischeme](https://github.com/orgs/24sp-oberlin-csci275/teams/atticus-shane-minischeme) 
 
-Honor Code:
+Honor Code: NO!!
 
 Environment notes:
 - 
