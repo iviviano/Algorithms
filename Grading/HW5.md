@@ -149,7 +149,7 @@ Environment notes:
 
 Parsing notes:
 - You did the same thing in testing errors for `parse`. Again, since you forgot the procedure, calling the arguments raised an exception. Here however, one of your tests was actually wrong, since `(parse 'a)` works just fine.
-- Other than the issues with error testing, your `parse` tests are excellent! I love that you tested the identity, structure, and accessed the value of the parse tree
+- Other than the issues with error testing, your `parse` tests are excellent! I love that you tested the identity, structure, and accessed the value of the parse tree. This is a good practice for the rest of Minischeme and will help with debugging in the future :)
 
 Interpreting notes:
 - 
@@ -157,7 +157,7 @@ Interpreting notes:
 ```
 Part 1:         10/10
 Part 2:         50/50
-Part A:         /20
+Part A:         20/20
 Part B:         /20
 TOTAL:          /100
 ```
