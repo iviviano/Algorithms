@@ -396,7 +396,7 @@ Environment notes:
 - Your `env-lookup` tests are missing the case where the symbol is not bound and the environment is not empty. (**-3 points**)
 
 Parsing notes:
-- You didn't provide the me`var-exp`
+- You didn't provide the methods for `var-exp` in "parse.rkt", so "interp.rkt" cannot use them. Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 
 Interpreting notes:
 - You forgot to provide `init-env` in your `interp` file, which was causing unbound identifier errors.
