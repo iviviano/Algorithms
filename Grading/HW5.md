@@ -401,6 +401,7 @@ Parsing notes:
 
 Interpreting notes:
 - You forgot to provide `init-env` in your `interp` file, which was causing unbound identifier errors.
+- Your `eval-exp` function does not handle `var-exp` parse trees. (**-5 points**)
 - 
 
 ```
