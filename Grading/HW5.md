@@ -266,10 +266,10 @@ Environment notes:
 Parsing notes:
 - Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 - There are no tests for parsing variables (**-5 points**)
-- 
+- When testing `parse`, in addition to looking at the fields of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
 
 Interpreting notes:
-- 
+- Nice tests for `eval-exp`
 
 ```
 Part 1:         0/10
