@@ -392,6 +392,7 @@ Honor Code:
 Environment notes:
 - Please use `empty-env` whenever you wish to use an empty environment. While it is equivalent to writing `'()`, `empty`, or `null`, it is better style.
 - You are missing some quotes in your tests for `env-lookup`, which might stop it from running. Try replacing `()` with `empty-env` and `cat` with `'cat`. 
+- Your `env-lookup` function is missing arguments in the recursive call. 
 - Your `env-lookup` tests are missing the case where the symbol is not bound and the environment is not empty. (**-3 points**)
 
 Parsing notes:
