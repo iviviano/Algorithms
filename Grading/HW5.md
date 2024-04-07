@@ -396,7 +396,8 @@ Parsing notes:
 - 
 
 Interpreting notes:
-- You forgot to provide `init-env` in your `interp` file, which 
+- You forgot to provide `init-env` in your `interp` file, which was causing unbound identifier errors.
+- 
 
 ```
 Part 1:         /10
