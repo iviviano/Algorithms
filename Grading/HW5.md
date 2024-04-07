@@ -396,7 +396,7 @@ Environment notes:
 - Your `env-lookup` tests are missing the case where the symbol is not bound and the environment is not empty. (**-3 points**)
 
 Parsing notes:
-- 
+- You didn't provide the me`var-exp`
 
 Interpreting notes:
 - You forgot to provide `init-env` in your `interp` file, which was causing unbound identifier errors.
