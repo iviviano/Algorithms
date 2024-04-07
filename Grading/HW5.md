@@ -396,7 +396,7 @@ Parsing notes:
 - 
 
 Interpreting notes:
-- 
+- You forgot to provide `init-env` in your `interp` file, which 
 
 ```
 Part 1:         /10
