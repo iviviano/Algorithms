@@ -387,7 +387,7 @@ Nice job!
 
 ## Erika (not cloned yet) - Extension until Saturday
 
-Honor Code:
+Honor Code: yes
 
 Environment notes:
 - Please use `empty-env` whenever you wish to use an empty environment. While it is equivalent to writing `'()`, `empty`, or `null`, it is better style.
@@ -409,8 +409,8 @@ Interpreting notes:
 Part 1:         10/10
 Part 2:         19/50
 Part A:         20/20
-Part B:         20/20
-TOTAL:          /100
+Part B:         15/20
+TOTAL:          64/100
 ```
 
 If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you get `env-lookup` working for the rest of Minischeme to work, so **don't wait to sort this out**. Also, it might be helpful to check out the Racket `provide` function, to understand the interactions between files: https://docs.racket-lang.org/reference/require.html#%28form._%28%28lib._racket%2Fprivate%2Fbase..rkt%29._provide%29%29. 
