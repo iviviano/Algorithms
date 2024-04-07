@@ -411,4 +411,4 @@ Part B:         /20
 TOTAL:          /100
 ```
 
-If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you get `env-lookup` working for the rest of Minischeme to work, so **don't wait to sort this out**. 
+If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you get `env-lookup` working for the rest of Minischeme to work, so **don't wait to sort this out**. Also, it might be helpful to check out the Racket `provide` function, to understand the interactions between files: https://docs.racket-lang.org/reference/require.html#%28form._%28%28lib._racket%2Fprivate%2Fbase..rkt%29._provide%29%29. 
