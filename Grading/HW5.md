@@ -260,7 +260,7 @@ Honor Code:
 Environment notes:
 - For every struct you build (including parse tree `lit-exp` and `var-exp`, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
 - Your `env-lookup` function does not throw the correct error for looking up a symbol in the `empty-env`. Maybe consider changing the cases of your `cond`. This didn't show up in your testing, because it still threw an error. (**-7 points**)
-- Note that the testing environments `test-env-a` and `test-env-b` defined in "env.rkt" are not accesable 
+- Note that the testing environments `test-env-a` and `test-env-b` defined in "env.rkt" are not accessible to other files, since you don't provide them. 
 
 Parsing notes:
 - 
