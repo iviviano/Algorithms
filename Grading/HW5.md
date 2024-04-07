@@ -390,7 +390,8 @@ Nice job!
 Honor Code:
 
 Environment notes:
-- Please use `empty-env` whenever you wish to use an empty environment. While it is equivalent to writing ``
+- Please use `empty-env` whenever you wish to use an empty environment. While it is equivalent to writing `'()`, `empty`, or `null`, it is better style.
+- You are missing some quotes in your tests for `env-lookup`, which might 
 
 Parsing notes:
 - 
