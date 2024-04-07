@@ -264,6 +264,8 @@ Environment notes:
 - Good tests for `env-lookup`.
 
 Parsing notes:
+- Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
+- There are no tests for parsing variables (**-5 points**)
 - 
 
 Interpreting notes:
