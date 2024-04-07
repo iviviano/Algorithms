@@ -255,7 +255,9 @@ Nice job!
 
 ## Danny [danny-hw5](https://github.com/orgs/24sp-oberlin-csci275/teams/danny-hw5)   
 
-Honor Code: 
+Honor Code: yes
+
+Sorry about the confusion with your extension! Here is your correct feedback:
 
 Environment notes:
 - For every struct you build (including parse tree `lit-exp` and `var-exp`, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
@@ -272,11 +274,11 @@ Interpreting notes:
 - Nice tests for `eval-exp`
 
 ```
-Part 1:         0/10
-Part 2:         0/50
-Part A:         0/20
-Part B:         0/20
-TOTAL:          0/100
+Part 1:         9/10
+Part 2:         43/50
+Part A:         20/20
+Part B:         15/20
+TOTAL:          /100
 ```
 
 It looks like you had some github issues or missed a commit. Recommit your files and talk to @mollyfeldman. Also, make sure to add "parse.rkt" to the github repository since it is missing. 
