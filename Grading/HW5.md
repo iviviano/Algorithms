@@ -398,11 +398,12 @@ Environment notes:
 Parsing notes:
 - You didn't provide the methods for `var-exp` in "parse.rkt", so "interp.rkt" cannot use them. Note that you can do `(provide (all-defined-out))` in your "parse.rkt" file instead of listing each procedure. This will save you some typing :)
 - When testing `parse`, in addition to looking at the type of the constructed parse tree, you should ensure that its structure is what you expect (ie that `(parse 5)` returns `(lit-exp 5)`). This will be helpful when the parse tree gets more complicated in the upcoming assignments.
+- Also, remeber
 
 Interpreting notes:
 - You forgot to provide `init-env` in your `interp` file, which was causing unbound identifier errors.
 - Your `eval-exp` function does not handle `var-exp` parse trees. (**-5 points**)
-- Your test for evaluating a `var-exp` is not correct. Evaluating a 
+- Your test for evaluating a `var-exp` is not correct. Evaluating a variable should return what it is bound to, not its name.
 
 ```
 Part 1:         /10
