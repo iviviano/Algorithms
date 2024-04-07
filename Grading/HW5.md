@@ -410,4 +410,4 @@ Part B:         /20
 TOTAL:          /100
 ```
 
-It is essential that you get `env-lookup` for the future Minischeme homeworks. Please 
+If you are confused about any of this feedback, reach out to @mollyfeldman or come to office hours with @elinorfrost or me. It is essential that you get `env-lookup` working for the rest of Minischeme to work, so **don't wait to sort this out**. 
