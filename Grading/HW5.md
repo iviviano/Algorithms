@@ -258,6 +258,7 @@ Nice job!
 Honor Code: 
 
 Environment notes:
+- For every struct you build (including parse tree `lit-exp` and `var-exp`, you should add the `#:transparent` tag. This makes testing and debugging much easier. Since your environment is not transparent, evaluating `(env '(x) '(1) empty-env)` outputs `#<env>`. However, for a transparent struct, the output will will show its structure, with the previous expression evaluating to `(env '(x) '(1) '())`.  (**-1 points**)
 - 
 
 Parsing notes:
