@@ -278,8 +278,10 @@ Part 1:         9/10
 Part 2:         43/50
 Part A:         20/20
 Part B:         15/20
-TOTAL:          /100
+TOTAL:          87/100
 ```
+
+Nice job!
 
 It looks like you had some github issues or missed a commit. Recommit your files and talk to @mollyfeldman. Also, make sure to add "parse.rkt" to the github repository since it is missing. 
 
