@@ -133,9 +133,65 @@ Except, this isn't quite right, because we XOR after...
 
 TODO:
 - Once we have a possible solution, can we find another solution quickly?
+	- what about this? https://cs.stackexchange.com/questions/62926/finding-all-solutions-to-an-integer-linear-programming-ilp-problem
 - Add the inequalities from masking-padding
 - what's the situation for the other encoding types
 
 
+Probing:
+- ILP maximizes something subject to $Ax=b$ and $A_{2}x≤c$ and $x\in\{0,1\}$
+- Linear Programming: same thing, but $0≤x_{i}≤1$. (this is in [[P]])
+- $LP_{max}$ does Linear programming with a maximization condition. ie maximize $x_{i}$, to see if it can be 1
+
+
+TODO:
+- What's the relationship between EC level and EC bytes
+	- EC level (as a percentage) is the percentage of the total number of bytes we want to recover.
+	- If total bytes is 44 (version 2) and we want to recover 25% (quartile EC), then we need 22 EC codewords. 
+	- We think there is room for 70 bytes in a version 3
+		- how can we check this?
+		- how can we check how many error correction bytes there are for each level?
+
+>[!question]
+>Can we treat the directional sums system as a system in $GF(29)$? If so, would that help us?
+
 RAP: 695972
 7:30 on April 16
+
+TODO:
+- Find rank of full system in $\text{GF}(256)$
+- What approaches are like ILP in a finite field?
+
+TODO:
+- Debug the GF matrix
+- Add the encoding type equations to the matrix $A$
+- Solving the finite field system:
+	- "Alternating Projections"
+	- Things to satisfy in $\text{GF}(256)$:
+		1. $A x=b$
+		2. $x_{i}\in\{0,1\}$
+	- Projection onto (1) - google projection onto column space
+		- need to modify the formula for order: $$A(A^{T}A)^{-1}A^{T}$$
+	- Projection onto (2) go from codeword to its representation in binary
+
+Questions:
+- bug
+- where to project
+- solution space-null space?
+- knight's tour
+
+
+Start with a valid QR Code
+Change at least 23 codewords (changing less would let error correction project back to previous)
+- choose pixels based on which directional sums are furthest from being satisfied
+
+Fix 22 bytes to leave out of ILP. Adjust directional sums. Find a feasible solution. Fill in the rest with EC. Check the directional sums.
+
+
+TODO:
+- Look at 
+
+Look at matrix A with all of the 1-constraints and directional sum upper bounds.
+
+>[!question]
+Can we only add upper bounds and then maximize or look only at vertices.
